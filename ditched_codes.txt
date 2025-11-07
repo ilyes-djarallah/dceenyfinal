@@ -1,0 +1,362 @@
+    <!-- Navigation Bar -->
+    <!-- <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="index.html">
+            <img src="assets/images/DCEENY.png" alt="Logo" id="logo" />
+          </a>
+        </div> -->
+
+        <!-- Navigation Links -->
+        <!-- <div class="navbar-links">
+          <div class="nav-item-container" id="projects-container">
+            <button class="nav-link" id="projects-btn">PROJECTS</button> -->
+
+            <!-- Dropdown Menu -->
+            <!-- <div class="dropdown-menu" id="projects-dropdown">
+              <button class="dropdown-link"onclick="location.href='pages/private-projects.html'">Private Projects</button>
+              <button class="dropdown-link"onclick="location.href='pages/public-projects.html'">Public Projects</button>
+            </div>
+          </div>
+
+          <button
+            class="nav-link"
+            id="about-us-btn"
+            onclick="location.href='pages/about-us.html'"
+          >
+            ABOUT US
+          </button>
+          <button
+            class="nav-link"
+            id="services-btn"
+            onclick="location.href='pages/services.html'"
+          >
+            SERVICES
+          </button>
+          <button
+            class="nav-link"
+            id="contacts"
+            onclick="location.href='pages/contacts.html'"
+          >
+            CONTACTS
+          </button>
+          <button class="nav-link" id="lge-btn">FR</button>
+        </div>
+      </nav>
+    </header> -->
+    <!-- The End of Navigation Bar -->
+
+
+
+// // Language Switcher Function
+// async function changeLanguage(lang) {
+//   const translations = await fetchTranslations();
+
+//   const langBtn = document.getElementById("lang-btn");
+//   const projectsBtn = document.getElementById("projects-btn");
+//   const aboutUsLink = document.getElementById("about-us-link");
+//   const servicesLink = document.getElementById("services-link");
+//   const contactsLink = document.getElementById("contacts-link");
+
+//   if (lang === "en") {
+//     langBtn.textContent = "EN";
+//     projectsBtn.textContent = translations.en.projects;
+//     aboutUsLink.textContent = translations.en.about_us;
+//     servicesLink.textContent = translations.en.services;
+//     contactsLink.textContent = translations.en.contacts;
+//   } else if (lang === "fr") {
+//     langBtn.textContent = "FR";
+//     projectsBtn.textContent = translations.fr.projects;
+//     aboutUsLink.textContent = translations.fr.about_us;
+//     servicesLink.textContent = translations.fr.services;
+//     contactsLink.textContent = translations.fr.contacts;
+//   } else if (lang === "ar") {
+//     langBtn.textContent = "AR";
+//     projectsBtn.textContent = translations.ar.projects;
+//     aboutUsLink.textContent = translations.ar.about_us;
+//     servicesLink.textContent = translations.ar.services;
+//     contactsLink.textContent = translations.ar.contacts;
+//   }
+// }
+
+
+
+    <div class="team-container">
+      <!-- First row: You and your colleague -->
+      <div class="team-row">
+        <div class="team-member">
+          <img
+            src="assets/images/teeam members/rostom.jpg"
+            alt="Your Name"
+            class="team-photo"
+          />
+          <div class="team-info">
+            <h3 class="team-name" data-translate="rostom"></h3>
+            <p class="team-occupation" data-translate="cEO"></p>
+          </div>
+        </div>
+        <div class="team-member">
+          <img
+            src="assets/images/teeam members/ilyes.jpg"
+            alt="Colleague Name"
+            class="team-photo"
+          />
+          <div class="team-info">
+            <h3 class="team-name" data-translate="ilyes"></h3>
+            <p class="team-occupation" data-translate="cOO"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Second row: Rest of the team -->
+      <div class="team-row">
+        <div class="team-member">
+          <img
+            src="assets/images/teeam members/raouf.jpg"
+            alt="Team Member 1"
+            class="team-photo"
+          />
+          <div class="team-info">
+            <h3 class="team-name" data-translate="raouf"></h3>
+            <p class="team-occupation" data-translate="interiorArchitect"></p>
+          </div>
+        </div>
+        <div class="team-member">
+          <img
+            src="assets/images/teeam members/haithem.jpg"
+            alt="Team Member 2"
+            class="team-photo"
+          />
+          <div class="team-info">
+            <h3 class="team-name" data-translate="haithem"></h3>
+            <p class="team-occupation" data-translate="architectureDrafter"></p>
+          </div>
+        </div>
+        <div class="team-member">
+          <img
+            src="assets/images/teeam members/youcef.jpg"
+            alt="Team Member 3"
+            class="team-photo"
+          />
+          <div class="team-info">
+            <h3 class="team-name" data-translate="youcef"></h3>
+            <p class="team-occupation" data-translate="projectManager"></p>
+          </div>
+        </div>
+        <!-- Add more team members as needed -->
+      </div>
+    </div>
+    
+      <div class="grayed-Container">
+    <div style="height: 100px"></div>
+    <!-- Adjust height as needed -->
+    <div class="social-media-text">
+      <h1 class="main-title">Dceeny Studio</h1>
+      <div style="height: 20px"></div>
+      <p class="description3" data-translate="usDc"></p>
+    </div>
+  </div>
+  
+
+      <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/30303234-3031-4632-b665-663432663337/cowork_mac.svg"
+        alt="Icon 6" class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="visualization">
+        Title 4
+      </p>
+    </div>
+    <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/32353130-3334-4130-a461-336334646331/tile.svg" alt="Icon 7"
+        class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="packPlan">Title 4</p>
+    </div>
+        <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/31383063-3636-4465-b765-623939643934/design.svg" alt="Icon 5"
+        class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="sampleApproval">
+        Title 4
+      </p>
+    </div>
+        <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/32353130-3334-4130-a461-336334646331/tile.svg" alt="Icon 7"
+        class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="packPlan">Title 4</p>
+    </div>
+        <div class="icon-item-small-ones">
+      <img
+        src="https://static.tildacdn.pro/lib/tildaicon/62386436-6131-4363-b233-386236663064/Tilda_Icons_39_IT_design.svg"
+        alt="Icon 4" class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="planningSolution">
+        Title 4
+      </p>
+    </div>
+        <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/31383063-3636-4465-b765-623939643934/design.svg" alt="Icon 5"
+        class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="sampleApproval">
+        Title 4
+      </p>
+    </div>
+        <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/65336162-6138-4435-b533-633832346635/touragency_group.svg"
+        alt="Icon 4" class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="contractorSearchAndCoordination"></p>
+    </div>
+    <div class="icon-item-small-ones">
+      <img src="https://static.tildacdn.pro/lib/tildaicon/39373461-6562-4766-a462-343536653538/3st_van.svg" alt="Icon 5"
+        class="small-icon-image-services" />
+      <p class="icon-title-services" data-translate="deliveryOrganization">
+        Title 4
+      </p>
+    </div>
+
+
+
+
+
+        <!-- ===============================
+     SECOND SLIDESHOW SECTION
+     =============================== -->
+    <!-- <section class="results-banner">
+  <h2>What will your results be</h2>
+</section> -->
+
+
+    <!-- <section class="gallery-slider">
+  <div class="gallery-wrapper">
+    <div class="gallery-slide active">
+      <img src="assets/images/projects/private/CheragaTwo/cam 001.jpg" alt="Gallery 1" />
+            <p class="slide-caption">
+        You will learn how to create photorealistic renders that are indistinguishable from real photos.
+      </p>
+    </div>
+    <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 002.jpg" alt="Gallery 2" />
+            <p class="slide-caption">
+        Master lighting techniques to enhance the mood and atmosphere of your interior scenes.</p>
+    </div>
+    <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 003.jpg" alt="Gallery 3" />
+            <p class="slide-caption">
+        Learn efficient modeling workflows to create detailed and accurate 3D models of furniture and decor.</p>
+    </div>
+    <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 004.jpg" alt="Gallery 4" />
+            <p class="slide-caption">
+        Understand material creation and texturing to bring realism to surfaces like wood, fabric, and metal.</p>
+    </div>
+    <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 005.jpg" alt="Gallery 4" />
+            <p class="slide-caption">
+        Gain skills in post-processing to enhance your renders with color correction and effects. </p>
+    </div>
+        <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 006.jpg" alt="Gallery 4" />
+            <p class="slide-caption">
+        Build a strong portfolio of interior design projects to showcase your skills to potential clients or employers.</p>   
+    </div>
+        <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 007.jpg" alt="Gallery 4" />
+
+            <p class="slide-caption">
+        Learn industry best practices and workflows used by professional interior designers and 3D artists. </p>  
+    </div>
+        <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 008.jpg" alt="Gallery 4" />
+            <p class="slide-caption">
+        Receive personalized feedback and guidance from experienced instructors to improve your skills.</p>
+    </div>
+        <div class="gallery-slide">
+      <img src="assets/images/projects/private/CheragaTwo/cam 009.jpg" alt="Gallery 4" />
+            <p class="slide-caption">
+        Stay updated with the latest tools and techniques in 3D interior design through continuous learning.</p>
+    </div>
+
+     -->
+    <!-- Bottom Overlay (gradient + controls) -->
+    <!-- <div class="gallery-bottom-overlay">
+      <p class="gallery-caption"></p>
+      <div class="gallery-controls">
+        <button class="gallery-prev">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1024 1024"
+    width="30"
+    height="30"
+    fill="white"
+    style="transform: scale(-1,1);"
+  >
+    <path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"/>
+  </svg>
+</button>
+
+        <div class="gallery-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <button class="gallery-next">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1024 1024"
+    width="30"
+    height="30"
+    fill="white"
+  >
+    <path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"/>
+  </svg>
+</button>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+<section id="option-b" class="courses-with-sidebar hide">
+        <aside class="sidebar">
+          <div class="sidebar-group">
+            <h3>Filter by software</h3>
+            <label><input type="checkbox" data-sof="3dsmax" /> 3ds Max</label>
+            <label><input type="checkbox" data-sof="corona" /> Corona</label>
+            <label><input type="checkbox" data-sof="revit" /> Revit</label>
+            <label
+              ><input type="checkbox" data-sof="sketchup" /> SketchUp</label
+            >
+            <label><input type="checkbox" data-sof="d5" /> D5 Render</label>
+            <label
+              ><input type="checkbox" data-sof="unreal" /> Unreal Engine</label
+            >
+          </div>
+
+          <div class="sidebar-group">
+            <h3>Price</h3>
+            <select id="priceFilter">
+              <option value="all">All</option>
+              <option value="under50">Under €50</option>
+              <option value="50to80">€50–€80</option>
+              <option value="80plus">€80+</option>
+            </select>
+          </div>
+
+          <div class="sidebar-group">
+            <h3>Search</h3>
+            <input id="searchSidebar" placeholder="Search courses..." />
+          </div>
+
+          <div class="sidebar-group">
+            <button id="clearFilters" class="btn-small">Clear filters</button>
+          </div>
+        </aside>
+
+        <div class="sidebar-content">
+          <div class="courses-grid" id="coursesGridB"></div>
+        </div>
+      </section>
