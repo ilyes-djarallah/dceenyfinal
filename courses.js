@@ -206,8 +206,15 @@ function initBuyOverlay() {
     const phone = document.getElementById("buyPhone").value.trim();
     const city = document.getElementById("buyCity").value.trim();
     const type = document.getElementById("buyCourseType").value;
-    const course = document.getElementById("buyCourseTitle").value.trim();
+    const course =
+      document.getElementById("buyCourseOptions").offsetParent !== null
+        ? document.getElementById("buyCourseOptions").value.trim()
+        : document.getElementById("buyCourseTitle").value.trim();
     const message = document.getElementById("buyMessage").value.trim();
+    const selectedPrice =
+      document.getElementById("buyDynamicPrice")?.textContent.trim() || "—";
+
+
 
     let valid = true;
     document
@@ -238,7 +245,7 @@ function initBuyOverlay() {
 
     if (!valid) return;
 
-    const telegramMsg = `*New Course Purchase:*\n📘 Course: ${course}\n🎓 Type: ${type}\n👤 Name: ${name}\n📞 Phone: ${phone}\n📍 City: ${city}\n📝 Message: ${
+    const telegramMsg = `*New Course Purchase:*\n📘 Course: ${course}\n💰 Price: ${selectedPrice}\n🎓 Type: ${type}\n👤 Name: ${name}\n📞 Phone: ${phone}\n📍 City: ${city}\n📝 Message: ${
       message || "None"
     }`;
 
