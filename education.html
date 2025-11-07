@@ -122,24 +122,30 @@
       <section id="option-a" class="courses-section">
         <div class="courses-grid" id="coursesGridA">
           <!-- Course cards are generated here (see style and JS) -->
-          <article class="course-card" data-software="3dsmax,corona" data-link="3dsmax-course.html">
+          <article class="course-card" data-software="3dsmax,corona" data-link="3dsmax-course.html"
+            data-course-type="select" data-options='[
+    {"label":"Full Adobe Architecture Pack","price":"12000"},
+    {"label":"Photoshop","price":"5000"},
+    {"label":"Illustrator","price":"5000"},
+    {"label":"InDesign","price":"5000"}
+  ]'>
             <figure class="course-media">
               <img src="assets/images/New folder/3dsmax_2020_blog.jpg" alt="3ds Max course" />
             </figure>
 
             <div class="course-body">
               <h3 class="course-title">
-                3ds Max — Complete Modeling & Renders
+                Adobe Architecture Pack — Photoshop • Illustrator • InDesign
               </h3>
               <p class="course-desc">
-                Learn full workflow of modeling, lighting, and Corona rendering
-                for interiors.
+                Comprehensive interior design visualization using Adobe Tools.
               </p>
+
               <div class="course-footer">
                 <div class="price-row">
                   <div>
                     <div class="price-old" id="oldPrice">15000DZD</div>
-                    <div class="price-new" id="newPrice">10000DZD</div>
+                    <div class="price-new" id="newPrice">12000DZD</div>
                   </div>
                 </div>
                 <button class="buy-btn">
@@ -154,6 +160,7 @@
               </div>
             </div>
           </article>
+
           <article class="course-card" data-software="revit" data-link="revit-course.html">
             <figure class="course-media">
               <img src="assets/images/New folder/images_GlobaleTraining_2021-07_Revit - 678 x 382.jpg"
@@ -252,7 +259,20 @@
           <!-- Selected course (auto filled) -->
           <div class="buy-input-group">
             <label for="buyCourseTitle" class="buy-input-label">Selected Course</label>
+
+            <!-- Normal text input (default) -->
             <input type="text" id="buyCourseTitle" name="buyCourseTitle" readonly />
+
+            <!-- Dropdown (hidden by default) -->
+            <select id="buyCourseOptions" name="buyCourseOptions" style="display:none;">
+              <!-- Options will be filled dynamically -->
+            </select>
+          </div>
+
+          <!-- Show dynamic price -->
+          <div class="buy-input-group">
+            <label class="buy-input-label">Price</label>
+            <div id="buyDynamicPrice" class="buy-dynamic-price">—</div>
           </div>
 
           <!-- Course type selector -->

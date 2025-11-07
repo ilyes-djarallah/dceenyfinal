@@ -58,7 +58,8 @@ function toggleDropdown() {
   const dropdown = document.getElementById("projects-dropdown");
   if (!dropdown) return;
 
-  dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  dropdown.style.display =
+    dropdown.style.display === "block" ? "none" : "block";
 }
 
 const projectsBtn = document.getElementById("projects-btn");
@@ -93,7 +94,6 @@ function scrollDown() {
   requestAnimationFrame(smoothScroll);
 }
 
-
 // ============================================================
 // BUY COURSE OVERLAY — FINAL WORKING VERSION (SAFE FOR DYNAMIC CONTENT)
 // ============================================================
@@ -124,9 +124,49 @@ function initBuyOverlay() {
       card?.querySelector(".course-title")?.textContent.trim() ||
       "Unknown Course";
 
-    // Fill course name into hidden input
     const titleInput = document.getElementById("buyCourseTitle");
-    if (titleInput) titleInput.value = title;
+    const optionsSelect = document.getElementById("buyCourseOptions");
+    const priceEl = document.getElementById("buyDynamicPrice");
+
+    // Reset both
+    titleInput.style.display = "block";
+    optionsSelect.style.display = "none";
+    optionsSelect.innerHTML = "";
+    priceEl.textContent = "—";
+
+    // Detect special course type
+    if (card?.dataset.courseType === "select") {
+      titleInput.style.display = "none";
+      optionsSelect.style.display = "block";
+
+      try {
+        const opts = JSON.parse(card.dataset.options || "[]");
+        opts.forEach((opt) => {
+          const o = document.createElement("option");
+          o.value = opt.label;
+          o.textContent = `${opt.label} — ${opt.price} DZD`;
+          o.dataset.price = opt.price;
+          optionsSelect.appendChild(o);
+        });
+
+        // Set initial price
+        const first = opts[0];
+        if (first) priceEl.textContent = `${first.price} DZD`;
+
+        // Update on change
+        optionsSelect.addEventListener("change", (e) => {
+          const selected = e.target.selectedOptions[0];
+          priceEl.textContent = selected.dataset.price + " DZD";
+        });
+      } catch (err) {
+        console.error("Invalid options JSON for this course card", err);
+      }
+    } else {
+      // Normal course (text field)
+      titleInput.value = title;
+      priceEl.textContent =
+        card.querySelector(".course-price")?.textContent || "—";
+    }
 
     // Reset form + thank you message
     buyForm.style.display = "block";
@@ -190,8 +230,9 @@ function initBuyOverlay() {
       valid = false;
     }
     if (!type) {
-      document.querySelector("#buyCourseType + .buy-error-message").style.display =
-        "block";
+      document.querySelector(
+        "#buyCourseType + .buy-error-message"
+      ).style.display = "block";
       valid = false;
     }
 
@@ -290,8 +331,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function matchesSearch(cardEl, q) {
     if (!q) return true;
     q = q.trim().toLowerCase();
-    const title = cardEl.querySelector(".course-title")?.textContent.toLowerCase() || "";
-    const desc = cardEl.querySelector(".course-desc")?.textContent.toLowerCase() || "";
+    const title =
+      cardEl.querySelector(".course-title")?.textContent.toLowerCase() || "";
+    const desc =
+      cardEl.querySelector(".course-desc")?.textContent.toLowerCase() || "";
     return title.includes(q) || desc.includes(q);
   }
 

@@ -4274,3 +4274,9 @@ body {
   transform: translateY(100%);
   pointer-events: none;
 }
+
+
+.course-footer .price-new {
+  /* color: #ff4d4d; */
+  font-size: 1.2rem;
+}
