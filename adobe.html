@@ -4,14 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3ds Max — Complete Modeling & Renders | Dceeny Academy</title>
+  <title>Adobe Architecture Pack — Photoshop • Illustrator • InDesign | Dceeny Academy</title>
 
   <!-- External Libraries -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
-
 
   <!-- Translation Script -->
   <script src="scripts/translations.js"></script>
@@ -26,7 +25,6 @@
 </head>
 
 <script>
-  // Load header dynamically and apply translations
   $(document).ready(function () {
     $("#header-container").load("elements/headerDark.html", function () {
       const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
@@ -36,7 +34,6 @@
 </script>
 
 <script>
-  // Load footer dynamically and apply translations
   $(function () {
     $("#darkFooter").load("elements/footerDark.html", function () {
       applyTranslations(localStorage.getItem("preferredLanguage") || "en");
@@ -45,6 +42,7 @@
 </script>
 
 <body id="academyBody" class="dark-theme">
+
   <!-- Loading Screen -->
   <!-- <div id="loading-screen">
     <div class="loader"></div>
@@ -65,14 +63,14 @@
   <!-- Header -->
   <header id="header-container"></header>
 
-  <!-- ===============================
-       COURSE CONTENT
-       =============================== -->
+  <!-- =============================== -->
+  <!-- COURSE CONTENT -->
+  <!-- =============================== -->
   <main class="course-page">
     <div class="wrap">
       <div class="layout">
         <!-- Main Course Content -->
-        <main class="content-card" data-options='[
+        <main class="content-card" data-course-type="select" data-options='[
     {"label":"Full Adobe Architecture Pack","price":"12000"},
     {"label":"Photoshop","price":"5000"},
     {"label":"Illustrator","price":"5000"},
@@ -153,7 +151,6 @@
           </section>
 
         </main>
-
         <!-- Sidebar -->
         <aside class="sidebar">
           <div class="side-card">
@@ -255,29 +252,27 @@
 
           <div class="price-row">
             <div>
-              <div class="price-old" id="oldPrice">€129</div>
-              <div class="price-new" id="newPrice">€79</div>
+              <div class="price-old" id="oldPrice">15000 DZD</div>
+              <div class="price-new" id="newPrice">12000 DZD</div>
               <div class="price-note">Lifetime access — one-time payment</div>
             </div>
           </div>
-
-          <div class="buy-full">
-            <button class="btn-primary buy-btn" data-course-title="3ds Max — Complete Modeling & Renders">
-              Buy Now
-            </button>
-          </div>
+          <button class="btn-primary buy-btn"
+            data-course-title="Adobe Architecture Pack — Photoshop • Illustrator • InDesign">
+            Buy Now
+        </aside>
       </div>
-      </aside>
-    </div>
     </div>
   </main>
-  <!-- Sticky bottom bar -->
+
+  <!-- Sticky Bar -->
   <div class="sticky-buy-bar">
     <div class="sticky-buy-inner">
-      <span class="sticky-price" id="stickyPrice">€79</span>
+      <span class="sticky-price" id="stickyPrice">12000 DZD</span>
       <button class="btn-primary sticky-buy-btn" id="stickyBuyBtn">Buy Now</button>
     </div>
   </div>
+
   <!-- ==============================
      BUY COURSE OVERLAY
      ============================== -->
@@ -365,37 +360,11 @@
       </div>
     </div>
   </div>
-
+  </main>
   <!-- Footer -->
   <footer id="darkFooter"></footer>
 
-  <!-- Scripts -->
   <script src="script.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const stickyBar = document.querySelector(".sticky-buy-bar");
-      const sidebarBuy = document.querySelector(".buy-full"); // the buy section in the sidebar
-
-      if (!stickyBar || !sidebarBuy) return;
-
-      function toggleStickyBar() {
-        const sidebarRect = sidebarBuy.getBoundingClientRect();
-        const windowHeight = window.innerHeight;
-
-        // If the sidebar buy section is visible (near bottom of screen)
-        if (sidebarRect.top < windowHeight - 100) {
-          stickyBar.classList.add("hidden");
-        } else {
-          stickyBar.classList.remove("hidden");
-        }
-      }
-
-      // Run on scroll and on load
-      window.addEventListener("scroll", toggleStickyBar);
-      toggleStickyBar();
-    });
-  </script>
-
 </body>
 
 </html>

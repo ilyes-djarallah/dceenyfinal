@@ -1,23 +1,24 @@
 // ============================================================
-// 1. LOADING SCREEN
+// LOADING SCREEN
 // ============================================================
 document.addEventListener("DOMContentLoaded", () => {
   window.onload = () => {
     const loadingScreen = document.getElementById("loading-screen");
     const content = document.getElementById("content");
-    if (!loadingScreen) return;
 
-    loadingScreen.style.transition = "opacity 0.5s";
-    loadingScreen.style.opacity = "0";
-    setTimeout(() => {
-      loadingScreen.style.display = "none";
-      if (content) content.style.display = "block";
-    }, 500);
+    if (loadingScreen) {
+      loadingScreen.style.transition = "opacity 0.5s";
+      loadingScreen.style.opacity = "0";
+      setTimeout(() => {
+        loadingScreen.style.display = "none";
+        if (content) content.style.display = "block";
+      }, 500);
+    }
   };
 });
 
 // ============================================================
-// 2. SCROLL-TO-TOP BUTTON
+// SCROLL-TO-TOP BUTTON
 // ============================================================
 document.addEventListener("DOMContentLoaded", () => {
   const scrollToTopBtn = document.getElementById("scrollToTop");
@@ -28,13 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
     else scrollToTopBtn.classList.remove("show");
   });
 
-  scrollToTopBtn.addEventListener("click", () =>
-    window.scrollTo({ top: 0, behavior: "smooth" })
-  );
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 });
 
 // ============================================================
-// 3. SLIDESHOW
+// SLIDESHOW
 // ============================================================
 let currentSlide = 0;
 const slides = document.querySelectorAll(".slide");
@@ -49,7 +50,7 @@ setInterval(showSlides, 3000);
 window.addEventListener("load", showSlides);
 
 // ============================================================
-// 4. NAVBAR DROPDOWN
+// NAVBAR DROPDOWN
 // ============================================================
 function toggleDropdown() {
   const dropdown = document.getElementById("projects-dropdown");
@@ -57,10 +58,11 @@ function toggleDropdown() {
   dropdown.style.display =
     dropdown.style.display === "block" ? "none" : "block";
 }
-document.getElementById("projects-btn")?.addEventListener("click", toggleDropdown);
+const projectsBtn = document.getElementById("projects-btn");
+if (projectsBtn) projectsBtn.addEventListener("click", toggleDropdown);
 
 // ============================================================
-// 5. SMOOTH SCROLL DOWN
+// SMOOTH SCROLL DOWN
 // ============================================================
 function scrollDown() {
   const scrollTarget = window.innerHeight;
@@ -68,17 +70,19 @@ function scrollDown() {
   const distance = scrollTarget - startPosition;
   const duration = 900;
   const startTime = performance.now();
+
   function smoothScroll(currentTime) {
     const timeElapsed = currentTime - startTime;
     const progress = Math.min(timeElapsed / duration, 1);
-    window.scrollTo(0, startPosition + distance * progress);
+    const newPosition = startPosition + distance * progress;
+    window.scrollTo(0, newPosition);
     if (progress < 1) requestAnimationFrame(smoothScroll);
   }
   requestAnimationFrame(smoothScroll);
 }
 
 // ============================================================
-// 6. BUY COURSE OVERLAY — UNIVERSAL VERSION
+// BUY COURSE OVERLAY — UNIVERSAL VERSION
 // ============================================================
 function initBuyOverlay() {
   const buyOverlay = document.getElementById("buyOverlay");
@@ -87,44 +91,60 @@ function initBuyOverlay() {
   const botToken = "7526772728:AAE8xfyUfEb-zq1KL3uE0OdYlq4wLVdoPAc";
   const chatId = "7285884938";
   const contentCard = document.querySelector(".content-card");
+  const optionsData = contentCard?.dataset.options;
 
   if (!buyOverlay || !buyForm) return;
 
   console.log("✅ Buy Overlay initialized");
 
-  // Handle buy button click
+  // 🟢 Event delegation for Buy buttons
   document.body.addEventListener("click", (e) => {
     const btn = e.target.closest(".buy-btn");
     if (!btn) return;
     e.preventDefault();
 
     const card = btn.closest(".course-card");
+    let title = "";
+
+    // 1️⃣ Course grid (education.html)
+    if (card) {
+      title = card.querySelector(".course-title")?.textContent.trim() || "";
+    }
+    // 2️⃣ Individual course page (3dsmax-course.html)
+    else {
+      title =
+        btn.dataset.courseTitle ||
+        document
+          .querySelector(".content-card .course-title")
+          ?.textContent.trim() ||
+        "Unknown Course";
+    }
+
     const titleInput = document.getElementById("buyCourseTitle");
     const optionsSelect = document.getElementById("buyCourseOptions");
     const priceEl = document.getElementById("buyDynamicPrice");
 
+    // Reset
     titleInput.style.display = "block";
     optionsSelect.style.display = "none";
     optionsSelect.innerHTML = "";
     priceEl.textContent = "—";
 
-    // Detect source
-    let title = "";
-    if (card)
-      title = card.querySelector(".course-title")?.textContent.trim() || "";
-    else
-      title =
-        btn.dataset.courseTitle ||
-        document.querySelector(".content-card .course-title")?.textContent.trim() ||
-        "Unknown Course";
-
-    // Multi-option (selectable) courses
-    const dataSource = card || contentCard;
-    if (dataSource?.dataset.courseType === "select") {
+    // Detect multi-option courses
+    // Detect multi-option courses (for course cards or single course pages)
+    if (
+      (card && card.dataset.courseType === "select") ||
+      (contentCard && contentCard.dataset.courseType === "select")
+    ) {
       titleInput.style.display = "none";
       optionsSelect.style.display = "block";
+
       try {
-        const opts = JSON.parse(dataSource.dataset.options || "[]");
+        const rawOptions =
+          card?.dataset.options || contentCard?.dataset.options || "[]";
+        const opts = JSON.parse(rawOptions);
+
+        optionsSelect.innerHTML = ""; // clear existing options
         opts.forEach((opt) => {
           const o = document.createElement("option");
           o.value = opt.label;
@@ -132,26 +152,42 @@ function initBuyOverlay() {
           o.dataset.price = opt.price;
           optionsSelect.appendChild(o);
         });
+
+        // Default price display
         if (opts.length > 0) priceEl.textContent = `${opts[0].price} DZD`;
+
+        // Update on change
         optionsSelect.addEventListener("change", (e) => {
           const selected = e.target.selectedOptions[0];
           priceEl.textContent = selected.dataset.price + " DZD";
         });
       } catch (err) {
-        console.error("Invalid data-options JSON", err);
+        console.error("Invalid options JSON for course card/contentCard", err);
       }
     } else {
+      // Normal course
       titleInput.value = title;
       priceEl.textContent =
-        card?.querySelector(".price-new")?.textContent ||
+        card?.querySelector(".course-price, .price-new")?.textContent ||
         document.querySelector("#newPrice")?.textContent ||
         "—";
     }
 
+    // Reset form & show overlay
     buyForm.style.display = "block";
-    buyOverlay.querySelector(".buy-thank-you")?.style.setProperty("display", "none");
+    const thankYou = buyOverlay.querySelector(".buy-thank-you");
+    if (thankYou) thankYou.style.display = "none";
     buyOverlay.style.display = "flex";
     document.body.style.overflow = "hidden";
+
+    console.log(`🛒 Buy clicked for: ${title}`);
+  });
+
+  // Sticky bar button also triggers overlay
+  document.getElementById("stickyBuyBtn")?.addEventListener("click", (e) => {
+    e.preventDefault();
+    const mainBtn = document.querySelector(".buy-btn");
+    if (mainBtn) mainBtn.click();
   });
 
   // Close overlay
@@ -159,61 +195,82 @@ function initBuyOverlay() {
     buyOverlay.style.display = "none";
     document.body.style.overflow = "";
   });
-  buyOverlay.addEventListener("click", (e) => {
+  buyOverlay?.addEventListener("click", (e) => {
     if (e.target === buyOverlay) {
       buyOverlay.style.display = "none";
       document.body.style.overflow = "";
     }
   });
 
-  // Submit form
+  // 🧩 Form submission
   buyForm.addEventListener("submit", async (e) => {
     e.preventDefault();
+
     const name = document.getElementById("buyName").value.trim();
     const phone = document.getElementById("buyPhone").value.trim();
     const city = document.getElementById("buyCity").value.trim();
     const type = document.getElementById("buyCourseType").value;
-    const message = document.getElementById("buyMessage").value.trim();
     const course =
       document.getElementById("buyCourseOptions").offsetParent !== null
-        ? document.getElementById("buyCourseOptions").value
-        : document.getElementById("buyCourseTitle").value;
-    const price = document.getElementById("buyDynamicPrice").textContent.trim();
+        ? document.getElementById("buyCourseOptions").value.trim()
+        : document.getElementById("buyCourseTitle").value.trim();
+    const message = document.getElementById("buyMessage").value.trim();
+    const selectedPrice =
+      document.getElementById("buyDynamicPrice")?.textContent.trim() || "—";
 
-    // Validation
     let valid = true;
-    document.querySelectorAll(".buy-error-message").forEach((el) => (el.style.display = "none"));
+    document
+      .querySelectorAll(".buy-error-message")
+      .forEach((el) => (el.style.display = "none"));
     if (!name) {
-      document.querySelector("#buyName + .buy-error-message").style.display = "block";
+      document.querySelector("#buyName + .buy-error-message").style.display =
+        "block";
       valid = false;
     }
     if (!phone) {
-      document.querySelector("#buyPhone + .buy-error-message").style.display = "block";
+      document.querySelector("#buyPhone + .buy-error-message").style.display =
+        "block";
       valid = false;
     }
     if (!city) {
-      document.querySelector("#buyCity + .buy-error-message").style.display = "block";
+      document.querySelector("#buyCity + .buy-error-message").style.display =
+        "block";
       valid = false;
     }
     if (!type) {
-      document.querySelector("#buyCourseType + .buy-error-message").style.display = "block";
+      document.querySelector(
+        "#buyCourseType + .buy-error-message"
+      ).style.display = "block";
       valid = false;
     }
     if (!valid) return;
 
-    const msg = `*New Course Purchase:*\n📘 Course: ${course}\n💰 Price: ${price}\n🎓 Type: ${type}\n👤 Name: ${name}\n📞 Phone: ${phone}\n📍 City: ${city}\n📝 Message: ${message || "None"}`;
+    const telegramMsg = `*New Course Purchase:*\n📘 Course: ${course}\n💰 Price: ${selectedPrice}\n🎓 Type: ${type}\n👤 Name: ${name}\n📞 Phone: ${phone}\n📍 City: ${city}\n📝 Message: ${
+      message || "None"
+    }`;
+
     try {
-      const res = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ chat_id: chatId, text: msg, parse_mode: "Markdown" }),
-      });
-      if (res.ok) {
+      const response = await fetch(
+        `https://api.telegram.org/bot${botToken}/sendMessage`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: telegramMsg,
+            parse_mode: "Markdown",
+          }),
+        }
+      );
+
+      if (response.ok) {
         buyForm.style.display = "none";
         buyOverlay.querySelector(".buy-thank-you").style.display = "block";
-      } else alert("Error sending message. Try again later.");
+      } else {
+        alert("Error sending message. Please try again later.");
+      }
     } catch (err) {
-      alert("Connection error. Please check your internet.");
+      alert("Connection error. Please check your internet connection.");
       console.error(err);
     }
   });
@@ -221,114 +278,78 @@ function initBuyOverlay() {
 
 window.addEventListener("load", () => {
   setTimeout(() => {
-    console.log("🚀 Initializing unified Buy Overlay...");
+    console.log("🚀 Initializing Buy Overlay after load...");
     initBuyOverlay();
   }, 800);
 });
 
 // ============================================================
-// 7. COURSE CARD CLICK NAVIGATION
+// COURSE CARD CLICK NAVIGATION
 // ============================================================
 document.addEventListener("click", (e) => {
   const buyButton = e.target.closest(".buy-btn");
   if (buyButton) return;
   const card = e.target.closest(".course-card");
-  if (card?.dataset.link) window.location.href = card.dataset.link;
+  if (card && card.dataset.link) window.location.href = card.dataset.link;
 });
 
 // ============================================================
-// 8. COURSE PAGE — YOUTUBE EMBED
+// MOBILE STICKY BUY BAR VISIBILITY
 // ============================================================
-document.addEventListener("DOMContentLoaded", () => {
-  const holder = document.getElementById("video-embed");
-  if (!holder) return;
-  const id = holder.dataset.youtubeId;
-  if (!id || id === "YOUTUBE_VIDEO_ID") {
-    holder.innerHTML = `<div style="position:absolute;inset:0;display:grid;place-items:center;color:#fff;text-align:center;">
-      <p>Replace <strong>data-youtube-id</strong> with your YouTube video ID.</p></div>`;
-    return;
-  }
-  const iframe = document.createElement("iframe");
-  iframe.src = `https://www.youtube.com/embed/${id}?rel=0&showinfo=0`;
-  iframe.allowFullscreen = true;
-  iframe.allow =
-    "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-  holder.appendChild(iframe);
-});
-
-// ============================================================
-// 9. COLLAPSIBLE CHAPTERS
-// ============================================================
-function initCourseChapters() {
-  document.querySelectorAll(".chapter.collapsible").forEach((chapter) => {
-    const index = chapter.dataset.index;
-    const list = document.getElementById(`episodes-${index}`);
-    if (!list) return;
-    chapter.addEventListener("click", () => {
-      const isOpen = chapter.getAttribute("aria-expanded") === "true";
-      chapter.setAttribute("aria-expanded", !isOpen);
-      list.classList.toggle("open", !isOpen);
-      list.setAttribute("aria-hidden", isOpen);
-    });
-  });
-}
-window.addEventListener("load", initCourseChapters);
-
-// ============================================================
-// 10. STICKY BUY BAR VISIBILITY
-// ============================================================
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("scroll", () => {
   const stickyBar = document.querySelector(".sticky-buy-bar");
-  const sidebarBuy = document.querySelector(".sidebar .buy-btn");
-  if (!stickyBar || !sidebarBuy) return;
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        stickyBar.classList.toggle("hide-sticky", entry.isIntersecting);
-      });
-    },
-    { threshold: 0.2 }
-  );
-  observer.observe(sidebarBuy);
-
-  document.getElementById("stickyBuyBtn")?.addEventListener("click", () => sidebarBuy.click());
+  const realBuySection = document.getElementById("realBuySection");
+  if (!stickyBar || !realBuySection) return;
+  const sectionRect = realBuySection.getBoundingClientRect();
+  const windowHeight = window.innerHeight;
+  if (sectionRect.top < windowHeight - 100) stickyBar.classList.add("hidden");
+  else stickyBar.classList.remove("hidden");
 });
 
 // ============================================================
-// 11. COURSE PAGE FILTER, SEARCH & CHIP TOGGLE
+// COURSES PAGE FILTER, SEARCH & LAYOUT TOGGLE
 // ============================================================
 document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("search");
-  const grid = document.getElementById("coursesGridA");
-  if (!grid) return;
+  const coursesGrid = document.getElementById("coursesGridA");
+  if (!coursesGrid) return;
 
-  const cards = Array.from(grid.querySelectorAll(".course-card"));
+  const cards = Array.from(coursesGrid.querySelectorAll(".course-card"));
   const selectedSoftwares = new Set();
 
-  function matches(card, q) {
+  function getSoftwareTags(cardEl) {
+    const raw = cardEl.getAttribute("data-software") || "";
+    return raw.split(",").map((s) => s.trim().toLowerCase());
+  }
+
+  function matchesSearch(cardEl, q) {
     if (!q) return true;
-    q = q.toLowerCase();
-    const title = card.querySelector(".course-title")?.textContent.toLowerCase() || "";
-    const desc = card.querySelector(".course-desc")?.textContent.toLowerCase() || "";
+    q = q.trim().toLowerCase();
+    const title =
+      cardEl.querySelector(".course-title")?.textContent.toLowerCase() || "";
+    const desc =
+      cardEl.querySelector(".course-desc")?.textContent.toLowerCase() || "";
     return title.includes(q) || desc.includes(q);
   }
 
-  function matchesSoftware(card) {
+  function matchesSoftware(cardEl) {
     if (selectedSoftwares.size === 0) return true;
-    const tags = (card.dataset.software || "").split(",").map((s) => s.trim().toLowerCase());
+    const tags = getSoftwareTags(cardEl);
     return Array.from(selectedSoftwares).some((s) => tags.includes(s));
   }
 
   function applyFilters() {
     const q = searchInput?.value || "";
     cards.forEach((card) => {
-      card.style.display = matches(card, q) && matchesSoftware(card) ? "" : "none";
+      const show = matchesSearch(card, q) && matchesSoftware(card);
+      card.style.display = show ? "" : "none";
     });
   }
 
   searchInput?.addEventListener("input", applyFilters);
-  document.querySelectorAll(".chip").forEach((chip) =>
+
+  const chips = document.querySelectorAll(".chip");
+  chips.forEach((chip) => {
     chip.addEventListener("click", () => {
       const sof = chip.dataset.sof.toLowerCase();
       if (selectedSoftwares.has(sof)) {
@@ -339,8 +360,9 @@ document.addEventListener("DOMContentLoaded", function () {
         chip.classList.add("active");
       }
       applyFilters();
-    })
-  );
+    });
+  });
 
   applyFilters();
 });
+
