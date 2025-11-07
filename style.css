@@ -1063,7 +1063,6 @@ body.font-ar .submit-button {
   /* Move the text slightly upwards during hover */
 }
 
-
 /* Responsive styling for small screens */
 @media (max-width: 960px) {
   .image-button-row {
@@ -1106,7 +1105,6 @@ body.font-ar .submit-button {
     transform: translate(-50%, -50%);
   }
 }
-
 
 /*============================================================================================================================*/
 /* Basic button styling */
@@ -2696,6 +2694,9 @@ h2 {
     padding: 10px 0;
     font-size: 14px;
   }
+  .darkNavbar .dropdown-link {
+    color: white;
+  }
 }
 
 #darkFooter {
@@ -3690,17 +3691,15 @@ body {
 }
 
 @media (max-width: 960px) {
-.buy-input-label {
-  font-size: 14px;
-}
+  .buy-input-label {
+    font-size: 14px;
+  }
 
-.buy-input-group input,
-.buy-input-group select,
-.buy-input-group textarea {
-
-  font-size: 14px;
-
-}
+  .buy-input-group input,
+  .buy-input-group select,
+  .buy-input-group textarea {
+    font-size: 14px;
+  }
 }
 .buy-required {
   color: #ff5555;
@@ -4274,7 +4273,6 @@ body {
   transform: translateY(100%);
   pointer-events: none;
 }
-
 
 .course-footer .price-new {
   /* color: #ff4d4d; */
