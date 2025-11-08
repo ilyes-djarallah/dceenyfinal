@@ -4200,11 +4200,12 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #111; /* dark theme to match your site */
+  background: #111;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 -5px 18px rgba(0, 0, 0, 0.3);
   padding: 14px 22px;
   z-index: 1000;
+  /* justify-content: space-between; */
 }
 /* ============================================================
    HIDE STICKY BUY BAR ON DESKTOP
@@ -4216,7 +4217,7 @@ body {
 }
 
 .sticky-buy-inner {
-  max-width: 1550px;
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -4227,11 +4228,12 @@ body {
   font-size: 22px;
   font-weight: 800;
   color: var(--accent-2);
+  flex: none;
 }
 
 .sticky-buy-btn {
   padding: 12px 26px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   font-size: 16px;
   font-weight: 700;
   border: none;
@@ -4254,12 +4256,13 @@ body {
   }
 
   .sticky-price {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .sticky-buy-btn {
     font-size: 15px;
     padding: 10px 50px;
+
   }
 }
 /* ============================================================
@@ -4269,7 +4272,7 @@ body {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.sticky-buy-bar.hidden {
+.sticky-buy-bar.hide-sticky {
   opacity: 0;
   transform: translateY(100%);
   pointer-events: none;
