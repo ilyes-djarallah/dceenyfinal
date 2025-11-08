@@ -355,7 +355,30 @@ const translations = {
     close: "Close",
     thankYou: "Thank you! Your purchase request has been sent.",
     buy: "Buy",
+    dceeny_edu:"DCEENY Education",
+
+
+
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   fr: {
     projects: "Projets",
@@ -717,6 +740,8 @@ const translations = {
     close: "Fermer",
     thankYou: "Merci ! Votre demande d'achat a été envoyée.",
     buy: "Acheter",
+    dceeny_edu:"DCEENY Éducation",
+
   },
 
   ar: {
@@ -1053,8 +1078,16 @@ const translations = {
     close: "إغلاق",
     thankYou: "شكرًا لك! تم إرسال طلب الشراء الخاص بك.",
     buy: "اشتر",
+    dceeny_edu:"DCEENY التعليم",
   },
 };
+
+
+
+
+
+
+
 
 // Function to apply translations based on the selected language
 function applyTranslations(language) {
