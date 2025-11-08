@@ -314,7 +314,95 @@ const translations = {
     publicbatnaInfo:
       "Type: interior | Location: Batna, Algeria | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
+    packAdobeTitle: "Adobe Architecture Pack — Photoshop • Illustrator • InDesign",
+    packAdobeSubtitle: "Master graphic presentation for architecture projects with the essential Adobe tools.",
+    packAdobeDescription:"This complete pack combines Photoshop, Illustrator, and InDesign to help you present your architectural projects professionally. Learn to process architectural drawings, create infographic diagrams, design layouts, and compose high-quality panels ready for print or digital portfolios.",
+    instructor_by: "By Dceeny",
+    instructor_role: "Architectural Visualization Specialist",
+    level: "From Beginner to Intermediate",
+    lectures: "20 Lectures",
+    duration: "4h 30min",
+    skills_title: "Skills Covered",
+    skill_photoshop: "Photoshop",
+    skill_illustrator: "Illustrator",
+    skill_indesign: "InDesign",
+    skill_graphics: "Architectural Graphics",
+    skill_layout: "Layout Design",
+    skill_presentation: "Presentation Boards",
+    price_old: "15000 DZD",
+    price_new: "12000 DZD",
+    price_note: "Lifetime access — one-time payment",
+    buy_now: "Buy Now",
+    placeholder_note: "Write something...",
+
+    sticky_buy_btn: "Buy Now",
+    sticky_price: "12000 DZD",
+    buy_form_title: "Purchase Course",
+    placeholder_fullname: "Enter your full name",
+    placeholder_phone:"Enter your phone number",
+    placeholder_city: "Where do you live?",
+    selectedCourse: "Selected Course",
+    price: "Price",
+    courseType: "Choose Course Type",
+    courseType_files: "Course as files",
+    courseType_online: "Course online (Zoom live)",
+    courseType_classroom: "Presence in classroom",
+    courseTypeReq: "Please select a course type.",
+    additionalNotes: "Additional Notes (optional)",
+    submitPurchase: "Submit Purchase",
+    close: "Close",
+    thankYou: "Thank you! Your purchase request has been sent."
+
+
+
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   fr: {
     projects: "Projets",
@@ -634,7 +722,98 @@ const translations = {
     publicbatnaInfo:
       "Type: intérieure | Location: Batna, Algérie | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
+    packAdobeTitle: "Pack Adobe Architecture — Photoshop • Illustrator • InDesign",
+    packAdobeSubtitle: "Maîtrisez la présentation graphique pour les projets d'architecture avec les outils Adobe essentiels.",
+    packAdobeDescription:"Ce pack complet combine Photoshop, Illustrator et InDesign pour vous aider à présenter vos projets architecturaux de manière professionnelle. Apprenez à traiter les dessins architecturaux, à créer des diagrammes infographiques, à concevoir des mises en page et à composer des panneaux de haute qualité prêts pour l'impression ou les portfolios numériques.",
+    
+    
+    instructor_by: "Par Dceeny",
+    instructor_role: "Spécialiste en visualisation architecturale",
+    level: "De débutant à intermédiaire",
+    lectures: "20 leçons",
+    duration: "4h 30min",
+    skills_title: "Compétences couvertes",
+    skill_photoshop: "Photoshop",
+    skill_illustrator: "Illustrator",
+    skill_indesign: "InDesign",
+    skill_graphics: "Graphisme architectural",
+    skill_layout: "Mise en page",
+    skill_presentation: "Panneaux de présentation",
+    price_old: "15000 DZD",
+    price_new: "12000 DZD",
+    price_note: "Accès à vie — paiement unique",
+    buy_now: "Acheter maintenant",
+    sticky_buy_btn: "Acheter maintenant",
+    sticky_price: "12000 DZD",
+    placeholder_note:"Écrire quelque chose...",
+    buy_form_title: "Achat du cours",
+  placeholder_fullname: "Entrez votre nom complet",
+    placeholder_phone:"Entrez votre numéro de téléphone",
+    placeholder_city: "Où habitez-vous ?",
+    selectedCourse: "Cours sélectionné",
+    price: "Prix",
+    courseType: "Choisir le type de cours",
+    courseType_files: "Cours en fichiers",
+    courseType_online: "Cours en ligne (Zoom en direct)",
+    courseType_classroom: "Présence en salle de classe",
+    courseTypeReq: "Veuillez sélectionner un type de cours.",
+    additionalNotes: "Notes supplémentaires (optionnel)",
+    submitPurchase: "Soumettre l'achat",
+    close: "Fermer",
+    thankYou: "Merci ! Votre demande d'achat a été envoyée.",
+
+
+
+
+
+
+
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   ar: {
     projects: "المشاريع",
@@ -929,45 +1108,159 @@ const translations = {
     publicBatna: "مقهى - باتنة",
     publicbatnaInfo: "النوع: داخلية | المنطقة: باتنة، الجزائر | المساحة: 23 م²",
     batnaSurf: "- 23 م² -",
+    packAdobeTitle: "حزمة أدوبي للعمارة — فوتوشوب • إليستريتور • إنديزاين",
+    packAdobeSubtitle:
+      "إتقان العرض الرسومي لمشاريع العمارة باستخدام أدوات أدوبي الأساسية.",
+    packAdobeDescription:
+      "تجمع هذه الحزمة الشاملة بين فوتوشوب، إليستريتور، وإنديزاين لمساعدتك في تقديم مشاريعك المعمارية بشكل احترافي. تعلم كيفية معالجة الرسومات المعمارية، إنشاء مخططات معلوماتية، تصميم تخطيطات، وتكوين لوحات عالية الجودة جاهزة للطباعة أو المحافظ الرقمية.",
+
+
+
+    instructor_by: "بواسطة Dceeny",
+    instructor_role: "متخصص في العرض المعماري",
+    level: "من المبتدئ إلى المتوسط",
+    lectures: "20 درسًا",
+    duration: "4 ساعات و30 دقيقة",
+    skills_title: "المهارات المكتسبة",
+    skill_photoshop: "فوتوشوب",
+    skill_illustrator: "إليستريتور",
+    skill_indesign: "إن ديزاين",
+    skill_graphics: "الرسم المعماري",
+    skill_layout: "تصميم التخطيطات",
+    skill_presentation: "ألواح العرض",
+    price_old: "15000 دج",
+    price_new: "12000 دج",
+    price_note: "وصول مدى الحياة — دفعة واحدة فقط",
+    buy_now: "اشترِ الآن",
+    sticky_buy_btn: "اشترِ الآن",
+    sticky_price: "12000 دج",
+    placeholder_note: "أكتب...",
+    buy_form_title: "شراء الدورة",
+    placeholder_fullname: "أدخل اسمك الكامل",
+    placeholder_phone:"أدخل رقم هاتفك",
+    placeholder_city: "أين تسكن؟",
+    selectedCourse: "الدورة المختارة",
+    price: "السعر",
+    courseType: "اختر نوع الدورة",
+    courseType_files: "ملفات الدورة",
+    courseType_online: "دورة عبر الإنترنت (زووم مباشر)",
+    courseType_classroom: "حضوري",
+    courseTypeReq: "يرجى اختيار نوع الدورة.",
+    additionalNotes: "ملاحظات إضافية (اختياري)",
+    submitPurchase: "إرسال الشراء",
+    close: "إغلاق",
+    thankYou: "شكرًا لك! تم إرسال طلب الشراء الخاص بك.",
+
+
+
+
+
+
+
+
+
+
+
+
+
   },
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Function to apply translations based on the selected language
 function applyTranslations(language) {
   const elements = document.querySelectorAll(
     "[data-translate], [data-placeholder]"
-  ); // Select elements for text and placeholder translations
+  );
+
   elements.forEach((element) => {
     const translationKey =
       element.getAttribute("data-translate") ||
       element.getAttribute("data-placeholder");
 
     if (translations[language] && translations[language][translationKey]) {
-      let translatedText = translations[language][translationKey]; // Replace line breaks in translations
+      let translatedText = translations[language][translationKey];
 
-      translatedText = translatedText.replace(/\n/g, "<br>"); // Handle <input> placeholders
+      // Support line breaks
+      translatedText = translatedText.replace(/\n/g, "<br>");
 
-      if (element.tagName === "INPUT" && element.hasAttribute("placeholder")) {
-        if (element.hasAttribute("data-placeholder")) {
-          element.setAttribute("placeholder", translatedText); // Set placeholder for input fields
-        }
-      } // Handle <select> elements
+      // Handle INPUT / TEXTAREA placeholders
+      if (
+        (element.tagName === "INPUT" || element.tagName === "TEXTAREA") &&
+        element.hasAttribute("data-placeholder")
+      ) {
+        element.setAttribute("placeholder", translatedText);
+      }
+
+      // Handle SELECT elements with a disabled placeholder option
       else if (
         element.tagName === "SELECT" &&
         element.hasAttribute("data-placeholder")
       ) {
-        // Set the placeholder (first disabled option)
         const firstOption = element.querySelector("option[disabled][selected]");
         if (firstOption) {
           firstOption.textContent = translatedText;
         }
-      } // Handle other elements (e.g., <span>, <label>)
+      }
+
+      // All other elements: innerHTML update
       else {
-        element.innerHTML = translatedText; // Use innerHTML for text content
+        element.innerHTML = translatedText;
       }
     }
-  }); // Translate options inside <select> elements
+  });
 
+  // Handle <option> elements inside <select> that have data-translate
   const options = document.querySelectorAll("select option[data-translate]");
   options.forEach((option) => {
     const optionKey = option.getAttribute("data-translate");
@@ -975,7 +1268,19 @@ function applyTranslations(language) {
       option.textContent = translations[language][optionKey];
     }
   });
+
+  // === Fix page direction automatically ===
+  if (language === "ar") {
+    document.documentElement.setAttribute("dir", "rtl");
+    document.documentElement.setAttribute("lang", "ar");
+    document.body.classList.add("rtl");
+  } else {
+    document.documentElement.setAttribute("dir", "ltr");
+    document.documentElement.setAttribute("lang", language);
+    document.body.classList.remove("rtl");
+  }
 }
+
 
 // Load the default language (or the saved one) and apply translations
 window.addEventListener("DOMContentLoaded", () => {
