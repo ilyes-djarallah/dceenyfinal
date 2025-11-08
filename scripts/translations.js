@@ -314,9 +314,12 @@ const translations = {
     publicbatnaInfo:
       "Type: interior | Location: Batna, Algeria | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
-    packAdobeTitle: "Adobe Architecture Pack — Photoshop • Illustrator • InDesign",
-    packAdobeSubtitle: "Master graphic presentation for architecture projects with the essential Adobe tools.",
-    packAdobeDescription:"This complete pack combines Photoshop, Illustrator, and InDesign to help you present your architectural projects professionally. Learn to process architectural drawings, create infographic diagrams, design layouts, and compose high-quality panels ready for print or digital portfolios.",
+    packAdobeTitle:
+      "Adobe Architecture Pack — Photoshop • Illustrator • InDesign",
+    packAdobeSubtitle:
+      "Master graphic presentation for architecture projects with the essential Adobe tools.",
+    packAdobeDescription:
+      "This complete pack combines Photoshop, Illustrator, and InDesign to help you present your architectural projects professionally. Learn to process architectural drawings, create infographic diagrams, design layouts, and compose high-quality panels ready for print or digital portfolios.",
     instructor_by: "By Dceeny",
     instructor_role: "Architectural Visualization Specialist",
     level: "From Beginner to Intermediate",
@@ -338,7 +341,7 @@ const translations = {
     sticky_price: "12000 DZD",
     buy_form_title: "Purchase Course",
     placeholder_fullname: "Enter your full name",
-    placeholder_phone:"Enter your phone number",
+    placeholder_phone: "Enter your phone number",
     placeholder_city: "Where do you live?",
     selectedCourse: "Selected Course",
     price: "Price",
@@ -350,58 +353,9 @@ const translations = {
     additionalNotes: "Additional Notes (optional)",
     submitPurchase: "Submit Purchase",
     close: "Close",
-    thankYou: "Thank you! Your purchase request has been sent."
-
-
-
+    thankYou: "Thank you! Your purchase request has been sent.",
+    buy: "Buy",
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   fr: {
     projects: "Projets",
@@ -721,11 +675,13 @@ const translations = {
     publicbatnaInfo:
       "Type: intérieure | Location: Batna, Algérie | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
-    packAdobeTitle: "Pack Adobe Architecture — Photoshop • Illustrator • InDesign",
-    packAdobeSubtitle: "Maîtrisez la présentation graphique pour les projets d'architecture avec les outils Adobe essentiels.",
-    packAdobeDescription:"Ce pack complet combine Photoshop, Illustrator et InDesign pour vous aider à présenter vos projets architecturaux de manière professionnelle. Apprenez à traiter les dessins architecturaux, à créer des diagrammes infographiques, à concevoir des mises en page et à composer des panneaux de haute qualité prêts pour l'impression ou les portfolios numériques.",
-    
-    
+    packAdobeTitle:
+      "Pack Adobe Architecture — Photoshop • Illustrator • InDesign",
+    packAdobeSubtitle:
+      "Maîtrisez la présentation graphique pour les projets d'architecture avec les outils Adobe essentiels.",
+    packAdobeDescription:
+      "Ce pack complet combine Photoshop, Illustrator et InDesign pour vous aider à présenter vos projets architecturaux de manière professionnelle. Apprenez à traiter les dessins architecturaux, à créer des diagrammes infographiques, à concevoir des mises en page et à composer des panneaux de haute qualité prêts pour l'impression ou les portfolios numériques.",
+
     instructor_by: "Par Dceeny",
     instructor_role: "Spécialiste en visualisation architecturale",
     level: "De débutant à intermédiaire",
@@ -744,10 +700,10 @@ const translations = {
     buy_now: "Acheter maintenant",
     sticky_buy_btn: "Acheter maintenant",
     sticky_price: "12000 DZD",
-    placeholder_note:"Écrire quelque chose...",
+    placeholder_note: "Écrire quelque chose...",
     buy_form_title: "Achat du cours",
-  placeholder_fullname: "Entrez votre nom complet",
-    placeholder_phone:"Entrez votre numéro de téléphone",
+    placeholder_fullname: "Entrez votre nom complet",
+    placeholder_phone: "Entrez votre numéro de téléphone",
     placeholder_city: "Où habitez-vous ?",
     selectedCourse: "Cours sélectionné",
     price: "Prix",
@@ -760,59 +716,8 @@ const translations = {
     submitPurchase: "Soumettre l'achat",
     close: "Fermer",
     thankYou: "Merci ! Votre demande d'achat a été envoyée.",
-
-
-
-
-
-
-
+    buy: "Acheter",
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   ar: {
     projects: "المشاريع",
@@ -1113,8 +1018,6 @@ const translations = {
     packAdobeDescription:
       "تجمع هذه الحزمة الشاملة بين فوتوشوب، إليستريتور، وإنديزاين لمساعدتك في تقديم مشاريعك المعمارية بشكل احترافي. تعلم كيفية معالجة الرسومات المعمارية، إنشاء مخططات معلوماتية، تصميم تخطيطات، وتكوين لوحات عالية الجودة جاهزة للطباعة أو المحافظ الرقمية.",
 
-
-
     instructor_by: "بواسطة Dceeny",
     instructor_role: "متخصص في العرض المعماري",
     level: "من المبتدئ إلى المتوسط",
@@ -1136,7 +1039,7 @@ const translations = {
     placeholder_note: "أكتب...",
     buy_form_title: "شراء الدورة",
     placeholder_fullname: "أدخل اسمك الكامل",
-    placeholder_phone:"أدخل رقم هاتفك",
+    placeholder_phone: "أدخل رقم هاتفك",
     placeholder_city: "أين تسكن؟",
     selectedCourse: "الدورة المختارة",
     price: "السعر",
@@ -1149,72 +1052,9 @@ const translations = {
     submitPurchase: "إرسال الشراء",
     close: "إغلاق",
     thankYou: "شكرًا لك! تم إرسال طلب الشراء الخاص بك.",
-
-
-
-
-
-
-
-
-
-
-
-
-
+    buy: "اشتر",
   },
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Function to apply translations based on the selected language
 function applyTranslations(language) {
@@ -1279,7 +1119,6 @@ function applyTranslations(language) {
     document.body.classList.remove("rtl");
   }
 }
-
 
 // Load the default language (or the saved one) and apply translations
 window.addEventListener("DOMContentLoaded", () => {
