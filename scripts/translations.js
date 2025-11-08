@@ -355,30 +355,56 @@ const translations = {
     close: "Close",
     thankYou: "Thank you! Your purchase request has been sent.",
     buy: "Buy",
-    dceeny_edu:"DCEENY Education",
+    dceeny_edu: "DCEENY Education",
+    // ===============================
+    // ADOBE COURSES — ENGLISH
+    // ===============================
+    photoshopTitle: "🖼️ What You’ll Learn — Photoshop for Architecture",
+    photoshopDesc:
+      "Learn how to turn your architectural drawings into professional presentation boards using Adobe Photoshop. In over 10 hours of training, you’ll master essential workflows for creating clean, attractive, and print-ready visuals.",
+    photoshopList1:
+      "Architectural Plans: Import, clean, and color your plans. Add textures, shadows, vegetation, and furniture.",
+    photoshopList2:
+      "Urban Maps: Create large-scale maps with depth, hierarchy, and context.",
+    photoshopList3:
+      "Sections & Elevations: Colorize, texture, and enhance your drawings with silhouettes and vegetation.",
+    photoshopList4:
+      "Image Editing: Improve 3D renders and create a bonus historical frieze.",
+    photoshopList5:
+      "Presentation Boards: Compose balanced, coherent panels for print or portfolio.",
 
+    illustratorTitle: "🖌️ What You’ll Learn — Illustrator for Architecture",
+    illustratorDesc:
+      "Learn to create clear, professional architectural graphics with Adobe Illustrator. This 10-hour course teaches you how to design project visuals, diagrams, and layouts with precision and style.",
+    illustratorList1:
+      "Project Graphics: Import and clean AutoCAD or PDF drawings for clean outputs.",
+    illustratorList2:
+      "Diagrams & Infographics: Build architectural diagrams, charts, and pictograms.",
+    illustratorList3:
+      "Sketches & Moodboards: Vectorize sketches and create expressive moodboards.",
+    illustratorList4:
+      "Logo Design: Design logos and visual identities for your projects.",
+    illustratorList5:
+      "Presentation Panels: Assemble all visuals into professional, print-ready layouts.",
 
-
+    indesignTitle: "📰 What You’ll Learn — InDesign for Architecture",
+    indesignDesc:
+      "Master layout and publication design for your architectural presentations with Adobe InDesign. Learn to organize, structure, and export professional portfolios and print documents.",
+    indesignList1:
+      "Document Setup: Create clean, grid-based layouts with consistent margins.",
+    indesignList2:
+      "Content Integration: Import plans, renders, and text seamlessly.",
+    indesignList3:
+      "Layout & Composition: Balance visuals and typography for clarity.",
+    indesignList4:
+      "Graphic Consistency: Apply colors, styles, and branding for unity.",
+    indesignList5:
+      "Export & Presentation: Export high-quality portfolios for print or digital use.",
+    adobeCoursesTitle: "What You’ll Learn",
+    photoshopShort: "Adobe Photoshop — Architecture",
+    illustratorShort: "Adobe Illustrator — Architecture",
+    indesignShort: "Adobe InDesign — Architecture",
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   fr: {
     projects: "Projets",
@@ -740,8 +766,56 @@ const translations = {
     close: "Fermer",
     thankYou: "Merci ! Votre demande d'achat a été envoyée.",
     buy: "Acheter",
-    dceeny_edu:"DCEENY Éducation",
+    dceeny_edu: "DCEENY Éducation",
+    // ===============================
+    // ADOBE COURSES — FRENCH
+    // ===============================
+    photoshopTitle: "🖼️ Ce que vous apprendrez — Photoshop pour l’architecture",
+    photoshopDesc:
+      "Apprenez à transformer vos dessins architecturaux en panneaux de présentation professionnels avec Adobe Photoshop. En plus de 10 heures de formation, maîtrisez les étapes essentielles pour créer des visuels clairs, esthétiques et prêts à l’impression.",
+    photoshopList1:
+      "Plans architecturaux : Importez, nettoyez et mettez en couleur vos plans. Ajoutez textures, ombres, végétation et mobilier.",
+    photoshopList2:
+      "Plans urbains : Créez des cartes à grande échelle avec profondeur, hiérarchie et contexte.",
+    photoshopList3:
+      "Coupes et façades : Colorez, texturez et améliorez vos dessins avec silhouettes et végétation.",
+    photoshopList4:
+      "Retouche d’images : Améliorez vos rendus 3D et créez une frise historique bonus.",
+    photoshopList5:
+      "Panneaux de présentation : Composez des planches équilibrées et cohérentes, prêtes à imprimer ou pour le portfolio.",
 
+    illustratorTitle:
+      "🖌️ Ce que vous apprendrez — Illustrator pour l’architecture",
+    illustratorDesc:
+      "Apprenez à créer des graphiques architecturaux clairs et professionnels avec Adobe Illustrator. Cette formation de 10 heures vous enseigne la conception de visuels, schémas et mises en page précises et esthétiques.",
+    illustratorList1:
+      "Graphisme de projet : Importez et nettoyez vos fichiers AutoCAD ou PDF pour des résultats soignés.",
+    illustratorList2:
+      "Schémas et infographies : Créez des diagrammes, graphiques et pictogrammes architecturaux.",
+    illustratorList3:
+      "Croquis et moodboards : Vectorisez vos croquis et composez des moodboards expressifs.",
+    illustratorList4:
+      "Design de logo : Créez des logos et identités visuelles pour vos projets.",
+    illustratorList5:
+      "Panneaux de présentation : Assemblez tous vos visuels dans des mises en page prêtes à l’impression.",
+
+    indesignTitle: "📰 Ce que vous apprendrez — InDesign pour l’architecture",
+    indesignDesc:
+      "Maîtrisez la mise en page et la conception de publications pour vos présentations architecturales avec Adobe InDesign. Apprenez à organiser, structurer et exporter des portfolios professionnels et documents imprimés.",
+    indesignList1:
+      "Configuration du document : Créez des mises en page nettes et cohérentes avec marges et grilles.",
+    indesignList2:
+      "Intégration du contenu : Importez vos plans, rendus et textes facilement.",
+    indesignList3:
+      "Mise en page et composition : Équilibrez images et typographie pour plus de clarté.",
+    indesignList4:
+      "Cohérence graphique : Appliquez couleurs, styles et branding pour une unité visuelle.",
+    indesignList5:
+      "Exportation et présentation : Exports haute qualité pour impression ou formats numériques.",
+    adobeCoursesTitle: "Ce que vous apprendrez",
+    photoshopShort: "Adobe Photoshop — Architecture",
+    illustratorShort: "Adobe Illustrator — Architecture",
+    indesignShort: "Adobe InDesign — Architecture",
   },
 
   ar: {
@@ -1078,16 +1152,56 @@ const translations = {
     close: "إغلاق",
     thankYou: "شكرًا لك! تم إرسال طلب الشراء الخاص بك.",
     buy: "اشتر",
-    dceeny_edu:"DCEENY التعليم",
+    dceeny_edu: "DCEENY التعليم",
+    // ===============================
+    // ADOBE COURSES — ARABIC
+    // ===============================
+    photoshopTitle: "🖼️ ما الذي ستتعلمه — فوتوشوب للعمارة",
+    photoshopDesc:
+      "تعلم كيفية تحويل الرسومات المعمارية إلى لوحات عرض احترافية باستخدام Adobe Photoshop. في أكثر من 10 ساعات من التدريب، ستتقن أهم الخطوات لإنشاء صور نظيفة وجذابة وجاهزة للطباعة.",
+    photoshopList1:
+      "الخطط المعمارية: استيراد وتنظيف وتلوين المخططات، مع إضافة الخامات والظلال والنباتات والأثاث.",
+    photoshopList2:
+      "الخرائط الحضرية: إنشاء خرائط كبيرة بعمق وتسلسل بصري واضح وسياق واقعي.",
+    photoshopList3:
+      "القطاعات والواجهات: تلوين وتنسيق الرسومات مع إضافة الظلال والأشخاص والنباتات.",
+    photoshopList4:
+      "معالجة الصور: تحسين اللقطات ثلاثية الأبعاد وإنشاء لوحة تاريخية إضافية.",
+    photoshopList5:
+      "لوحات العرض: تصميم لوحات متوازنة ومنسقة للطباعة أو لملفات العرض.",
+
+    illustratorTitle: "🖌️ ما الذي ستتعلمه — إليستريتور للعمارة",
+    illustratorDesc:
+      "تعلم إنشاء رسومات معمارية واضحة واحترافية باستخدام Adobe Illustrator. في دورة مدتها 10 ساعات، ستتعلم تصميم المخططات والرسوم البيانية والتخطيطات بدقة وأناقة.",
+    illustratorList1:
+      "الرسومات المعمارية: استيراد وتنظيف ملفات AutoCAD أو PDF للحصول على نتائج احترافية.",
+    illustratorList2:
+      "المخططات والإنفوغرافيك: إنشاء مخططات ورسوم بيانية وأيقونات معمارية.",
+    illustratorList3:
+      "الرسومات والمزاج العام: تحويل الرسومات اليدوية إلى رسوم رقمية وإنشاء لوحات مرجعية معبرة.",
+    illustratorList4:
+      "تصميم الشعار: تعلم مبادئ الهوية البصرية وإنشاء شعار لمشروعك.",
+    illustratorList5:
+      "لوحات العرض: جمع كل الرسومات في تخطيطات جاهزة للطباعة بجودة عالية.",
+
+    indesignTitle: "📰 ما الذي ستتعلمه — إنديزاين للعمارة",
+    indesignDesc:
+      "أتقن تصميم التخطيطات والمنشورات لمشاريعك المعمارية باستخدام Adobe InDesign. تعلم كيفية تنظيم وتنسيق وإخراج ملفات العرض والطباعة باحتراف.",
+    indesignList1:
+      "إعداد الوثائق: إنشاء تخطيطات دقيقة باستخدام الشبكات وهوامش متناسقة.",
+    indesignList2:
+      "دمج المحتوى: استيراد المخططات والعروض التقديمية والنصوص بسهولة.",
+    indesignList3: "التصميم والتنسيق: موازنة الصور والنصوص لتحقيق وضوح بصري.",
+    indesignList4:
+      "الاتساق البصري: تطبيق الألوان والأنماط والعلامة التجارية بشكل متناسق.",
+    indesignList5:
+      "التصدير والعرض: تصدير ملفات بجودة عالية للطباعة أو العرض الرقمي.",
+    adobeCoursesTitle: "ما الذي ستتعلمه",
+    photoshopShort: "أدوبي فوتوشوب — العمارة",
+    illustratorShort: "أدوبي إليستريتور — العمارة",
+    indesignShort: "أدوبي إنديزاين — العمارة",
   },
 };
-
-
-
-
-
-
-
 
 // Function to apply translations based on the selected language
 function applyTranslations(language) {

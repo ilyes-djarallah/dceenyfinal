@@ -2899,7 +2899,7 @@ body {
   padding: 6px 10px;
   border-radius: 999px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 16px;
   color: var(--text);
   transition: all 0.3s ease;
 }
@@ -2928,6 +2928,7 @@ body {
     /* margin: 30px auto; */
     padding: 10px 30px;
   }
+  .chip {font-size: 13px;}
 }
 
 @media (max-width: 640px) {
@@ -4020,6 +4021,69 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-size: 15px;
   padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+#adobe-heading {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 23px;
+  letter-spacing: 0.4px;
+}
+
+.chapter {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.chapter:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
+}
+
+.chapter h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+}
+
+.chapter small {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.chev {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 18px;
+  transition: transform 0.25s ease;
+}
+
+.chapter[aria-expanded="true"] .chev {
+  transform: rotate(180deg);
+  color: var(--accent-2);
+}
+
+.episode-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.episode-list.open {
+  padding: 0 0 25px 12px;
+  max-height: 700px;
+}
+
+.episode {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  padding: 6px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 

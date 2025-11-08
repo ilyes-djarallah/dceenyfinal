@@ -226,7 +226,8 @@
               <span data-translate="fName">Full Name</span>
               <span class="buy-required">*</span>
             </label>
-            <input type="text" id="buyName" name="buyName" placeholder="Enter your full name" required />
+            <input type="text" id="buyName" name="buyName" data-placeholder="placeholder_fullname" placeholder=""
+              required />
             <span class="buy-error-message" data-translate="fNameReq">Full name is required.</span>
           </div>
 
@@ -236,7 +237,8 @@
               <span data-translate="phoneNum">Phone Number</span>
               <span class="buy-required">*</span>
             </label>
-            <input type="tel" id="buyPhone" name="buyPhone" placeholder="Enter your phone number" required />
+            <input type="tel" id="buyPhone" name="buyPhone" data-placeholder="placeholder_phone" placeholder=""
+              required />
             <span class="buy-error-message" data-translate="phoneNumReq">Phone number is required.</span>
           </div>
 
@@ -246,13 +248,14 @@
               <span data-translate="city">Phone Number</span>
               <span class="buy-required">*</span>
             </label>
-            <input type="text" id="buyCity" name="buyCity" placeholder="Where do you live?" required />
+            <input type="text" id="buyCity" name="buyCity" data-placeholder="placeholder_city" placeholder=""
+              required />
             <span class="buy-error-message" data-translate="phoneNumReq">City is required.</span>
           </div>
 
           <!-- Selected course (auto filled) -->
           <div class="buy-input-group">
-            <label for="buyCourseTitle" class="buy-input-label">Selected Course</label>
+            <label for="buyCourseTitle" class="buy-input-label" data-translate="selectedCourse"></label>
 
             <!-- Normal text input (default) -->
             <input type="text" id="buyCourseTitle" name="buyCourseTitle" readonly />
@@ -265,36 +268,38 @@
 
           <!-- Show dynamic price -->
           <div class="buy-input-group">
-            <label class="buy-input-label">Price</label>
+            <label class="buy-input-label" data-translate="price">Price</label>
             <div id="buyDynamicPrice" class="buy-dynamic-price">—</div>
           </div>
 
           <!-- Course type selector -->
           <div class="buy-input-group">
-            <label for="buyCourseType" class="buy-input-label">Choose Course Type</label>
+            <label for="buyCourseType" class="buy-input-label" data-translate="courseType"></label>
             <select id="buyCourseType" name="buyCourseType" required>
-              <option value="" disabled selected>Select a type</option>
-              <option value="files">Course as files</option>
-              <option value="online">Course online (Zoom live)</option>
-              <option value="classroom">Presence in classroom</option>
+              <option value="" disabled selected data-translate="courseType"></option>
+              <option value="files" data-translate="courseType_files">Course as files</option>
+              <option value="online" data-translate="courseType_online">Course online (Zoom live)</option>
+              <option value="classroom" data-translate="courseType_classroom">Presence in classroom</option>
             </select>
-            <span class="buy-error-message">Please select a course type.</span>
+            <span class="buy-error-message" data-translate="courseTypeReq">Please select a course type.</span>
           </div>
 
           <!-- Extra message -->
           <div class="buy-input-group">
-            <label for="buyMessage" class="buy-input-label">Additional Notes (optional)</label>
-            <textarea id="buyMessage" name="buyMessage" rows="3" placeholder="Write any note..."></textarea>
+            <label for="buyMessage" class="buy-input-label" data-translate="additionalNotes"></label>
+            <textarea id="buyMessage" name="buyMessage" rows="3" data-placeholder="placeholder_note"
+              placeholder=""></textarea>
           </div>
 
           <!-- Buttons -->
           <div class="buy-buttons-row">
-            <button type="button" class="buy-close-button" id="closeBuyOverlay">Close</button>
-            <button type="submit" class="buy-submit-button">Submit Purchase</button>
+            <button type="button" class="buy-close-button" id="closeBuyOverlay" data-translate="close">Close</button>
+            <button type="submit" class="buy-submit-button" data-translate="submitPurchase">Submit Purchase</button>
           </div>
         </form>
+
         <!-- Thank you message -->
-        <div class="buy-thank-you" style="display:none">
+        <div class="buy-thank-you" style="display:none" data-translate="thankYou">
           Thank you! Your purchase request has been sent.
         </div>
       </div>

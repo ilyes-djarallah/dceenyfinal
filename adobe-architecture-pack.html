@@ -72,6 +72,66 @@
           <!-- <div class="download-section">
             <button class="btn-secondary" data-translate="button_download_program">Hello</button>
           </div> -->
+          <!-- ===============================
+     ADOBE COURSES — COLLAPSIBLE SECTIONS
+     =============================== -->
+          <section aria-labelledby="adobe-heading">
+            <h3 id="adobe-heading" data-translate="adobeCoursesTitle">What You’ll Learn</h3>
+
+            <div class="chapters">
+
+              <!-- Photoshop -->
+              <div class="chapter collapsible" data-index="1" aria-expanded="false">
+                <div>
+                  <h4 data-translate="photoshopTitle"></h4>
+                  <small class="muted" data-translate="photoshopShort">Adobe Photoshop — Architecture</small>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-1" aria-hidden="true">
+                <div class="episode" data-translate="photoshopList1"></div>
+                <div class="episode" data-translate="photoshopList2"></div>
+                <div class="episode" data-translate="photoshopList3"></div>
+                <div class="episode" data-translate="photoshopList4"></div>
+                <div class="episode" data-translate="photoshopList5"></div>
+              </div>
+
+              <!-- Illustrator -->
+              <div class="chapter collapsible" data-index="2" aria-expanded="false">
+                <div>
+                  <h4 data-translate="illustratorTitle"></h4>
+                  <small class="muted" data-translate="illustratorShort">Adobe Illustrator — Architecture</small>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-2" aria-hidden="true">
+                <div class="episode" data-translate="illustratorList1"></div>
+                <div class="episode" data-translate="illustratorList2"></div>
+                <div class="episode" data-translate="illustratorList3"></div>
+                <div class="episode" data-translate="illustratorList4"></div>
+                <div class="episode" data-translate="illustratorList5"></div>
+              </div>
+
+              <!-- InDesign -->
+              <div class="chapter collapsible" data-index="3" aria-expanded="false">
+                <div>
+                  <h4 data-translate="indesignTitle"></h4>
+                  <small class="muted" data-translate="indesignShort">Adobe InDesign — Architecture</small>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-3" aria-hidden="true">
+                <div class="episode" data-translate="indesignList1"></div>
+                <div class="episode" data-translate="indesignList2"></div>
+                <div class="episode" data-translate="indesignList3"></div>
+                <div class="episode" data-translate="indesignList4"></div>
+                <div class="episode" data-translate="indesignList5"></div>
+              </div>
+
+            </div>
+          </section>
+
+
         </main>
         <!-- Sidebar -->
         <aside class="sidebar">
@@ -220,7 +280,8 @@
             <span data-translate="phoneNum">Phone Number</span>
             <span class="buy-required">*</span>
           </label>
-          <input type="tel" id="buyPhone" name="buyPhone" data-placeholder="placeholder_phone" placeholder="" required />
+          <input type="tel" id="buyPhone" name="buyPhone" data-placeholder="placeholder_phone" placeholder=""
+            required />
           <span class="buy-error-message" data-translate="phoneNumReq">Phone number is required.</span>
         </div>
 
@@ -268,7 +329,8 @@
         <!-- Extra message -->
         <div class="buy-input-group">
           <label for="buyMessage" class="buy-input-label" data-translate="additionalNotes"></label>
-          <textarea id="buyMessage" name="buyMessage" rows="3" data-placeholder="placeholder_note" placeholder=""></textarea>
+          <textarea id="buyMessage" name="buyMessage" rows="3" data-placeholder="placeholder_note"
+            placeholder=""></textarea>
         </div>
 
         <!-- Buttons -->
