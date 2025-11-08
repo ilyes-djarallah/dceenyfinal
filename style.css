@@ -546,7 +546,6 @@ body.font-ar .submit-button {
 .slideshow-container {
   position: relative;
   max-width: 100%;
-  /* overflow: hidden; */
   height: 700px;
 }
 
@@ -3161,7 +3160,7 @@ body {
 .academy-slideshow {
   position: relative;
   max-width: 100%;
-  height: 850px;
+  height: 700px;
   overflow: hidden;
 }
 
@@ -4345,4 +4344,72 @@ body {
 .course-footer .price-new {
   /* color: #ff4d4d; */
   font-size: 1.2rem;
+}
+
+/* Container to center the button */
+.download-program-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Main button style */
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 60px;
+  min-width: 220px;
+  max-width: 90%;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 0 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* border-radius: 10px; */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hover effect */
+.download-button:hover {
+  background-color: #FFB96B;
+  /* color: white; */
+  transform: scale(1.03);
+}
+
+/* Focus & active accessibility state */
+.download-button:active,
+.download-buttons:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+  .download-button {
+    width: 80%;
+    max-width: 400px;
+    height: 55px;
+    font-size: 13px;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .download-button {
+    width: 90%;
+    font-size: 12px;
+    height: 50px;
+    padding: 0 20px;
+    border-width: 2px;
+  }
 }

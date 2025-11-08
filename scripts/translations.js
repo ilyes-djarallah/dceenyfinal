@@ -405,6 +405,8 @@ const translations = {
     illustratorShort: "Adobe Illustrator — Architecture",
     indesignShort: "Adobe InDesign — Architecture",
     button_download_program: "Download Full Course Program (PDF)",
+    courses_intro:
+      "Master the essential tools of digital architecture — from 3D modeling to professional graphic presentation with 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine, and Adobe tools.",
   },
 
   fr: {
@@ -818,6 +820,8 @@ const translations = {
     illustratorShort: "Adobe Illustrator — Architecture",
     indesignShort: "Adobe InDesign — Architecture",
     button_download_program: "Télécharger le programme complet (PDF)",
+    courses_intro:
+      "Maîtrisez les outils essentiels de l’architecture numérique — de la modélisation 3D à la présentation graphique professionnelle avec 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine et la suite Adobe.",
   },
 
   ar: {
@@ -1202,7 +1206,9 @@ const translations = {
     photoshopShort: "أدوبي فوتوشوب — العمارة",
     illustratorShort: "أدوبي إليستريتور — العمارة",
     indesignShort: "أدوبي إنديزاين — العمارة",
-    button_download_program: "تحميل البرنامج الكامل (PDF)",
+    button_download_program: "تحميل برنامج الدراسة (PDF)",
+    courses_intro:
+      "أتقن أدوات التصميم المعماري الرقمي — من النمذجة ثلاثية الأبعاد إلى العرض الاحترافي باستخدام ‎3ds Max‎ و‎Revit‎ و‎SketchUp‎ و‎D5 Render‎ و‎Unreal Engine‎ وحزمة ‎Adobe‎.",
   },
 };
 
