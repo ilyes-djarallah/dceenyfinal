@@ -359,7 +359,7 @@ const translations = {
     // ===============================
     // ADOBE COURSES — ENGLISH
     // ===============================
-    photoshopTitle: "🖼️ What You’ll Learn — Photoshop for Architecture",
+    photoshopTitle: "Photoshop for Architecture",
     photoshopDesc:
       "Learn how to turn your architectural drawings into professional presentation boards using Adobe Photoshop. In over 10 hours of training, you’ll master essential workflows for creating clean, attractive, and print-ready visuals.",
     photoshopList1:
@@ -373,7 +373,7 @@ const translations = {
     photoshopList5:
       "Presentation Boards: Compose balanced, coherent panels for print or portfolio.",
 
-    illustratorTitle: "🖌️ What You’ll Learn — Illustrator for Architecture",
+    illustratorTitle: "Illustrator for Architecture",
     illustratorDesc:
       "Learn to create clear, professional architectural graphics with Adobe Illustrator. This 10-hour course teaches you how to design project visuals, diagrams, and layouts with precision and style.",
     illustratorList1:
@@ -387,7 +387,7 @@ const translations = {
     illustratorList5:
       "Presentation Panels: Assemble all visuals into professional, print-ready layouts.",
 
-    indesignTitle: "📰 What You’ll Learn — InDesign for Architecture",
+    indesignTitle: "InDesign for Architecture",
     indesignDesc:
       "Master layout and publication design for your architectural presentations with Adobe InDesign. Learn to organize, structure, and export professional portfolios and print documents.",
     indesignList1:
@@ -407,6 +407,25 @@ const translations = {
     button_download_program: "Download Full Course Program (PDF)",
     courses_intro:
       "Master the essential tools of digital architecture — from 3D modeling to professional graphic presentation with 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine, and Adobe tools.",
+    course_programme: "Course Program",
+
+    // ===============================
+    // PHOTOSHOP — ARCHITECTURE
+    // ===============================
+    ps1: "Session 1 — Architectural Plan Treatment (2h)",
+    ps2: "Session 2 — Urban Plan & Map Processing (2h)",
+    ps3: "Session 3 — Sections & Elevations (2h)",
+    ps4: "Session 4 — Image Editing (bonus: historical frieze creation) (2h)",
+    ps5: "Session 5 — Presentation Board Creation (2h)",
+
+    // ===============================
+    // ILLUSTRATOR — ARCHITECTURE
+    // ===============================
+    il1: "Session 1 — Graphic Enhancement & Project Genesis Creation (2h)",
+    il2: "Session 2 — Diagrams and Infographic Elements (2h)",
+    il3: "Session 3 — Sketch Processing & Moodboard Creation (2h)",
+    il4: "Session 4 — Project Logo Design (2h)",
+    il5: "Session 5 — Presentation Panel Composition (2h)",
   },
 
   fr: {
@@ -773,7 +792,7 @@ const translations = {
     // ===============================
     // ADOBE COURSES — FRENCH
     // ===============================
-    photoshopTitle: "🖼️ Ce que vous apprendrez — Photoshop pour l’architecture",
+    photoshopTitle: "Photoshop pour l’architecture",
     photoshopDesc:
       "Apprenez à transformer vos dessins architecturaux en panneaux de présentation professionnels avec Adobe Photoshop. En plus de 10 heures de formation, maîtrisez les étapes essentielles pour créer des visuels clairs, esthétiques et prêts à l’impression.",
     photoshopList1:
@@ -787,8 +806,7 @@ const translations = {
     photoshopList5:
       "Panneaux de présentation : Composez des planches équilibrées et cohérentes, prêtes à imprimer ou pour le portfolio.",
 
-    illustratorTitle:
-      "🖌️ Ce que vous apprendrez — Illustrator pour l’architecture",
+    illustratorTitle: "Illustrator pour l’architecture",
     illustratorDesc:
       "Apprenez à créer des graphiques architecturaux clairs et professionnels avec Adobe Illustrator. Cette formation de 10 heures vous enseigne la conception de visuels, schémas et mises en page précises et esthétiques.",
     illustratorList1:
@@ -802,7 +820,7 @@ const translations = {
     illustratorList5:
       "Panneaux de présentation : Assemblez tous vos visuels dans des mises en page prêtes à l’impression.",
 
-    indesignTitle: "📰 Ce que vous apprendrez — InDesign pour l’architecture",
+    indesignTitle: "InDesign pour l’architecture",
     indesignDesc:
       "Maîtrisez la mise en page et la conception de publications pour vos présentations architecturales avec Adobe InDesign. Apprenez à organiser, structurer et exporter des portfolios professionnels et documents imprimés.",
     indesignList1:
@@ -822,6 +840,24 @@ const translations = {
     button_download_program: "Télécharger le programme complet (PDF)",
     courses_intro:
       "Maîtrisez les outils essentiels de l’architecture numérique — de la modélisation 3D à la présentation graphique professionnelle avec 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine et la suite Adobe.",
+    course_programme: "Programme de formation",
+    // ===============================
+    // PHOTOSHOP — ARCHITECTURE
+    // ===============================
+    ps1: "Séance 1 — Traitement de plan architectural (2h)",
+    ps2: "Séance 2 — Traitement de plan et carte urbaine (2h)",
+    ps3: "Séance 3 — Coupes et façades (2h)",
+    ps4: "Séance 4 — Traitement d’images (création d'une frise historique bonus) (2h)",
+    ps5: "Séance 5 — Création d'un panneau de présentation (2h)",
+
+    // ===============================
+    // ILLUSTRATOR — ARCHITECTURE
+    // ===============================
+    il1: "Séance 1 — Perfectionnement du graphisme & création de genèses de projet (2h)",
+    il2: "Séance 2 — Schémas et éléments infographiques (2h)",
+    il3: "Séance 3 — Traitement de croquis & création de moodboard (2h)",
+    il4: "Séance 4 — Design du logo du projet (2h)",
+    il5: "Séance 5 — Composition d’un panneau (2h)",
   },
 
   ar: {
@@ -1162,7 +1198,7 @@ const translations = {
     // ===============================
     // ADOBE COURSES — ARABIC
     // ===============================
-    photoshopTitle: "🖼️ ما الذي ستتعلمه — فوتوشوب للعمارة",
+    photoshopTitle: "فوتوشوب للعمارة",
     photoshopDesc:
       "تعلم كيفية تحويل الرسومات المعمارية إلى لوحات عرض احترافية باستخدام Adobe Photoshop. في أكثر من 10 ساعات من التدريب، ستتقن أهم الخطوات لإنشاء صور نظيفة وجذابة وجاهزة للطباعة.",
     photoshopList1:
@@ -1176,7 +1212,7 @@ const translations = {
     photoshopList5:
       "لوحات العرض: تصميم لوحات متوازنة ومنسقة للطباعة أو لملفات العرض.",
 
-    illustratorTitle: "🖌️ ما الذي ستتعلمه — إليستريتور للعمارة",
+    illustratorTitle: "إليستريتور للعمارة",
     illustratorDesc:
       "تعلم إنشاء رسومات معمارية واضحة واحترافية باستخدام Adobe Illustrator. في دورة مدتها 10 ساعات، ستتعلم تصميم المخططات والرسوم البيانية والتخطيطات بدقة وأناقة.",
     illustratorList1:
@@ -1190,7 +1226,7 @@ const translations = {
     illustratorList5:
       "لوحات العرض: جمع كل الرسومات في تخطيطات جاهزة للطباعة بجودة عالية.",
 
-    indesignTitle: "📰 ما الذي ستتعلمه — إنديزاين للعمارة",
+    indesignTitle: "إنديزاين للعمارة",
     indesignDesc:
       "أتقن تصميم التخطيطات والمنشورات لمشاريعك المعمارية باستخدام Adobe InDesign. تعلم كيفية تنظيم وتنسيق وإخراج ملفات العرض والطباعة باحتراف.",
     indesignList1:
@@ -1209,6 +1245,24 @@ const translations = {
     button_download_program: "تحميل برنامج الدراسة (PDF)",
     courses_intro:
       "أتقن أدوات التصميم المعماري الرقمي — من النمذجة ثلاثية الأبعاد إلى العرض الاحترافي باستخدام ‎3ds Max‎ و‎Revit‎ و‎SketchUp‎ و‎D5 Render‎ و‎Unreal Engine‎ وحزمة ‎Adobe‎.",
+    course_programme: "برنامج الدورة",
+    // ===============================
+    // PHOTOSHOP — العمارة
+    // ===============================
+    ps1: "الجلسة 1 — معالجة المخطط المعماري (ساعتان)",
+    ps2: "الجلسة 2 — معالجة المخطط الحضري والخريطة (ساعتان)",
+    ps3: "الجلسة 3 — المقاطع والواجهات (ساعتان)",
+    ps4: "الجلسة 4 — معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
+    ps5: "الجلسة 5 — إنشاء لوحة عرض تقديمي (ساعتان)",
+
+    // ===============================
+    // إليستريتور — العمارة
+    // ===============================
+    il1: "الجلسة 1 — تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
+    il2: "الجلسة 2 — المخططات والعناصر المعلوماتية (ساعتان)",
+    il3: "الجلسة 3 — معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
+    il4: "الجلسة 4 — تصميم شعار المشروع (ساعتان)",
+    il5: "الجلسة 5 — تنسيق لوحة العرض (ساعتان)",
   },
 };
 
