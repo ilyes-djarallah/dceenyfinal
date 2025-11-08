@@ -334,7 +334,6 @@ const translations = {
     price_note: "Lifetime access — one-time payment",
     buy_now: "Buy Now",
     placeholder_note: "Write something...",
-
     sticky_buy_btn: "Buy Now",
     sticky_price: "12000 DZD",
     buy_form_title: "Purchase Course",
