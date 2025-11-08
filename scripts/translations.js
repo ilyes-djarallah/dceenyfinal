@@ -404,6 +404,7 @@ const translations = {
     photoshopShort: "Adobe Photoshop — Architecture",
     illustratorShort: "Adobe Illustrator — Architecture",
     indesignShort: "Adobe InDesign — Architecture",
+    button_download_program: "Download Full Course Program (PDF)",
   },
 
   fr: {
@@ -816,6 +817,7 @@ const translations = {
     photoshopShort: "Adobe Photoshop — Architecture",
     illustratorShort: "Adobe Illustrator — Architecture",
     indesignShort: "Adobe InDesign — Architecture",
+    button_download_program: "Télécharger le programme complet (PDF)",
   },
 
   ar: {
@@ -1200,6 +1202,7 @@ const translations = {
     photoshopShort: "أدوبي فوتوشوب — العمارة",
     illustratorShort: "أدوبي إليستريتور — العمارة",
     indesignShort: "أدوبي إنديزاين — العمارة",
+    button_download_program: "تحميل البرنامج الكامل (PDF)",
   },
 };
 
