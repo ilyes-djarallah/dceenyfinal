@@ -64,23 +64,11 @@
           <p class="course-sub" data-translate="packAdobeSubtitle">
           </p>
           <div class="long-desc" data-translate="packAdobeDescription">
-            <!-- <p></p> -->
           </div>
           <div class="divider"></div>
-          <!-- Download Program Button -->
-          <!-- <div class="download-program-button">
-            <a class="download-button" href="assets/images/formation assets/Programme_Adobe_Architecture_Pack.pdf" download
-              class="btn-secondary" data-translate="button_download_program">
-            </a>
-          </div> -->
-          <!-- ===============================
-     ADOBE COURSES — COLLAPSIBLE SECTIONS
-     =============================== -->
           <section aria-labelledby="adobe-heading">
             <h3 id="adobe-heading" data-translate="course_programme"></h3>
             <div class="chapters">
-              <!-- Photoshop -->
-              <!-- Photoshop -->
               <div class="chapter collapsible" data-index="1" aria-expanded="false">
                 <div>
                   <h4 data-translate="photoshopTitle"></h4>
@@ -88,7 +76,6 @@
                 </div>
                 <div class="chev">▾</div>
               </div>
-
               <div class="episode-list" id="episodes-1" aria-hidden="true">
                 <div class="episode">
                   <span class="session" data-translate="psse1"></span>
@@ -111,8 +98,6 @@
                   <span class="desc" data-translate="ps5"></span>
                 </div>
               </div>
-
-              <!-- Illustrator -->
               <div class="chapter collapsible" data-index="2" aria-expanded="false">
                 <div>
                   <h4 data-translate="illustratorTitle"></h4>
@@ -146,15 +131,12 @@
             </div>
           </section>
         </main>
-        <!-- Sidebar -->
         <aside class="sidebar">
           <div class="side-card">
             <div class="course-thumb">
               <img src="assets/images/formation assets/ps.webp" alt="3ds Max course" />
             </div>
             <div class="instructor">
-              <!-- <img src="https://via.placeholder.com/48" alt="Instructor" />
-              <div> -->
               <strong data-translate="instructor_by"></strong>
               <small class="muted" data-translate="instructor_role">Interior Visualization Specialist</small>
             </div>
@@ -247,23 +229,15 @@
       </div>
     </div>
   </main>
-
-  <!-- Sticky Bar -->
   <div class="sticky-buy-bar">
     <div class="sticky-buy-inner">
       <span class="sticky-price" id="stickyPrice" data-translate="price_new"></span>
       <button class="btn-primary sticky-buy-btn" id="stickyBuyBtn" data-translate="buy_now">Buy Now</button>
     </div>
   </div>
-
-  <!-- ==============================
-     BUY COURSE OVERLAY
-     ============================== -->
   <div class="buy-overlay" id="buyOverlay">
     <div class="buy-form-wrapper">
       <form id="buyCourseForm">
-
-        <!-- Name -->
         <div class="buy-input-group">
           <label for="buyName" class="buy-input-label">
             <span data-translate="fName">Full Name</span>
@@ -273,8 +247,6 @@
             required />
           <span class="buy-error-message" data-translate="fNameReq">Full name is required.</span>
         </div>
-
-        <!-- Email -->
         <div class="buy-input-group">
           <label for="buyPhone" class="buy-input-label">
             <span data-translate="phoneNum">Phone Number</span>
@@ -284,8 +256,6 @@
             required />
           <span class="buy-error-message" data-translate="phoneNumReq">Phone number is required.</span>
         </div>
-
-        <!-- City -->
         <div class="buy-input-group">
           <label for="buyCity" class="buy-input-label">
             <span data-translate="city">Phone Number</span>
@@ -294,27 +264,16 @@
           <input type="text" id="buyCity" name="buyCity" data-placeholder="placeholder_city" placeholder="" required />
           <span class="buy-error-message" data-translate="phoneNumReq">City is required.</span>
         </div>
-
-        <!-- Selected course (auto filled) -->
         <div class="buy-input-group">
           <label for="buyCourseTitle" class="buy-input-label" data-translate="selectedCourse"></label>
-
-          <!-- Normal text input (default) -->
           <input type="text" id="buyCourseTitle" name="buyCourseTitle" readonly />
-
-          <!-- Dropdown (hidden by default) -->
           <select id="buyCourseOptions" name="buyCourseOptions" style="display:none;">
-            <!-- Options will be filled dynamically -->
           </select>
         </div>
-
-        <!-- Show dynamic price -->
         <div class="buy-input-group">
           <label class="buy-input-label" data-translate="price">Price</label>
           <div id="buyDynamicPrice" class="buy-dynamic-price">—</div>
         </div>
-
-        <!-- Course type selector -->
         <div class="buy-input-group">
           <label for="buyCourseType" class="buy-input-label" data-translate="courseType"></label>
           <select id="buyCourseType" name="buyCourseType" required>
@@ -325,29 +284,22 @@
           </select>
           <span class="buy-error-message" data-translate="courseTypeReq">Please select a course type.</span>
         </div>
-
-        <!-- Extra message -->
         <div class="buy-input-group">
           <label for="buyMessage" class="buy-input-label" data-translate="additionalNotes"></label>
           <textarea id="buyMessage" name="buyMessage" rows="3" data-placeholder="placeholder_note"
             placeholder=""></textarea>
         </div>
-
-        <!-- Buttons -->
         <div class="buy-buttons-row">
           <button type="button" class="buy-close-button" id="closeBuyOverlay" data-translate="close">Close</button>
           <button type="submit" class="buy-submit-button" data-translate="submitPurchase">Submit Purchase</button>
         </div>
       </form>
-
-      <!-- Thank you message -->
       <div class="buy-thank-you" style="display:none" data-translate="thankYou">
         Thank you! Your purchase request has been sent.
       </div>
     </div>
   </div>
   </main>
-  <!-- Footer -->
   <footer id="darkFooter"></footer>
 
   <script src="script.js"></script>
