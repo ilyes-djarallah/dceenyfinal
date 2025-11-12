@@ -316,7 +316,7 @@ const translations = {
       "Type: interior | Location: Batna, Algeria | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
     packAdobeTitle:
-      "Adobe Architecture Pack - Photoshop • Illustrator • InDesign",
+      "Adobe Architecture Pack - Photoshop • Illustrator",
     packAdobeSubtitle:
       "Master graphic presentation for architecture projects with the essential Adobe tools.",
     packAdobeDescription:
@@ -325,7 +325,7 @@ const translations = {
     instructor_role: "Architectural Visualization Specialist",
     level: "From Beginner to Intermediate",
     lectures: "10 Lectures",
-    psDuration: "20h",
+    psDuration: "20 h",
     skills_title: "Skills Covered",
     skill_photoshop: "Photoshop",
     skill_illustrator: "Illustrator",
@@ -759,7 +759,7 @@ const translations = {
       "Type: intérieure | Location: Batna, Algérie | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
     packAdobeTitle:
-      "Pack Adobe Architecture - Photoshop • Illustrator • InDesign",
+      "Pack Adobe Architecture - Photoshop • Illustrator",
     packAdobeSubtitle:
       "Maîtrisez la présentation graphique pour les projets d'architecture avec les outils Adobe essentiels.",
     packAdobeDescription:
@@ -769,7 +769,7 @@ const translations = {
     instructor_role: "Spécialiste en visualisation architecturale",
     level: "De débutant à intermédiaire",
     lectures: "10 leçons",
-    psDuration: "20h",
+    psDuration: "20 h",
     skills_title: "Compétences couvertes",
     skill_photoshop: "Photoshop",
     skill_illustrator: "Illustrator",
@@ -874,15 +874,15 @@ const translations = {
     // ===============================
     // PHOTOSHOP — ARCHITECTURE
     // ===============================
-    psse1: "Séance 1",
+    psse1: "Séance 1 -",
     ps1: "Traitement de plan architectural (2h)",
-    psse2: "Séance 2",
+    psse2: "Séance 2 -",
     ps2: "Traitement de plan et carte urbaine (2h)",
-    psse3: "Séance 3",
+    psse3: "Séance 3 -",
     ps3: "Coupes et façades (2h)",
-    psse4: "Séance 4",
+    psse4: "Séance 4 -",
     ps4: "Traitement d’images (création d'une frise historique bonus) (2h)",
-    psse5: "Séance 5",
+    psse5: "Séance 5 -",
     ps5: "Création d'un panneau de présentation (2h)",
 
     // ===============================
@@ -1194,7 +1194,7 @@ const translations = {
     publicBatna: "مقهى - باتنة",
     publicbatnaInfo: "النوع: داخلية | المنطقة: باتنة، الجزائر | المساحة: 23 م²",
     batnaSurf: "- 23 م² -",
-    packAdobeTitle: "حزمة أدوبي للعمارة - فوتوشوب • إليستريتور • إنديزاين",
+    packAdobeTitle: "حزمة أدوبي للعمارة - فوتوشوب • إليستريتور",
     packAdobeSubtitle:
       "إتقان العرض الرسومي لمشاريع العمارة باستخدام أدوات أدوبي الأساسية.",
     packAdobeDescription:
