@@ -3836,9 +3836,13 @@ body {
   .btn-primary,
   .btn-ghost,
   .buy-btn {
-    font-size: 15px !important;
+    font-size: 24px !important;
   }
-
+  #stickyBuyBtn {
+    margin-top: 0 !important;
+    margin-left: 10px;
+    color: black;
+  }
   /* Price */
   .price-new {
     font-size: 22px !important;
@@ -4257,20 +4261,23 @@ body {
    BUTTONS
    =============================== */
 .btn-primary {
-  background: var(--accent-2);
+  background: #ffb96b;
   border: none;
-  padding: 15px 20px;
+  padding: 10px 10px;
   cursor: pointer;
+  margin-top: 25px;
   font-weight: 700;
   width: 100%;
+  /* align-items: center; */
+  justify-content: center;
   border-radius: 6px;
-  color: #fff;
-  font-size: 17px;
+  color: black;
+  font-size: 26px;
   transition: background 0.25s ease, transform 0.1s ease;
 }
 
 .btn-primary:hover {
-  background: #ffb96b;
+  /* background: #ffb96b; */
   transform: translateY(-1px);
 }
 
@@ -4346,7 +4353,7 @@ body {
 }
 
 .sticky-price {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 800;
   color: var(--accent-2);
   flex: none;
@@ -4377,12 +4384,13 @@ body {
   }
 
   .sticky-price {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .sticky-buy-btn {
     font-size: 15px;
     padding: 10px 50px;
+      background: #ffb96b;
   }
 }
 /* ============================================================

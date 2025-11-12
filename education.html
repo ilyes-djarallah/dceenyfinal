@@ -20,7 +20,6 @@
 </head>
 
 <script>
-  // Load header dynamically and apply translations
   $(document).ready(function () {
     $("#header-container").load("elements/headerDark.html", function () {
       const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
