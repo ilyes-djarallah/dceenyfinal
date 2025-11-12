@@ -2927,7 +2927,9 @@ body {
     /* margin: 30px auto; */
     padding: 10px 30px;
   }
-  .chip {font-size: 13px;}
+  .chip {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -3815,15 +3817,16 @@ body {
   .long-desc,
   .content-card p,
   .chapter small,
-  /* .episode, */
   .price-note,
-  .price-old,
+
   .skill,
   .info-pill span {
-    font-size: 13px !important;
+    font-size: 15px !important;
     line-height: 1.6;
   }
-
+   .price-old #oldPrice {
+    font-size: 100px;
+  }
   /* Headings inside chapters */
   .chapter h4 {
     font-size: 16px !important;
@@ -4134,13 +4137,12 @@ body {
   .episode .session {
     font-size: 13.5px;
   }
-  
+
   .episode .desc {
     font-size: 13px;
     margin-left: 10px;
   }
 }
-
 
 /* ===============================
    SIDEBAR
@@ -4381,7 +4383,6 @@ body {
   .sticky-buy-btn {
     font-size: 15px;
     padding: 10px 50px;
-
   }
 }
 /* ============================================================
@@ -4437,7 +4438,7 @@ body {
 
 /* Hover effect */
 .download-button:hover {
-  background-color: #FFB96B;
+  background-color: #ffb96b;
   /* color: white; */
   transform: scale(1.03);
 }
@@ -4470,5 +4471,5 @@ body {
   }
 }
 #academyBody .scroll-to-top svg path {
-  fill: #FFB96B !important;
+  fill: #ffb96b !important;
 }

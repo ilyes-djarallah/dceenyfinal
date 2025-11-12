@@ -315,8 +315,7 @@ const translations = {
     publicbatnaInfo:
       "Type: interior | Location: Batna, Algeria | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
-    packAdobeTitle:
-      "Adobe Architecture Pack - Photoshop • Illustrator",
+    packAdobeTitle: "Adobe Architecture Pack - Photoshop • Illustrator",
     packAdobeSubtitle:
       "Master graphic presentation for architecture projects with the essential Adobe tools.",
     packAdobeDescription:
@@ -437,6 +436,81 @@ const translations = {
     il4: "Project Logo Design (2h)",
     ilse5: "Session 5 -",
     il5: "Presentation Panel Composition (2h)",
+
+    // ===============================
+    // BLENDER — ARCHITECTURE
+    // ===============================
+    blenderTitle: "Blender — Architecture",
+    blenderSubtitle:
+      "Master architectural modeling, texturing, and rendering with Blender.",
+    blenderDescription:
+      "This complete Blender Architecture course teaches you how to model, texture, and render realistic architectural projects from start to finish. Learn to build structures, add details, create materials, and produce photorealistic results for professional presentations.",
+
+    bl1se: "Session 1",
+    bl1: "Introduction & Workflow Setup",
+    bl1Obj:
+      "OBJECTIVE: Understand the interface and set up a professional workflow for architectural projects.",
+    bl1a: "Introduction to Blender for architecture",
+    bl1b: "Essential add-ons (Archipack, MeasureIt, etc.)",
+    bl1c: "Unit setup and real-world scales",
+    bl1d: "Importing 2D plans (DWG, DXF, or reference image)",
+    bl1e: "Perspective and camera understanding",
+    bl1Ex: "Practical Exercise: Create a new project and import a scaled plan",
+
+    bl2se: "Session 2",
+    bl2: "Basic Architectural Modeling",
+    bl2Obj:
+      "OBJECTIVE: Model the main structure of the building with precision.",
+    bl2a: "Modeling walls, floors, and ceilings",
+    bl2b: "Using modifiers (Array, Mirror, Bevel)",
+    bl2c: "Creating openings: doors, windows, stairs",
+    bl2d: "Accurate modeling techniques with real measurements",
+    bl2Ex: "Practical Exercise: Model the complete building structure",
+
+    bl3se: "Session 3",
+    bl3: "Interior & Exterior Details",
+    bl3Obj: "OBJECTIVE: Add realism to the project through secondary elements.",
+    bl3a: "Furniture modeling (Desk)",
+    bl3b: "Using asset libraries (Asset Browser, append/link)",
+    bl3c: "Details: railings, balconies",
+    bl3d: "Managing proportions and scale consistency",
+    bl3Ex: "Practical Exercise: Add furniture and architectural details",
+
+    bl4se: "Session 4",
+    bl4: "Realistic Materials & Textures",
+    bl4Obj: "OBJECTIVE: Create physically accurate and believable materials.",
+    bl4a: "Understanding the PBR workflow (Albedo, Roughness, Normal, etc.)",
+    bl4b: "Creating materials with Principled BSDF",
+    bl4c: "UV unwrapping and texture management",
+    bl4d: "Using procedural textures (wood, concrete, glass, metal)",
+    bl4e: "Importing textures from libraries (Poliigon, AmbientCG, etc.)",
+    bl4Ex:
+      "Practical Exercise: Texture the entire building with realistic materials",
+
+    bl5se: "Session 5",
+    bl5: "Lighting & Photorealistic Rendering",
+    bl5Obj: "OBJECTIVE: Produce professional renders for architecture.",
+    bl5a: "Natural lighting: HDRI, sun, and sky",
+    bl5b: "Interior lighting (lamps, spotlights, light sources)",
+    bl5c: "Render setup in Cycles & Eevee",
+    bl5d: "Camera composition and depth of field",
+    bl5Ex: "Practical Exercise: Create two photorealistic renders (day/night)",
+
+    bl6se: "Session 6",
+    bl6: "Finalization & Presentation",
+    bl6Obj:
+      "OBJECTIVE: Enhance and finalize renders for a professional presentation.",
+    bl6a: "Post-production effects: glow, bloom, depth",
+    bl6b: "Exporting for portfolio or social media",
+    bl6c: "Color grading and correction",
+    bl6d: "Creating a short animation",
+    bl6Ex: "Practical Exercise: Retouch and finalize renders + short animation",
+
+    blFinalProj:
+      "Final Project: Students prepare a 30–60 second animation and 3 still images of their project.",
+    blPriceOld: "15000 DZD",
+    blPriceNew: "11990 DZD",
+    blPriceNote: "Lifetime access — one-time payment",
   },
 
   fr: {
@@ -758,8 +832,7 @@ const translations = {
     publicbatnaInfo:
       "Type: intérieure | Location: Batna, Algérie | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
-    packAdobeTitle:
-      "Pack Adobe Architecture - Photoshop • Illustrator",
+    packAdobeTitle: "Pack Adobe Architecture - Photoshop • Illustrator",
     packAdobeSubtitle:
       "Maîtrisez la présentation graphique pour les projets d'architecture avec les outils Adobe essentiels.",
     packAdobeDescription:
@@ -898,6 +971,85 @@ const translations = {
     il4: "Design du logo du projet (2h)",
     ilse5: "Séance 5 -",
     il5: "Composition d’un panneau (2h)",
+    // ===============================
+    // BLENDER — ARCHITECTURE
+    // ===============================
+    blenderTitle: "Blender — Architecture",
+    blenderSubtitle:
+      "Maîtrisez la modélisation, le texturage et le rendu architectural avec Blender.",
+    blenderDescription:
+      "Cette formation complète en Blender Architecture vous apprendra à modéliser, texturer et rendre des projets architecturaux réalistes de A à Z. Apprenez à construire des structures, ajouter des détails, créer des matériaux et produire des rendus photoréalistes pour vos présentations professionnelles.",
+
+    bl1se: "Session 1",
+    bl1: "Introduction & Mise en place du workflow",
+    bl1Obj:
+      "OBJECTIF : Comprendre l’interface et préparer un environnement de travail professionnel pour les projets architecturaux.",
+    bl1a: "Présentation de Blender pour l’architecture",
+    bl1b: "Add-ons essentiels (Archipack, MeasureIt, etc.)",
+    bl1c: "Réglage des unités et des échelles réelles",
+    bl1d: "Importation de plans 2D (DWG, DXF ou image de référence)",
+    bl1e: "Compréhension de la perspective et des caméras architecturales",
+    bl1Ex:
+      "Exercice pratique : Créer un nouveau projet et importer un plan à l’échelle",
+
+    bl2se: "Session 2",
+    bl2: "Modélisation architecturale de base",
+    bl2Obj:
+      "OBJECTIF : Modéliser la structure principale du bâtiment avec précision.",
+    bl2a: "Modélisation des murs, planchers et plafonds",
+    bl2b: "Utilisation des modificateurs (Array, Mirror, Bevel)",
+    bl2c: "Création des ouvertures : portes, fenêtres, escaliers",
+    bl2d: "Techniques de modélisation précises avec mesures réelles",
+    bl2Ex: "Exercice pratique : Modéliser la structure complète du bâtiment",
+
+    bl3se: "Session 3",
+    bl3: "Détails intérieurs & extérieurs",
+    bl3Obj:
+      "OBJECTIF : Donner du réalisme au projet avec des éléments secondaires.",
+    bl3a: "Modélisation de mobilier (Bureau)",
+    bl3b: "Utilisation de bibliothèques d’assets (Asset Browser, append/link)",
+    bl3c: "Détails : garde-corps, balcons",
+    bl3d: "Gestion des proportions et cohérence d’échelle",
+    bl3Ex:
+      "Exercice pratique : Ajouter du mobilier et des détails architecturaux",
+
+    bl4se: "Session 4",
+    bl4: "Matériaux & Textures réalistes",
+    bl4Obj:
+      "OBJECTIF : Créer des matériaux physiquement corrects et crédibles.",
+    bl4a: "Comprendre le workflow PBR (Albedo, Roughness, Normal, etc.)",
+    bl4b: "Création de matériaux avec le Principled BSDF",
+    bl4c: "Dépliage UV et gestion des textures (UV Unwrap)",
+    bl4d: "Utilisation de textures procédurales (bois, béton, verre, métal)",
+    bl4e: "Importation de textures depuis les bibliothèques (Poliigon, AmbientCG, etc.)",
+    bl4Ex:
+      "Exercice pratique : Texturer tout le bâtiment avec des matériaux réalistes",
+
+    bl5se: "Session 5",
+    bl5: "Éclairage & Rendu photoréaliste",
+    bl5Obj: "OBJECTIF : Obtenir des rendus professionnels pour l’architecture.",
+    bl5a: "Lumière naturelle : HDRI, soleil et ciel",
+    bl5b: "Éclairage intérieur (lampes, spots, zones lumineuses)",
+    bl5c: "Réglages de rendu dans Cycles & Eevee",
+    bl5d: "Composition visuelle et choix des caméras",
+    bl5Ex: "Exercice pratique : Deux rendus photoréalistes (jour/nuit)",
+
+    bl6se: "Session 6",
+    bl6: "Finalisation & Présentation",
+    bl6Obj:
+      "OBJECTIF : Valoriser le projet avec une présentation professionnelle.",
+    bl6a: "Effets de post-production : glow, bloom, profondeur",
+    bl6b: "Exportation pour portfolio ou réseaux sociaux",
+    bl6c: "Color grade et correction de couleur",
+    bl6d: "Création d’une courte animation",
+    bl6Ex:
+      "Exercice pratique : Retoucher et finaliser les rendus + animation courte",
+
+    blFinalProj:
+      "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
+    blPriceOld: "15000 DZD",
+    blPriceNew: "11990 DZD",
+    blPriceNote: "Accès à vie — paiement unique",
   },
 
   ar: {
@@ -1332,6 +1484,76 @@ const translations = {
     il4: "تصميم شعار المشروع (ساعتان)",
     ilse5: "الجلسة 5",
     il5: "تنسيق لوحة العرض (ساعتان)",
+    // ===============================
+    // بلندر — العمارة
+    // ===============================
+    blenderTitle: "بلندر — العمارة",
+    blenderSubtitle: "أتقن النمذجة والخامات والإضاءة المعمارية باستخدام بلندر.",
+    blenderDescription:
+      "تعلّم في هذه الدورة الشاملة كيفية إنشاء مشاريع معمارية واقعية باستخدام Blender، من النمذجة إلى الإضاءة والإخراج النهائي. ستتعلم إعداد بيئة العمل، إنشاء الهياكل، إضافة التفاصيل، وتقديم مشاهد احترافية عالية الجودة.",
+
+    bl1se: "الجلسة 1",
+    bl1: "مقدمة وإعداد سير العمل",
+    bl1Obj:
+      "الهدف: فهم واجهة البرنامج وإعداد بيئة عمل احترافية للمشاريع المعمارية.",
+    bl1a: "التعرف على بلندر في المجال المعماري",
+    bl1b: "الإضافات الأساسية (Archipack، MeasureIt، وغيرها)",
+    bl1c: "ضبط الوحدات والمقاييس الواقعية",
+    bl1d: "استيراد المخططات ثنائية الأبعاد (DWG، DXF أو صورة مرجعية)",
+    bl1e: "فهم المنظور والكاميرات المعمارية",
+    bl1Ex: "تمرين عملي: إنشاء مشروع جديد واستيراد مخطط بالحجم الصحيح",
+
+    bl2se: "الجلسة 2",
+    bl2: "النمذجة المعمارية الأساسية",
+    bl2Obj: "الهدف: إنشاء الهيكل الرئيسي للمبنى بدقة عالية.",
+    bl2a: "نمذجة الجدران، الأسقف، والأرضيات",
+    bl2b: "استخدام المعدلات (Array، Mirror، Bevel)",
+    bl2c: "إنشاء الفتحات: الأبواب، النوافذ، السلالم",
+    bl2d: "تقنيات نمذجة دقيقة باستخدام المقاييس الواقعية",
+    bl2Ex: "تمرين عملي: نمذجة الهيكل الكامل للمبنى",
+
+    bl3se: "الجلسة 3",
+    bl3: "التفاصيل الداخلية والخارجية",
+    bl3Obj: "الهدف: إضافة الواقعية للمشروع من خلال العناصر الثانوية.",
+    bl3a: "نمذجة الأثاث (مكتب)",
+    bl3b: "استخدام مكتبات الأصول (Asset Browser، append/link)",
+    bl3c: "التفاصيل: الدرابزين، الشرفات",
+    bl3d: "إدارة النسب والتناسق في المقياس",
+    bl3Ex: "تمرين عملي: إضافة الأثاث والتفاصيل المعمارية",
+
+    bl4se: "الجلسة 4",
+    bl4: "الخامات والأنسجة الواقعية",
+    bl4Obj: "الهدف: إنشاء خامات دقيقة وواقعية فيزيائياً.",
+    bl4a: "فهم سير عمل PBR (Albedo، Roughness، Normal، وغيرها)",
+    bl4b: "إنشاء المواد باستخدام Principled BSDF",
+    bl4c: "إدارة الخامات عبر UV Unwrap",
+    bl4d: "استخدام خامات إجرائية (خشب، خرسانة، زجاج، معدن)",
+    bl4e: "استيراد الخامات من المكتبات (Poliigon، AmbientCG)",
+    bl4Ex: "تمرين عملي: تغليف المبنى بالكامل بخامات واقعية",
+
+    bl5se: "الجلسة 5",
+    bl5: "الإضاءة والإخراج الواقعي",
+    bl5Obj: "الهدف: إنتاج صور واقعية عالية الجودة للمشاريع المعمارية.",
+    bl5a: "الإضاءة الطبيعية: HDRI، الشمس والسماء",
+    bl5b: "الإضاءة الداخلية (مصابيح، نقاط ضوء، مناطق مضيئة)",
+    bl5c: "إعدادات الإخراج في Cycles وEevee",
+    bl5d: "تكوين الكاميرا وعمق المجال",
+    bl5Ex: "تمرين عملي: إنشاء إخراجين واقعيين (نهاري/ليلي)",
+
+    bl6se: "الجلسة 6",
+    bl6: "اللمسات النهائية والعرض",
+    bl6Obj: "الهدف: تحسين الإخراج النهائي وتقديمه بشكل احترافي.",
+    bl6a: "تأثيرات ما بعد الإنتاج: توهج، عمق، إضاءة ناعمة",
+    bl6b: "التصدير للملف الشخصي أو وسائل التواصل",
+    bl6c: "تصحيح الألوان والتدرج اللوني",
+    bl6d: "إنشاء عرض متحرك قصير",
+    bl6Ex: "تمرين عملي: تحسين الإخراج النهائي + إنشاء عرض قصير",
+
+    blFinalProj:
+      "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
+    blPriceOld: "15000 دينار",
+    blPriceNew: "11990 دينار",
+    blPriceNote: "وصول مدى الحياة — دفعة واحدة",
   },
 };
 
