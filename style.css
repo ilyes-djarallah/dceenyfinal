@@ -4192,10 +4192,10 @@ body {
 }
 
 .info-pill {
-  display: flex; /* makes children align horizontally */
-  align-items: center; /* vertically centers them */
-  gap: 7px; /* space between SVG and text */
-  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 0px;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -4235,6 +4235,7 @@ body {
 
 .price-row {
   margin-top: 26px;
+  /* padding: 5px 14px; */
 }
 
 .price-old {
