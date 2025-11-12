@@ -315,7 +315,7 @@ const translations = {
       "Type: interior | Location: Batna, Algeria | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
     packAdobeTitle:
-      "Adobe Architecture Pack — Photoshop • Illustrator • InDesign",
+      "Adobe Architecture Pack - Photoshop • Illustrator • InDesign",
     packAdobeSubtitle:
       "Master graphic presentation for architecture projects with the essential Adobe tools.",
     packAdobeDescription:
@@ -323,8 +323,8 @@ const translations = {
     instructor_by: "By Dceeny",
     instructor_role: "Architectural Visualization Specialist",
     level: "From Beginner to Intermediate",
-    lectures: "20 Lectures",
-    duration: "4h 30min",
+    lectures: "10 Lectures",
+    psDuration: "20h",
     skills_title: "Skills Covered",
     skill_photoshop: "Photoshop",
     skill_illustrator: "Illustrator",
@@ -334,7 +334,7 @@ const translations = {
     skill_presentation: "Presentation Boards",
     price_old: "15000 DZD",
     price_new: "12000 DZD",
-    price_note: "Lifetime access — one-time payment",
+    price_note: "Lifetime access - one-time payment",
     buy_now: "Buy Now",
     placeholder_note: "Write something...",
     sticky_buy_btn: "Buy Now",
@@ -357,7 +357,7 @@ const translations = {
     buy: "Buy",
     dceeny_edu: "DCEENY Education",
     // ===============================
-    // ADOBE COURSES — ENGLISH
+    // ADOBE COURSES - ENGLISH
     // ===============================
     photoshopTitle: "Photoshop for Architecture",
     photoshopDesc:
@@ -401,31 +401,41 @@ const translations = {
     indesignList5:
       "Export & Presentation: Export high-quality portfolios for print or digital use.",
     adobeCoursesTitle: "What You’ll Learn",
-    photoshopShort: "Adobe Photoshop — Architecture",
-    illustratorShort: "Adobe Illustrator — Architecture",
-    indesignShort: "Adobe InDesign — Architecture",
+    photoshopShort: "Adobe Photoshop - Architecture",
+    illustratorShort: "Adobe Illustrator - Architecture",
+    indesignShort: "Adobe InDesign - Architecture",
     button_download_program: "Download Full Course Program (PDF)",
     courses_intro:
-      "Master the essential tools of digital architecture — from 3D modeling to professional graphic presentation with 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine, and Adobe tools.",
+      "Master the essential tools of digital architecture - from 3D modeling to professional graphic presentation with 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine, and Adobe tools.",
     course_programme: "Course Program",
 
     // ===============================
     // PHOTOSHOP — ARCHITECTURE
     // ===============================
-    ps1: "Session 1 — Architectural Plan Treatment (2h)",
-    ps2: "Session 2 — Urban Plan & Map Processing (2h)",
-    ps3: "Session 3 — Sections & Elevations (2h)",
-    ps4: "Session 4 — Image Editing (bonus: historical frieze creation) (2h)",
-    ps5: "Session 5 — Presentation Board Creation (2h)",
+    psse1: "Session 1 -",
+    ps1: "Architectural Plan Treatment (2h)",
+    psse2: "Session 2 -",
+    ps2: "Urban Plan & Map Processing (2h)",
+    psse3: "Session 3 -",
+    ps3: "Sections & Elevations (2h)",
+    psse4: "Session 4 -",
+    ps4: "Image Editing (bonus: historical frieze creation) (2h)",
+    psse5: "Session 5 -",
+    ps5: "Presentation Board Creation (2h)",
 
     // ===============================
     // ILLUSTRATOR — ARCHITECTURE
     // ===============================
-    il1: "Session 1 — Graphic Enhancement & Project Genesis Creation (2h)",
-    il2: "Session 2 — Diagrams and Infographic Elements (2h)",
-    il3: "Session 3 — Sketch Processing & Moodboard Creation (2h)",
-    il4: "Session 4 — Project Logo Design (2h)",
-    il5: "Session 5 — Presentation Panel Composition (2h)",
+    ilse1: "Session 1 -",
+    il1: "Graphic Enhancement & Project Genesis Creation (2h)",
+    ilse2: "Session 2 -",
+    il2: "Diagrams and Infographic Elements (2h)",
+    ilse3: "Session 3 -",
+    il3: "Sketch Processing & Moodboard Creation (2h)",
+    ilse4: "Session 4 -",
+    il4: "Project Logo Design (2h)",
+    ilse5: "Session 5 -",
+    il5: "Presentation Panel Composition (2h)",
   },
 
   fr: {
@@ -747,7 +757,7 @@ const translations = {
       "Type: intérieure | Location: Batna, Algérie | Surface: 23 m²",
     batnaSurf: "- 23 m² -",
     packAdobeTitle:
-      "Pack Adobe Architecture — Photoshop • Illustrator • InDesign",
+      "Pack Adobe Architecture - Photoshop • Illustrator • InDesign",
     packAdobeSubtitle:
       "Maîtrisez la présentation graphique pour les projets d'architecture avec les outils Adobe essentiels.",
     packAdobeDescription:
@@ -756,8 +766,8 @@ const translations = {
     instructor_by: "Par Dceeny",
     instructor_role: "Spécialiste en visualisation architecturale",
     level: "De débutant à intermédiaire",
-    lectures: "20 leçons",
-    duration: "4h 30min",
+    lectures: "10 leçons",
+    psDuration: "20h",
     skills_title: "Compétences couvertes",
     skill_photoshop: "Photoshop",
     skill_illustrator: "Illustrator",
@@ -767,7 +777,7 @@ const translations = {
     skill_presentation: "Panneaux de présentation",
     price_old: "15000 DZD",
     price_new: "12000 DZD",
-    price_note: "Accès à vie — paiement unique",
+    price_note: "Accès à vie - paiement unique",
     buy_now: "Acheter maintenant",
     sticky_buy_btn: "Acheter maintenant",
     sticky_price: "12000 DZD",
@@ -790,7 +800,7 @@ const translations = {
     buy: "Acheter",
     dceeny_edu: "DCEENY Éducation",
     // ===============================
-    // ADOBE COURSES — FRENCH
+    // ADOBE COURSES - FRENCH
     // ===============================
     photoshopTitle: "Photoshop pour l’architecture",
     photoshopDesc:
@@ -834,30 +844,58 @@ const translations = {
     indesignList5:
       "Exportation et présentation : Exports haute qualité pour impression ou formats numériques.",
     adobeCoursesTitle: "Ce que vous apprendrez",
-    photoshopShort: "Adobe Photoshop — Architecture",
-    illustratorShort: "Adobe Illustrator — Architecture",
-    indesignShort: "Adobe InDesign — Architecture",
+    photoshopShort: "Adobe Photoshop - Architecture",
+    illustratorShort: "Adobe Illustrator - Architecture",
+    indesignShort: "Adobe InDesign - Architecture",
     button_download_program: "Télécharger le programme complet (PDF)",
     courses_intro:
-      "Maîtrisez les outils essentiels de l’architecture numérique — de la modélisation 3D à la présentation graphique professionnelle avec 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine et la suite Adobe.",
+      "Maîtrisez les outils essentiels de l’architecture numérique - de la modélisation 3D à la présentation graphique professionnelle avec 3ds Max, Revit, SketchUp, D5 Render, Unreal Engine et la suite Adobe.",
     course_programme: "Programme de formation",
+    // ===============================
+    // PHOTOSHOP - ARCHITECTURE
+    // ===============================
+    ps1: "Séance 1 - Traitement de plan architectural (2h)",
+    ps2: "Séance 2 - Traitement de plan et carte urbaine (2h)",
+    ps3: "Séance 3 - Coupes et façades (2h)",
+    ps4: "Séance 4 - Traitement d’images (création d'une frise historique bonus) (2h)",
+    ps5: "Séance 5 - Création d'un panneau de présentation (2h)",
+
+    // ===============================
+    // ILLUSTRATOR - ARCHITECTURE
+    // ===============================
+    il1: "Séance 1 - Perfectionnement du graphisme & création de genèses de projet (2h)",
+    il2: "Séance 2 - Schémas et éléments infographiques (2h)",
+    il3: "Séance 3 - Traitement de croquis & création de moodboard (2h)",
+    il4: "Séance 4 - Design du logo du projet (2h)",
+    il5: "Séance 5 - Composition d’un panneau (2h)",
+
     // ===============================
     // PHOTOSHOP — ARCHITECTURE
     // ===============================
-    ps1: "Séance 1 — Traitement de plan architectural (2h)",
-    ps2: "Séance 2 — Traitement de plan et carte urbaine (2h)",
-    ps3: "Séance 3 — Coupes et façades (2h)",
-    ps4: "Séance 4 — Traitement d’images (création d'une frise historique bonus) (2h)",
-    ps5: "Séance 5 — Création d'un panneau de présentation (2h)",
+    psse1: "Séance 1",
+    ps1: "Traitement de plan architectural (2h)",
+    psse2: "Séance 2",
+    ps2: "Traitement de plan et carte urbaine (2h)",
+    psse3: "Séance 3",
+    ps3: "Coupes et façades (2h)",
+    psse4: "Séance 4",
+    ps4: "Traitement d’images (création d'une frise historique bonus) (2h)",
+    psse5: "Séance 5",
+    ps5: "Création d'un panneau de présentation (2h)",
 
     // ===============================
     // ILLUSTRATOR — ARCHITECTURE
     // ===============================
-    il1: "Séance 1 — Perfectionnement du graphisme & création de genèses de projet (2h)",
-    il2: "Séance 2 — Schémas et éléments infographiques (2h)",
-    il3: "Séance 3 — Traitement de croquis & création de moodboard (2h)",
-    il4: "Séance 4 — Design du logo du projet (2h)",
-    il5: "Séance 5 — Composition d’un panneau (2h)",
+    ilse1: "Séance 1 -",
+    il1: "Perfectionnement du graphisme & création de genèses de projet (2h)",
+    ilse2: "Séance 2 -",
+    il2: "Schémas et éléments infographiques (2h)",
+    ilse3: "Séance 3 -",
+    il3: "Traitement de croquis & création de moodboard (2h)",
+    ilse4: "Séance 4 -",
+    il4: "Design du logo du projet (2h)",
+    ilse5: "Séance 5 -",
+    il5: "Composition d’un panneau (2h)",
   },
 
   ar: {
@@ -1153,7 +1191,7 @@ const translations = {
     publicBatna: "مقهى - باتنة",
     publicbatnaInfo: "النوع: داخلية | المنطقة: باتنة، الجزائر | المساحة: 23 م²",
     batnaSurf: "- 23 م² -",
-    packAdobeTitle: "حزمة أدوبي للعمارة — فوتوشوب • إليستريتور • إنديزاين",
+    packAdobeTitle: "حزمة أدوبي للعمارة - فوتوشوب • إليستريتور • إنديزاين",
     packAdobeSubtitle:
       "إتقان العرض الرسومي لمشاريع العمارة باستخدام أدوات أدوبي الأساسية.",
     packAdobeDescription:
@@ -1162,8 +1200,8 @@ const translations = {
     instructor_by: "بواسطة Dceeny",
     instructor_role: "متخصص في العرض المعماري",
     level: "من المبتدئ إلى المتوسط",
-    lectures: "20 درسًا",
-    duration: "4 ساعات و30 دقيقة",
+    lectures: "10 درس",
+    psDuration: "20 ساعة",
     skills_title: "المهارات المكتسبة",
     skill_photoshop: "فوتوشوب",
     skill_illustrator: "إليستريتور",
@@ -1173,7 +1211,7 @@ const translations = {
     skill_presentation: "ألواح العرض",
     price_old: "15000 دج",
     price_new: "12000 دج",
-    price_note: "وصول مدى الحياة — دفعة واحدة فقط",
+    price_note: "وصول مدى الحياة - دفعة واحدة فقط",
     buy_now: "اشترِ الآن",
     sticky_buy_btn: "اشترِ الآن",
     sticky_price: "12000 دج",
@@ -1196,7 +1234,7 @@ const translations = {
     buy: "اشتر",
     dceeny_edu: "DCEENY التعليم",
     // ===============================
-    // ADOBE COURSES — ARABIC
+    // ADOBE COURSES - ARABIC
     // ===============================
     photoshopTitle: "فوتوشوب للعمارة",
     photoshopDesc:
@@ -1239,30 +1277,58 @@ const translations = {
     indesignList5:
       "التصدير والعرض: تصدير ملفات بجودة عالية للطباعة أو العرض الرقمي.",
     adobeCoursesTitle: "ما الذي ستتعلمه",
-    photoshopShort: "أدوبي فوتوشوب — العمارة",
-    illustratorShort: "أدوبي إليستريتور — العمارة",
-    indesignShort: "أدوبي إنديزاين — العمارة",
+    photoshopShort: "أدوبي فوتوشوب - العمارة",
+    illustratorShort: "أدوبي إليستريتور - العمارة",
+    indesignShort: "أدوبي إنديزاين - العمارة",
     button_download_program: "تحميل برنامج الدراسة (PDF)",
     courses_intro:
-      "أتقن أدوات التصميم المعماري الرقمي — من النمذجة ثلاثية الأبعاد إلى العرض الاحترافي باستخدام ‎3ds Max‎ و‎Revit‎ و‎SketchUp‎ و‎D5 Render‎ و‎Unreal Engine‎ وحزمة ‎Adobe‎.",
+      "أتقن أدوات التصميم المعماري الرقمي - من النمذجة ثلاثية الأبعاد إلى العرض الاحترافي باستخدام ‎3ds Max‎ و‎Revit‎ و‎SketchUp‎ و‎D5 Render‎ و‎Unreal Engine‎ وحزمة ‎Adobe‎.",
     course_programme: "برنامج الدورة",
+    // ===============================
+    // PHOTOSHOP - العمارة
+    // ===============================
+    ps1: "الجلسة 1 - معالجة المخطط المعماري (ساعتان)",
+    ps2: "الجلسة 2 - معالجة المخطط الحضري والخريطة (ساعتان)",
+    ps3: "الجلسة 3 - المقاطع والواجهات (ساعتان)",
+    ps4: "الجلسة 4 - معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
+    ps5: "الجلسة 5 - إنشاء لوحة عرض تقديمي (ساعتان)",
+
+    // ===============================
+    // إليستريتور - العمارة
+    // ===============================
+    il1: "الجلسة 1 - تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
+    il2: "الجلسة 2 - المخططات والعناصر المعلوماتية (ساعتان)",
+    il3: "الجلسة 3 - معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
+    il4: "الجلسة 4 - تصميم شعار المشروع (ساعتان)",
+    il5: "الجلسة 5 - تنسيق لوحة العرض (ساعتان)",
+
     // ===============================
     // PHOTOSHOP — العمارة
     // ===============================
-    ps1: "الجلسة 1 — معالجة المخطط المعماري (ساعتان)",
-    ps2: "الجلسة 2 — معالجة المخطط الحضري والخريطة (ساعتان)",
-    ps3: "الجلسة 3 — المقاطع والواجهات (ساعتان)",
-    ps4: "الجلسة 4 — معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
-    ps5: "الجلسة 5 — إنشاء لوحة عرض تقديمي (ساعتان)",
+    psse1: "الجلسة 1",
+    ps1: "معالجة المخطط المعماري (ساعتان)",
+    psse2: "الجلسة 2",
+    ps2: "معالجة المخطط الحضري والخريطة (ساعتان)",
+    psse3: "الجلسة 3",
+    ps3: "المقاطع والواجهات (ساعتان)",
+    psse4: "الجلسة 4",
+    ps4: "معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
+    psse5: "الجلسة 5",
+    ps5: "إنشاء لوحة عرض تقديمي (ساعتان)",
 
     // ===============================
     // إليستريتور — العمارة
     // ===============================
-    il1: "الجلسة 1 — تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
-    il2: "الجلسة 2 — المخططات والعناصر المعلوماتية (ساعتان)",
-    il3: "الجلسة 3 — معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
-    il4: "الجلسة 4 — تصميم شعار المشروع (ساعتان)",
-    il5: "الجلسة 5 — تنسيق لوحة العرض (ساعتان)",
+    ilse1: "الجلسة 1",
+    il1: "تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
+    ilse2: "الجلسة 2",
+    il2: "المخططات والعناصر المعلوماتية (ساعتان)",
+    ilse3: "الجلسة 3",
+    il3: "معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
+    ilse4: "الجلسة 4",
+    il4: "تصميم شعار المشروع (ساعتان)",
+    ilse5: "الجلسة 5",
+    il5: "تنسيق لوحة العرض (ساعتان)",
   },
 };
 
