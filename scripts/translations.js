@@ -1,5 +1,6 @@
 const translations = {
   en: {
+    interioddesign: "Interior Design",
     projects: "Projects",
     privateProjects: "Private projects",
     publicProjects: "Public projects",
@@ -332,13 +333,13 @@ const translations = {
     skill_graphics: "Architectural Graphics",
     skill_layout: "Layout Design",
     skill_presentation: "Presentation Boards",
-    price_old: "15000 DZD",
-    price_new: "12000 DZD",
+    psPrice_old: "10000 DZD",
+    psPrice_new: "7990 DZD",
     price_note: "Lifetime access - one-time payment",
     buy_now: "Buy Now",
     placeholder_note: "Write something...",
     sticky_buy_btn: "Buy Now",
-    sticky_price: "12000 DZD",
+    psSticky_price: "7990 DZD",
     buy_form_title: "Purchase Course",
     placeholder_fullname: "Enter your full name",
     placeholder_phone: "Enter your phone number",
@@ -439,6 +440,7 @@ const translations = {
   },
 
   fr: {
+    interioddesign: "Design d'intérieur",
     projects: "Projets",
     privateProjects: "Projets privés",
     publicProjects: "Projets publics",
@@ -775,12 +777,12 @@ const translations = {
     skill_graphics: "Graphisme architectural",
     skill_layout: "Mise en page",
     skill_presentation: "Panneaux de présentation",
-    price_old: "15000 DZD",
-    price_new: "12000 DZD",
+    psPrice_old: "10000 DZD",
+    psPrice_new: "7990 DZD",
     price_note: "Accès à vie - paiement unique",
     buy_now: "Acheter maintenant",
     sticky_buy_btn: "Acheter maintenant",
-    sticky_price: "12000 DZD",
+    psSticky_price: "7990 DZD",
     placeholder_note: "Écrire quelque chose...",
     buy_form_title: "Achat du cours",
     placeholder_fullname: "Entrez votre nom complet",
@@ -899,6 +901,7 @@ const translations = {
   },
 
   ar: {
+    interioddesign: "التصميم الداخلي",
     projects: "المشاريع",
     privateProjects: "مشاريع خاصة",
     publicProjects: "مشاريع عامة",
@@ -1209,12 +1212,12 @@ const translations = {
     skill_graphics: "الرسم المعماري",
     skill_layout: "تصميم التخطيطات",
     skill_presentation: "ألواح العرض",
-    price_old: "15000 دج",
-    price_new: "12000 دج",
+    psPrice_old: "10000 دج",
+    psPrice_new: "7990 دج",
     price_note: "وصول مدى الحياة - دفعة واحدة فقط",
     buy_now: "اشترِ الآن",
     sticky_buy_btn: "اشترِ الآن",
-    sticky_price: "12000 دج",
+    psSticky_price: "7990 دج",
     placeholder_note: "أكتب...",
     buy_form_title: "شراء الدورة",
     placeholder_fullname: "أدخل اسمك الكامل",
@@ -1232,7 +1235,7 @@ const translations = {
     close: "إغلاق",
     thankYou: "شكرًا لك! تم إرسال طلب الشراء الخاص بك.",
     buy: "اشتر",
-    dceeny_edu: "DCEENY التعليم",
+    // dceeny_edu: "DCEENY التعليم",
     // ===============================
     // ADOBE COURSES - ARABIC
     // ===============================
