@@ -3217,10 +3217,7 @@ body {
 .spacer {
   height: 20px;
 }
-.spacer {
-  height: 5px !important;
-  width: 5px !important;
-}
+
 .learning-overlay-text {
   position: absolute;
   top: 50%;
