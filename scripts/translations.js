@@ -519,6 +519,96 @@ const translations = {
     blAdd2: "Links to 3D content and texture libraries",
     blAdd3: "Extensions used (Addons)",
     blAdd4: "Botaniq full (Vegetation) — Bonus worth $130",
+
+    rvGeneralObjective:
+      "Acquire the skills needed to model, organize, and present a complete 3D architectural project using Revit and Enscape, from project setup to final rendering and professional presentation.",
+
+    rv1Title: "Session 1: Introduction and Project Setup",
+    rv1_1: "Creating and configuring levels (floor, basement, roof, etc.)",
+    rv1_2: "Managing level heights and relationships",
+    rv1_3: "Display settings and level markers in views",
+    rv1_4: "Exploring the Revit library (families, components, materials)",
+    rv1_5: "Importing and managing external families",
+    rv1_6: "Customizing materials and textures",
+    rv1_7: "Introduction to the Enscape asset library",
+
+    rv2Title: "Session 2: Structure and Load-Bearing Elements",
+    rv2_1: "Inserting foundations: types and view level adjustments",
+    rv2_2: "Inserting columns: types, dimensions, and using the green bar",
+    rv2_3:
+      "Inserting beams: types, dimensions, and alignment with the green bar",
+    rv2_4:
+      "Inserting walls: configuration, materials/insulation, parameters, and drawing",
+    rv2_5: "Inserting floors: configuration, type, thickness, and materials",
+
+    rv3Title: "Session 3: Architectural Elements",
+    rv3_1: "Copying the level into the print sheet",
+    rv3_2: "Placing and configuring doors and windows",
+    rv3_3: "Creating stairs (types, shapes, parameters)",
+    rv3_4: "Stairwell and railing",
+    rv3_5: "Creating ceilings",
+    rv3_6: "Placing interior furniture",
+
+    rv4Title: "Session 4: Architectural Details and Finishes",
+    rv4_1: "Dimensions, surfaces, spaces and legends",
+    rv4_2: "Painting (normal, multi-layer, and window wrapping)",
+    rv4_3: "Baseboards",
+    rv4_4: "Roofs: types, slopes, overhangs, and materials",
+    rv4_5: "Sections and elevations",
+    rv4_6: "Graphic styles in plan and section",
+
+    rv5Title: "Session 5: Site, Environment, and 3D Rendering",
+    rv5_1: "In-situ masses and their parameters",
+    rv5_2: "Creating the site, topography, grading, and master plan",
+    rv5_3: "Importing DWG files and images with scale",
+    rv5_4: "Exporting 3D views and drawings (DWG/DXF)",
+    rv5_5: "Camera and rendering with Revit / Enscape",
+
+    rv6Title: "Session 6: Documentation, Presentation, and Printing",
+    rv6_1: "Schedules and quantity takeoff with full settings",
+    rv6_2: "Inserting and editing sheets and title blocks",
+    rv6_3: "Adding drawings to sheets with frames, titles, and scales",
+    rv6_4: "Exporting to JPEG or PDF with text and annotations",
+    rv6_5: "Final adjustments in Photoshop for presentation or printing",
+
+    rv7Title: "Session 7: Rendering Mastery and Visualization with Enscape",
+    rv7_1: "Interface overview and main tools",
+    rv7_2: "Setting up the link between Revit and Enscape",
+    rv7_3: "Configuring real-time synchronization",
+    rv7_4: "Managing natural and artificial lighting",
+    rv7_5: "Setting up materials for realistic rendering",
+    rv7_6: "Image quality and performance settings",
+    rv7_7: "Camera and perspective adjustments",
+    rv7_8: "Creating static and dynamic views",
+    rv7_9: "Adjusting focal length, angles, and depth of field",
+    rv7_10: "Animating camera paths (presentation videos)",
+    rv7_11: "Adjusting lighting, sky, and exposure",
+    rv7_12: "Exporting high-resolution images",
+    rv7_13: "Creating video animations and 360° panoramas",
+    rv7_14: "Using virtual reality (VR)",
+    rv7_15: "Creating interactive client presentations",
+
+    rvSkillsTitle: "Acquired Skills",
+    rvSkill1: "Complete architectural modeling in Revit",
+    rvSkill2: "Organization and management of families, materials, and levels",
+    rvSkill3: "Creation of plans, sections, elevations, and 3D renders",
+    rvSkill4: "Mastery of the Revit ↔ Enscape workflow",
+    rvSkill5: "Professional graphic presentation and printing",
+
+    rvencourseTitle: "Revit + Enscape Architecture",
+    rvencourseShortDesc:
+      "Learn to model buildings and create realistic renders using Revit and Enscape.",
+    rvencourseLongDesc:
+      "A practical course teaching you how to build complete architectural projects in Revit and render them in Enscape. Learn modeling, materials, lighting, and visualization to produce clean architectural models and high-quality renders.",
+    rvEnTitle1: "1- Introduction to Enscape",
+    rvEnTitle2: "2- Graphic Settings and Materials",
+    rvEnTitle3: "3- Camera and Perspective Management",
+    rvEnTitle4: "4- Rendering and Exporting",
+    rvEnTitle5: "5- Presentation and Immersive Rendering",
+    rvEnPriceNew: "12990 DZD",
+    rvEnPriceOld: "16000 DZD",
+    rvEnDuration: "17 h",
+    // rvEnPriceNote: "Lifetime access — one-time payment",
   },
 
   fr: {
@@ -1066,6 +1156,102 @@ const translations = {
     blAdd2: "Lien pour le contenu 3D et contenu de texture",
     blAdd3: "Les extensions utilisées (Addons)",
     blAdd4: "Botaniq Full (Végétation) — Bonus d’une valeur de 130$",
+
+    rvGeneralObjective:
+      "Acquérir les compétences nécessaires pour modéliser, organiser et présenter un projet architectural complet en 3D à l’aide de Revit et Enscape, depuis la mise en place du projet jusqu’au rendu final et la présentation professionnelle.",
+
+    rv1Title: "1ère Séance : Introduction et mise en place du projet",
+    rv1_1:
+      "Création et paramétrage des niveaux (étage, sous-sol, toiture, etc.)",
+    rv1_2: "Gestion des hauteurs et relations entre les niveaux",
+    rv1_3: "Paramètres d’affichage et repères de niveaux sur les vues",
+    rv1_4:
+      "Exploration de la bibliothèque Revit (familles, composants, matériaux)",
+    rv1_5: "Importation et gestion des familles externes",
+    rv1_6: "Personnalisation des matériaux et textures",
+    rv1_7: "Introduction à la bibliothèque Enscape pour le rendu",
+
+    rv2Title: "2ème Séance : Structure et éléments porteurs",
+    rv2_1:
+      "Insertion des fondations : types de fondations et réglage des niveaux de vue",
+    rv2_1:
+      "Insertion des poteaux : types, dimensions et utilisation de la barre verte",
+    rv2_3:
+      "Insertion des poutres : types, dimensions et alignement avec la barre verte",
+    rv2_4:
+      "Insertion des murs : configuration, ajout de matériaux ou isolants, paramètres et dessin",
+    rv2_5:
+      "Insertion du plancher : configuration, type, épaisseur et matériaux",
+
+    rv3Title: "3ème Séance : Éléments architecturaux",
+    rv3_1: "Copie de l’étage dans la presse papier",
+    rv3_2: "Insertion et paramétrage des portes et fenêtres",
+    rv3_3: "Création d’escaliers (types, formes et paramètres)",
+    rv3_4: "Cage d’escalier et garde-corps",
+    rv3_5: "Création des plafonds",
+    rv3_6: "Insertion du mobilier intérieur",
+
+    rv4Title: "4ème Séance : Détails architecturaux et finitions",
+    rv4_1: "Cotations, surfaces, espaces et légendes",
+    rv4_2: "Peinture (normale, multicouche et accrochage fenêtres)",
+    rv4_3: "Plinthes",
+    rv4_4: "Toitures : types, pentes, débords et matériaux",
+    rv4_5: "Coupes et façades",
+    rv4_6: "Graphisme en plan et en coupe",
+
+    rv5Title: "5ème Séance : Site, environnement et rendu 3D",
+    rv5_1: "Volumes in situ et leurs paramètres",
+    rv5_2: "Création du site et topographie, terrassement et plan de masse",
+    rv5_3: "Importation DWG et images avec échelle",
+    rv5_4: "Exportation 3D et plans (DWG/DXF)",
+    rv5_5: "Caméra et rendu Revit / Enscape",
+
+    rv6Title: "6ème Séance : Documentation, présentation et impression",
+    rv6_1: "Nomenclatures et devis avec paramètres complets",
+    rv6_2: "Insertion et modification des feuilles et cartouches",
+    rv6_3: "Ajout des plans sur les feuilles avec cadres, titres et échelles",
+    rv6_4: "Exportation en JPEG ou PDF avec texte et annotations",
+    rv6_5: "Finitions sur Photoshop pour présentation ou impression",
+
+    rv7Title:
+      "7ème Séance : Maîtrise du rendu et de la visualisation avec Enscape",
+    rv7_1: "Présentation de l’interface et des outils principaux",
+    rv7_2: "Configuration du lien entre Revit et Enscape",
+    rv7_3: "Paramétrage de la synchronisation en temps réel",
+    rv7_4: "Gestion de la lumière naturelle et artificielle",
+    rv7_5: "Réglages des matériaux pour un rendu réaliste",
+    rv7_6: "Paramétrage de la qualité d’image et des performances",
+    rv7_7: "Réglages des caméras et perspectives",
+    rv7_8: "Création de vues fixes et dynamiques",
+    rv7_9: "Réglage des focales, angles et profondeur de champ",
+    rv7_10: "Animation de parcours caméra (vidéos de présentation)",
+    rv7_11: "Réglage de l’éclairage, du ciel et de l’exposition",
+    rv7_12: "Exportation d’images fixes haute résolution",
+    rv7_13: "Création d’animations vidéo et de panoramas 360°",
+    rv7_14: "Utilisation de la réalité virtuelle (VR)",
+    rv7_15: "Création de présentations clients interactives",
+
+    rvSkillsTitle: "Compétences acquises",
+    rvSkill1: "Modélisation architecturale complète sur Revit",
+    rvSkill2: "Organisation et gestion des familles, matériaux et niveaux",
+    rvSkill3: "Production de plans, coupes, façades et rendus 3D",
+    rvSkill4: "Maîtrise du workflow Revit ↔ Enscape",
+    rvSkill5: "Présentation graphique et impression professionnelle",
+
+    rvencourseTitle: "Architecture avec Revit + Enscape",
+    rvencourseShortDesc:
+      "Apprenez à modéliser des bâtiments et créer des rendus réalistes avec Revit et Enscape.",
+    rvencourseLongDesc:
+      "Un cours pratique qui vous apprend à créer un projet architectural complet dans Revit et à le rendre dans Enscape. Maîtrisez la modélisation, les matériaux, l’éclairage et la visualisation pour produire des modèles propres et des rendus de haute qualité.",
+    rvEnTitle1: "1- Introduction à Enscape",
+    rvEnTitle2: "2- Paramètres graphiques et matériaux",
+    rvEnTitle3: "3- Gestion des caméras et perspectives",
+    rvEnTitle4: "4- Rendu et exportation",
+    rvEnTitle5: "5- Présentation et rendu immersif",
+    rvEnPriceOld: "16000 DZD",
+    rvEnPriceNew: "12990 DZD",
+    // rvEnPriceNote: "Accès à vie — paiement unique",
+    rvEnDuration: "17 h",
   },
 
   ar: {
@@ -1578,6 +1764,95 @@ const translations = {
     blAdd2: "روابط لمحتوى ثلاثي الأبعاد ومحتوى الخامات",
     blAdd3: "الإضافات (Addons) المستخدمة",
     blAdd4: "Botaniq Full (نباتات) — بونص بقيمة 130 دولار",
+
+    rvGeneralObjective:
+      "اكتساب المهارات اللازمة لنمذجة وتنظيم وعرض مشروع معماري كامل ثلاثي الأبعاد باستخدام Revit وEnscape، من إعداد المشروع إلى الإخراج النهائي والعرض الاحترافي.",
+
+    rv1Title: "الجلسة 1: مقدمة وإعداد المشروع",
+    rv1_1: "إنشاء وضبط المستويات (الطابق، القبو، السطح، إلخ)",
+    rv1_2: "إدارة الارتفاعات والعلاقات بين المستويات",
+    rv1_3: "خصائص العرض وعلامات المستويات في المشاهد",
+    rv1_4: "استكشاف مكتبة Revit (العائلات، العناصر، المواد)",
+    rv1_5: "استيراد وإدارة العائلات الخارجية",
+    rv1_6: "تخصيص المواد والخامات",
+    rv1_7: "مقدمة إلى مكتبة Enscape الخاصة بالرندرة",
+
+    rv2Title: "الجلسة 2: الهيكل والعناصر الحاملة",
+    rv2_1: "إدراج الأساسات: الأنواع وضبط مستويات العرض",
+    rv2_2: "إدراج الأعمدة: الأنواع والأبعاد واستخدام الشريط الأخضر",
+    rv2_3: "إدراج الجسور: الأنواع والأبعاد والمحاذاة بالشريط الأخضر",
+    rv2_4: "إدراج الجدران: الإعداد، إضافة المواد أو العزل، الخصائص والرسم",
+    rv2_5: "إدراج الأرضيات: الإعداد، النوع، السمك والمواد",
+
+    rv3Title: "الجلسة 3: العناصر المعمارية",
+    rv3_1: "نسخ الدور داخل لوحة الطباعة",
+    rv3_2: "إدراج وضبط الأبواب والنوافذ",
+    rv3_3: "إنشاء السلالم (الأنواع، الأشكال، الإعدادات)",
+    rv3_4: "بئر السلم والدرابزين",
+    rv3_5: "إنشاء الأسقف",
+    rv3_6: "إدراج الأثاث الداخلي",
+
+    rv4Title: "الجلسة 4: التفاصيل المعمارية والتشطيبات",
+    rv4_1: "الأبعاد والمسطحات والمساحات والرموز",
+    rv4_2: "الطلاء (عادي، متعدد الطبقات، ولصق على النوافذ)",
+    rv4_3: "الوزرات",
+    rv4_4: "الأسطح: الأنواع، الانحدار، البروزات والمواد",
+    rv4_5: "المقاطع والواجهات",
+    rv4_6: "الجرافيزم في المخطط والمقطع",
+
+    rv5Title: "الجلسة 5: الموقع، المحيط والرندرة ثلاثية الأبعاد",
+    rv5_1: "الأحجام في الموقع وإعداداتها",
+    rv5_2: "إنشاء الموقع والطبوغرافيا والردم ومخطط الموقع",
+    rv5_3: "استيراد ملفات DWG والصور مع ضبط المقياس",
+    rv5_4: "تصدير ثلاثي الأبعاد والمخططات (DWG/DXF)",
+    rv5_5: "الكاميرا ورندرة Revit / Enscape",
+
+    rv6Title: "الجلسة 6: التوثيق والعرض والطباعة",
+    rv6_1: "الجداول وقوائم الكميات مع الإعدادات الكاملة",
+    rv6_2: "إدراج وتعديل الأوراق والكارتوش",
+    rv6_3: "إضافة المخططات إلى الأوراق مع الإطارات والعناوين والمقاييس",
+    rv6_4: "التصدير إلى JPEG أو PDF مع النصوص والتعليقات",
+    rv6_5: "اللمسات النهائية عبر Photoshop للعرض أو الطباعة",
+
+    rv7Title: "الجلسة 7: احتراف الرندرة والتصور باستخدام Enscape",
+    rv7_1: "واجهة Enscape والأدوات الرئيسية",
+    rv7_2: "إعداد الرابط بين Revit وEnscape",
+    rv7_3: "ضبط المزامنة في الوقت الحقيقي",
+    rv7_4: "ضبط الإضاءة الطبيعية والصناعية",
+    rv7_5: "إعداد المواد لإخراج واقعي",
+    rv7_6: "ضبط جودة الصورة والأداء",
+    rv7_7: "ضبط الكاميرا ووجهات النظر",
+    rv7_8: "إنشاء المشاهد الثابتة والديناميكية",
+    rv7_9: "ضبط البعد البؤري وعمق المجال",
+    rv7_10: "تحريك كاميرا العرض (فيديوهات العرض)",
+    rv7_11: "ضبط الإضاءة، السماء، والتعريض",
+    rv7_12: "تصدير الصور بدقة عالية",
+    rv7_13: "إنشاء فيديوهات بانورامية 360°",
+    rv7_14: "استخدام الواقع الافتراضي VR",
+    rv7_15: "إنشاء عروض تفاعلية للعملاء",
+
+    rvSkillsTitle: "المهارات المكتسبة",
+    rvSkill1: "نموذج معماري كامل باستخدام Revit",
+    rvSkill2: "تنظيم وإدارة العائلات والمواد والمستويات",
+    rvSkill3: "إنتاج المخططات والمقاطع والواجهات والرندرات ثلاثية الأبعاد",
+    rvSkill4: "إتقان سير العمل بين Revit وEnscape",
+    rvSkill5: "عرض جرافيكي وطباعة احترافية",
+
+    rvencourseTitle: "الهندسة المعمارية باستخدام Revit + Enscape",
+    rvencourseShortDesc:
+      "تعلّم نمذجة المباني وإنتاج رندرات واقعية باستخدام Revit وEnscape.",
+    rvencourseLongDesc:
+      "دورة عملية تشرح كيفية إنشاء مشروع معماري كامل في Revit وعرضه في Enscape. ستتعلم النمذجة، وإعداد المواد، والإضاءة، وأساليب الإظهار لإنتاج نماذج معمارية دقيقة ورندرات عالية الجودة.",
+    rvEnTitle1: "1- مقدمة إلى Enscape",
+    rvEnTitle2: "2- الإعدادات الرسومية والمواد",
+    rvEnTitle3: "3- إدارة الكاميرات والزوايا",
+    rvEnTitle4: "4- الرندرة والتصدير",
+    rvEnTitle5: "5- العرض والرندرة الغامرة",
+    rvEnPriceNew: "12990 دج",
+    rvEnPriceOld: "16000 دج",
+    rvEnDuration: "17 ساعة",
+    // rvEnFinalProject:
+    //   "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
   },
 };
 
