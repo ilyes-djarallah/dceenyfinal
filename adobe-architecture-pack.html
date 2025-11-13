@@ -228,8 +228,8 @@
             <div class="divider"></div>
             <div class="price-row">
               <div>
-                <div class="price-old" id="oldPrice" data-translate="price_old">10000 DZD</div>
-                <div class="price-new" id="newPrice" data-translate="price_new">7990 DZD</div>
+                <div class="price-old" id="oldPrice" data-translate="psPrice_old"></div>
+                <div class="price-new" id="newPrice" data-translate="psPrice_new"></div>
                 <!-- <div class="price-note" data-translate="price_note">Lifetime access — one-time payment</div> -->
               </div>
             </div>
@@ -243,7 +243,10 @@
   <!-- Sticky Bar -->
   <div class="sticky-buy-bar">
     <div class="sticky-buy-inner">
-      <span class="sticky-price" id="stickyPrice" data-translate="psPrice_new"></span>
+      <div class="sticky-prices">
+        <span class="price-old" id="stickyPrice" data-translate="psPrice_old"></span>
+        <span class="sticky-price" id="stickyPrice" data-translate="psPrice_new"></span>
+      </div>
       <button class="btn-primary sticky-buy-btn" id="stickyBuyBtn" data-translate="buy_now">Buy Now</button>
     </div>
   </div>

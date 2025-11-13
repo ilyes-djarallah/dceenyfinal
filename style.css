@@ -3217,7 +3217,10 @@ body {
 .spacer {
   height: 20px;
 }
-
+.spacer {
+  height: 5px !important;
+  width: 5px !important;
+}
 .learning-overlay-text {
   position: absolute;
   top: 50%;
@@ -3818,13 +3821,12 @@ body {
   .content-card p,
   .chapter small,
   .price-note,
-
   .skill,
   .info-pill span {
     font-size: 15px !important;
     line-height: 1.6;
   }
-   .price-old #oldPrice {
+  .price-old #oldPrice {
     font-size: 100px;
   }
   /* Headings inside chapters */
@@ -4309,6 +4311,11 @@ body {
     display: none;
   }
 }
+.sticky-prices {
+  gap: 4px;
+}
+
+
 /* ===============================
    RESPONSIVE TWEAKS
    =============================== */
@@ -4389,7 +4396,7 @@ body {
 }
 
 /* On small screens make it compact */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .sticky-buy-bar {
     padding: 10px 14px;
   }
@@ -4401,7 +4408,7 @@ body {
   .sticky-buy-btn {
     font-size: 15px;
     padding: 10px 50px;
-      background: #ffb96b;
+    background: #ffb96b;
   }
 }
 /* ============================================================
