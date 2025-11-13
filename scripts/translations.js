@@ -512,6 +512,13 @@ const translations = {
     blPriceNew: "11990 DZD",
     blPriceNote: "Lifetime access — one-time payment",
     blDuration: "15 h",
+    blFinalProject:
+      "Final Project: Students prepare a 30–60 second animation and 3 still images of their project.",
+    blAdditionalContentTitle: "Additional Content",
+    blAdd1: "Texture files and PBR files",
+    blAdd2: "Links to 3D content and texture libraries",
+    blAdd3: "Extensions used (Addons)",
+    blAdd4: "Botaniq full (Vegetation) — Bonus worth $130",
   },
 
   fr: {
@@ -1052,6 +1059,12 @@ const translations = {
     blPriceNew: "11990 DZD",
     blPriceNote: "Accès à vie — paiement unique",
     blDuration: "15 h",
+    blFinalProject: "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
+blAdditionalContentTitle: "Contenu complémentaire",
+blAdd1: "Fichiers pour les textures et les fichiers PBR",
+blAdd2: "Lien pour le contenu 3D et contenu de texture",
+blAdd3: "Les extensions utilisées (Addons)",
+blAdd4: "Botaniq Full (Végétation) — Bonus d’une valeur de 130$",
   },
 
   ar: {
@@ -1557,6 +1570,12 @@ const translations = {
     blPriceNew: "11990 دينار",
     blPriceNote: "وصول مدى الحياة — دفعة واحدة",
     blDuration: "15 ساعة",
+    blFinalProject: "المشروع النهائي: يقوم الطلاب بإعداد أنيميشن من 30 إلى 60 ثانية و 3 صور ثابتة لمشروعهم.",
+blAdditionalContentTitle: "المحتوى الإضافي",
+blAdd1: "ملفات الخامات وملفات الـ PBR",
+blAdd2: "روابط لمحتوى ثلاثي الأبعاد ومحتوى الخامات",
+blAdd3: "الإضافات (Addons) المستخدمة",
+blAdd4: "Botaniq Full (نباتات) — بونص بقيمة 130 دولار",
   },
 };
 
