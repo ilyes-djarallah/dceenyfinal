@@ -4158,7 +4158,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.06);
   color: rgba(255, 255, 255, 0.9);
   font-size: 17px;
-  line-height: 1.7;
+  /* line-height: 1.7; */
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
 }
 
@@ -4170,7 +4170,7 @@ body {
 .instructor {
   display: flex;
   flex-direction: column;
-  margin: 15px 0;
+  /* margin: 15px 0; */
 }
 
 .instructor strong {
@@ -4299,6 +4299,16 @@ body {
   color: #fff;
 }
 
+@media (min-width: 960px) {
+  .content-card .course-thumb {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .sidebar .course-thumb {
+    display: none;
+  }
+}
 /* ===============================
    RESPONSIVE TWEAKS
    =============================== */

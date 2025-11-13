@@ -440,7 +440,7 @@ const translations = {
     // ===============================
     // BLENDER — ARCHITECTURE
     // ===============================
-    blenderTitle: "Blender — Architecture",
+    blenderTitle: "Blender - Architecture",
     blenderSubtitle:
       "Master architectural modeling, texturing, and rendering with Blender.",
     blenderDescription:
@@ -511,6 +511,7 @@ const translations = {
     blPriceOld: "15000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Lifetime access — one-time payment",
+    blDuration: "15 h",
   },
 
   fr: {
@@ -974,7 +975,7 @@ const translations = {
     // ===============================
     // BLENDER — ARCHITECTURE
     // ===============================
-    blenderTitle: "Blender — Architecture",
+    blenderTitle: "Blender - Architecture",
     blenderSubtitle:
       "Maîtrisez la modélisation, le texturage et le rendu architectural avec Blender.",
     blenderDescription:
@@ -1050,6 +1051,7 @@ const translations = {
     blPriceOld: "15000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Accès à vie — paiement unique",
+    blDuration: "15 h",
   },
 
   ar: {
@@ -1487,7 +1489,7 @@ const translations = {
     // ===============================
     // بلندر — العمارة
     // ===============================
-    blenderTitle: "بلندر — العمارة",
+    blenderTitle: "بلندر - العمارة",
     blenderSubtitle: "أتقن النمذجة والخامات والإضاءة المعمارية باستخدام بلندر.",
     blenderDescription:
       "تعلّم في هذه الدورة الشاملة كيفية إنشاء مشاريع معمارية واقعية باستخدام Blender، من النمذجة إلى الإضاءة والإخراج النهائي. ستتعلم إعداد بيئة العمل، إنشاء الهياكل، إضافة التفاصيل، وتقديم مشاهد احترافية عالية الجودة.",
@@ -1554,6 +1556,7 @@ const translations = {
     blPriceOld: "15000 دينار",
     blPriceNew: "11990 دينار",
     blPriceNote: "وصول مدى الحياة — دفعة واحدة",
+    blDuration: "15 ساعة",
   },
 };
 
