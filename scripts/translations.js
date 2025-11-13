@@ -1059,12 +1059,13 @@ const translations = {
     blPriceNew: "11990 DZD",
     blPriceNote: "Accès à vie — paiement unique",
     blDuration: "15 h",
-    blFinalProject: "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
-blAdditionalContentTitle: "Contenu complémentaire",
-blAdd1: "Fichiers pour les textures et les fichiers PBR",
-blAdd2: "Lien pour le contenu 3D et contenu de texture",
-blAdd3: "Les extensions utilisées (Addons)",
-blAdd4: "Botaniq Full (Végétation) — Bonus d’une valeur de 130$",
+    blFinalProject:
+      "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
+    blAdditionalContentTitle: "Contenu complémentaire",
+    blAdd1: "Fichiers pour les textures et les fichiers PBR",
+    blAdd2: "Lien pour le contenu 3D et contenu de texture",
+    blAdd3: "Les extensions utilisées (Addons)",
+    blAdd4: "Botaniq Full (Végétation) — Bonus d’une valeur de 130$",
   },
 
   ar: {
@@ -1566,16 +1567,17 @@ blAdd4: "Botaniq Full (Végétation) — Bonus d’une valeur de 130$",
 
     blFinalProj:
       "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
-    blPriceOld: "15000 دينار",
-    blPriceNew: "11990 دينار",
+    blPriceOld: "15000 دج",
+    blPriceNew: "11990 دج",
     blPriceNote: "وصول مدى الحياة — دفعة واحدة",
     blDuration: "15 ساعة",
-    blFinalProject: "المشروع النهائي: يقوم الطلاب بإعداد أنيميشن من 30 إلى 60 ثانية و 3 صور ثابتة لمشروعهم.",
-blAdditionalContentTitle: "المحتوى الإضافي",
-blAdd1: "ملفات الخامات وملفات الـ PBR",
-blAdd2: "روابط لمحتوى ثلاثي الأبعاد ومحتوى الخامات",
-blAdd3: "الإضافات (Addons) المستخدمة",
-blAdd4: "Botaniq Full (نباتات) — بونص بقيمة 130 دولار",
+    blFinalProject:
+      "المشروع النهائي: يقوم الطلاب بإعداد أنيميشن من 30 إلى 60 ثانية و 3 صور ثابتة لمشروعهم.",
+    blAdditionalContentTitle: "المحتوى الإضافي",
+    blAdd1: "ملفات الخامات وملفات الـ PBR",
+    blAdd2: "روابط لمحتوى ثلاثي الأبعاد ومحتوى الخامات",
+    blAdd3: "الإضافات (Addons) المستخدمة",
+    blAdd4: "Botaniq Full (نباتات) — بونص بقيمة 130 دولار",
   },
 };
 
