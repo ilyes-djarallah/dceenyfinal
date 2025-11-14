@@ -511,7 +511,7 @@ const translations = {
     blPriceOld: "15000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Lifetime access — one-time payment",
-    blDuration: "15 h",
+    blDuration: "15 hours",
     blFinalProject:
       "Final Project: Students prepare a 30–60 second animation and 3 still images of their project.",
     blAdditionalContentTitle: "Additional Content",
@@ -609,6 +609,205 @@ const translations = {
     rvEnPriceOld: "16000 DZD",
     rvEnDuration: "17 h",
     // rvEnPriceNote: "Lifetime access — one-time payment",
+    // ===============================
+    // ARCHICAD + LUMION
+    // ===============================
+    acCourseTitle: "Archicad 2D/3D + Lumion",
+    acCourseShortDesc:
+      "Master 2D/3D modeling and realistic rendering with Archicad & Lumion.",
+    acCourseLongDesc:
+      "A complete 28-hour progressive training, from beginner to advanced, to master the design, modeling, and realistic presentation of a complete architectural project.",
+
+    acTitle: "ARCHICAD 2D & 3D + LUMION",
+    acSubtitle: "Progressive training from beginner to advanced level",
+    acMainObjective:
+      "Objective: Master the design, modeling, and realistic presentation of a complete architectural project.",
+
+    ac1Title: "Session 1: Introduction & 2D Drawing Basics",
+    ac1Obj: "Objective: Discover Archicad and master the basic tools.",
+    ac1_1: "Presentation of the software, BIM logic, and interface.",
+    ac1_2: "Project configuration: units, layers, stories, and levels.",
+    ac1_3: "2D drawing tools: walls, slabs, lines, dimensions, zones.",
+    ac1_4: "Plan organization: guides, grid, view management.",
+    ac1Ex:
+      "Practical exercise: creation of a simple ground floor plan (house or studio).",
+
+    ac2Title: "Session 2: 3D Modeling & Architectural Volumes",
+    ac2Obj: "Objective: Move from 2D to 3D modeling.",
+    ac2_1: "Creation of walls, slabs, openings, stairs, and roofs.",
+    ac2_2: "Manipulation of the 3D view and parameter object settings.",
+    ac2_3: "Introduction to free-form tools and complex roofs.",
+    ac2_4: "Navigation tips and 3D work optimization.",
+    ac2Ex: "Practical exercise: complete modeling of the building's volume.",
+
+    ac3Title: "Session 3: Interior Layout and Object Management",
+    ac3Obj: "Objective: Create realistic and organized interior spaces.",
+    ac3_1: "Interior and exterior furniture via the Archicad object library.",
+    ac3_2: "Management of basic materials and textures.",
+    ac3_3: "Organization by layers, groups, and functional zones.",
+    ac3_4: "Introduction to graphic styles and visual moods.",
+    ac3Ex:
+      "Practical exercise: complete layout of a typical space (kitchen or studio).",
+
+    ac4Title: "Session 4: Sections, Elevations, and Technical Details",
+    ac4Obj:
+      "Objective: Generate and present the project's technical documents.",
+    ac4_1: "Automatic creation of sections and elevations from the 3D model.",
+    ac4_2: "Dimensions, annotations, and graphic symbols.",
+    ac4_3: "Construction details and representation scale.",
+    ac4_4: "Management of views and technical layers.",
+    ac4Ex:
+      "Practical exercise: production of plans, sections, and complete elevations.",
+
+    ac5Title: "Session 5: Layout, 2D Rendering, and Documentation",
+    ac5Obj: "Objective: Prepare a professional presentation folder.",
+    ac5_1: "Using the layout navigator and creating title blocks.",
+    ac5_2: "View creation, scaling, and export (PDF, DWG, images).",
+    ac5_3: "Graphic presentation: hatches, stylization, and shadows.",
+    ac5_4: "Exporting the model to Lumion for rendering.",
+    ac5Ex: "Practical exercise: creation of a complete presentation folder.",
+
+    ac6Title: "Session 6: Advanced Archicad & BIM Management",
+    ac6Obj: "Objective: Deepen advanced tools and project management.",
+    ac6_1: "Use of complex profiles and curtain walls.",
+    ac6_2: "Management of layers, renovation filters, and combined views.",
+    ac6_3:
+      "Model optimization, custom materials, and advanced graphic settings.",
+    ac6Ex:
+      "Practical exercise: advanced modeling of a complete project and preparation for rendering.",
+
+    acBonusTitle: "BONUS Session - LUMION: Realistic Rendering and Animation",
+    acBonusObj:
+      "Objective: Bring the Archicad project to life through renderings and videos.",
+    acBonus1: "Introduction to Lumion and importing from Archicad.",
+    acBonus2: "Setting materials, lights, and environments.",
+    acBonus3: "Adding vegetation, objects, water, sky, and atmosphere.",
+    acBonus4: "Creation of still images and presentation animations.",
+    acBonusEx:
+      "Practical exercise: realistic rendering and video presentation of the project.",
+
+    acResultsTitle: "Expected Results:",
+    acResultsIntro: "At the end of the training, participants will be able to:",
+    acResult1: "Design, model, and document a complete architectural project.",
+    acResult2: "Efficiently manage a BIM project on Archicad.",
+    acResult3: "Produce realistic renderings and animations using Lumion.",
+    aclectures: "27 Lectures",
+
+    acDuration: "28 h",
+    acPriceOld: "22000 DZD",
+    acPriceNew: "17990 DZD",
+    // ===============================
+    // SKETCHUP + LUMION
+    // ===============================
+    skCourseTitle: "Sketchup + Lumion Training",
+    skCourseShortDesc: "From Modeling to Realistic Rendering",
+    skCourseLongDesc:
+      "Master SketchUp from basic to advanced and create professional renderings with Lumion. From complete 3D modeling to using advanced plugins, learn to design, optimize, and present your architectural projects with realistic images and animations. Practical and professional training to become operational quickly.",
+    skPublicCible: "Beginners or those with a basis in architecture",
+    skLectures: "13 Sessions",
+    skDuration: "25 - 30 hours",
+    skFormat:
+      "Videoconference (Google Meet) + Practical exercises + Final project + 3D object library",
+    skPriceOld: "18000 DZD",
+    skPriceNew: "14990 DZD",
+
+    sk1Title: "SESSION 1: Introduction & Training Objectives",
+    sk1_1: "Presentation of the SketchUp <-> Lumion workflow",
+    sk1_2: "The roles of each software in the architectural process",
+    sk1_3:
+      "Hardware preparation: installation, configuration, useful shortcuts",
+    sk1_4: "Project organization from the start (folders, textures, formats)",
+
+    sk2Title: "SESSION 2: SketchUp Fundamentals",
+    sk2_1: "Interface and navigation in 3D space",
+    sk2_2: "Drawing tools: line, rectangle, circle, arc, push/pull",
+    sk2_3: "Editing tools: move, copy, scale, rotate, offset",
+    sk2_4: "Groups, components, and tags (model organization)",
+    sk2Ex: "Exercises: Modeling a small architectural volume",
+
+    sk3Title: "SESSION 3: Complete Architectural Modeling",
+    sk3_1: "Creation of a 2D plan from a sketch or an image",
+    sk3_2: "Modeling a complete building: walls, floors, roofs",
+    sk3_3: "Adding openings: doors, windows, stairs",
+    sk3_4:
+      "Importing DWG plans and using architecture plugins (Dibac, 1001bit, etc.)",
+    sk3_5: "Organization of the model by floors and scenes",
+
+    sk4Title: "SESSION 4: Advanced SketchUp",
+    sk4_1:
+      "Essential plugins for architecture and design (1001bit, Dibac, JHS Power bar, etc.)",
+    sk4_2: "Complex modeling: stairs, railings, custom furniture...",
+    sk4_3: "Model optimization (weight, geometry, performance)",
+    sk4Ex:
+      "Exercises: Create a complete and clean 3D model, ready to be rendered in Lumion.",
+
+    sk5Title: "SESSION 5: Materials & Styles in SketchUp",
+    sk5_1: "Application and creation of personalized materials",
+    sk5_2: "Importing high-resolution textures",
+    sk5_3: "Texture management",
+    sk5_4: "Using SketchUp visual styles (line, shadows, sketch, etc.)",
+    sk5_5: "Preparing the model for export to Lumion",
+
+    sk6Title: "SESSION 6: Exporting SketchUp --> Lumion",
+    sk6_1: "Compatible formats and good export practices",
+    sk6_2: "Cleaning the model before export",
+    sk6_3: "Management of materials and object names for good synchronization",
+    sk6_4: "Live link with LiveSync (SketchUp <-> Lumion)",
+    sk6_5: "Verification of the model in Lumion",
+
+    sk7Title: "SESSION 7: Discovering Lumion",
+    sk7_1: "Interface and navigation in the scene",
+    sk7_2: "Importing the SketchUp model",
+    sk7_3: "Managing the Lumion object library",
+    sk7_4:
+      "Understanding the environment: sky, light, terrain, water, vegetation",
+    sk7_5: "Basic settings: sun position, shadows, climate, time",
+
+    sk8Title: "SESSION 8: Scene & Layout in Lumion",
+    sk8_1: "Adding and placing vegetation, people, vehicles, furniture, etc.",
+    sk8_2: "Using layers to organize the scene",
+    sk8_3: "Creating a realistic environment: terrain, roads, vegetation",
+    sk8_4: "Lumion material settings: glass, metal, stone, wood, water, etc.",
+    sk8_5: "Application of PBR textures and surface customization",
+
+    sk9Title: "SESSION 9: Lights and Realistic Rendering",
+    sk9_1: "Lighting types: Spot, Omni, Area Light, Sunlight",
+    sk9_2: "Setting color temperature and intensity",
+    sk9_3: "Management of reflections, shadows, and transparency",
+    sk9_4: "Creating day/night ambiances",
+    sk9_5: "Camera settings, depth of field, exposure, and white balance",
+
+    sk10Title: "SESSION 10: Animation & Presentation",
+    sk10_1: "Creating a camera path (walkthrough or flythrough)",
+    sk10_2: "Animation of the sun, objects, people, and vegetation",
+    sk10_3: "Managing transitions and cinematic effects",
+    sk10_4: "Adding text, logos, and soundtrack",
+    sk10_5: "Video export",
+
+    sk11Title: "SESSION 11: Advanced Visual Effects",
+    sk11_1: "Using Lumion effects:",
+    sk11_2: "Reflections, Volumetric Light, Bloom, Lens Flare",
+    sk11_3: "Real Skies, Rain, Snow, Fog, Global Illumination",
+    sk11_4: "Styles & Artistic Effects (sketch, painting, model)",
+    sk11_5:
+      "Creating unique architectural atmospheres (day, night, rain, etc.)",
+
+    sk12Title: "SESSION 12: Optimization & Pro Tips",
+    sk12_1: "Reducing the SketchUp model's weight before import",
+    sk12_2: "Optimizing Lumion performance (FPS, LOD, vegetation)",
+    sk12_3:
+      "Fluid workflow between SketchUp, Lumion, and Photoshop (post-production)",
+    sk12_4: "Exporting images and videos with the right settings",
+    sk12_5: "Managing the final render for client presentation",
+
+    sk13Title: "SESSION 13: Final Project",
+    sk13_1: 'Complete case study: "From design to render"',
+    sk13_2:
+      "Modeling a project (house, apartment, commercial space) in SketchUp",
+    sk13_3: "Integration of the model in Lumion",
+    sk13_4: "Staging, materials, light, and camera",
+    sk13_5: "Export of the final render (image and animation)",
+    sk13_6: "Presentation of the complete project",
   },
 
   fr: {
@@ -1148,7 +1347,7 @@ const translations = {
     blPriceOld: "15000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Accès à vie — paiement unique",
-    blDuration: "15 h",
+    blDuration: "15 heurs",
     blFinalProject:
       "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
     blAdditionalContentTitle: "Contenu complémentaire",
@@ -1252,6 +1451,215 @@ const translations = {
     rvEnPriceNew: "12990 DZD",
     // rvEnPriceNote: "Accès à vie — paiement unique",
     rvEnDuration: "17 h",
+    acCourseTitle: "Archicad 2D/3D + Lumion",
+    acCourseShortDesc:
+      "Maîtrisez la modélisation 2D/3D et le rendu réaliste avec Archicad & Lumion.",
+    acCourseLongDesc:
+      "Une formation progressive complète de 28h, du niveau débutant à avancé, pour maîtriser la conception, la modélisation et la présentation réaliste d'un projet architectural complet.",
+
+    acTitle: "Formation ARCHICAD 2D & 3D + LUMION (28h)",
+    acSubtitle: "Formation progressive du niveau débutant au niveau avancé",
+    acMainObjective:
+      "Objectif : Maîtriser la conception, la modélisation et la présentation réaliste d'un projet architectural complet.",
+
+    ac1Title: "Séance 1 : Introduction & bases du dessin 2D",
+    ac1Obj: "Objectif : Découvrir Archicad et maîtriser les outils de base.",
+    ac1_1: "Présentation du logiciel, de la logique BIM et de l'interface.",
+    ac1_2: "Configuration du projet : unités, calques, étages et niveaux.",
+    ac1_3: "Outils de dessin 2D : murs, dalles, lignes, cotations, zones.",
+    ac1_4: "Organisation du plan : repères, quadrillage, gestion des vues.",
+    ac1Ex:
+      "Exercice pratique : réalisation d'un plan simple de RDC (maison ou atelier).",
+
+    ac2Title: "Séance 2 : Modélisation 3D & volumes architecturaux",
+    ac2Obj: "Objectif : Passer du 2D à la modélisation tridimensionnelle.",
+    ac2_1: "Création de murs, dalles, ouvertures, escaliers et toitures.",
+    ac2_2: "Manipulation de la vue 3D et réglages des objets paramétriques.",
+    ac2_3: "Introduction aux outils de forme libre et aux toitures complexes.",
+    ac2_4: "Astuces de navigation et optimisation du travail 3D.",
+    ac2Ex: "Exercice pratique : modélisation complète du volume du bâtiment.",
+
+    ac3Title: "Séance 3 : Aménagement intérieur et gestion des objets",
+    ac3Obj: "Objectif : Créer des espaces intérieurs réalistes et organisés.",
+    ac3_1:
+      "Mobilier intérieur et extérieur via la bibliothèque d'objets Archicad.",
+    ac3_2: "Gestion des matériaux et textures de base.",
+    ac3_3: "Organisation par calques, groupes et zones fonctionnelles.",
+    ac3_4: "Introduction aux styles graphiques et aux ambiances visuelles.",
+    ac3Ex:
+      "Exercice pratique : aménagement complet d'un espace type (cuisine ou atelier).",
+
+    ac4Title: "Séance 4 : Coupes, façades et détails techniques",
+    ac4Obj:
+      "Objectif : Générer et présenter les documents techniques du projet.",
+    ac4_1: "Création automatique de coupes et façades à partir du modèle 3D.",
+    ac4_2: "Cotations, annotations et symboles graphiques.",
+    ac4_3: "Détails constructifs et échelle de représentation.",
+    ac4_4: "Gestion des vues et calques techniques.",
+    ac4Ex:
+      "Exercice pratique : production de plans, coupes et façades complets.",
+
+    ac5Title: "Séance 5 : Mise en page, rendu 2D et documentation",
+    ac5Obj: "Objectif : Préparer un dossier de présentation professionnel.",
+    ac5_1:
+      "Utilisation du navigateur de mise en page et création de cartouches.",
+    ac5_2: "Création de vues, mise à l'échelle et export (PDF, DWG, images).",
+    ac5_3: "Présentation graphique : hachures, stylisation et ombres.",
+    ac5_4: "Export du modèle vers Lumion pour le rendu.",
+    ac5Ex:
+      "Exercice pratique : réalisation d'un dossier de présentation complet.",
+
+    ac6Title: "Séance 6 : Archicad avancé & gestion BIM (5h)",
+    ac6Obj:
+      "Objectif : Approfondir les outils avancés et la gestion de projet.",
+    ac6_1: "Utilisation des profils complexes et des façades rideaux.",
+    ac6_2: "Gestion des calques, filtres de rénovation et vues combinées.",
+    ac6_3:
+      "Optimisation du modèle, matériaux personnalisés et réglages graphiques avancés.",
+    ac6Ex:
+      "Exercice pratique : modélisation avancée d'un projet complet et préparation au rendu.",
+
+    acBonusTitle:
+      "Séance BONUS - LUMION : Rendu réaliste et animation (3h - gratuite)",
+    acBonusObj:
+      "Objectif : Donner vie au projet Archicad à travers des rendus et vidéos.",
+    acBonus1: "Introduction à Lumion et importation depuis Archicad.",
+    acBonus2: "Réglage des matériaux, lumières et environnements.",
+    acBonus3: "Ajout de végétation, objets, eau, ciel et atmosphère.",
+    acBonus4: "Création d'images fixes et d'animations de présentation.",
+    acBonusEx:
+      "Exercice pratique : rendu réaliste et vidéo de présentation du projet.",
+
+    acResultsTitle: "Résultats attendus :",
+    acResultsIntro: "À la fin de la formation, les participants sauront :",
+    acResult1:
+      "Concevoir, modéliser et documenter un projet architectural complet.",
+    acResult2: "Gérer efficacement un projet BIM sur Archicad.",
+    acResult3: "Réaliser des rendus et animations réalistes sous Lumion.",
+    aclectures: "27 leçons",
+    acDuration: "28 h",
+    acPriceOld: "22000 DZD",
+    acPriceNew: "17990 DZD",
+
+    // ===============================
+    // SKETCHUP + LUMION
+    // ===============================
+    skCourseTitle: "Formation Sketchup + Lumion",
+    skCourseShortDesc: "De la Modélisation au Rendu Réaliste",
+    skCourseLongDesc:
+      "Maîtrisez SketchUp de base à avancé et réalisez des rendus professionnels avec Lumion. De la modélisation 3D complète à l'utilisation de plugins avancés, apprenez à concevoir, optimiser et présenter vos projets architecturaux avec des images et animations réalistes. Une formation pratique et professionnelle pour devenir opérationnel rapidement.",
+    skPublicCible: "Débutante ou avec des bases en architecture",
+    skLectures: "13 Séances",
+    skDuration: "25 à 30 heures",
+    skFormat:
+      "Visioconférence (Google meet) + Exercices pratiques + Projet final + Bibliothèque 3D",
+    skPriceOld: "18000 DZD",
+    skPriceNew: "14990 DZD",
+
+    sk1Title: "SÉANCE 1 : Introduction & Objectifs de la Formation",
+    sk1_1: "Présentation du workflow SketchUp <-> Lumion",
+    sk1_2: "Les rôles de chaque logiciel dans le processus architectural",
+    sk1_3:
+      "Préparation du matériel : installation, configuration, raccourcis utiles",
+    sk1_4: "Organisation du projet dès le départ (dossiers, textures, formats)",
+
+    sk2Title: "SÉANCE 2 : Fondamentaux de SketchUp",
+    sk2_1: "Interface et navigation dans l'espace 3D",
+    sk2_2: "Outils de dessin : ligne, rectangle, cercle, arc, push/pull",
+    sk2_3: "Outils d'édition : déplacer, copier, échelle, rotation, offset",
+    sk2_4: "Groupes, composants et balises (organisation du modèle)",
+    sk2Ex: "Exercices : Modélisation d'un petit volume architectural",
+
+    sk3Title: "SÉANCE 3 : Modélisation Architecturale Complète",
+    sk3_1: "Création d'un plan 2D à partir d'un croquis ou d'une image",
+    sk3_2: "Modélisation d'un bâtiment complet : murs, planchers, toitures",
+    sk3_3: "Ajout d'ouvertures : portes, fenêtres, escaliers",
+    sk3_4:
+      "Importation de plans DWG et utilisation de plugins d'architecture (Dibac, 1001bit, etc.)",
+    sk3_5: "Organisation du modèle par étages et scènes",
+
+    sk4Title: "SÉANCE 4 : SketchUp Avancé",
+    sk4_1:
+      "Plugins indispensables pour l'architecture et le design (1001bit, Dibac, JHS Power bar, etc.)",
+    sk4_2:
+      "Modélisation complexe : escaliers, garde-corps, mobilier sur mesure...",
+    sk4_3: "Optimisation du modèle (poids, géométrie, performance)",
+    sk4Ex:
+      "Exercices : Réaliser un modèle 3D complet et propre, prêt à être rendu dans Lumion.",
+
+    sk5Title: "SÉANCE 5 : Matériaux & Styles dans SketchUp",
+    sk5_1: "Application et création de matériaux personnalisés",
+    sk5_2: "Importation de textures haute résolution",
+    sk5_3: "Gestion des textures",
+    sk5_4:
+      "Utilisation des styles visuels SketchUp (ligne, ombres, croquis, etc.)",
+    sk5_5: "Préparation du modèle pour export vers Lumion",
+
+    sk6Title: "SÉANCE 6 : Exportation SketchUp --> Lumion",
+    sk6_1: "Formats compatibles et bonnes pratiques d'export",
+    sk6_2: "Nettoyage du modèle avant export",
+    sk6_3:
+      "Gestion des matériaux et noms d'objets pour une bonne synchronisation",
+    sk6_4: "Lien en direct avec LiveSync (SketchUp <-> Lumion)",
+    sk6_5: "Vérification du modèle dans Lumion",
+
+    sk7Title: "SÉANCE 7 : Découverte de Lumion",
+    sk7_1: "Interface et navigation dans la scène",
+    sk7_2: "Importation du modèle SketchUp",
+    sk7_3: "Gestion de la bibliothèque d'objets Lumion",
+    sk7_4:
+      "Compréhension de l'environnement : ciel, lumière, terrain, eau, végétation",
+    sk7_5: "Réglages de base : position du soleil, ombres, climat, heure",
+
+    sk8Title: "SÉANCE 8 : Scène & Aménagement dans Lumion",
+    sk8_1:
+      "Ajout et placement de végétation, personnages, véhicules, mobilier, etc.",
+    sk8_2: "Utilisation des calques pour organiser la scène",
+    sk8_3: "Création d'un environnement réaliste : terrain, routes, végétation",
+    sk8_4:
+      "Réglages des matériaux Lumion : verre, métal, pierre, bois, eau, etc.",
+    sk8_5: "Application des textures PBR et personnalisation des surfaces",
+
+    sk9Title: "SÉANCE 9 : Lumières et Rendu Réaliste",
+    sk9_1: "Types d'éclairage : Spot, Omni, Area Light, Sunlight",
+    sk9_2: "Réglage de la température de couleur et de l'intensité",
+    sk9_3: "Gestion des reflets, ombres et transparences",
+    sk9_4: "Création d'ambiances jour/nuit",
+    sk9_5:
+      "Réglage de la caméra, profondeur de champ, exposition et balance des blancs",
+
+    sk10Title: "SÉANCE 10 : Animation & Présentation",
+    sk10_1: "Création d'un parcours caméra (walkthrough ou flythrough)",
+    sk10_2:
+      "Animation du soleil, des objets, des personnages et de la végétation",
+    sk10_3: "Gestion des transitions et des effets cinématiques",
+    sk10_4: "Ajout de texte, logos et bande sonore",
+    sk10_5: "Export vidéo",
+
+    sk11Title: "SÉANCE 11 : Effets Visuels Avancés",
+    sk11_1: "Utilisation des effets Lumion :",
+    sk11_2: "Reflets, Volumetric Light, Bloom, Lens Flare",
+    sk11_3: "Real Skies, Rain, Snow, Fog, Global Illumination",
+    sk11_4: "Styles & Artistic Effects (croquis, peinture, maquette)",
+    sk11_5:
+      "Création d'ambiances architecturales uniques (rendu diurne, nocturne, pluie, etc.)",
+
+    sk12Title: "SÉANCE 12 : Optimisation & Astuces Pro",
+    sk12_1: "Réduction du poids du modèle SketchUp avant import",
+    sk12_2: "Optimisation des performances Lumion (FPS, LOD, végétation)",
+    sk12_3:
+      "Workflow fluide entre SketchUp, Lumion et Photoshop (post-production)",
+    sk12_4: "Export d'images et vidéos avec les bons réglages",
+    sk12_5: "Gestion du rendu final pour présentation client",
+
+    sk13Title: "SÉANCE 13 : Projet Final",
+    sk13_1: 'Étude de cas complète : "De la conception au rendu"',
+    sk13_2:
+      "Modélisation d'un projet (maison, appartement, local commercial) dans SketchUp",
+    sk13_3: "Intégration du modèle dans Lumion",
+    sk13_4: "Mise en scène, matériaux, lumière et caméra",
+    sk13_5: "Export du rendu final (image et animation)",
+    sk13_6: "Présentation du projet complet",
   },
 
   ar: {
@@ -1853,6 +2261,196 @@ const translations = {
     rvEnDuration: "17 ساعة",
     // rvEnFinalProject:
     //   "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
+
+    // ===============================
+    // ARCHICAD + LUMION
+    // ===============================
+    acCourseTitle: "Archicad 2D/3D + Lumion",
+    acCourseShortDesc:
+      "إتقان النمذجة ثنائية وثلاثية الأبعاد والإخراج الواقعي باستخدام Archicad & Lumion.",
+    acCourseLongDesc:
+      "تدريب تدريجي كامل لمدة 28 ساعة، من المستوى المبتدئ إلى المتقدم، لإتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
+
+    acTitle: "دورة ARCHICAD 2D & 3D + LUMION",
+    acSubtitle: "تدريب تدريجي من المستوى المبتدئ إلى المستوى المتقدم",
+    acMainObjective:
+      "الهدف: إتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
+
+    ac1Title: "الجلسة 1: مقدمة وأساسيات الرسم ثنائي الأبعاد",
+    ac1Obj: "الهدف: اكتشاف Archicad وإتقان الأدوات الأساسية.",
+    ac1_1: "عرض البرنامج، منطق BIM، والواجهة.",
+    ac1_2: "إعداد المشروع: الوحدات، الطبقات، الطوابق، والمستويات.",
+    ac1_3: "أدوات الرسم 2D: الجدران، البلاطات، الخطوط، الأبعاد، المناطق.",
+    ac1_4: "تنظيم المخطط: الموجهات، الشبكة، إدارة المناظير.",
+    ac1Ex: "تمرين عملي: إنجاز مخطط بسيط للطابق الأرضي (منزل أو استوديو).",
+
+    ac2Title: "الجلسة 2: النمذجة ثلاثية الأبعاد والكتل المعمارية",
+    ac2Obj:
+      "الهدف: الانتقال من الرسم ثنائي الأبعاد إلى النمذجة ثلاثية الأبعاد.",
+    ac2_1: "إنشاء الجدران، البلاطات، الفتحات، السلالم، والأسقف.",
+    ac2_2: "التعامل مع العرض ثلاثي الأبعاد وإعدادات الكائنات البارامترية.",
+    ac2_3: "مقدمة إلى أدوات الشكل الحر والأسقف المعقدة.",
+    ac2_4: "نصائح للتنقل وتحسين العمل ثلاثي الأبعاد.",
+    ac2Ex: "تمرين عملي: نمذجة كاملة لحجم المبنى.",
+
+    ac3Title: "الجلسة 3: التصميم الداخلي وإدارة الكائنات",
+    ac3Obj: "الهدف: إنشاء مساحات داخلية واقعية ومنظمة.",
+    ac3_1: "الأثاث الداخلي والخارجي عبر مكتبة كائنات Archicad.",
+    ac3_2: "إدارة المواد والملامس الأساسية.",
+    ac3_3: "التنظيم حسب الطبقات، المجموعات، والمناطق الوظيفية.",
+    ac3_4: "مقدمة إلى الأنماط الرسومية والأجواء البصرية.",
+    ac3Ex: "تمرين عملي: تصميم كامل لمساحة نموذجية (مطبخ أو استوديو).",
+
+    ac4Title: "الجلسة 4: المقاطع، الواجهات، والتفاصيل الفنية",
+    ac4Obj: "الهدف: إنشاء وتقديم المستندات الفنية للمشروع.",
+    ac4_1: "الإنشاء التلقائي للمقاطع والواجهات من النموذج ثلاثي الأبعاد.",
+    ac4_2: "الأبعاد، التعليقات، والرموز الرسومية.",
+    ac4_3: "التفاصيل الإنشائية ومقياس التمثيل.",
+    ac4_4: "إدارة المناظير والطبقات الفنية.",
+    ac4Ex: "تمرين عملi: إنتاج مخططات، مقاطع، وواجهات كاملة.",
+
+    ac5Title: "الجلسة 5: الإخراج، الرندر ثنائي الأبعاد، والتوثيق",
+    ac5Obj: "الهدف: إعداد ملف عرض تقديمي احترافي.",
+    ac5_1: "استخدام متصفح الإخراج وإنشاء جداول العناوين (Cartouches).",
+    ac5_2: "إنشاء المناظير، ضبط المقياس، والتصدير (PDF, DWG, صور).",
+    ac5_3: "العرض الرسومي: التهشير، الأسلوب، والظلال.",
+    ac5_4: "تصدير النموذج إلى Lumion للإخراج النهائي.",
+    ac5Ex: "تمرين عملي: إنجاز ملف عرض تقديمي كامل.",
+
+    ac6Title: "الجلسة 6: Archicad متقدم وإدارة BIM",
+    ac6Obj: "الهدف: تعميق الأدوات المتقدمة وإدارة المشروع.",
+    ac6_1: "استخدام التشكيلات المعقدة والواجهات الزجاجية (Façades Rideaux).",
+    ac6_2: "إدارة الطبقات، فلاتر التجديد، والمناظير المدمجة.",
+    ac6_3: "تحسين النموذج، المواد المخصصة، والإعدادات الرسومية المتقدمة.",
+    ac6Ex: "تمرين عملي: نمذجة متقدمة لمشروع كامل والتحضير للإخراج.",
+
+    acBonusTitle: "جلسة إضافية - LUMION: الإخراج الواقعي والتحريك",
+    acBonusObj:
+      "الهدف: إضفاء الحيوية على مشروع Archicad من خلال الإخراج ومقاطع الفيديو.",
+    acBonus1: "مقدمة إلى Lumion والاستيراد من Archicad.",
+    acBonus2: "ضبط المواد، الأضواء، والبيئات.",
+    acBonus3: "إضافة النباتات، الكائنات، الماء، السماء، والجو.",
+    acBonus4: "إنشاء صور ثابتة ورسوم متحركة للعرض.",
+    acBonusEx: "تمرين عملي: إخراج واقعي وفيديو عرض تقديمي للمشروع.",
+
+    acResultsTitle: "النتائج المتوقعة:",
+    acResultsIntro: "في نهاية التدريب، سيكون المشاركون قادرين على:",
+    acResult1: "تصميم ونمذجة وتوثيق مشروع معماري كامل.",
+    acResult2: "إدارة مشروع BIM بكفاءة على Archicad.",
+    acResult3: "إنتاج إخراجات ورسوم متحركة واقعية باستخدام Lumion.",
+    aclectures: "27 درس",
+
+    acDuration: "28 ساعة",
+    acPriceOld: "22000 دج",
+    acPriceNew: "17990 دج",
+    // ===============================
+    // SKETCHUP + LUMION
+    // ===============================
+    skCourseTitle: "دورة سكتش أب + لوميون",
+    skCourseShortDesc: "من النمذجة إلى الإخراج الواقعي",
+    skCourseLongDesc:
+      "أتقن سكتش أب من الأساسي إلى المتقدم وأنشئ عروضًا احترافية باستخدام لوميون. من النمذجة ثلاثية الأبعاد الكاملة إلى استخدام الإضافات المتقدمة، تعلم تصميم وتحسين وتقديم مشاريعك المعمارية بصور ورسوم متحركة واقعية. تدريب عملي واحترافي لتصبح جاهزًا للعمل بسرعة.",
+    skPublicCible: "مبتدئ أو لديه أسس في الهندسة المعمارية",
+    skLectures: "13 جلسة",
+    skDuration: "25 إلى 30 ساعة",
+    skFormat:
+      "عبر الفيديو (Google Meet) + تمارين تطبيقية + مشروع نهائي + مكتبة كائنات 3D",
+    skPriceOld: "18000 دج",
+    skPriceNew: "14990 دج",
+
+    sk1Title: "الجلسة 1: مقدمة وأهداف الدورة",
+    sk1_1: "عرض لسير العمل بين سكتش أب ولوميون",
+    sk1_2: "أدوار كل برنامج في العملية المعمارية",
+    sk1_3: "تحضير المواد: التثبيت، الإعدادات، الاختصارات المفيدة",
+    sk1_4: "تنظيم المشروع من البداية (مجلدات، خامات، صيغ)",
+
+    sk2Title: "الجلسة 2: أساسيات سكتش أب",
+    sk2_1: "الواجهة والتنقل في الفضاء ثلاثي الأبعاد",
+    sk2_2: "أدوات الرسم: خط، مستطيل، دائرة، قوس، دفع/سحب",
+    sk2_3: "أدوات التعديل: نقل، نسخ، تحجيم، تدوير، إزاحة",
+    sk2_4: "المجموعات، المكونات، والعلامات (تنظيم النموذج)",
+    sk2Ex: "تمارين: نمذجة حجم معماري صغير",
+
+    sk3Title: "الجلسة 3: النمذجة المعمارية الكاملة",
+    sk3_1: "إنشاء مخطط ثنائي الأبعاد من رسم أو صورة",
+    sk3_2: "نمذجة مبنى كامل: جدران، أرضيات، أسقف",
+    sk3_3: "إضافة الفتحات: أبواب، نوافذ، سلالم",
+    sk3_4: "استيراد مخططات DWG واستخدام إضافات العمارة (Dibac, 1001bit, etc.)",
+    sk3_5: "تنظيم النموذج حسب الطوابق والمشاهد",
+
+    sk4Title: "الجلسة 4: سكتش أب متقدم",
+    sk4_1:
+      "الإضافات الأساسية للعمارة والتصميم (1001bit, Dibac, JHS Power bar, etc.)",
+    sk4_2: "النمذجة المعقدة: سلالم، درابزين، أثاث مخصص...",
+    sk4_3: "تحسين النموذج (الحجم، الهندسة، الأداء)",
+    sk4Ex:
+      "تمارين: إنجاز نموذج ثلاثي الأبعاد كامل ونظيف، جاهز للإخراج في لوميون.",
+
+    sk5Title: "الجلسة 5: المواد والأنماط في سكتش أب",
+    sk5_1: "تطبيق وإنشاء مواد مخصصة",
+    sk5_2: "استيراد خامات عالية الدقة",
+    sk5_3: "إدارة الخامات",
+    sk5_4: "استخدام الأنماط البصرية في سكتش أب (خطوط، ظلال، رسومات...)",
+    sk5_5: "تحضير النموذج للتصدير إلى لوميون",
+
+    sk6Title: "الجلسة 6: تصدير سكتش أب --> لوميون",
+    sk6_1: "الصيغ المتوافقة وأفضل ممارسات التصدير",
+    sk6_2: "تنظيف النموذج قبل التصدير",
+    sk6_3: "إدارة المواد وأسماء الكائنات لمزامنة جيدة",
+    sk6_4: "الربط المباشر بـ LiveSync (SketchUp <-> Lumion)",
+    sk6_5: "التحقق من النموذج في لوميون",
+
+    sk7Title: "الجلسة 7: اكتشاف لوميون",
+    sk7_1: "الواجهة والتنقل في المشهد",
+    sk7_2: "استيراد نموذج سكتش أب",
+    sk7_3: "إدارة مكتبة كائنات لوميون",
+    sk7_4: "فهم البيئة: سماء، ضوء، تضاريس، ماء، نباتات",
+    sk7_5: "الإعدادات الأساسية: موقع الشمس، الظلال، المناخ، الوقت",
+
+    sk8Title: "الجلسة 8: المشهد والتصميم في لوميون",
+    sk8_1: "إضافة ووضع النباتات، الأشخاص، المركبات، الأثاث، إلخ.",
+    sk8_2: "استخدام الطبقات لتنظيم المشهد",
+    sk8_3: "إنشاء بيئة واقعية: تضاريس، طرق، نباتات",
+    sk8_4: "إعدادات مواد لوميون: زجاج، معدن، حجر، خشب، ماء، إلخ.",
+    sk8_5: "تطبيق خامات PBR وتخصيص الأسطح",
+
+    sk9Title: "الجلسة 9: الأضواء والإخراج الواقعي",
+    sk9_1: "أنواع الإضاءة: Spot, Omni, Area Light, Sunlight",
+    sk9_2: "ضبط درجة حرارة اللون والشدة",
+    sk9_3: "إدارة الانعكاسات، الظلال، والشفافية",
+    sk9_4: "إنشاء أجواء نهارية/ليلية",
+    sk9_5: "إعداد الكاميرا، عمق المجال، التعريض، وتوازن البياض",
+
+    sk10Title: "الجلسة 10: التحريك والعرض التقديمي",
+    sk10_1: "إنشاء مسار كاميرا (walkthrough أو flythrough)",
+    sk10_2: "تحريك الشمس، الكائنات، الأشخاص، والنباتات",
+    sk10_3: "إدارة الانتقالات والتأثيرات السينمائية",
+    sk10_4: "إضافة نصوص، شعارات، وموسيقى تصويرية",
+    sk10_5: "تصدير الفيديو",
+
+    sk11Title: "الجلسة 11: التأثيرات البصرية المتقدمة",
+    sk11_1: "استخدام تأثيرات لوميون:",
+    sk11_2:
+      "الانعكاسات، الضوء الحجمي (Volumetric Light)، التوهج (Bloom)، توهج العدسة (Lens Flare)",
+    sk11_3:
+      "السماء الواقعية (Real Skies)، المطر، الثلج، الضباب، الإضاءة الشاملة (Global Illumination)",
+    sk11_4: "الأنماط والتأثيرات الفنية (رسم، تلوين، ماكيت)",
+    sk11_5: "إنشاء أجواء معمارية فريدة (إخراج نهاري، ليلي، ممطر، إلخ.)",
+
+    sk12Title: "الجلسة 12: التحسين والنصائح الاحترافية",
+    sk12_1: "تقليل وزن نموذج سكتش أب قبل الاستيراد",
+    sk12_2: "تحسين أداء لوميون (FPS, LOD, vegetation)",
+    sk12_3: "سير عمل سلس بين سكتش أب، لوميون، وفوتوشوب (post-production)",
+    sk12_4: "تصدير الصور والفيديوهات بالإعدادات الصحيحة",
+    sk12_5: "إدارة الإخراج النهائي لتقديمه للعميل",
+
+    sk13Title: "الجلسة 13: المشروع النهائي",
+    sk13_1: 'دراسة حالة كاملة: "من التصميم إلى الإخراج"',
+    sk13_2: "نمذجة مشروع (منزل، شقة، محل تجاري) في سكتش أب",
+    sk13_3: "دمج النموذج في لوميون",
+    sk13_4: "تجهيز المشهد، المواد، الإضاءة، والكاميرا",
+    sk13_5: "تصدير الإخراج النهائي (صورة ورسوم متحركة)",
+    sk13_6: "عرض المشروع الكامل",
   },
 };
 

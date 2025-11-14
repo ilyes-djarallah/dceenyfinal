@@ -2732,6 +2732,9 @@ h2 {
     padding-left: 0;
     padding-top: 0;
   }
+  .page-header h1 {
+  font-size: 14px;
+}
   .darkFooternavbar-logo svg {
     flex: 1;
     width: 120px;
@@ -2814,14 +2817,12 @@ body {
 /* ==========================
    HEADER SECTION
    ========================== */
-.page-header {
-  margin-bottom: 18px;
-}
 
 .page-header h1 {
-  font-size: 28px;
+  font-size: 18px;
   margin: 6px 0 4px;
   color: var(--text);
+  margin-bottom: 30px;
 }
 
 .page-header .subtitle {
@@ -3972,7 +3973,7 @@ body {
 
 .chapter {
   background: rgba(255, 255, 255, 0.05);
-  padding: 7px 20px;
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -4311,7 +4312,6 @@ body {
 .sticky-prices {
   gap: 4px;
 }
-
 
 /* ===============================
    RESPONSIVE TWEAKS
