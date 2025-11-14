@@ -808,6 +808,72 @@ const translations = {
     sk13_4: "Staging, materials, light, and camera",
     sk13_5: "Export of the final render (image and animation)",
     sk13_6: "Presentation of the complete project",
+    // ===============================
+    // SKETCHUP + D5 RENDER
+    // ===============================
+    d5CourseTitle: "SketchUp + D5 Render Training",
+    d5CourseShortDesc: "Master real-time rendering with SketchUp and D5.",
+    d5CourseLongDesc:
+      "This course guides you from the fundamentals of SketchUp modeling to advanced real-time rendering and animation in D5 Render. Learn to prepare your models, apply PBR materials, set up professional lighting, and create final images and animations.",
+    d5Lectures: "6 Sessions + Project",
+    d5PriceOld: "10000 DZD",
+    d5PriceNew: "7990 DZD",
+
+    d5s1Title: "Session 1: Introduction and SketchUp Fundamentals",
+    d5s1_1: "Presentation of the interface, shortcuts, and SketchUp workflow.",
+    d5s1_2: "Units, model configuration, and organization methods.",
+    d5s1_3: "Essential tools: Line, Rectangle, Push/Pull, Move, Rotate, Scale.",
+    d5s1_4: "Groups vs Components.",
+    d5s1_5:
+      "Basic modeling exercise: Model a simple room with walls, floor, ceiling, and openings.",
+
+    d5s2Title: "Session 2: Intermediate Modeling and Materials",
+    d5s2_1: "Management of layers/tags and scenes.",
+    d5s2_2: "Import reference plans (DWG/PDF) and scale them correctly.",
+    d5s2_3: "Modeling furniture and architectural elements.",
+    d5s2_4: "Applying materials, textures, and texture scaling.",
+    d5s2_5:
+      "Model a furnished room using components and apply appropriate materials.",
+
+    d5s3Title: "Session 3: Advanced Modeling and Project Workflow",
+    d5s3_1: "Advanced tools and plugins for faster editing.",
+    d5s3_2: "Using the 3D Warehouse.",
+    d5s3_3: "Preparing a SketchUp project for rendering.",
+    d5s3_4:
+      "Prepare a complete interior/exterior model ready to be imported into D5.",
+
+    d5s4Title:
+      "Session 4: D5 Render - Interface and Real-Time Rendering Basics",
+    d5s4_1: "D5 interface, navigation, and shortcuts.",
+    d5s4_2: "Importing the SketchUp model.",
+    d5s4_3: "Materials in D5: Application, adjustment, displacement, and PBR.",
+    d5s4_4: "Basic lighting principles.",
+    d5s4_5: "Apply D5 materials + basic lighting to the imported model.",
+
+    d5s5Title: "Session 5: Professional Rendering Techniques",
+    d5s5_1: "Advanced lighting.",
+    d5s5_2:
+      "Camera settings (Focal length/Exposure/Depth of field/White balance).",
+    d5s5_3: "Refining materials (glass, metals, fabrics, marble, wood).",
+    d5s5_4: "Interior and exterior rendering techniques (differences).",
+    d5s5_5: "Balanced use of resources: vegetation, people, decor.",
+    d5s5_6: "Produce 2 final images (interior + exterior).",
+
+    d5s6Title: "Session 6: Animation, Post-production, and Final Project",
+    d5s6_1: "Creation of animation paths and camera movements.",
+    d5s6_2: "Adding effects: rain, wind, fog.",
+    d5s6_3: "Post-production (photoshop/canva).",
+
+    d5FinalProjectTitle: "Final Project",
+    d5FinalProjectDesc:
+      "Students prepare a 30 to 60-second animation and 3 still images of their project for presentation.",
+
+    d5ExtraTitle: "Additional Content",
+    d5Extra1: "File for textures and PBR files.",
+    d5Extra2: "Link for 3D Content and texture content.",
+    d5Extra3: "File for D5 render content.",
+    d5FormatNote:
+      "For sessions, we can organize training online via Google Meet or Zoom to facilitate student access and allow them to follow courses in real-time.",
   },
 
   fr: {
@@ -1660,6 +1726,80 @@ const translations = {
     sk13_4: "Mise en scène, matériaux, lumière et caméra",
     sk13_5: "Export du rendu final (image et animation)",
     sk13_6: "Présentation du projet complet",
+
+    // ===============================
+    // SKETCHUP + D5 RENDER
+    // ===============================
+    d5CourseTitle: "Formation SketchUp et D5 Render",
+    d5CourseShortDesc: "Maîtrisez le rendu temps réel avec SketchUp et D5.",
+    d5CourseLongDesc:
+      "Ce cours vous guide des fondamentaux de la modélisation SketchUp au rendu temps réel et à l'animation dans D5 Render. Apprenez à préparer vos modèles, à appliquer des matériaux PBR, à configurer un éclairage professionnel et à créer des images finales et des animations.",
+    d5Lectures: "6 Séances + Projet",
+    d5PriceOld: "10000 DZD",
+    d5PriceNew: "7990 DZD",
+
+    d5s1Title: "Séance 1: Introduction et principes fondamentaux de SketchUp",
+    d5s1_1:
+      "Présentation de l'interface, des raccourcis et du flux de travail de SketchUp.",
+    d5s1_2: "Unités, configuration des modèles et méthodes d'organisation.",
+    d5s1_3:
+      "Outils essentiels : Ligne, Rectangle, Pousser/Tirer, Déplacer, Rotation, Échelle.",
+    d5s1_4: "Groupes vs Composants.",
+    d5s1_5:
+      "Exercice de modélisation de base : Modéliser une pièce simple avec des murs, un sol, un plafond et des ouvertures.",
+
+    d5s2Title: "Séance 2: Modélisation intermédiaire et matériaux",
+    d5s2_1: "Gestion des calques/balises et des scènes.",
+    d5s2_2:
+      "Importer les plans de référence (DWG/PDF) et les mettre à l'échelle correctement.",
+    d5s2_3: "Modélisation de meubles et d'éléments architecturaux.",
+    d5s2_4:
+      "Application de matériaux, de textures, mise à l'échelle des textures.",
+    d5s2_5:
+      "Modéliser une pièce meublée à l'aide de composants et appliquer les matériaux appropriés.",
+
+    d5s3Title: "Séance 3: Modélisation avancée et flux de travail du projet",
+    d5s3_1: "Outils et plugins avancés pour une édition plus rapide.",
+    d5s3_2: "Utilisation de 3D Warehouse.",
+    d5s3_3: "Préparation d'un projet SketchUp pour le rendu.",
+    d5s3_4:
+      "Préparer un modèle complet intérieur/extérieur prêt à être importé dans D5.",
+
+    d5s4Title:
+      "Séance 4: D5 Render - Interface et bases du rendu en temps réel",
+    d5s4_1: "Interface D5, navigation et raccourcis.",
+    d5s4_2: "Importation du modèle SketchUp.",
+    d5s4_3: "Matériaux dans D5 : Application, ajustement, déplacement et PBR.",
+    d5s4_4: "Principes de base de l'éclairage.",
+    d5s4_5:
+      "Appliquer les matériaux D5 + l'éclairage de base au modèle importé.",
+
+    d5s5Title: "Séance 5: Techniques de rendu professionnel",
+    d5s5_1: "Éclairage avancé.",
+    d5s5_2:
+      "Paramètres de l'appareil photo (Distance focale/Exposition/Profondeur de champ/Balance des blancs).",
+    d5s5_3: "Raffinement des matériaux (verre, métaux, tissus, marbre, bois).",
+    d5s5_4: "Techniques de rendu intérieur et extérieur (différences).",
+    d5s5_5:
+      "Utilisation équilibrée des ressources : végétation, personnes, décor.",
+    d5s5_6: "Produire 2 images finales (intérieur + extérieur).",
+
+    d5s6Title: "Séance 6: Animation, post-production et projet final",
+    d5s6_1:
+      "Création des trajectoires d'animation et des mouvements de caméra.",
+    d5s6_2: "Ajout d'effets : pluie, vent, brouillard.",
+    d5s6_3: "Post-production (photoshop/canva).",
+
+    d5FinalProjectTitle: "Projet final",
+    d5FinalProjectDesc:
+      "Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet à présenter.",
+
+    d5ExtraTitle: "Contenu complémentaire",
+    d5Extra1: "Fichier pour les textures et les fichiers PBR.",
+    d5Extra2: "Lien pour Contenu 3D et contenu de texture.",
+    d5Extra3: "Fichier pour le contenu de rendu d5.",
+    d5FormatNote:
+      "Pour les séances, nous pouvons organiser la formation en ligne via Google Meet ou Zoom afin de faciliter l'accès aux étudiants et leur permettre de suivre les cours en temps réel.",
   },
 
   ar: {
@@ -2451,6 +2591,70 @@ const translations = {
     sk13_4: "تجهيز المشهد، المواد، الإضاءة، والكاميرا",
     sk13_5: "تصدير الإخراج النهائي (صورة ورسوم متحركة)",
     sk13_6: "عرض المشروع الكامل",
+
+    // ===============================
+    // SKETCHUP + D5 RENDER
+    // ===============================
+    d5CourseTitle: "دورة SketchUp + D5 Render",
+    d5CourseShortDesc:
+      "إتقان الإخراج الفوري (real-time) باستخدام سكتش أب و D5.",
+    d5CourseLongDesc:
+      "يأخذك هذا الكورس من أساسيات النمذجة في سكتش أب إلى الإخراج الفوري المتقدم والتحريك في D5 Render. تعلم كيفية تحضير النماذج، تطبيق خامات PBR، إعداد الإضاءة الاحترافية، وإنشاء صور نهائية ورسوم متحركة.",
+    d5Lectures: "6 جلسات + مشروع",
+    d5PriceOld: "10000 دج",
+    d5PriceNew: "7990 دج",
+
+    d5s1Title: "الجلسة 1: مقدمة ومبادئ سكتش أب الأساسية",
+    d5s1_1: "عرض الواجهة، الاختصارات، وسير العمل في سكتش أب.",
+    d5s1_2: "الوحدات، إعدادات النماذج، وطرق التنظيم.",
+    d5s1_3:
+      "الأدوات الأساسية: الخط، المستطيل، الدفع/السحب، النقل، التدوير، التحجيم.",
+    d5s1_4: "المجموعات (Groups) مقابل المكونات (Components).",
+    d5s1_5: "تمرين نمذجة أساسي: نمذجة غرفة بسيطة بجدران، أرضية، سقف، وفتحات.",
+
+    d5s2Title: "الجلسة 2: النمذجة المتوسطة والمواد",
+    d5s2_1: "إدارة الطبقات/العلامات (Tags) والمشاهد (Scenes).",
+    d5s2_2: "استيراد المخططات المرجعية (DWG/PDF) وضبط مقياسها بشكل صحيح.",
+    d5s2_3: "نمذجة الأثاث والعناصر المعمارية.",
+    d5s2_4: "تطبيق المواد، الخامات، وضبط مقياس الخامات.",
+    d5s2_5: "نمذجة غرفة مفروشة باستخدام المكونات وتطبيق المواد المناسبة.",
+
+    d5s3Title: "الجلسة 3: النمذجة المتقدمة وسير عمل المشروع",
+    d5s3_1: "أدوات وإضافات (plugins) متقدمة لتعديل أسرع.",
+    d5s3_2: "استخدام 3D Warehouse.",
+    d5s3_3: "تحضير مشروع سكتش أب للإخراج.",
+    d5s3_4: "تحضير نموذج داخلي/خارجي كامل جاهز للاستيراد في D5.",
+
+    d5s4Title: "الجلسة 4: D5 Render - الواجهة وأساسيات الإخراج الفوري",
+    d5s4_1: "واجهة D5، التنقل، والاختصارات.",
+    d5s4_2: "استيراد نموذج سكتش أب.",
+    d5s4_3: "المواد في D5: التطبيق، التعديل، الإزاحة (Displacement)، و PBR.",
+    d5s4_4: "مبادئ الإضاءة الأساسية.",
+    d5s4_5: "تطبيق مواد D5 + الإضاءة الأساسية على النموذج المستورد.",
+
+    d5s5Title: "الجلسة 5: تقنيات الإخراج الاحترافي",
+    d5s5_1: "الإضاءة المتقدمة.",
+    d5s5_2: "إعدادات الكاميرا (البعد البؤري/التعريض/عمق المجال/توازن البياض).",
+    d5s5_3: "تحسين المواد (الزجاج، المعادن، الأقمشة، الرخام، الخشب).",
+    d5s5_4: "تقنيات الإخراج الداخلي والخارجي (الاختلافات).",
+    d5s5_5: "الاستخدام المتوازن للموارد: النباتات، الأشخاص، الديكور.",
+    d5s5_6: "إنتاج 2 صورة نهائية (داخلية + خارجية).",
+
+    d5s6Title: "الجلسة 6: التحريك، ما بعد الإنتاج، والمشروع النهائي",
+    d5s6_1: "إنشاء مسارات التحريك وحركات الكاميرا.",
+    d5s6_2: "إضافة تأثيرات: المطر، الرياح، الضباب.",
+    d5s6_3: "ما بعد الإنتاج (فوتوشوب/كانفا).",
+
+    d5FinalProjectTitle: "المشروع النهائي",
+    d5FinalProjectDesc:
+      "يقوم الطلاب بتحضير فيديو تحريك من 30 إلى 60 ثانية و 3 صور ثابتة لمشروعهم لتقديمها.",
+
+    d5ExtraTitle: "محتوى إضافي",
+    d5Extra1: "ملف للخامات وملفات PBR.",
+    d5Extra2: "رابط لمحتوى 3D ومحتوى الخامات.",
+    d5Extra3: "ملف لمحتوى الإخراج D5.",
+    d5FormatNote:
+      "بالنسبة للجلسات، يمكننا تنظيم التدريب عبر الإنترنت عبر Google Meet أو Zoom لتسهيل وصول الطلاب والسماح لهم بمتابعة الدروس في الوقت الفعلي.",
   },
 };
 
