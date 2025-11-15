@@ -3824,9 +3824,10 @@ body {
     font-size: 15px !important;
     line-height: 1.6;
   }
-  .price-old #oldPrice {
-    font-size: 100px;
+  .price-old {
+    font-size: 19px !important;
   }
+
   /* Headings inside chapters */
   .chapter h4 {
     font-size: 16px !important;
@@ -4092,15 +4093,12 @@ body {
   display: flex;
   flex-direction: column;
   flex-direction: row;
-  /* justify-content: start; */
   color: rgba(255, 255, 255, 0.8);
   font-size: 15px;
   padding: 8px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 .episode {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   align-items: flex-start;
 }
 .session {
@@ -4218,6 +4216,7 @@ body {
   /* fill: white; */
   stroke: white;
 }
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -4241,7 +4240,7 @@ body {
 .price-old {
   color: rgba(255, 255, 255, 0.4);
   text-decoration: line-through;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .price-new {

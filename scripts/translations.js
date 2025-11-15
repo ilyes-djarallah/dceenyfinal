@@ -323,7 +323,7 @@ const translations = {
     instructor_by: "By Dceeny",
     instructor_role: "Architectural Visualization Specialist",
     level: "From Beginner to Intermediate",
-    lectures: "10 Lectures",
+    rvEnlectures: "40 Lectures",
     psDuration: "20 h",
     skills_title: "Skills Covered",
     skill_photoshop: "Photoshop",
@@ -356,6 +356,8 @@ const translations = {
     thankYou: "Thank you! Your purchase request has been sent.",
     buy: "Buy",
     dceeny_edu: "DCEENY Education",
+    related_Skills: "Related Skills:",
+
     // ===============================
     // ADOBE COURSES - ENGLISH
     // ===============================
@@ -412,6 +414,7 @@ const translations = {
     // ===============================
     // PHOTOSHOP — ARCHITECTURE
     // ===============================
+    psLectures: "10 sessions",
     psse1: "Session 1 -",
     ps1: "Architectural Plan Treatment (2h)",
     psse2: "Session 2 -",
@@ -440,16 +443,17 @@ const translations = {
     // ===============================
     // BLENDER — ARCHITECTURE
     // ===============================
-    blenderTitle: "Blender - Architecture",
+    blLectures: "30 Lectures",
+    blenderTitle: "Blender Architecture - Modeling, Texturing & Rendering",
     blenderSubtitle:
       "Master architectural modeling, texturing, and rendering with Blender.",
     blenderDescription:
       "This complete Blender Architecture course teaches you how to model, texture, and render realistic architectural projects from start to finish. Learn to build structures, add details, create materials, and produce photorealistic results for professional presentations.",
 
-    bl1se: "Session 1",
+    bl1se: "Session 1 : Introduction & Workflow Setup",
     bl1: "Introduction & Workflow Setup",
     bl1Obj:
-      "OBJECTIVE: Understand the interface and set up a professional workflow for architectural projects.",
+      "Understand the interface and set up a professional workflow for architectural projects.",
     bl1a: "Introduction to Blender for architecture",
     bl1b: "Essential add-ons (Archipack, MeasureIt, etc.)",
     bl1c: "Unit setup and real-world scales",
@@ -457,28 +461,28 @@ const translations = {
     bl1e: "Perspective and camera understanding",
     bl1Ex: "Practical Exercise: Create a new project and import a scaled plan",
 
-    bl2se: "Session 2",
+    bl2se: "Session 2 : Basic Architectural Modeling",
     bl2: "Basic Architectural Modeling",
     bl2Obj:
-      "OBJECTIVE: Model the main structure of the building with precision.",
+      "Model the main structure of the building with precision.",
     bl2a: "Modeling walls, floors, and ceilings",
     bl2b: "Using modifiers (Array, Mirror, Bevel)",
     bl2c: "Creating openings: doors, windows, stairs",
     bl2d: "Accurate modeling techniques with real measurements",
     bl2Ex: "Practical Exercise: Model the complete building structure",
 
-    bl3se: "Session 3",
+    bl3se: "Session 3 : Interior & Exterior Details",
     bl3: "Interior & Exterior Details",
-    bl3Obj: "OBJECTIVE: Add realism to the project through secondary elements.",
+    bl3Obj: "Add realism to the project through secondary elements.",
     bl3a: "Furniture modeling (Desk)",
     bl3b: "Using asset libraries (Asset Browser, append/link)",
     bl3c: "Details: railings, balconies",
     bl3d: "Managing proportions and scale consistency",
     bl3Ex: "Practical Exercise: Add furniture and architectural details",
 
-    bl4se: "Session 4",
+    bl4se: "Session 4 : Realistic Materials & Textures",
     bl4: "Realistic Materials & Textures",
-    bl4Obj: "OBJECTIVE: Create physically accurate and believable materials.",
+    bl4Obj: "Create physically accurate and believable materials.",
     bl4a: "Understanding the PBR workflow (Albedo, Roughness, Normal, etc.)",
     bl4b: "Creating materials with Principled BSDF",
     bl4c: "UV unwrapping and texture management",
@@ -487,19 +491,19 @@ const translations = {
     bl4Ex:
       "Practical Exercise: Texture the entire building with realistic materials",
 
-    bl5se: "Session 5",
+    bl5se: "Session 5 : Lighting & Photorealistic Rendering",
     bl5: "Lighting & Photorealistic Rendering",
-    bl5Obj: "OBJECTIVE: Produce professional renders for architecture.",
+    bl5Obj: "Produce professional renders for architecture.",
     bl5a: "Natural lighting: HDRI, sun, and sky",
     bl5b: "Interior lighting (lamps, spotlights, light sources)",
     bl5c: "Render setup in Cycles & Eevee",
     bl5d: "Camera composition and depth of field",
     bl5Ex: "Practical Exercise: Create two photorealistic renders (day/night)",
 
-    bl6se: "Session 6",
+    bl6se: "Session 6 : Finalization & Presentation",
     bl6: "Finalization & Presentation",
     bl6Obj:
-      "OBJECTIVE: Enhance and finalize renders for a professional presentation.",
+      "Enhance and finalize renders for a professional presentation.",
     bl6a: "Post-production effects: glow, bloom, depth",
     bl6b: "Exporting for portfolio or social media",
     bl6c: "Color grading and correction",
@@ -514,7 +518,7 @@ const translations = {
     blDuration: "15 hours",
     blFinalProject:
       "Final Project: Students prepare a 30–60 second animation and 3 still images of their project.",
-    blAdditionalContentTitle: "Additional Content",
+    blAdditionalContentTitle: "BONUS Content",
     blAdd1: "Texture files and PBR files",
     blAdd2: "Links to 3D content and texture libraries",
     blAdd3: "Extensions used (Addons)",
@@ -588,7 +592,7 @@ const translations = {
     rv7_14: "Using virtual reality (VR)",
     rv7_15: "Creating interactive client presentations",
 
-    rvSkillsTitle: "Acquired Skills",
+    rvSkillsTitle: "Course Objectives",
     rvSkill1: "Complete architectural modeling in Revit",
     rvSkill2: "Organization and management of families, materials, and levels",
     rvSkill3: "Creation of plans, sections, elevations, and 3D renders",
@@ -605,8 +609,8 @@ const translations = {
     rvEnTitle3: "3- Camera and Perspective Management",
     rvEnTitle4: "4- Rendering and Exporting",
     rvEnTitle5: "5- Presentation and Immersive Rendering",
-    rvEnPriceNew: "12990 DZD",
-    rvEnPriceOld: "16000 DZD",
+    rvEnPriceNew: "11990 DZD",
+    rvEnPriceOld: "15000 DZD",
     rvEnDuration: "17 h",
     // rvEnPriceNote: "Lifetime access — one-time payment",
     // ===============================
@@ -1204,7 +1208,7 @@ const translations = {
     instructor_by: "Par Dceeny",
     instructor_role: "Spécialiste en visualisation architecturale",
     level: "De débutant à intermédiaire",
-    lectures: "10 leçons",
+    rvEnlectures: "40 leçons",
     psDuration: "20 h",
     skills_title: "Compétences couvertes",
     skill_photoshop: "Photoshop",
@@ -1237,6 +1241,8 @@ const translations = {
     thankYou: "Merci ! Votre demande d'achat a été envoyée.",
     buy: "Acheter",
     dceeny_edu: "DCEENY Éducation",
+    related_Skills: "Compétences liées:",
+
     // ===============================
     // ADOBE COURSES - FRENCH
     // ===============================
@@ -1292,6 +1298,7 @@ const translations = {
     // ===============================
     // PHOTOSHOP - ARCHITECTURE
     // ===============================
+    psLectures: "10 leçons",
     ps1: "Séance 1 - Traitement de plan architectural (2h)",
     ps2: "Séance 2 - Traitement de plan et carte urbaine (2h)",
     ps3: "Séance 3 - Coupes et façades (2h)",
@@ -1337,16 +1344,18 @@ const translations = {
     // ===============================
     // BLENDER — ARCHITECTURE
     // ===============================
-    blenderTitle: "Blender - Architecture",
+    blLectures: "30 leçons",
+
+    blenderTitle: "Blender pour l’architecture - Modélisation, Texturage & Rendu",
     blenderSubtitle:
       "Maîtrisez la modélisation, le texturage et le rendu architectural avec Blender.",
     blenderDescription:
       "Cette formation complète en Blender Architecture vous apprendra à modéliser, texturer et rendre des projets architecturaux réalistes de A à Z. Apprenez à construire des structures, ajouter des détails, créer des matériaux et produire des rendus photoréalistes pour vos présentations professionnelles.",
 
-    bl1se: "Session 1",
+    bl1se: "Séance 1 : Introduction & Mise en place du workflow",
     bl1: "Introduction & Mise en place du workflow",
     bl1Obj:
-      "OBJECTIF : Comprendre l’interface et préparer un environnement de travail professionnel pour les projets architecturaux.",
+      "Comprendre l’interface et préparer un environnement de travail professionnel pour les projets architecturaux.",
     bl1a: "Présentation de Blender pour l’architecture",
     bl1b: "Add-ons essentiels (Archipack, MeasureIt, etc.)",
     bl1c: "Réglage des unités et des échelles réelles",
@@ -1355,20 +1364,20 @@ const translations = {
     bl1Ex:
       "Exercice pratique : Créer un nouveau projet et importer un plan à l’échelle",
 
-    bl2se: "Session 2",
+    bl2se: "Séance 2 : Modélisation architecturale de base",
     bl2: "Modélisation architecturale de base",
     bl2Obj:
-      "OBJECTIF : Modéliser la structure principale du bâtiment avec précision.",
+      "Modéliser la structure principale du bâtiment avec précision.",
     bl2a: "Modélisation des murs, planchers et plafonds",
     bl2b: "Utilisation des modificateurs (Array, Mirror, Bevel)",
     bl2c: "Création des ouvertures : portes, fenêtres, escaliers",
     bl2d: "Techniques de modélisation précises avec mesures réelles",
     bl2Ex: "Exercice pratique : Modéliser la structure complète du bâtiment",
 
-    bl3se: "Session 3",
+    bl3se: "Séance 3 : Détails intérieurs & extérieurs",
     bl3: "Détails intérieurs & extérieurs",
     bl3Obj:
-      "OBJECTIF : Donner du réalisme au projet avec des éléments secondaires.",
+      "Donner du réalisme au projet avec des éléments secondaires.",
     bl3a: "Modélisation de mobilier (Bureau)",
     bl3b: "Utilisation de bibliothèques d’assets (Asset Browser, append/link)",
     bl3c: "Détails : garde-corps, balcons",
@@ -1376,10 +1385,10 @@ const translations = {
     bl3Ex:
       "Exercice pratique : Ajouter du mobilier et des détails architecturaux",
 
-    bl4se: "Session 4",
+    bl4se: "Séance 4 : Matériaux & Textures réalistes",
     bl4: "Matériaux & Textures réalistes",
     bl4Obj:
-      "OBJECTIF : Créer des matériaux physiquement corrects et crédibles.",
+      "Créer des matériaux physiquement corrects et crédibles.",
     bl4a: "Comprendre le workflow PBR (Albedo, Roughness, Normal, etc.)",
     bl4b: "Création de matériaux avec le Principled BSDF",
     bl4c: "Dépliage UV et gestion des textures (UV Unwrap)",
@@ -1388,19 +1397,19 @@ const translations = {
     bl4Ex:
       "Exercice pratique : Texturer tout le bâtiment avec des matériaux réalistes",
 
-    bl5se: "Session 5",
+    bl5se: "Séance 5 : Éclairage & Rendu photoréaliste",
     bl5: "Éclairage & Rendu photoréaliste",
-    bl5Obj: "OBJECTIF : Obtenir des rendus professionnels pour l’architecture.",
+    bl5Obj: "Obtenir des rendus professionnels pour l’architecture.",
     bl5a: "Lumière naturelle : HDRI, soleil et ciel",
     bl5b: "Éclairage intérieur (lampes, spots, zones lumineuses)",
     bl5c: "Réglages de rendu dans Cycles & Eevee",
     bl5d: "Composition visuelle et choix des caméras",
     bl5Ex: "Exercice pratique : Deux rendus photoréalistes (jour/nuit)",
 
-    bl6se: "Session 6",
+    bl6se: "Séance 6 : Finalisation & Présentation",
     bl6: "Finalisation & Présentation",
     bl6Obj:
-      "OBJECTIF : Valoriser le projet avec une présentation professionnelle.",
+      "Valoriser le projet avec une présentation professionnelle.",
     bl6a: "Effets de post-production : glow, bloom, profondeur",
     bl6b: "Exportation pour portfolio ou réseaux sociaux",
     bl6c: "Color grade et correction de couleur",
@@ -1416,7 +1425,7 @@ const translations = {
     blDuration: "15 heurs",
     blFinalProject:
       "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
-    blAdditionalContentTitle: "Contenu complémentaire",
+    blAdditionalContentTitle: "BONUS Contenu",
     blAdd1: "Fichiers pour les textures et les fichiers PBR",
     blAdd2: "Lien pour le contenu 3D et contenu de texture",
     blAdd3: "Les extensions utilisées (Addons)",
@@ -1425,7 +1434,7 @@ const translations = {
     rvGeneralObjective:
       "Acquérir les compétences nécessaires pour modéliser, organiser et présenter un projet architectural complet en 3D à l’aide de Revit et Enscape, depuis la mise en place du projet jusqu’au rendu final et la présentation professionnelle.",
 
-    rv1Title: "1ère Séance : Introduction et mise en place du projet",
+    rv1Title: "Séance 1 : Introduction et mise en place du projet",
     rv1_1:
       "Création et paramétrage des niveaux (étage, sous-sol, toiture, etc.)",
     rv1_2: "Gestion des hauteurs et relations entre les niveaux",
@@ -1436,10 +1445,10 @@ const translations = {
     rv1_6: "Personnalisation des matériaux et textures",
     rv1_7: "Introduction à la bibliothèque Enscape pour le rendu",
 
-    rv2Title: "2ème Séance : Structure et éléments porteurs",
+    rv2Title: "Séance 2 : Structure et éléments porteurs",
     rv2_1:
       "Insertion des fondations : types de fondations et réglage des niveaux de vue",
-    rv2_1:
+    rv2_2:
       "Insertion des poteaux : types, dimensions et utilisation de la barre verte",
     rv2_3:
       "Insertion des poutres : types, dimensions et alignement avec la barre verte",
@@ -1448,7 +1457,7 @@ const translations = {
     rv2_5:
       "Insertion du plancher : configuration, type, épaisseur et matériaux",
 
-    rv3Title: "3ème Séance : Éléments architecturaux",
+    rv3Title: "Séance 3 : Éléments architecturaux",
     rv3_1: "Copie de l’étage dans la presse papier",
     rv3_2: "Insertion et paramétrage des portes et fenêtres",
     rv3_3: "Création d’escaliers (types, formes et paramètres)",
@@ -1456,7 +1465,7 @@ const translations = {
     rv3_5: "Création des plafonds",
     rv3_6: "Insertion du mobilier intérieur",
 
-    rv4Title: "4ème Séance : Détails architecturaux et finitions",
+    rv4Title: "Séance 4 : Détails architecturaux et finitions",
     rv4_1: "Cotations, surfaces, espaces et légendes",
     rv4_2: "Peinture (normale, multicouche et accrochage fenêtres)",
     rv4_3: "Plinthes",
@@ -1464,7 +1473,7 @@ const translations = {
     rv4_5: "Coupes et façades",
     rv4_6: "Graphisme en plan et en coupe",
 
-    rv5Title: "5ème Séance : Site, environnement et rendu 3D",
+    rv5Title: "Séance 5 : Site, environnement et rendu 3D",
     rv5_1: "Volumes in situ et leurs paramètres",
     rv5_2: "Création du site et topographie, terrassement et plan de masse",
     rv5_3: "Importation DWG et images avec échelle",
@@ -1479,7 +1488,7 @@ const translations = {
     rv6_5: "Finitions sur Photoshop pour présentation ou impression",
 
     rv7Title:
-      "7ème Séance : Maîtrise du rendu et de la visualisation avec Enscape",
+      "Séance 7 : Maîtrise du rendu et de la visualisation avec Enscape",
     rv7_1: "Présentation de l’interface et des outils principaux",
     rv7_2: "Configuration du lien entre Revit et Enscape",
     rv7_3: "Paramétrage de la synchronisation en temps réel",
@@ -1496,7 +1505,7 @@ const translations = {
     rv7_14: "Utilisation de la réalité virtuelle (VR)",
     rv7_15: "Création de présentations clients interactives",
 
-    rvSkillsTitle: "Compétences acquises",
+    rvSkillsTitle: "Objectifs de Formation",
     rvSkill1: "Modélisation architecturale complète sur Revit",
     rvSkill2: "Organisation et gestion des familles, matériaux et niveaux",
     rvSkill3: "Production de plans, coupes, façades et rendus 3D",
@@ -1513,8 +1522,8 @@ const translations = {
     rvEnTitle3: "3- Gestion des caméras et perspectives",
     rvEnTitle4: "4- Rendu et exportation",
     rvEnTitle5: "5- Présentation et rendu immersif",
-    rvEnPriceOld: "16000 DZD",
-    rvEnPriceNew: "12990 DZD",
+    rvEnPriceOld: "15000 DZD",
+    rvEnPriceNew: "11990 DZD",
     // rvEnPriceNote: "Accès à vie — paiement unique",
     rvEnDuration: "17 h",
     acCourseTitle: "Archicad 2D/3D + Lumion",
@@ -2105,7 +2114,7 @@ const translations = {
     instructor_by: "بواسطة ديسيني",
     instructor_role: "متخصص في العرض المعماري",
     level: "من المبتدئ إلى المتوسط",
-    lectures: "10 درس",
+    rvEnlectures: "40 درس",
     psDuration: "20 ساعة",
     skills_title: "المهارات المكتسبة",
     skill_photoshop: "فوتوشوب",
@@ -2137,10 +2146,12 @@ const translations = {
     close: "إغلاق",
     thankYou: "شكرًا لك! تم إرسال طلب الشراء الخاص بك.",
     buy: "اشتر",
+    related_Skills: "المهارات ذات الصلة:",
     // dceeny_edu: "DCEENY التعليم",
     // ===============================
     // ADOBE COURSES - ARABIC
     // ===============================
+    psLectures: "10 دروس",
     photoshopTitle: "فوتوشوب للعمارة",
     photoshopDesc:
       "تعلم كيفية تحويل الرسومات المعمارية إلى لوحات عرض احترافية باستخدام Adobe Photoshop. في أكثر من 10 ساعات من التدريب، ستتقن أهم الخطوات لإنشاء صور نظيفة وجذابة وجاهزة للطباعة.",
@@ -2192,60 +2203,62 @@ const translations = {
     // ===============================
     // PHOTOSHOP - العمارة
     // ===============================
-    ps1: "الجلسة 1 - معالجة المخطط المعماري (ساعتان)",
-    ps2: "الجلسة 2 - معالجة المخطط الحضري والخريطة (ساعتان)",
-    ps3: "الجلسة 3 - المقاطع والواجهات (ساعتان)",
-    ps4: "الجلسة 4 - معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
-    ps5: "الجلسة 5 - إنشاء لوحة عرض تقديمي (ساعتان)",
+    ps1: "الحصة 1 - معالجة المخطط المعماري (ساعتان)",
+    ps2: "الحصة 2 - معالجة المخطط الحضري والخريطة (ساعتان)",
+    ps3: "الحصة 3 - المقاطع والواجهات (ساعتان)",
+    ps4: "الحصة 4 - معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
+    ps5: "الحصة 5 - إنشاء لوحة عرض تقديمي (ساعتان)",
 
     // ===============================
     // إليستريتور - العمارة
     // ===============================
-    il1: "الجلسة 1 - تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
-    il2: "الجلسة 2 - المخططات والعناصر المعلوماتية (ساعتان)",
-    il3: "الجلسة 3 - معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
-    il4: "الجلسة 4 - تصميم شعار المشروع (ساعتان)",
-    il5: "الجلسة 5 - تنسيق لوحة العرض (ساعتان)",
+    il1: "الحصة 1 - تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
+    il2: "الحصة 2 - المخططات والعناصر المعلوماتية (ساعتان)",
+    il3: "الحصة 3 - معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
+    il4: "الحصة 4 - تصميم شعار المشروع (ساعتان)",
+    il5: "الحصة 5 - تنسيق لوحة العرض (ساعتان)",
 
     // ===============================
     // PHOTOSHOP — العمارة
     // ===============================
-    psse1: "الجلسة 1",
+    psse1: "الحصة 1",
     ps1: "معالجة المخطط المعماري (ساعتان)",
-    psse2: "الجلسة 2",
+    psse2: "الحصة 2",
     ps2: "معالجة المخطط الحضري والخريطة (ساعتان)",
-    psse3: "الجلسة 3",
+    psse3: "الحصة 3",
     ps3: "المقاطع والواجهات (ساعتان)",
-    psse4: "الجلسة 4",
+    psse4: "الحصة 4",
     ps4: "معالجة الصور (إنشاء شريط تاريخي إضافي) (ساعتان)",
-    psse5: "الجلسة 5",
+    psse5: "الحصة 5",
     ps5: "إنشاء لوحة عرض تقديمي (ساعتان)",
 
     // ===============================
     // إليستريتور — العمارة
     // ===============================
-    ilse1: "الجلسة 1",
+    ilse1: "الحصة 1",
     il1: "تحسين الرسومات وإنشاء فكرة المشروع (ساعتان)",
-    ilse2: "الجلسة 2",
+    ilse2: "الحصة 2",
     il2: "المخططات والعناصر المعلوماتية (ساعتان)",
-    ilse3: "الجلسة 3",
+    ilse3: "الحصة 3",
     il3: "معالجة الرسومات وإنشاء لوحة مزاجية (ساعتان)",
-    ilse4: "الجلسة 4",
+    ilse4: "الحصة 4",
     il4: "تصميم شعار المشروع (ساعتان)",
-    ilse5: "الجلسة 5",
+    ilse5: "الحصة 5",
     il5: "تنسيق لوحة العرض (ساعتان)",
     // ===============================
     // بلندر — العمارة
     // ===============================
-    blenderTitle: "بلندر - العمارة",
+    blLectures: "30 درس",
+
+    blenderTitle: "بلندر للعمارة - النمذجة ثلاثية الأبعاد، الخامات، والإضاءة",
     blenderSubtitle: "أتقن النمذجة والخامات والإضاءة المعمارية باستخدام بلندر.",
     blenderDescription:
       "تعلّم في هذه الدورة الشاملة كيفية إنشاء مشاريع معمارية واقعية باستخدام Blender، من النمذجة إلى الإضاءة والإخراج النهائي. ستتعلم إعداد بيئة العمل، إنشاء الهياكل، إضافة التفاصيل، وتقديم مشاهد احترافية عالية الجودة.",
 
-    bl1se: "الجلسة 1",
+    bl1se: "الحصة 1 : مقدمة وإعداد سير العمل",
     bl1: "مقدمة وإعداد سير العمل",
     bl1Obj:
-      "الهدف: فهم واجهة البرنامج وإعداد بيئة عمل احترافية للمشاريع المعمارية.",
+      "فهم واجهة البرنامج وإعداد بيئة عمل احترافية للمشاريع المعمارية.",
     bl1a: "التعرف على بلندر في المجال المعماري",
     bl1b: "الإضافات الأساسية (Archipack، MeasureIt، وغيرها)",
     bl1c: "ضبط الوحدات والمقاييس الواقعية",
@@ -2253,27 +2266,27 @@ const translations = {
     bl1e: "فهم المنظور والكاميرات المعمارية",
     bl1Ex: "تمرين عملي: إنشاء مشروع جديد واستيراد مخطط بالحجم الصحيح",
 
-    bl2se: "الجلسة 2",
+    bl2se: "الحصة 2 : النمذجة المعمارية الأساسية",
     bl2: "النمذجة المعمارية الأساسية",
-    bl2Obj: "الهدف: إنشاء الهيكل الرئيسي للمبنى بدقة عالية.",
+    bl2Obj: "إنشاء الهيكل الرئيسي للمبنى بدقة عالية.",
     bl2a: "نمذجة الجدران، الأسقف، والأرضيات",
     bl2b: "استخدام المعدلات (Array، Mirror، Bevel)",
     bl2c: "إنشاء الفتحات: الأبواب، النوافذ، السلالم",
     bl2d: "تقنيات نمذجة دقيقة باستخدام المقاييس الواقعية",
     bl2Ex: "تمرين عملي: نمذجة الهيكل الكامل للمبنى",
 
-    bl3se: "الجلسة 3",
+    bl3se: "الحصة 3 : التفاصيل الداخلية والخارجية",
     bl3: "التفاصيل الداخلية والخارجية",
-    bl3Obj: "الهدف: إضافة الواقعية للمشروع من خلال العناصر الثانوية.",
+    bl3Obj: "إضافة الواقعية للمشروع من خلال العناصر الثانوية.",
     bl3a: "نمذجة الأثاث (مكتب)",
     bl3b: "استخدام مكتبات الأصول (Asset Browser، append/link)",
     bl3c: "التفاصيل: الدرابزين، الشرفات",
     bl3d: "إدارة النسب والتناسق في المقياس",
     bl3Ex: "تمرين عملي: إضافة الأثاث والتفاصيل المعمارية",
 
-    bl4se: "الجلسة 4",
+    bl4se: "الحصة 4 : الخامات والأنسجة الواقعية",
     bl4: "الخامات والأنسجة الواقعية",
-    bl4Obj: "الهدف: إنشاء خامات دقيقة وواقعية فيزيائياً.",
+    bl4Obj: "إنشاء خامات دقيقة وواقعية فيزيائياً.",
     bl4a: "فهم سير عمل PBR (Albedo، Roughness، Normal، وغيرها)",
     bl4b: "إنشاء المواد باستخدام Principled BSDF",
     bl4c: "إدارة الخامات عبر UV Unwrap",
@@ -2281,18 +2294,18 @@ const translations = {
     bl4e: "استيراد الخامات من المكتبات (Poliigon، AmbientCG)",
     bl4Ex: "تمرين عملي: تغليف المبنى بالكامل بخامات واقعية",
 
-    bl5se: "الجلسة 5",
+    bl5se: "الحصة 5 : الإضاءة والإخراج الواقعي",
     bl5: "الإضاءة والإخراج الواقعي",
-    bl5Obj: "الهدف: إنتاج صور واقعية عالية الجودة للمشاريع المعمارية.",
+    bl5Obj: "إنتاج صور واقعية عالية الجودة للمشاريع المعمارية.",
     bl5a: "الإضاءة الطبيعية: HDRI، الشمس والسماء",
     bl5b: "الإضاءة الداخلية (مصابيح، نقاط ضوء، مناطق مضيئة)",
     bl5c: "إعدادات الإخراج في Cycles وEevee",
     bl5d: "تكوين الكاميرا وعمق المجال",
     bl5Ex: "تمرين عملي: إنشاء إخراجين واقعيين (نهاري/ليلي)",
 
-    bl6se: "الجلسة 6",
+    bl6se: "الحصة 6 : اللمسات النهائية و العرض",
     bl6: "اللمسات النهائية والعرض",
-    bl6Obj: "الهدف: تحسين الإخراج النهائي وتقديمه بشكل احترافي.",
+    bl6Obj: "تحسين الإخراج النهائي وتقديمه بشكل احترافي.",
     bl6a: "تأثيرات ما بعد الإنتاج: توهج، عمق، إضاءة ناعمة",
     bl6b: "التصدير للملف الشخصي أو وسائل التواصل",
     bl6c: "تصحيح الألوان والتدرج اللوني",
@@ -2316,23 +2329,23 @@ const translations = {
     rvGeneralObjective:
       "اكتساب المهارات اللازمة لنمذجة وتنظيم وعرض مشروع معماري كامل ثلاثي الأبعاد باستخدام Revit وEnscape، من إعداد المشروع إلى الإخراج النهائي والعرض الاحترافي.",
 
-    rv1Title: "الجلسة 1: مقدمة وإعداد المشروع",
+    rv1Title: "الحصة 1: مقدمة وإعداد المشروع",
     rv1_1: "إنشاء وضبط المستويات (الطابق، القبو، السطح، إلخ)",
     rv1_2: "إدارة الارتفاعات والعلاقات بين المستويات",
     rv1_3: "خصائص العرض وعلامات المستويات في المشاهد",
     rv1_4: "استكشاف مكتبة Revit (العائلات، العناصر، المواد)",
     rv1_5: "استيراد وإدارة العائلات الخارجية",
     rv1_6: "تخصيص المواد والخامات",
-    rv1_7: "مقدمة إلى مكتبة Enscape الخاصة بالرندرة",
+    rv1_7: "مقدمة إلى مكتبة Enscape الخاصة بالرندر",
 
-    rv2Title: "الجلسة 2: الهيكل والعناصر الحاملة",
+    rv2Title: "الحصة 2: الهيكل والعناصر الحاملة",
     rv2_1: "إدراج الأساسات: الأنواع وضبط مستويات العرض",
     rv2_2: "إدراج الأعمدة: الأنواع والأبعاد واستخدام الشريط الأخضر",
     rv2_3: "إدراج الجسور: الأنواع والأبعاد والمحاذاة بالشريط الأخضر",
     rv2_4: "إدراج الجدران: الإعداد، إضافة المواد أو العزل، الخصائص والرسم",
     rv2_5: "إدراج الأرضيات: الإعداد، النوع، السمك والمواد",
 
-    rv3Title: "الجلسة 3: العناصر المعمارية",
+    rv3Title: "الحصة 3: العناصر المعمارية",
     rv3_1: "نسخ الدور داخل لوحة الطباعة",
     rv3_2: "إدراج وضبط الأبواب والنوافذ",
     rv3_3: "إنشاء السلالم (الأنواع، الأشكال، الإعدادات)",
@@ -2340,7 +2353,7 @@ const translations = {
     rv3_5: "إنشاء الأسقف",
     rv3_6: "إدراج الأثاث الداخلي",
 
-    rv4Title: "الجلسة 4: التفاصيل المعمارية والتشطيبات",
+    rv4Title: "الحصة 4: التفاصيل المعمارية والتشطيبات",
     rv4_1: "الأبعاد والمسطحات والمساحات والرموز",
     rv4_2: "الطلاء (عادي، متعدد الطبقات، ولصق على النوافذ)",
     rv4_3: "الوزرات",
@@ -2348,21 +2361,21 @@ const translations = {
     rv4_5: "المقاطع والواجهات",
     rv4_6: "الجرافيزم في المخطط والمقطع",
 
-    rv5Title: "الجلسة 5: الموقع، المحيط والرندرة ثلاثية الأبعاد",
+    rv5Title: "الحصة 5: الموقع، المحيط والرندر ثلاثية الأبعاد",
     rv5_1: "الأحجام في الموقع وإعداداتها",
     rv5_2: "إنشاء الموقع والطبوغرافيا والردم ومخطط الموقع",
     rv5_3: "استيراد ملفات DWG والصور مع ضبط المقياس",
     rv5_4: "تصدير ثلاثي الأبعاد والمخططات (DWG/DXF)",
     rv5_5: "الكاميرا ورندرة Revit / Enscape",
 
-    rv6Title: "الجلسة 6: التوثيق والعرض والطباعة",
+    rv6Title: "الحصة 6: التوثيق والعرض والطباعة",
     rv6_1: "الجداول وقوائم الكميات مع الإعدادات الكاملة",
     rv6_2: "إدراج وتعديل الأوراق والكارتوش",
     rv6_3: "إضافة المخططات إلى الأوراق مع الإطارات والعناوين والمقاييس",
     rv6_4: "التصدير إلى JPEG أو PDF مع النصوص والتعليقات",
     rv6_5: "اللمسات النهائية عبر Photoshop للعرض أو الطباعة",
 
-    rv7Title: "الجلسة 7: احتراف الرندرة والتصور باستخدام Enscape",
+    rv7Title: "الحصة 7: احتراف الرندر والتصور باستخدام Enscape",
     rv7_1: "واجهة Enscape والأدوات الرئيسية",
     rv7_2: "إعداد الرابط بين Revit وEnscape",
     rv7_3: "ضبط المزامنة في الوقت الحقيقي",
@@ -2379,7 +2392,7 @@ const translations = {
     rv7_14: "استخدام الواقع الافتراضي VR",
     rv7_15: "إنشاء عروض تفاعلية للعملاء",
 
-    rvSkillsTitle: "المهارات المكتسبة",
+    rvSkillsTitle: "أهداف الدورة",
     rvSkill1: "نموذج معماري كامل باستخدام Revit",
     rvSkill2: "تنظيم وإدارة العائلات والمواد والمستويات",
     rvSkill3: "إنتاج المخططات والمقاطع والواجهات والرندرات ثلاثية الأبعاد",
@@ -2394,10 +2407,10 @@ const translations = {
     rvEnTitle1: "1- مقدمة إلى Enscape",
     rvEnTitle2: "2- الإعدادات الرسومية والمواد",
     rvEnTitle3: "3- إدارة الكاميرات والزوايا",
-    rvEnTitle4: "4- الرندرة والتصدير",
-    rvEnTitle5: "5- العرض والرندرة الغامرة",
-    rvEnPriceNew: "12990 دج",
-    rvEnPriceOld: "16000 دج",
+    rvEnTitle4: "4- الرندر والتصدير",
+    rvEnTitle5: "5- العرض والرندر الغامرة",
+    rvEnPriceNew: "11990 دج",
+    rvEnPriceOld: "15000 دج",
     rvEnDuration: "17 ساعة",
     // rvEnFinalProject:
     //   "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
@@ -2416,7 +2429,7 @@ const translations = {
     acMainObjective:
       "الهدف: إتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
 
-    ac1Title: "الجلسة 1: مقدمة وأساسيات الرسم ثنائي الأبعاد",
+    ac1Title: "الحصة 1: مقدمة وأساسيات الرسم ثنائي الأبعاد",
     ac1Obj: "الهدف: اكتشاف Archicad وإتقان الأدوات الأساسية.",
     ac1_1: "عرض البرنامج، منطق BIM، والواجهة.",
     ac1_2: "إعداد المشروع: الوحدات، الطبقات، الطوابق، والمستويات.",
@@ -2424,7 +2437,7 @@ const translations = {
     ac1_4: "تنظيم المخطط: الموجهات، الشبكة، إدارة المناظير.",
     ac1Ex: "تمرين عملي: إنجاز مخطط بسيط للطابق الأرضي (منزل أو استوديو).",
 
-    ac2Title: "الجلسة 2: النمذجة ثلاثية الأبعاد والكتل المعمارية",
+    ac2Title: "الحصة 2: النمذجة ثلاثية الأبعاد والكتل المعمارية",
     ac2Obj:
       "الهدف: الانتقال من الرسم ثنائي الأبعاد إلى النمذجة ثلاثية الأبعاد.",
     ac2_1: "إنشاء الجدران، البلاطات، الفتحات، السلالم، والأسقف.",
@@ -2433,7 +2446,7 @@ const translations = {
     ac2_4: "نصائح للتنقل وتحسين العمل ثلاثي الأبعاد.",
     ac2Ex: "تمرين عملي: نمذجة كاملة لحجم المبنى.",
 
-    ac3Title: "الجلسة 3: التصميم الداخلي وإدارة الكائنات",
+    ac3Title: "الحصة 3: التصميم الداخلي وإدارة الكائنات",
     ac3Obj: "الهدف: إنشاء مساحات داخلية واقعية ومنظمة.",
     ac3_1: "الأثاث الداخلي والخارجي عبر مكتبة كائنات Archicad.",
     ac3_2: "إدارة المواد والملامس الأساسية.",
@@ -2441,7 +2454,7 @@ const translations = {
     ac3_4: "مقدمة إلى الأنماط الرسومية والأجواء البصرية.",
     ac3Ex: "تمرين عملي: تصميم كامل لمساحة نموذجية (مطبخ أو استوديو).",
 
-    ac4Title: "الجلسة 4: المقاطع، الواجهات، والتفاصيل الفنية",
+    ac4Title: "الحصة 4: المقاطع، الواجهات، والتفاصيل الفنية",
     ac4Obj: "الهدف: إنشاء وتقديم المستندات الفنية للمشروع.",
     ac4_1: "الإنشاء التلقائي للمقاطع والواجهات من النموذج ثلاثي الأبعاد.",
     ac4_2: "الأبعاد، التعليقات، والرموز الرسومية.",
@@ -2449,7 +2462,7 @@ const translations = {
     ac4_4: "إدارة المناظير والطبقات الفنية.",
     ac4Ex: "تمرين عملi: إنتاج مخططات، مقاطع، وواجهات كاملة.",
 
-    ac5Title: "الجلسة 5: الإخراج، الرندر ثنائي الأبعاد، والتوثيق",
+    ac5Title: "الحصة 5: الإخراج، الرندر ثنائي الأبعاد، والتوثيق",
     ac5Obj: "الهدف: إعداد ملف عرض تقديمي احترافي.",
     ac5_1: "استخدام متصفح الإخراج وإنشاء جداول العناوين (Cartouches).",
     ac5_2: "إنشاء المناظير، ضبط المقياس، والتصدير (PDF, DWG, صور).",
@@ -2457,7 +2470,7 @@ const translations = {
     ac5_4: "تصدير النموذج إلى Lumion للإخراج النهائي.",
     ac5Ex: "تمرين عملي: إنجاز ملف عرض تقديمي كامل.",
 
-    ac6Title: "الجلسة 6: Archicad متقدم وإدارة BIM",
+    ac6Title: "الحصة 6: Archicad متقدم وإدارة BIM",
     ac6Obj: "الهدف: تعميق الأدوات المتقدمة وإدارة المشروع.",
     ac6_1: "استخدام التشكيلات المعقدة والواجهات الزجاجية (Façades Rideaux).",
     ac6_2: "إدارة الطبقات، فلاتر التجديد، والمناظير المدمجة.",
@@ -2498,27 +2511,27 @@ const translations = {
     skPriceOld: "18000 دج",
     skPriceNew: "14990 دج",
 
-    sk1Title: "الجلسة 1: مقدمة وأهداف الدورة",
+    sk1Title: "الحصة 1: مقدمة وأهداف الدورة",
     sk1_1: "عرض لسير العمل بين سكتش أب ولوميون",
     sk1_2: "أدوار كل برنامج في العملية المعمارية",
     sk1_3: "تحضير المواد: التثبيت، الإعدادات، الاختصارات المفيدة",
     sk1_4: "تنظيم المشروع من البداية (مجلدات، خامات، صيغ)",
 
-    sk2Title: "الجلسة 2: أساسيات سكتش أب",
+    sk2Title: "الحصة 2: أساسيات سكتش أب",
     sk2_1: "الواجهة والتنقل في الفضاء ثلاثي الأبعاد",
     sk2_2: "أدوات الرسم: خط، مستطيل، دائرة، قوس، دفع/سحب",
     sk2_3: "أدوات التعديل: نقل، نسخ، تحجيم، تدوير، إزاحة",
     sk2_4: "المجموعات، المكونات، والعلامات (تنظيم النموذج)",
     sk2Ex: "تمارين: نمذجة حجم معماري صغير",
 
-    sk3Title: "الجلسة 3: النمذجة المعمارية الكاملة",
+    sk3Title: "الحصة 3: النمذجة المعمارية الكاملة",
     sk3_1: "إنشاء مخطط ثنائي الأبعاد من رسم أو صورة",
     sk3_2: "نمذجة مبنى كامل: جدران، أرضيات، أسقف",
     sk3_3: "إضافة الفتحات: أبواب، نوافذ، سلالم",
     sk3_4: "استيراد مخططات DWG واستخدام إضافات العمارة (Dibac, 1001bit, etc.)",
     sk3_5: "تنظيم النموذج حسب الطوابق والمشاهد",
 
-    sk4Title: "الجلسة 4: سكتش أب متقدم",
+    sk4Title: "الحصة 4: سكتش أب متقدم",
     sk4_1:
       "الإضافات الأساسية للعمارة والتصميم (1001bit, Dibac, JHS Power bar, etc.)",
     sk4_2: "النمذجة المعقدة: سلالم، درابزين، أثاث مخصص...",
@@ -2526,49 +2539,49 @@ const translations = {
     sk4Ex:
       "تمارين: إنجاز نموذج ثلاثي الأبعاد كامل ونظيف، جاهز للإخراج في لوميون.",
 
-    sk5Title: "الجلسة 5: المواد والأنماط في سكتش أب",
+    sk5Title: "الحصة 5: المواد والأنماط في سكتش أب",
     sk5_1: "تطبيق وإنشاء مواد مخصصة",
     sk5_2: "استيراد خامات عالية الدقة",
     sk5_3: "إدارة الخامات",
     sk5_4: "استخدام الأنماط البصرية في سكتش أب (خطوط، ظلال، رسومات...)",
     sk5_5: "تحضير النموذج للتصدير إلى لوميون",
 
-    sk6Title: "الجلسة 6: تصدير سكتش أب --> لوميون",
+    sk6Title: "الحصة 6: تصدير سكتش أب --> لوميون",
     sk6_1: "الصيغ المتوافقة وأفضل ممارسات التصدير",
     sk6_2: "تنظيف النموذج قبل التصدير",
     sk6_3: "إدارة المواد وأسماء الكائنات لمزامنة جيدة",
     sk6_4: "الربط المباشر بـ LiveSync (SketchUp <-> Lumion)",
     sk6_5: "التحقق من النموذج في لوميون",
 
-    sk7Title: "الجلسة 7: اكتشاف لوميون",
+    sk7Title: "الحصة 7: اكتشاف لوميون",
     sk7_1: "الواجهة والتنقل في المشهد",
     sk7_2: "استيراد نموذج سكتش أب",
     sk7_3: "إدارة مكتبة كائنات لوميون",
     sk7_4: "فهم البيئة: سماء، ضوء، تضاريس، ماء، نباتات",
     sk7_5: "الإعدادات الأساسية: موقع الشمس، الظلال، المناخ، الوقت",
 
-    sk8Title: "الجلسة 8: المشهد والتصميم في لوميون",
+    sk8Title: "الحصة 8: المشهد والتصميم في لوميون",
     sk8_1: "إضافة ووضع النباتات، الأشخاص، المركبات، الأثاث، إلخ.",
     sk8_2: "استخدام الطبقات لتنظيم المشهد",
     sk8_3: "إنشاء بيئة واقعية: تضاريس، طرق، نباتات",
     sk8_4: "إعدادات مواد لوميون: زجاج، معدن، حجر، خشب، ماء، إلخ.",
     sk8_5: "تطبيق خامات PBR وتخصيص الأسطح",
 
-    sk9Title: "الجلسة 9: الأضواء والإخراج الواقعي",
+    sk9Title: "الحصة 9: الأضواء والإخراج الواقعي",
     sk9_1: "أنواع الإضاءة: Spot, Omni, Area Light, Sunlight",
     sk9_2: "ضبط درجة حرارة اللون والشدة",
     sk9_3: "إدارة الانعكاسات، الظلال، والشفافية",
     sk9_4: "إنشاء أجواء نهارية/ليلية",
     sk9_5: "إعداد الكاميرا، عمق المجال، التعريض، وتوازن البياض",
 
-    sk10Title: "الجلسة 10: التحريك والعرض التقديمي",
+    sk10Title: "الحصة 10: التحريك والعرض التقديمي",
     sk10_1: "إنشاء مسار كاميرا (walkthrough أو flythrough)",
     sk10_2: "تحريك الشمس، الكائنات، الأشخاص، والنباتات",
     sk10_3: "إدارة الانتقالات والتأثيرات السينمائية",
     sk10_4: "إضافة نصوص، شعارات، وموسيقى تصويرية",
     sk10_5: "تصدير الفيديو",
 
-    sk11Title: "الجلسة 11: التأثيرات البصرية المتقدمة",
+    sk11Title: "الحصة 11: التأثيرات البصرية المتقدمة",
     sk11_1: "استخدام تأثيرات لوميون:",
     sk11_2:
       "الانعكاسات، الضوء الحجمي (Volumetric Light)، التوهج (Bloom)، توهج العدسة (Lens Flare)",
@@ -2577,14 +2590,14 @@ const translations = {
     sk11_4: "الأنماط والتأثيرات الفنية (رسم، تلوين، ماكيت)",
     sk11_5: "إنشاء أجواء معمارية فريدة (إخراج نهاري، ليلي، ممطر، إلخ.)",
 
-    sk12Title: "الجلسة 12: التحسين والنصائح الاحترافية",
+    sk12Title: "الحصة 12: التحسين والنصائح الاحترافية",
     sk12_1: "تقليل وزن نموذج سكتش أب قبل الاستيراد",
     sk12_2: "تحسين أداء لوميون (FPS, LOD, vegetation)",
     sk12_3: "سير عمل سلس بين سكتش أب، لوميون، وفوتوشوب (post-production)",
     sk12_4: "تصدير الصور والفيديوهات بالإعدادات الصحيحة",
     sk12_5: "إدارة الإخراج النهائي لتقديمه للعميل",
 
-    sk13Title: "الجلسة 13: المشروع النهائي",
+    sk13Title: "الحصة 13: المشروع النهائي",
     sk13_1: 'دراسة حالة كاملة: "من التصميم إلى الإخراج"',
     sk13_2: "نمذجة مشروع (منزل، شقة، محل تجاري) في سكتش أب",
     sk13_3: "دمج النموذج في لوميون",
@@ -2604,7 +2617,7 @@ const translations = {
     d5PriceOld: "10000 دج",
     d5PriceNew: "7990 دج",
 
-    d5s1Title: "الجلسة 1: مقدمة ومبادئ سكتش أب الأساسية",
+    d5s1Title: "الحصة 1: مقدمة ومبادئ سكتش أب الأساسية",
     d5s1_1: "عرض الواجهة، الاختصارات، وسير العمل في سكتش أب.",
     d5s1_2: "الوحدات، إعدادات النماذج، وطرق التنظيم.",
     d5s1_3:
@@ -2612,27 +2625,27 @@ const translations = {
     d5s1_4: "المجموعات (Groups) مقابل المكونات (Components).",
     d5s1_5: "تمرين نمذجة أساسي: نمذجة غرفة بسيطة بجدران، أرضية، سقف، وفتحات.",
 
-    d5s2Title: "الجلسة 2: النمذجة المتوسطة والمواد",
+    d5s2Title: "الحصة 2: النمذجة المتوسطة والمواد",
     d5s2_1: "إدارة الطبقات/العلامات (Tags) والمشاهد (Scenes).",
     d5s2_2: "استيراد المخططات المرجعية (DWG/PDF) وضبط مقياسها بشكل صحيح.",
     d5s2_3: "نمذجة الأثاث والعناصر المعمارية.",
     d5s2_4: "تطبيق المواد، الخامات، وضبط مقياس الخامات.",
     d5s2_5: "نمذجة غرفة مفروشة باستخدام المكونات وتطبيق المواد المناسبة.",
 
-    d5s3Title: "الجلسة 3: النمذجة المتقدمة وسير عمل المشروع",
+    d5s3Title: "الحصة 3: النمذجة المتقدمة وسير عمل المشروع",
     d5s3_1: "أدوات وإضافات (plugins) متقدمة لتعديل أسرع.",
     d5s3_2: "استخدام 3D Warehouse.",
     d5s3_3: "تحضير مشروع سكتش أب للإخراج.",
     d5s3_4: "تحضير نموذج داخلي/خارجي كامل جاهز للاستيراد في D5.",
 
-    d5s4Title: "الجلسة 4: D5 Render - الواجهة وأساسيات الإخراج الفوري",
+    d5s4Title: "الحصة 4: D5 Render - الواجهة وأساسيات الإخراج الفوري",
     d5s4_1: "واجهة D5، التنقل، والاختصارات.",
     d5s4_2: "استيراد نموذج سكتش أب.",
     d5s4_3: "المواد في D5: التطبيق، التعديل، الإزاحة (Displacement)، و PBR.",
     d5s4_4: "مبادئ الإضاءة الأساسية.",
     d5s4_5: "تطبيق مواد D5 + الإضاءة الأساسية على النموذج المستورد.",
 
-    d5s5Title: "الجلسة 5: تقنيات الإخراج الاحترافي",
+    d5s5Title: "الحصة 5: تقنيات الإخراج الاحترافي",
     d5s5_1: "الإضاءة المتقدمة.",
     d5s5_2: "إعدادات الكاميرا (البعد البؤري/التعريض/عمق المجال/توازن البياض).",
     d5s5_3: "تحسين المواد (الزجاج، المعادن، الأقمشة، الرخام، الخشب).",
@@ -2640,7 +2653,7 @@ const translations = {
     d5s5_5: "الاستخدام المتوازن للموارد: النباتات، الأشخاص، الديكور.",
     d5s5_6: "إنتاج 2 صورة نهائية (داخلية + خارجية).",
 
-    d5s6Title: "الجلسة 6: التحريك، ما بعد الإنتاج، والمشروع النهائي",
+    d5s6Title: "الحصة 6: التحريك، ما بعد الإنتاج، والمشروع النهائي",
     d5s6_1: "إنشاء مسارات التحريك وحركات الكاميرا.",
     d5s6_2: "إضافة تأثيرات: المطر، الرياح، الضباب.",
     d5s6_3: "ما بعد الإنتاج (فوتوشوب/كانفا).",
