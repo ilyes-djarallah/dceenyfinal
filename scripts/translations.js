@@ -1425,7 +1425,7 @@ const translations = {
     blDuration: "15 heurs",
     blFinalProject:
       "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
-    blAdditionalContentTitle: "BONUS Contenu",
+    blAdditionalContentTitle: "Contenu BONUS",
     blAdd1: "Fichiers pour les textures et les fichiers PBR",
     blAdd2: "Lien pour le contenu 3D et contenu de texture",
     blAdd3: "Les extensions utilisées (Addons)",
@@ -1799,9 +1799,9 @@ const translations = {
     d5s6_2: "Ajout d'effets : pluie, vent, brouillard.",
     d5s6_3: "Post-production (photoshop/canva).",
 
-    d5FinalProjectTitle: "Projet final",
+    d5FinalProjectTitle: "Projet final: Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet à présenter.",
     d5FinalProjectDesc:
-      "Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet à présenter.",
+      "",
 
     d5ExtraTitle: "Contenu complémentaire",
     d5Extra1: "Fichier pour les textures et les fichiers PBR.",
