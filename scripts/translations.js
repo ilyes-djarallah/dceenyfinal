@@ -628,7 +628,7 @@ const translations = {
       "Objective: Master the design, modeling, and realistic presentation of a complete architectural project.",
 
     ac1Title: "Session 1: Introduction & 2D Drawing Basics",
-    ac1Obj: "Objective: Discover Archicad and master the basic tools.",
+    ac1Obj: "Discover Archicad and master the basic tools.",
     ac1_1: "Presentation of the software, BIM logic, and interface.",
     ac1_2: "Project configuration: units, layers, stories, and levels.",
     ac1_3: "2D drawing tools: walls, slabs, lines, dimensions, zones.",
@@ -637,7 +637,7 @@ const translations = {
       "Practical exercise: creation of a simple ground floor plan (house or studio).",
 
     ac2Title: "Session 2: 3D Modeling & Architectural Volumes",
-    ac2Obj: "Objective: Move from 2D to 3D modeling.",
+    ac2Obj: "Move from 2D to 3D modeling.",
     ac2_1: "Creation of walls, slabs, openings, stairs, and roofs.",
     ac2_2: "Manipulation of the 3D view and parameter object settings.",
     ac2_3: "Introduction to free-form tools and complex roofs.",
@@ -645,7 +645,7 @@ const translations = {
     ac2Ex: "Practical exercise: complete modeling of the building's volume.",
 
     ac3Title: "Session 3: Interior Layout and Object Management",
-    ac3Obj: "Objective: Create realistic and organized interior spaces.",
+    ac3Obj: "Create realistic and organized interior spaces.",
     ac3_1: "Interior and exterior furniture via the Archicad object library.",
     ac3_2: "Management of basic materials and textures.",
     ac3_3: "Organization by layers, groups, and functional zones.",
@@ -655,7 +655,7 @@ const translations = {
 
     ac4Title: "Session 4: Sections, Elevations, and Technical Details",
     ac4Obj:
-      "Objective: Generate and present the project's technical documents.",
+      "Generate and present the project's technical documents.",
     ac4_1: "Automatic creation of sections and elevations from the 3D model.",
     ac4_2: "Dimensions, annotations, and graphic symbols.",
     ac4_3: "Construction details and representation scale.",
@@ -664,7 +664,7 @@ const translations = {
       "Practical exercise: production of plans, sections, and complete elevations.",
 
     ac5Title: "Session 5: Layout, 2D Rendering, and Documentation",
-    ac5Obj: "Objective: Prepare a professional presentation folder.",
+    ac5Obj: "Prepare a professional presentation folder.",
     ac5_1: "Using the layout navigator and creating title blocks.",
     ac5_2: "View creation, scaling, and export (PDF, DWG, images).",
     ac5_3: "Graphic presentation: hatches, stylization, and shadows.",
@@ -672,7 +672,7 @@ const translations = {
     ac5Ex: "Practical exercise: creation of a complete presentation folder.",
 
     ac6Title: "Session 6: Advanced Archicad & BIM Management",
-    ac6Obj: "Objective: Deepen advanced tools and project management.",
+    ac6Obj: "Deepen advanced tools and project management.",
     ac6_1: "Use of complex profiles and curtain walls.",
     ac6_2: "Management of layers, renovation filters, and combined views.",
     ac6_3:
@@ -682,7 +682,7 @@ const translations = {
 
     acBonusTitle: "BONUS Session - LUMION: Realistic Rendering and Animation",
     acBonusObj:
-      "Objective: Bring the Archicad project to life through renderings and videos.",
+      "Bring the Archicad project to life through renderings and videos.",
     acBonus1: "Introduction to Lumion and importing from Archicad.",
     acBonus2: "Setting materials, lights, and environments.",
     acBonus3: "Adding vegetation, objects, water, sky, and atmosphere.",
@@ -695,7 +695,7 @@ const translations = {
     acResult1: "Design, model, and document a complete architectural project.",
     acResult2: "Efficiently manage a BIM project on Archicad.",
     acResult3: "Produce realistic renderings and animations using Lumion.",
-    aclectures: "27 Lectures",
+    aclectures: "35 Lectures",
 
     acDuration: "28 h",
     acPriceOld: "22000 DZD",
@@ -1532,13 +1532,13 @@ const translations = {
     acCourseLongDesc:
       "Une formation progressive complète de 28h, du niveau débutant à avancé, pour maîtriser la conception, la modélisation et la présentation réaliste d'un projet architectural complet.",
 
-    acTitle: "Formation ARCHICAD 2D & 3D + LUMION (28h)",
+    acTitle: "Formation ARCHICAD 2D & 3D + LUMION",
     acSubtitle: "Formation progressive du niveau débutant au niveau avancé",
     acMainObjective:
       "Objectif : Maîtriser la conception, la modélisation et la présentation réaliste d'un projet architectural complet.",
 
     ac1Title: "Séance 1 : Introduction & bases du dessin 2D",
-    ac1Obj: "Objectif : Découvrir Archicad et maîtriser les outils de base.",
+    ac1Obj: "Découvrir Archicad et maîtriser les outils de base.",
     ac1_1: "Présentation du logiciel, de la logique BIM et de l'interface.",
     ac1_2: "Configuration du projet : unités, calques, étages et niveaux.",
     ac1_3: "Outils de dessin 2D : murs, dalles, lignes, cotations, zones.",
@@ -1547,7 +1547,7 @@ const translations = {
       "Exercice pratique : réalisation d'un plan simple de RDC (maison ou atelier).",
 
     ac2Title: "Séance 2 : Modélisation 3D & volumes architecturaux",
-    ac2Obj: "Objectif : Passer du 2D à la modélisation tridimensionnelle.",
+    ac2Obj: "Passer du 2D à la modélisation tridimensionnelle.",
     ac2_1: "Création de murs, dalles, ouvertures, escaliers et toitures.",
     ac2_2: "Manipulation de la vue 3D et réglages des objets paramétriques.",
     ac2_3: "Introduction aux outils de forme libre et aux toitures complexes.",
@@ -1555,7 +1555,7 @@ const translations = {
     ac2Ex: "Exercice pratique : modélisation complète du volume du bâtiment.",
 
     ac3Title: "Séance 3 : Aménagement intérieur et gestion des objets",
-    ac3Obj: "Objectif : Créer des espaces intérieurs réalistes et organisés.",
+    ac3Obj: "Créer des espaces intérieurs réalistes et organisés.",
     ac3_1:
       "Mobilier intérieur et extérieur via la bibliothèque d'objets Archicad.",
     ac3_2: "Gestion des matériaux et textures de base.",
@@ -1566,7 +1566,7 @@ const translations = {
 
     ac4Title: "Séance 4 : Coupes, façades et détails techniques",
     ac4Obj:
-      "Objectif : Générer et présenter les documents techniques du projet.",
+      "Générer et présenter les documents techniques du projet.",
     ac4_1: "Création automatique de coupes et façades à partir du modèle 3D.",
     ac4_2: "Cotations, annotations et symboles graphiques.",
     ac4_3: "Détails constructifs et échelle de représentation.",
@@ -1575,7 +1575,7 @@ const translations = {
       "Exercice pratique : production de plans, coupes et façades complets.",
 
     ac5Title: "Séance 5 : Mise en page, rendu 2D et documentation",
-    ac5Obj: "Objectif : Préparer un dossier de présentation professionnel.",
+    ac5Obj: "Préparer un dossier de présentation professionnel.",
     ac5_1:
       "Utilisation du navigateur de mise en page et création de cartouches.",
     ac5_2: "Création de vues, mise à l'échelle et export (PDF, DWG, images).",
@@ -1584,9 +1584,9 @@ const translations = {
     ac5Ex:
       "Exercice pratique : réalisation d'un dossier de présentation complet.",
 
-    ac6Title: "Séance 6 : Archicad avancé & gestion BIM (5h)",
+    ac6Title: "Séance 6 : Archicad avancé & gestion BIM",
     ac6Obj:
-      "Objectif : Approfondir les outils avancés et la gestion de projet.",
+      "Approfondir les outils avancés et la gestion de projet.",
     ac6_1: "Utilisation des profils complexes et des façades rideaux.",
     ac6_2: "Gestion des calques, filtres de rénovation et vues combinées.",
     ac6_3:
@@ -1595,9 +1595,9 @@ const translations = {
       "Exercice pratique : modélisation avancée d'un projet complet et préparation au rendu.",
 
     acBonusTitle:
-      "Séance BONUS - LUMION : Rendu réaliste et animation (3h - gratuite)",
+      "Séance BONUS - LUMION : Rendu réaliste et animation du projet",
     acBonusObj:
-      "Objectif : Donner vie au projet Archicad à travers des rendus et vidéos.",
+      "Donner vie au projet Archicad à travers des rendus et vidéos.",
     acBonus1: "Introduction à Lumion et importation depuis Archicad.",
     acBonus2: "Réglage des matériaux, lumières et environnements.",
     acBonus3: "Ajout de végétation, objets, eau, ciel et atmosphère.",
@@ -1611,7 +1611,7 @@ const translations = {
       "Concevoir, modéliser et documenter un projet architectural complet.",
     acResult2: "Gérer efficacement un projet BIM sur Archicad.",
     acResult3: "Réaliser des rendus et animations réalistes sous Lumion.",
-    aclectures: "27 leçons",
+    aclectures: "35 leçons",
     acDuration: "28 h",
     acPriceOld: "22000 DZD",
     acPriceNew: "17990 DZD",
@@ -2427,10 +2427,10 @@ const translations = {
     acTitle: "دورة ARCHICAD 2D & 3D + LUMION",
     acSubtitle: "تدريب تدريجي من المستوى المبتدئ إلى المستوى المتقدم",
     acMainObjective:
-      "الهدف: إتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
+      "إتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
 
     ac1Title: "الحصة 1: مقدمة وأساسيات الرسم ثنائي الأبعاد",
-    ac1Obj: "الهدف: اكتشاف Archicad وإتقان الأدوات الأساسية.",
+    ac1Obj: "اكتشاف Archicad وإتقان الأدوات الأساسية.",
     ac1_1: "عرض البرنامج، منطق BIM، والواجهة.",
     ac1_2: "إعداد المشروع: الوحدات، الطبقات، الطوابق، والمستويات.",
     ac1_3: "أدوات الرسم 2D: الجدران، البلاطات، الخطوط، الأبعاد، المناطق.",
@@ -2439,7 +2439,7 @@ const translations = {
 
     ac2Title: "الحصة 2: النمذجة ثلاثية الأبعاد والكتل المعمارية",
     ac2Obj:
-      "الهدف: الانتقال من الرسم ثنائي الأبعاد إلى النمذجة ثلاثية الأبعاد.",
+      "الانتقال من الرسم ثنائي الأبعاد إلى النمذجة ثلاثية الأبعاد.",
     ac2_1: "إنشاء الجدران، البلاطات، الفتحات، السلالم، والأسقف.",
     ac2_2: "التعامل مع العرض ثلاثي الأبعاد وإعدادات الكائنات البارامترية.",
     ac2_3: "مقدمة إلى أدوات الشكل الحر والأسقف المعقدة.",
@@ -2447,7 +2447,7 @@ const translations = {
     ac2Ex: "تمرين عملي: نمذجة كاملة لحجم المبنى.",
 
     ac3Title: "الحصة 3: التصميم الداخلي وإدارة الكائنات",
-    ac3Obj: "الهدف: إنشاء مساحات داخلية واقعية ومنظمة.",
+    ac3Obj: "إنشاء مساحات داخلية واقعية ومنظمة.",
     ac3_1: "الأثاث الداخلي والخارجي عبر مكتبة كائنات Archicad.",
     ac3_2: "إدارة المواد والملامس الأساسية.",
     ac3_3: "التنظيم حسب الطبقات، المجموعات، والمناطق الوظيفية.",
@@ -2455,7 +2455,7 @@ const translations = {
     ac3Ex: "تمرين عملي: تصميم كامل لمساحة نموذجية (مطبخ أو استوديو).",
 
     ac4Title: "الحصة 4: المقاطع، الواجهات، والتفاصيل الفنية",
-    ac4Obj: "الهدف: إنشاء وتقديم المستندات الفنية للمشروع.",
+    ac4Obj: "إنشاء وتقديم المستندات الفنية للمشروع.",
     ac4_1: "الإنشاء التلقائي للمقاطع والواجهات من النموذج ثلاثي الأبعاد.",
     ac4_2: "الأبعاد، التعليقات، والرموز الرسومية.",
     ac4_3: "التفاصيل الإنشائية ومقياس التمثيل.",
@@ -2463,7 +2463,7 @@ const translations = {
     ac4Ex: "تمرين عملi: إنتاج مخططات، مقاطع، وواجهات كاملة.",
 
     ac5Title: "الحصة 5: الإخراج، الرندر ثنائي الأبعاد، والتوثيق",
-    ac5Obj: "الهدف: إعداد ملف عرض تقديمي احترافي.",
+    ac5Obj: "إعداد ملف عرض تقديمي احترافي.",
     ac5_1: "استخدام متصفح الإخراج وإنشاء جداول العناوين (Cartouches).",
     ac5_2: "إنشاء المناظير، ضبط المقياس، والتصدير (PDF, DWG, صور).",
     ac5_3: "العرض الرسومي: التهشير، الأسلوب، والظلال.",
@@ -2471,7 +2471,7 @@ const translations = {
     ac5Ex: "تمرين عملي: إنجاز ملف عرض تقديمي كامل.",
 
     ac6Title: "الحصة 6: Archicad متقدم وإدارة BIM",
-    ac6Obj: "الهدف: تعميق الأدوات المتقدمة وإدارة المشروع.",
+    ac6Obj: "تعميق الأدوات المتقدمة وإدارة المشروع.",
     ac6_1: "استخدام التشكيلات المعقدة والواجهات الزجاجية (Façades Rideaux).",
     ac6_2: "إدارة الطبقات، فلاتر التجديد، والمناظير المدمجة.",
     ac6_3: "تحسين النموذج، المواد المخصصة، والإعدادات الرسومية المتقدمة.",
@@ -2479,7 +2479,7 @@ const translations = {
 
     acBonusTitle: "جلسة إضافية - LUMION: الإخراج الواقعي والتحريك",
     acBonusObj:
-      "الهدف: إضفاء الحيوية على مشروع Archicad من خلال الإخراج ومقاطع الفيديو.",
+      "إضفاء الحيوية على مشروع Archicad من خلال الإخراج ومقاطع الفيديو.",
     acBonus1: "مقدمة إلى Lumion والاستيراد من Archicad.",
     acBonus2: "ضبط المواد، الأضواء، والبيئات.",
     acBonus3: "إضافة النباتات، الكائنات، الماء، السماء، والجو.",
@@ -2491,7 +2491,7 @@ const translations = {
     acResult1: "تصميم ونمذجة وتوثيق مشروع معماري كامل.",
     acResult2: "إدارة مشروع BIM بكفاءة على Archicad.",
     acResult3: "إنتاج إخراجات ورسوم متحركة واقعية باستخدام Lumion.",
-    aclectures: "27 درس",
+    aclectures: "35 درس",
 
     acDuration: "28 ساعة",
     acPriceOld: "22000 دج",
