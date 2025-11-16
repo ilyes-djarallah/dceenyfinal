@@ -1512,7 +1512,7 @@ const translations = {
     rvSkill4: "Maîtrise du workflow Revit ↔ Enscape",
     rvSkill5: "Présentation graphique et impression professionnelle",
 
-    rvencourseTitle: "Architecture avec Revit + Enscape",
+    rvencourseTitle: "Revit + Enscape pour l’architecture",
     rvencourseShortDesc:
       "Apprenez à modéliser des bâtiments et créer des rendus réalistes avec Revit et Enscape.",
     rvencourseLongDesc:
