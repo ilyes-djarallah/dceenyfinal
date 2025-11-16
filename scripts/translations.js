@@ -702,7 +702,7 @@ const translations = {
     // SKETCHUP + LUMION
     // ===============================
     skCourseTitle: "Sketchup + Lumion Training",
-    skCourseShortDesc: "From Modeling to Realistic Rendering",
+    skCourseShortDesc: "From Modeling to Realistic Rendering using SketchUp & Lumion",
     skCourseLongDesc:
       "Master SketchUp from basic to advanced and create professional renderings with Lumion. From complete 3D modeling to using advanced plugins, learn to design, optimize, and present your architectural projects with realistic images and animations. Practical and professional training to become operational quickly.",
     skPublicCible: "Beginners or those with a basis in architecture",
@@ -878,86 +878,86 @@ const translations = {
       "For sessions, we can organize training online via Google Meet or Zoom to facilitate student access and allow them to follow courses in real-time.",
 
     // ===============================
-    // RHINO + V-RAY
+    // RHINO + V-RAY (BEGINNERS)
     // ===============================
-    rvCourseTitle: "Rhino 7 + V-Ray 6 Advanced Training",
-    rvCourseShortDesc:
-      "Master 3D organic and architectural modeling with Rhino, culminating in high-fidelity rendering using V-Ray.",
-    rvCourseLongDesc:
-      "This comprehensive course guides you through advanced NURBS modeling techniques in Rhino 7, focusing on complex geometry creation and optimization. The second half dives deep into V-Ray 6, covering professional lighting, material creation (PBR), camera settings, and final production rendering for architecture and design.",
-    rvLectures: "7 Sessions + Project",
-    rvDuration: "20 hours",
-    rvPriceOld: "15000 DZD",
-    rvPriceNew: "12000 DZD",
+    rvbTitle: "Rhino + V-Ray Training (Beginners)",
+    rvbSubtitle:
+      "Realistic version, designed for someone who knows neither Rhino nor V-Ray",
+    rvbDescription:
+      "A beginner's course for those who don't know Rhino or V-Ray. This training covers the fundamentals of Rhino modeling and the essentials of V-Ray to produce clean, realistic images.",
+    rvbLectures: "6 Sessions + Project",
+    rvbDuration: "20h", // Placeholder duration
+    rvbPriceOld: "15000 DZD", // Placeholder old price
+    rvbPriceNew: "12000 DZD",
 
-    rvs1Title: "Session 1: Rhino 7 Fundamentals and Interface",
-    rvs1_1: "Interface presentation, navigation, and command line efficiency.",
-    rvs1_2: "Setting up units, layers/groups, and template creation.",
-    rvs1_3:
-      "Basic creation tools: Lines, curves, surfaces (Extrude, Loft, Sweep, Rail Revolve).",
-    rvs1_4: "Transform tools: Move, Copy, Rotate, Scale, Array.",
-    rvs1_5: "Practice: Basic geometric object modeling.",
+    // Collapsible Objectives Section
+    rvbSkillsTitle: "Course Objectives",
+    rvb1Obj:
+      "OBJECTIVE: STUDENTS UNDERSTAND HOW RHINO WORKS AND MODEL A SIMPLE VOLUME.",
+    rvb2Obj: "OBJECTIVE: CREATE A CLEAN MODEL, READY TO RECEIVE MATERIALS.",
+    rvb3Obj:
+      "OBJECTIVE: UNDERSTAND THE ESSENTIAL TOOLS OF V-RAY AND MAKE A FIRST RENDER",
+    rvb4Obj: "OBJECTIVE: APPLY COHERENT MATERIALS TO THE ENTIRE SCENE",
+    rvb5Obj:
+      "OBJECTIVE: IMPORT OBJECTS WITHOUT BREAKING THE SCENE AND IMPROVE THE RENDER.",
+    rvb6Obj: "OBJECTIVE: RENDER 2 FINAL IMAGES + SIMPLE RETOUCHING.",
 
-    rvs2Title: "Session 2: NURBS Modeling and Architectural Elements",
-    rvs2_1: "Understanding NURBS: Points, Control Points, and Degree.",
-    rvs2_2:
-      "Advanced curve and surface modeling (Blend surface, Match surface, Network surface).",
-    rvs2_3: "Boolean Operations and Solid Tools (Fillet/Chamfer, Split, Trim).",
-    rvs2_4: "Importing CAD plans (DWG) and scaling for architectural modeling.",
-    rvs2_5: "Modeling architectural components: Walls, windows, doors, stairs.",
+    // Course Programme
+    rvb1se: "SESSION 1: INTRODUCTION & RHINO FUNDAMENTALS",
+    rvb1_1: "1. Rhino interface: views, panels, toolbars.",
+    rvb1_2: "2. 3D navigation: zoom, pan, rotation.",
+    rvb1_3: "3. Basic curves: Line, Polyline, Rectangle.",
+    rvb1_4: "4. Simple surface: Extrude, PlanarSrf.",
+    rvb1_5: "5. Organization: Layers, select, hide, lock.",
+    rvb1Ex: "EXERCISE: MODEL A SMALL ROOM (FLOOR + 4 WALLS + OPENING).",
 
-    rvs3Title: "Session 3: Complex and Organic Modeling",
-    rvs3_1: "Deforming objects (CageEdit, Flow along surface).",
-    rvs3_2: "T-splines and SubD modeling introduction (for organic shapes).",
-    rvs3_3: "Optimization and cleaning of complex models.",
-    rvs3_4:
-      "Practice: Modeling a free-form architectural facade or furniture piece.",
+    rvb2se: "SESSION 2: SIMPLE MODELING (INTERIOR OR SMALL OBJECT)",
+    rvb2_1: "1. Import a DWG/PDF plan and scale it.",
+    rvb2_2: "2. Extrusion, Offset.",
+    rvb2_3: "3. Creation of a floor, ceiling, baseboards.",
+    rvb2_4: "4. Introduction to Blocks to repeat simple elements.",
+    rvb2Ex:
+      "EXERCISE: MODEL A SIMPLE FURNISHED ROOM (TABLE, FRAME, SIMPLE BOX).",
 
-    rvs4Title: "Session 4: V-Ray 6 Introduction and Lighting",
-    rvs4_1: "V-Ray Interface, Asset Editor, and frame buffer.",
-    rvs4_2: "Initial setup: Renderer configuration and basic render settings.",
-    rvs4_3:
-      "V-Ray Lights: Dome Light (HDRI), Plane Light, Sphere Light, Mesh Light.",
-    rvs4_4: "Sun and Sky systems (V-Ray Sun, HDRI environment).",
-    rvs4_5:
-      "Practice: Setting up daylight and artificial lights in an interior scene.",
+    rvb3se: "SESSION 3: INTRODUCTION TO V-RAY (ESSENTIAL BASICS)",
+    rvb3_1: "1. V-Ray Interface: Asset Editor, Frame Buffer, LightMix.",
+    rvb3_2: "2. Main light: Dome Light (HDRI).",
+    rvb3_3:
+      "3. Basic V-Ray materials: Standard, Simple Metal, Basic Wood, Simple Glass.",
+    rvb3_4: "4. Render settings: Low, Medium, High.",
+    rvb3Ex:
+      "EXERCISE: MODEL A SIMPLE FURNISHED ROOM (TABLE, FRAME, SIMPLE BOX).",
 
-    rvs5Title: "Session 5: Materials and Textures (PBR Workflow)",
-    rvs5_1:
-      "Understanding PBR (Physically Based Rendering) and V-Ray Material layers.",
-    rvs5_2:
-      "Creating realistic materials: Glass, water, reflective metals, opaque plastics.",
-    rvs5_3: "Creating complex textures: Displacement, Bump, and Normal maps.",
-    rvs5_4: "The Chaos Cosmos library integration and use.",
-    rvs5_5:
-      "Practice: Applying PBR textures to furniture and architectural details.",
+    rvb4se: "SESSION 4: MATERIALS + BASIC LIGHT",
+    rvb4_1: "1. Exclusive use of the official V-Ray library.",
+    rvb4_2: "2. How to apply a material properly.",
+    rvb4_3: "3. Basic settings: roughness, reflection.",
+    rvb4_4: "4. Simple interior lighting: Rect Light, Sphere Light.",
+    rvb4Ex: "EXERCISE: CREATE A SIMPLE BUT CLEAN IMAGE.",
 
-    rvs6Title: "Session 6: Camera, Render Settings, and Effects",
-    rvs6_1:
-      "V-Ray Physical Camera setup: F-number, Shutter Speed, ISO, Depth of Field.",
-    rvs6_2:
-      "Render elements (Channels) for post-production (Reflection, Refraction, Z-Depth).",
-    rvs6_3: "Optimizing render quality (Noise limit, Raytracing settings).",
-    rvs6_4: "Volumetric effects (Fog, Atmospheric perspective).",
-    rvs6_5: "Producing final high-resolution still images (Exterior/Interior).",
+    rvb5se: "SESSION 5: IMPORTING OBJECTS & V-RAY WORKFLOW",
+    rvb5_1: "1. Importance of .vrmat, .obj, .3dm objects.",
+    rvb5_2: "2. When to use V-Ray Proxy.",
+    rvb5_3: "3. Cleaning an imported model: Orientation, Normals, Scale.",
+    rvb5_4: "4. Adding realistic decor: plants, chairs, small objects.",
+    rvb5Ex: "EXERCISE: ADD 5 IMPORTED OBJECTS TO THE SCENE + RENDER AGAIN.",
 
-    rvs7Title: "Session 7: Animation and Post-Production Workflow",
-    rvs7_1: "Setting up camera animations (Walkthroughs and orbit animations).",
-    rvs7_2: "Rendering animation sequences and output settings.",
-    rvs7_3:
-      "Introduction to post-production in Photoshop (or similar software).",
-    rvs7_4:
-      "Using Render Elements for color correction and effects (Lens flare, Glare).",
+    rvb6se: "SESSION 6: FINALIZATION AND SIMPLE POST-PRODUCTION",
+    rvb6_1: "1. Camera: correct placement.",
+    rvb6_2: "2. Lightmix to adjust lighting.",
+    rvb6_3: "3. High-resolution export.",
+    rvb6_4:
+      "4. Simple retouching via Photoshop/Canva: contrast, saturation, vignette.",
 
-    rvFinalProjectTitle: "Final Rendering Project",
-    rvFinalProjectDesc:
-      "Students design, model, and render an architectural scene (interior or exterior), producing a minimum of 3 high-quality images and one short animation.",
+    // Final Project
+    rvbFinalProjTitle: "FINAL PROJECT",
+    rvbFinalProjDesc: "2 FINAL CLEAN IMAGES (INTERIOR OR SIMPLE EXTERIOR).",
 
-    rvExtraTitle: "Resource Library",
-    rvExtra1: "Comprehensive library of Rhino blocks and components.",
-    rvExtra2: "Collection of V-Ray PBR materials and high-resolution textures.",
-    rvExtra3: "V-Ray 6 official user manual and quick reference guides.",
-    rvExtra4: "Optimized scene files for practice.",
+    // Bonus Content
+    rvbBonusContentTitle: "BONUS CONTENT",
+    rvbBonus1: "HDRI AND MATERIALS PACK",
+    rvbBonus2: "RHINO KITCHEN SCENE",
+    rvbBonus3: "FINAL EXERCISE FILE",
   },
 
   fr: {
@@ -1695,7 +1695,7 @@ const translations = {
     // SKETCHUP + LUMION
     // ===============================
     skCourseTitle: "Formation Sketchup + Lumion",
-    skCourseShortDesc: "De la Modélisation au Rendu Réaliste",
+    skCourseShortDesc: "De la Modélisation au Rendu Réaliste avec Sketchup & Lumion",
     skCourseLongDesc:
       "Maîtrisez SketchUp de base à avancé et réalisez des rendus professionnels avec Lumion. De la modélisation 3D complète à l'utilisation de plugins avancés, apprenez à concevoir, optimiser et présenter vos projets architecturaux avec des images et animations réalistes. Une formation pratique et professionnelle pour devenir opérationnel rapidement.",
     skPublicCible: "Débutante ou avec des bases en architecture",
@@ -1885,100 +1885,89 @@ const translations = {
     d5FormatNote:
       "Pour les séances, nous pouvons organiser la formation en ligne via Google Meet ou Zoom afin de faciliter l'accès aux étudiants et leur permettre de suivre les cours en temps réel.",
     // ===============================
-    // RHINO + V-RAY
+    // RHINO + V-RAY (DEBUTANTS)
     // ===============================
-    rvCourseTitle: "Formation Avancée Rhino 7 + V-Ray 6",
-    rvCourseShortDesc:
-      "Maîtrisez la modélisation organique et architecturale 3D avec Rhino, et réalisez des rendus haute-fidélité avec V-Ray.",
-    rvCourseLongDesc:
-      "Ce cours complet vous guide à travers les techniques avancées de modélisation NURBS dans Rhino 7, en mettant l'accent sur la création et l'optimisation de géométries complexes. La deuxième moitié explore V-Ray 6, couvrant l'éclairage professionnel, la création de matériaux (PBR), les réglages de caméra et le rendu final pour l'architecture et le design.",
-    rvLectures: "7 Séances + Projet",
-    rvDuration: "20 heures",
-    rvPriceOld: "15000 DZD",
-    rvPriceNew: "12000 DZD",
+    rvbTitle: "Programme de formation - Rhino + V-Ray (Debutants)",
+    rvbSubtitle:
+      "Version réaliste, pensée pour quelqu'un qui ne connaît ni Rhino ni V-Ray",
+    rvbDescription:
+      "Un cours pour débutants pour ceux qui ne connaissent ni Rhino ni V-Ray. Cette formation couvre les fondamentaux de la modélisation Rhino et l'essentiel de V-Ray pour produire des images propres et réalistes.",
+    rvbLectures: "6 Séances + Projet",
+    rvbDuration: "20h", // Placeholder
+    rvbPriceOld: "15000 DZD", // Placeholder
+    rvbPriceNew: "12000 DZD",
 
-    rvs1Title: "Séance 1: Fondamentaux et Interface de Rhino 7",
-    rvs1_1:
-      "Présentation de l'interface, navigation et efficacité de la ligne de commande.",
-    rvs1_2:
-      "Configuration des unités, des calques/groupes et création de modèles.",
-    rvs1_3:
-      "Outils de création de base : Lignes, courbes, surfaces (Extrusion, Loft, Sweep, Rail Révolution).",
-    rvs1_4:
-      "Outils de transformation : Déplacer, Copier, Rotation, Échelle, Réseau.",
-    rvs1_5: "Exercice : Modélisation d'objets géométriques de base.",
+    // Collapsible Objectives Section
+    rvbSkillsTitle: "Objectifs de la formation",
+    rvb1Obj:
+      "OBJECTIF : LES ÉTUDIANTS COMPRENNENT COMMENT FONCTIONNE RHINO ET MODÉLISENT UN VOLUME SIMPLE.",
+    rvb2Obj:
+      "OBJECTIF : CRÉER UN MODÈLE PROPRE, PRÊT À RECEVOIR LES MATÉRIAUX.",
+    rvb3Obj:
+      "OBJECTIF : COMPRENDRE LES OUTILS ESSENTIELS DE V-RAY ET FAIRE UN PREMIER RENDU",
+    rvb4Obj: "OBJECTIF : APPLIQUER DES MATÉRIAUX COHÉRENTS À TOUTE LA SCÈNE",
+    rvb5Obj:
+      "OBJECTIF : IMPORTER DES OBJETS SANS CASSER LA SCÈNE ET AMÉLIORER LE RENDU.",
+    rvb6Obj: "OBJECTIF : RENDRE 2 IMAGES FINALES + RETOUCHE SIMPLE.",
 
-    rvs2Title: "Séance 2: Modélisation NURBS et Éléments Architecturaux",
-    rvs2_1: "Comprendre les NURBS : Points, Points de contrôle et Degré.",
-    rvs2_2:
-      "Modélisation avancée de courbes et surfaces (Blend surface, Match surface, Network surface).",
-    rvs2_3:
-      "Opérations booléennes et outils de solides (Raccord/Chanfrein, Diviser, Ajuster).",
-    rvs2_4:
-      "Importation des plans CAD (DWG) et mise à l'échelle pour la modélisation architecturale.",
-    rvs2_5:
-      "Modélisation des composants architecturaux : Murs, fenêtres, portes, escaliers.",
+    // Course Programme
+    rvb1se: "SÉANCE 1 : INTRODUCTION & FONDAMENTAUX RHINO",
+    rvb1_1: "1. Interface de Rhino: vues, panneaux, barres d'outils.",
+    rvb1_2: "2. Navigation 3D: zoom, pan, rotation.",
+    rvb1_3: "3. Courbes de base: Une, Polyligne, Rectangle.",
+    rvb1_4: "4. Surface simple: Extrude, PlanarSrf.",
+    rvb1_5: "5. Organisation: Layers, sélectionner, cacher, verrouiller.",
+    rvb1Ex: "EXERCICE : MODÉLISER UNE PETITE PIÈCE (SOL + 4 MURS + OUVERTURE).",
 
-    rvs3Title: "Séance 3: Modélisation Complexe et Organique",
-    rvs3_1: "Déformation d'objets (CageEdit, Flow along surface).",
-    rvs3_2:
-      "Introduction à la modélisation T-splines et SubD (pour les formes organiques).",
-    rvs3_3: "Optimisation et nettoyage des modèles complexes.",
-    rvs3_4:
-      "Exercice : Modélisation d'une façade architecturale de forme libre ou d'un meuble.",
+    rvb2se: "SÉANCE 2 : MODÉLISATION SIMPLE (INTÉRIEUR OU PETIT OBJET)",
+    rvb2_1: "1. Importer un plan DWG/PDF et le mettre à l'échelle.",
+    rvb2_2: "2. Extrusion, Décaler.",
+    rvb2_3: "3. Création d'un sol, plafond, plinthes.",
+    rvb2_4: "4. Introduction à Block pour répéter des éléments simples.",
+    rvb2Ex:
+      "EXERCICE : MODÉLISER UNE PIÈCE MEUBLÉE SIMPLE (TABLE, CADRE, CAISSE SIMPLE).",
 
-    rvs4Title: "Séance 4: Introduction à V-Ray 6 et Éclairage",
-    rvs4_1: "Interface V-Ray, Asset Editor et Frame Buffer.",
-    rvs4_2:
-      "Configuration initiale : Configuration du moteur de rendu et réglages de base.",
-    rvs4_3:
-      "Lumières V-Ray : Dome Light (HDRI), Plane Light, Sphere Light, Mesh Light.",
-    rvs4_4: "Systèmes de soleil et ciel (V-Ray Sun, environnement HDRI).",
-    rvs4_5:
-      "Exercice : Mise en place de l'éclairage de jour et des lumières artificielles dans une scène intérieure.",
+    rvb3se: "SÉANCE 3 : INTRODUCTION À V-RAY (BASES INDISPENSABLES)",
+    rvb3_1: "1. Interface V-Ray : Asset Editor, Frame Buffer, LightMix.",
+    rvb3_2: "2. Lumière principale : Dome Light (HDRI).",
+    rvb3_3:
+      "3. Matériaux de base V-Ray : Standard, Métal simple, Bois basique, Verre simple.",
+    rvb3_4: "4. Réglages de rendu : Low, Medium, High.",
+    rvb3Ex:
+      "EXERCICE : MODÉLISER UNE PIÈCE MEUBLÉE SIMPLE (TABLE, CADRE, CAISSE SIMPLE).",
 
-    rvs5Title: "Séance 5: Matériaux et Textures (Flux de travail PBR)",
-    rvs5_1:
-      "Comprendre le PBR (Rendu Basé sur la Physique) et les couches de matériaux V-Ray.",
-    rvs5_2:
-      "Création de matériaux réalistes : Verre, eau, métaux réfléchissants, plastiques opaques.",
-    rvs5_3:
-      "Création de textures complexes : Displacement, Bump, et Normal maps.",
-    rvs5_4: "Intégration et utilisation de la bibliothèque Chaos Cosmos.",
-    rvs5_5:
-      "Exercice : Application de textures PBR aux meubles et aux détails architecturaux.",
+    rvb4se: "SÉANCE 4 : MATÉRIAUX + LUMIÈRE DE BASE",
+    rvb4_1: "1. Utilisation exclusive de la bibliothèque V-Ray officielle.",
+    rvb4_2: "2. Comment appliquer un matériau proprement.",
+    rvb4_3: "3. Réglages de base : roughness, reflection.",
+    rvb4_4: "4. Éclairage intérieur simple : Rect Light, Sphere Light.",
+    rvb4Ex: "EXERCICE : CRÉER UNE IMAGE SIMPLE MAIS PROPRE.",
 
-    rvs6Title: "Séance 6: Caméra, Réglages de Rendu et Effets",
-    rvs6_1:
-      "Configuration de la caméra physique V-Ray : Nombre F, Vitesse d'obturation, ISO, Profondeur de champ.",
-    rvs6_2:
-      "Éléments de rendu (Canaux) pour la post-production (Réflexion, Réfraction, Z-Depth).",
-    rvs6_3:
-      "Optimisation de la qualité de rendu (Limite de bruit, Réglages de Raytracing).",
-    rvs6_4: "Effets volumétriques (Brouillard, Perspective atmosphérique).",
-    rvs6_5:
-      "Production d'images fixes finales haute résolution (Extérieur/Intérieur).",
+    rvb5se: "SÉANCE 5 : IMPORTATION D'OBJETS & WORKFLOW V-RAY",
+    rvb5_1: "1. Importance d'objets .vrmat, .obj, .3dm.",
+    rvb5_2: "2. Quand utiliser V-Ray Proxy.",
+    rvb5_3: "3. Nettoyage d'un modèle importé : Orientation, Normals, Scale.",
+    rvb5_4: "4. Ajout de décor réaliste : plantes, chaises, petits objets.",
+    rvb5Ex:
+      "EXERCICE : AJOUTER 5 OBJETS IMPORTÉS À LA SCÈNE + REFAIRE UN RENDU.",
 
-    rvs7Title: "Séance 7: Animation et Flux de Travail de Post-Production",
-    rvs7_1:
-      "Configuration des animations de caméra (Marches exploratoires et animations d'orbite).",
-    rvs7_2: "Rendu des séquences d'animation et réglages de sortie.",
-    rvs7_3:
-      "Introduction à la post-production dans Photoshop (ou logiciel similaire).",
-    rvs7_4:
-      "Utilisation des éléments de rendu pour la correction des couleurs et les effets (Reflet d'objectif, Éblouissement).",
+    rvb6se: "SÉANCE 6 : FINALISATION ET POST-PRODUCTION SIMPLE",
+    rvb6_1: "1. Caméra : placement correct.",
+    rvb6_2: "2. Lightmix pour ajuster l'éclairage.",
+    rvb6_3: "3. Export haute résolution.",
+    rvb6_4:
+      "4. Retouche simple via Photoshop/Canva : contraste, saturation, vignettage.",
 
-    rvFinalProjectTitle: "Projet de Rendu Final",
-    rvFinalProjectDesc:
-      "Les étudiants conçoivent, modélisent et rendent une scène architecturale (intérieure ou extérieure), produisant un minimum de 3 images de haute qualité et une courte animation.",
+    // Final Project
+    rvbFinalProjTitle: "PROJET FINAL",
+    rvbFinalProjDesc:
+      "2 IMAGES FINALES PROPRES (INTÉRIEUR OU EXTÉRIEUR SIMPLE).",
 
-    rvExtraTitle: "Bibliothèque de Ressources",
-    rvExtra1: "Bibliothèque complète de blocs et de composants Rhino.",
-    rvExtra2:
-      "Collection de matériaux V-Ray PBR et de textures haute résolution.",
-    rvExtra3:
-      "Manuel d'utilisation officiel de V-Ray 6 et guides de référence rapide.",
-    rvExtra4: "Fichiers de scène optimisés pour la pratique.",
+    // Bonus Content
+    rvbBonusContentTitle: "CONTENU FOURNI",
+    rvbBonus1: "PACK HDRI ET MATERIAUX",
+    rvbBonus2: "SCÈNE CUISINE RHINO",
+    rvbBonus3: "FICHIER D'EXERCICE FINAL",
   },
 
   ar: {
@@ -2669,7 +2658,7 @@ const translations = {
     // SKETCHUP + LUMION
     // ===============================
     skCourseTitle: "دورة سكتش أب + لوميون",
-    skCourseShortDesc: "من النمذجة إلى الإخراج الواقعي",
+    skCourseShortDesc: "من النمذجة إلى الإخراج الواقعي باستخدام سكتش أب و لوميون.",
     skCourseLongDesc:
       "أتقن سكتش أب من الأساسي إلى المتقدم وأنشئ عروضًا احترافية باستخدام لوميون. من النمذجة ثلاثية الأبعاد الكاملة إلى استخدام الإضافات المتقدمة، تعلم تصميم وتحسين وتقديم مشاريعك المعمارية بصور ورسوم متحركة واقعية. تدريب عملي واحترافي لتصبح جاهزًا للعمل بسرعة.",
     skPublicCible: "مبتدئ أو لديه أسس في الهندسة المعمارية",
@@ -2839,83 +2828,81 @@ const translations = {
       "بالنسبة للجلسات، يمكننا تنظيم التدريب عبر الإنترنت عبر Google Meet أو Zoom لتسهيل وصول الطلاب والسماح لهم بمتابعة الدروس في الوقت الفعلي.",
 
     // ===============================
-    // RHINO + V-RAY
+    // RHINO + V-RAY (DEBUTANTS)
     // ===============================
-    rvCourseTitle: "دورة متقدمة Rhino 7 + V-Ray 6",
-    rvCourseShortDesc:
-      "إتقان النمذجة العضوية والمعمارية ثلاثية الأبعاد باستخدام Rhino، والوصول إلى إخراج عالي الدقة باستخدام V-Ray.",
-    rvCourseLongDesc:
-      "يرشدك هذا الكورس الشامل عبر تقنيات النمذجة المتقدمة NURBS في Rhino 7، مع التركيز على إنشاء وتحسين الهندسة المعقدة. يغوص النصف الثاني بعمق في V-Ray 6، مغطياً الإضاءة الاحترافية، إنشاء المواد (PBR)، إعدادات الكاميرا، والإخراج النهائي للإنتاج المعماري والتصميم.",
-    rvLectures: "7 جلسات + مشروع",
-    rvDuration: "20 ساعة",
-    rvPriceOld: "15000 دج",
-    rvPriceNew: "12000 دج",
+    rvbTitle: "دورة تكوينية - راينو + فيراي (للمبتدئين)",
+    rvbSubtitle: "نسخة واقعية، مصممة لمن لا يعرف لا راينو ولا فيراي",
+    rvbDescription:
+      "دورة للمبتدئين مصممة خصيصًا لمن ليس لديهم معرفة سابقة ببرنامجي راينو أو فيراي. يغطي هذا التدريب أساسيات النمذجة في راينو وأساسيات فيراي لإنتاج صور نظيفة وواقعية.",
+    rvbLectures: "6 جلسات + مشروع",
+    rvbDuration: "20 ساعة", // Placeholder
+    rvbPriceOld: "15000 دج", // Placeholder
+    rvbPriceNew: "12000 دج",
 
-    rvs1Title: "الجلسة 1: أساسيات وواجهة Rhino 7",
-    rvs1_1: "عرض الواجهة، التنقل، وكفاءة سطر الأوامر.",
-    rvs1_2: "إعداد الوحدات، الطبقات/المجموعات، وإنشاء القوالب.",
-    rvs1_3:
-      "أدوات الإنشاء الأساسية: الخطوط، المنحنيات، والأسطح (Extrude, Loft, Sweep, Rail Revolve).",
-    rvs1_4: "أدوات التحويل: النقل، النسخ، التدوير، التحجيم، والمصفوفة (Array).",
-    rvs1_5: "تطبيق عملي: نمذجة كائنات هندسية أساسية.",
+    // Collapsible Objectives Section
+    rvbSkillsTitle: "أهداف الدورة",
+    rvb1Obj: "الهدف: أن يفهم الطلاب كيفية عمل راينو وينمذجوا مجسمًا بسيطًا.",
+    rvb2Obj: "الهدف: إنشاء نموذج نظيف، جاهز لاستقبال المواد.",
+    rvb3Obj: "الهدف: فهم الأدوات الأساسية لـ V-Ray وإجراء أول عملية رندر.",
+    rvb4Obj: "الهدف: تطبيق مواد متناسقة على المشهد بأكمله.",
+    rvb5Obj: "الهدف: استيراد كائنات دون إتلاف المشهد وتحسين الرندر.",
+    rvb6Obj: "الهدف: رندر صورتين نهائيتين + تعديلات بسيطة.",
 
-    rvs2Title: "الجلسة 2: نمذجة NURBS والعناصر المعمارية",
-    rvs2_1: "فهم NURBS: النقاط، نقاط التحكم، والدرجة (Degree).",
-    rvs2_2:
-      "نمذجة المنحنيات والأسطح المتقدمة (Blend surface, Match surface, Network surface).",
-    rvs2_3:
-      "العمليات البوليانية (Boolean) وأدوات الأجسام الصلبة (Fillet/Chamfer, Split, Trim).",
-    rvs2_4: "استيراد مخططات CAD (DWG) وضبط مقياسها للنمذجة المعمارية.",
-    rvs2_5: "نمذجة المكونات المعمارية: الجدران، النوافذ، الأبواب، السلالم.",
+    // Course Programme
+    rvb1se: "الجلسة 1: مقدمة وأساسيات راينو",
+    rvb1_1: "1. واجهة راينو: المناظير، اللوحات، أشرطة الأدوات.",
+    rvb1_2: "2. التنقل ثلاثي الأبعاد: تقريب، تحريك، دوران.",
+    rvb1_3: "3. المنحنيات الأساسية: خط، بوليلاين، مستطيل.",
+    rvb1_4: "4. سطح بسيط: Extrude, PlanarSrf.",
+    rvb1_5: "5. التنظيم: الطبقات (Layers)، التحديد، الإخفاء، القفل.",
+    rvb1Ex: "تمرين: نمذجة غرفة صغيرة (أرضية + 4 جدران + فتحة).",
 
-    rvs3Title: "الجلسة 3: النمذجة المعقدة والعضوية",
-    rvs3_1: "تشويه الكائنات (CageEdit, Flow along surface).",
-    rvs3_2: "مقدمة في نمذجة T-splines و SubD (للأشكال العضوية).",
-    rvs3_3: "تحسين وتنظيف النماذج المعقدة.",
-    rvs3_4: "تطبيق عملي: نمذجة واجهة معمارية حرة الشكل أو قطعة أثاث.",
+    rvb2se: "الجلسة 2: نمذجة بسيطة (داخلية أو كائن صغير)",
+    rvb2_1: "1. استيراد مخطط DWG/PDF وضبطه حسب المقياس.",
+    rvb2_2: "2. بثق (Extrusion)، إزاحة (Offset).",
+    rvb2_3: "3. إنشاء أرضية، سقف، نعلات (plinthes).",
+    rvb2_4: "4. مقدمة إلى البلوكات (Block) لتكرار العناصر البسيطة.",
+    rvb2Ex: "تمرين: نمذجة غرفة مفروشة بسيطة (طاولة، إطار، صندوق بسيط).",
 
-    rvs4Title: "الجلسة 4: مقدمة V-Ray 6 والإضاءة",
-    rvs4_1:
-      "واجهة V-Ray، محرر الأصول (Asset Editor)، ومخزن الإطار (Frame Buffer).",
-    rvs4_2: "الإعداد الأولي: تهيئة محرك الإخراج وإعدادات الإخراج الأساسية.",
-    rvs4_3:
-      "أضواء V-Ray: ضوء القبة (HDRI)، الضوء المستوي، الضوء الكروي، ضوء الشبكة (Mesh Light).",
-    rvs4_4: "أنظمة الشمس والسماء (V-Ray Sun، بيئة HDRI).",
-    rvs4_5: "تطبيق عملي: إعداد إضاءة النهار والأضواء الاصطناعية في مشهد داخلي.",
+    rvb3se: "الجلسة 3: مقدمة إلى V-Ray (الأساسيات الضرورية)",
+    rvb3_1:
+      "1. واجهة V-Ray: محرر الأصول (Asset Editor)، Frame Buffer, LightMix.",
+    rvb3_2: "2. الإضاءة الرئيسية: Dome Light (HDRI).",
+    rvb3_3: "3. مواد V-Ray الأساسية: قياسية، معدن بسيط، خشب أساسي، زجاج بسيط.",
+    rvb3_4: "4. إعدادات الرندر: منخفض، متوسط، عالي.",
+    rvb3Ex: "تمرين: نمذجة غرفة مفروشة بسيطة (طاولة، إطار، صندوق بسيط).",
 
-    rvs5Title: "الجلسة 5: المواد والخامات (سير عمل PBR)",
-    rvs5_1: "فهم PBR (الإخراج المعتمد على الفيزياء) وطبقات مواد V-Ray.",
-    rvs5_2:
-      "إنشاء مواد واقعية: الزجاج، الماء، المعادن العاكسة، البلاستيك المعتم.",
-    rvs5_3: "إنشاء خامات معقدة: Displacement, Bump, و Normal maps.",
-    rvs5_4: "دمج واستخدام مكتبة Chaos Cosmos.",
-    rvs5_5: "تطبيق عملي: تطبيق خامات PBR على الأثاث والتفاصيل المعمارية.",
+    rvb4se: "الجلسة 4: المواد + الإضاءة الأساسية",
+    rvb4_1: "1. الاستخدام الحصري لمكتبة V-Ray الرسمية.",
+    rvb4_2: "2. كيفية تطبيق المواد بشكل صحيح.",
+    rvb4_3:
+      "3. الإعدادات الأساسية: الخشونة (roughness)، الانعكاس (reflection).",
+    rvb4_4: "4. إضاءة داخلية بسيطة: Rect Light, Sphere Light.",
+    rvb4Ex: "تمرين: إنشاء صورة بسيطة ولكن نظيفة.",
 
-    rvs6Title: "الجلسة 6: الكاميرا، إعدادات الإخراج، والتأثيرات",
-    rvs6_1:
-      "إعداد الكاميرا الفيزيائية V-Ray: رقم F، سرعة الغالق، ISO، عمق المجال.",
-    rvs6_2:
-      "عناصر الإخراج (القنوات) لمرحلة ما بعد الإنتاج (الانعكاس، الانكسار، Z-Depth).",
-    rvs6_3: "تحسين جودة الإخراج (حد الضوضاء، إعدادات تتبع الأشعة).",
-    rvs6_4: "التأثيرات الحجمية (الضباب، المنظور الجوي).",
-    rvs6_5: "إنتاج صور ثابتة نهائية عالية الدقة (خارجي/داخلي).",
+    rvb5se: "الجلسة 5: استيراد الكائنات وسير العمل في V-Ray",
+    rvb5_1: "1. أهمية كائنات .vrmat, .obj, .3dm.",
+    rvb5_2: "2. متى نستخدم V-Ray Proxy.",
+    rvb5_3: "3. تنظيف نموذج مستورد: التوجيه، Normals, المقياس.",
+    rvb5_4: "4. إضافة ديكور واقعي: نباتات، كراسي، كائنات صغيرة.",
+    rvb5Ex: "تمرين: إضافة 5 كائنات مستوردة إلى المشهد + إعادة الرندر.",
 
-    rvs7Title: "الجلسة 7: التحريك وسير عمل ما بعد الإنتاج",
-    rvs7_1: "إعداد تحريك الكاميرا (مسارات المشي والتدوير المداري).",
-    rvs7_2: "إخراج تسلسلات التحريك وإعدادات الإخراج.",
-    rvs7_3: "مقدمة في ما بعد الإنتاج في فوتوشوب (أو برنامج مماثل).",
-    rvs7_4:
-      "استخدام عناصر الإخراج لتصحيح الألوان والتأثيرات (توهج العدسة، الوميض).",
+    rvb6se: "الجلسة 6: الإنهاء والمعالجة البسيطة (Post-Production)",
+    rvb6_1: "1. الكاميرا: الوضع الصحيح.",
+    rvb6_2: "2. Lightmix لتعديل الإضاءة.",
+    rvb6_3: "3. تصدير بدقة عالية.",
+    rvb6_4:
+      "4. تعديل بسيط عبر Photoshop/Canva: التباين، التشبع، التظليل (vignette).",
 
-    rvFinalProjectTitle: "مشروع الإخراج النهائي",
-    rvFinalProjectDesc:
-      "يقوم الطلاب بتصميم، نمذجة، وإخراج مشهد معماري (داخلي أو خارجي)، لإنتاج ما لا يقل عن 3 صور عالية الجودة وفيديو تحريك قصير واحد.",
+    // Final Project
+    rvbFinalProjTitle: "المشروع النهائي",
+    rvbFinalProjDesc: "صورتان نهائيتان نظيفتان (داخلية أو خارجية بسيطة).",
 
-    rvExtraTitle: "مكتبة الموارد",
-    rvExtra1: "مكتبة شاملة من كتل ومكونات Rhino.",
-    rvExtra2: "مجموعة من مواد V-Ray PBR والخامات عالية الدقة.",
-    rvExtra3: "دليل المستخدم الرسمي لـ V-Ray 6 وأدلة مرجعية سريعة.",
-    rvExtra4: "ملفات مشهد مُحسَّنة للتدريب.",
+    // Bonus Content
+    rvbBonusContentTitle: "المحتوى المقدم",
+    rvbBonus1: "حزمة HDRI ومواد",
+    rvbBonus2: "مشهد مطبخ راينو",
+    rvbBonus3: "ملف التمرين النهائي",
   },
 };
 

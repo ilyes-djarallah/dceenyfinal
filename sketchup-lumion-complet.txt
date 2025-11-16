@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rhino + V-Ray (Beginners) | Dceeny Education</title>
+  <title>Sketchup + Lumion | Dceeny Education</title>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <link rel="stylesheet" href="style.css" />
   <script src="scripts/translations.js"></script>
@@ -47,145 +47,219 @@
   <main class="course-page">
     <div class="wrap">
       <div class="layout">
-        <main class="content-card" aria-label="Rhino V-Ray Beginners Course Content">
+        <main class="content-card" aria-label="Sketchup Lumion Course Content">
 
-          <h3 class="course-title" data-translate="rvbTitle"></h3>
+          <h3 class="course-title" data-translate="skluTitle"></h3>
           <div class="course-thumb">
-            <img src="assets/images/formation assets/rhino-vray.webp" alt="Rhino V-Ray Beginners course" />
+            <img src="assets/images/formation assets/sketchup-lumion.webp" alt="Sketchup Lumion course" />
           </div>
-          <p class="course-sub" data-translate="rvbSubtitle"></p>
-          <div class="long-desc" data-translate="rvbDescription"></div>
-
-
-
+          <p class="course-sub" data-translate="skluSubtitle"></p>
+          <div class="long-desc" data-translate="skluDescription"></div>
           <div class="divider"></div>
 
-          <section aria-labelledby="rvb-heading">
-            <h3 id="rvb-heading" data-translate="course_programme"></h3>
+          <section aria-labelledby="sklu-objectives">
+            <h3 id="sklu-objectives" data-translate="skluObjTitle"></h3>
+            <div class="chapters">
+              <div class="chapter collapsible" data-index="obj" aria-expanded="false">
+                <div>
+                  <h4 data-translate="skluObjTitle"></h4>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-obj" aria-hidden="true">
+                <div class="episode" data-translate="skluObj1"></div>
+                <div class="episode" data-translate="skluObj2"></div>
+                <div class="episode" data-translate="skluObj3"></div>
+              </div>
+            </div>
+          </section>
+          
+          <div class="divider"></div>
+
+          <section aria-labelledby="sklu-heading">
+            <h3 id="sklu-heading" data-translate="course_programme"></h3>
             <div class="chapters">
               <div class="chapter collapsible" data-index="1" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvb1se"></h4>
+                  <h4 data-translate="skluM1Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-1" aria-hidden="true">
-                <div class="episode" data-translate="rvb1_1"></div>
-                <div class="episode" data-translate="rvb1_2"></div>
-                <div class="episode" data-translate="rvb1_3"></div>
-                <div class="episode" data-translate="rvb1_4"></div>
-                <div class="episode" data-translate="rvb1_5"></div>
-                <div class="episode" data-translate="rvb1Ex"></div>
+                <div class="episode" data-translate="skluM1_1"></div>
+                <div class="episode" data-translate="skluM1_2"></div>
+                <div class="episode" data-translate="skluM1_3"></div>
+                <div class="episode" data-translate="skluM1_4"></div>
               </div>
 
               <div class="chapter collapsible" data-index="2" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvb2se"></h4>
+                  <h4 data-translate="skluM2Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-2" aria-hidden="true">
-                <div class="episode" data-translate="rvb2_1"></div>
-                <div class="episode" data-translate="rvb2_2"></div>
-                <div class="episode" data-translate="rvb2_3"></div>
-                <div class="episode" data-translate="rvb2_4"></div>
-                <div class="episode" data-translate="rvb2Ex"></div>
+                <div class="episode" data-translate="skluM2_1"></div>
+                <div class="episode" data-translate="skluM2_2"></div>
+                <div class="episode" data-translate="skluM2_3"></div>
+                <div class="episode" data-translate="skluM2_4"></div>
+                <div class="episode" data-translate="skluM2Ex"></div>
               </div>
 
               <div class="chapter collapsible" data-index="3" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvb3se"></h4>
+                  <h4 data-translate="skluM3Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-3" aria-hidden="true">
-                <div class="episode" data-translate="rvb3_1"></div>
-                <div class="episode" data-translate="rvb3_2"></div>
-                <div class="episode" data-translate="rvb3_3"></div>
-                <div classs="episode" data-translate="rvb3_4"></div>
-                <div class="episode" data-translate="rvb3Ex"></div>
+                <div class="episode" data-translate="skluM3_1"></div>
+                <div class="episode" data-translate="skluM3_2"></div>
+                <div class="episode" data-translate="skluM3_3"></div>
+                <div class="episode" data-translate="skluM3_4"></div>
+                <div class="episode" data-translate="skluM3_5"></div>
               </div>
 
               <div class="chapter collapsible" data-index="4" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvb4se"></h4>
+                  <h4 data-translate="skluM4Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-4" aria-hidden="true">
-                <div class="episode" data-translate="rvb4_1"></div>
-                <div class="episode" data-translate="rvb4_2"></div>
-                <div class="episode" data-translate="rvb4_3"></div>
-                <div class="episode" data-translate="rvb4_4"></div>
-                <div class="episode" data-translate="rvb4Ex"></div>
+                <div class="episode" data-translate="skluM4_1"></div>
+                <div class="episode" data-translate="skluM4_2"></div>
+                <div class="episode" data-translate="skluM4_3"></div>
+                <div class="episode" data-translate="skluM4Ex"></div>
               </div>
 
               <div class="chapter collapsible" data-index="5" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvb5se"></h4>
+                  <h4 data-translate="skluM5Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-5" aria-hidden="true">
-                <div class="episode" data-translate="rvb5_1"></div>
-                <div class="episode" data-translate="rvb5_2"></div>
-                <div class="episode" data-translate="rvb5_3"></div>
-                <div class="episode" data-translate="rvb5_4"></div>
-                <div class="episode" data-translate="rvb5Ex"></div>
+                <div class="episode" data-translate="skluM5_1"></div>
+                <div class="episode" data-translate="skluM5_2"></div>
+                <div class="episode" data-translate="skluM5_3"></div>
+                <div class="episode" data-translate="skluM5_4"></div>
+                <div class="episode" data-translate="skluM5_5"></div>
               </div>
-
+              
               <div class="chapter collapsible" data-index="6" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvb6se"></h4>
+                  <h4 data-translate="skluM6Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-6" aria-hidden="true">
-                <div class="episode" data-translate="rvb6_1"></div>
-                <div class="episode" data-translate="rvb6_2"></div>
-                <div class="episode" data-translate="rvb6_3"></div>
-                <div class="episode" data-translate="rvb6_4"></div>
+                <div class="episode" data-translate="skluM6_1"></div>
+                <div class="episode" data-translate="skluM6_2"></div>
+                <div class="episode" data-translate="skluM6_3"></div>
+                <div class="episode" data-translate="skluM6_4"></div>
+                <div class="episode" data-translate="skluM6_5"></div>
               </div>
-
-              <div class="chapter" data-index="7" aria-expanded="false">
+              
+              <div class="chapter collapsible" data-index="7" aria-expanded="false">
                 <div>
-                  <h4 data-translate="rvbFinalProjTitle"></h4>
-                  <small class="muted" data-translate="rvbFinalProjDesc"></small>
+                  <h4 data-translate="skluM7Title"></h4>
                 </div>
-                <div class="chev">●</div>
+                <div class="chev">▾</div>
               </div>
-
+              <div class="episode-list" id="episodes-7" aria-hidden="true">
+                <div class="episode" data-translate="skluM7_1"></div>
+                <div class="episode" data-translate="skluM7_2"></div>
+                <div class="episode" data-translate="skluM7_3"></div>
+                <div class="episode" data-translate="skluM7_4"></div>
+                <div class="episode" data-translate="skluM7_5"></div>
+              </div>
+              
               <div class="chapter collapsible" data-index="8" aria-expanded="false">
                 <div>
-                  <h4 data-translate="blAdditionalContentTitle"></h4>
+                  <h4 data-translate="skluM8Title"></h4>
                 </div>
                 <div class="chev">▾</div>
               </div>
               <div class="episode-list" id="episodes-8" aria-hidden="true">
-                <div class="episode" data-translate="rvbBonus1"></div>
-                <div class="episode" data-translate="rvbBonus2"></div>
-                <div class="episode" data-translate="rvbBonus3"></div>
+                <div class="episode" data-translate="skluM8_1"></div>
+                <div class="episode" data-translate="skluM8_2"></div>
+                <div class="episode" data-translate="skluM8_3"></div>
+                <div class="episode" data-translate="skluM8_4"></div>
+                <div class="episode" data-translate="skluM8_5"></div>
               </div>
               
-              <section aria-labelledby="rvb-objectives">
-                <!-- <h3 id="rvb-objectives" data-translate="rvbSkillsTitle"></h3> -->
-                <div class="chapters">
-                  <div class="chapter collapsible" data-index="obj" aria-expanded="false">
-                    <div>
-                      <h4 data-translate="rvSkillsTitle"></h4>
-                    </div>
-                    <div class="chev">▾</div>
-                  </div>
-                  <div class="episode-list" id="episodes-obj" aria-hidden="true">
-                    <div class="episode" data-translate="rvb1Obj"></div>
-                    <div class="episode" data-translate="rvb2Obj"></div>
-                    <div class="episode" data-translate="rvb3Obj"></div>
-                    <div class="episode" data-translate="rvb4Obj"></div>
-                    <div class="episode" data-translate="rvb5Obj"></div>
-                    <div class="episode" data-translate="rvb6Obj"></div>
-                  </div>
+              <div class="chapter collapsible" data-index="9" aria-expanded="false">
+                <div>
+                  <h4 data-translate="skluM9Title"></h4>
                 </div>
-              </section>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-9" aria-hidden="true">
+                <div class="episode" data-translate="skluM9_1"></div>
+                <div class="episode" data-translate="skluM9_2"></div>
+                <div class="episode" data-translate="skluM9_3"></div>
+                <div class="episode" data-translate="skluM9_4"></div>
+                <div class="episode" data-translate="skluM9_5"></div>
+              </div>
+              
+              <div class="chapter collapsible" data-index="10" aria-expanded="false">
+                <div>
+                  <h4 data-translate="skluM10Title"></h4>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-10" aria-hidden="true">
+                <div class="episode" data-translate="skluM10_1"></div>
+                <div class="episode" data-translate="skluM10_2"></div>
+                <div class="episode" data-translate="skluM10_3"></div>
+                <div class="episode" data-translate="skluM10_4"></div>
+                <div class="episode" data-translate="skluM10_5"></div>
+              </div>
+              
+              <div class="chapter collapsible" data-index="11" aria-expanded="false">
+                <div>
+                  <h4 data-translate="skluM11Title"></h4>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-11" aria-hidden="true">
+                <div class="episode" data-translate="skluM11_1"></div>
+                <div class="episode" data-translate="skluM11_2"></div>
+                <div class="episode" data-translate="skluM11_3"></div>
+                <div class="episode" data-translate="skluM11_4"></div>
+                <div class="episode" data-translate="skluM11_5"></div>
+              </div>
+              
+              <div class="chapter collapsible" data-index="12" aria-expanded="false">
+                <div>
+                  <h4 data-translate="skluM12Title"></h4>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-12" aria-hidden="true">
+                <div class="episode" data-translate="skluM12_1"></div>
+                <div class="episode" data-translate="skluM12_2"></div>
+                <div class="episode" data-translate="skluM12_3"></div>
+                <div class="episode" data-translate="skluM12_4"></div>
+                <div class="episode" data-translate="skluM12_5"></div>
+              </div>
+              
+              <div class="chapter collapsible" data-index="13" aria-expanded="false">
+                <div>
+                  <h4 data-translate="skluM13Title"></h4>
+                </div>
+                <div class="chev">▾</div>
+              </div>
+              <div class="episode-list" id="episodes-13" aria-hidden="true">
+                <div class="episode" data-translate="skluM13_1"></div>
+                <div class="episode" data-translate="skluM13_2"></div>
+                <div class="episode" data-translate="skluM13_3"></div>
+                <div class="episode" data-translate="skluM13_4"></div>
+                <div class="episode" data-translate="skluM13_5"></div>
+                <div class="episode" data-translate="skluM13_6"></div>
+              </div>
+
             </div>
           </section>
         </main>
@@ -193,7 +267,7 @@
         <aside class="sidebar">
           <div class="side-card">
             <div class="course-thumb">
-              <img src="assets/images/formation assets/rhino-vray.webp" alt="Rhino V-Ray Beginners course" />
+              <img src="assets/images/formation assets/sketchup-lumion.webp" alt="Sketchup Lumion course" />
             </div>
 
             <div class="info-grid">
@@ -238,7 +312,7 @@
                     </g>
                   </svg>
                 </h6>
-                <span data-translate="level">Beginner</span>
+                <span data-translate="level"></span>
               </div>
 
               <div class="info-pill">
@@ -254,7 +328,7 @@
                       d="M29.68,31.44V19.78a.27.27,0,0,1,.41-.23l9.17,5.83a.27.27,0,0,1,0,.46l-9.17,5.82A.26.26,0,0,1,29.68,31.44Z" />
                   </svg>
                 </h5>
-                <span data-translate="rvbLectures"></span>
+                <span data-translate="lectures"></span>
               </div>
 
               <div class="info-pill">
@@ -265,7 +339,7 @@
                       stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </h5>
-                <span data-translate="rvbDuration"></span>
+                <span data-translate="skluDuration"></span>
               </div>
             </div>
 
@@ -273,12 +347,13 @@
 
             <div class="price-row">
               <div>
-                <div class="price-old" id="oldPrice" data-translate="rvbPriceOld"></div>
-                <div class="price-new" id="newPrice" data-translate="rvbPriceNew"></div>
+                <div class="price-old" id="oldPrice" data-translate="skluPriceOld">20000 DZD</div>
+                <div class="price-new" id="newPrice" data-translate="skluPriceNew">15000 DZD</div>
               </div>
             </div>
 
-            <button class="btn-primary buy-btn" data-course-title="Rhino + V-Ray (Beginners)" data-translate="buy_now">
+            <button class="btn-primary buy-btn" data-course-title="Sketchup + Lumion"
+              data-translate="buy_now">
               Buy Now
             </button>
         </aside>
@@ -289,8 +364,8 @@
   <div class="sticky-buy-bar">
     <div class="sticky-buy-inner">
       <div class="sticky-prices">
-        <span class="price-old" id="stickyPrice" data-translate="rvbPriceOld"></span>
-        <span class="sticky-price" id="stickyPrice" data-translate="rvbPriceNew"></span>
+        <span class="price-old" id="stickyPrice" data-translate="skluPriceOld">20000 DZD</span>
+        <span class="sticky-price" id="stickyPrice" data-translate="skluPriceNew">15000 DZD</span>
       </div>
       <button class="btn-primary sticky-buy-btn" id="stickyBuyBtn" data-translate="buy_now">Buy Now</button>
     </div>
