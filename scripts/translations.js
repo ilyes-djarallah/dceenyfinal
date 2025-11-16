@@ -599,7 +599,7 @@ const translations = {
     rvSkill4: "Mastery of the Revit ↔ Enscape workflow",
     rvSkill5: "Professional graphic presentation and printing",
 
-    rvencourseTitle: "Revit + Enscape Architecture",
+    rvencourseTitle: "Revit Architecture & Enscape - From Scratch to Professional Renders",
     rvencourseShortDesc:
       "Learn to model buildings and create realistic renders using Revit and Enscape.",
     rvencourseLongDesc:
@@ -1512,7 +1512,7 @@ const translations = {
     rvSkill4: "Maîtrise du workflow Revit ↔ Enscape",
     rvSkill5: "Présentation graphique et impression professionnelle",
 
-    rvencourseTitle: "Revit + Enscape pour l’architecture",
+    rvencourseTitle: "Revit Architecture et Enscape -  À Partir de Zéro Au Rendu",
     rvencourseShortDesc:
       "Apprenez à modéliser des bâtiments et créer des rendus réalistes avec Revit et Enscape.",
     rvencourseLongDesc:
@@ -2399,7 +2399,7 @@ const translations = {
     rvSkill4: "إتقان سير العمل بين Revit وEnscape",
     rvSkill5: "عرض جرافيكي وطباعة احترافية",
 
-    rvencourseTitle: "الهندسة المعمارية باستخدام Revit + Enscape",
+    rvencourseTitle: "Revit Architecture و Enscape - البدء من الصفر إلى الإخراج الواقعي",
     rvencourseShortDesc:
       "تعلّم نمذجة المباني وإنتاج رندرات واقعية باستخدام Revit وEnscape.",
     rvencourseLongDesc:
