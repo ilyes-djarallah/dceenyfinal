@@ -702,7 +702,8 @@ const translations = {
     // SKETCHUP + LUMION
     // ===============================
     skCourseTitle: "Sketchup + Lumion Training",
-    skCourseShortDesc: "From Modeling to Realistic Rendering using SketchUp & Lumion",
+    skCourseShortDesc:
+      "From Modeling to Realistic Rendering using SketchUp & Lumion",
     skCourseLongDesc:
       "Master SketchUp from basic to advanced and create professional renderings with Lumion. From complete 3D modeling to using advanced plugins, learn to design, optimize, and present your architectural projects with realistic images and animations. Practical and professional training to become operational quickly.",
     skPublicCible: "Beginners or those with a basis in architecture",
@@ -958,6 +959,90 @@ const translations = {
     rvbBonus1: "HDRI AND MATERIALS PACK",
     rvbBonus2: "RHINO KITCHEN SCENE",
     rvbBonus3: "FINAL EXERCISE FILE",
+    // ===============================
+    // ARCHICAD
+    // ===============================
+    acTitle: "Archicad - Architectural Aodeling & Documentation",
+    acSubtitle: "Complete 2D Technical Drawings and Integrated 3D BIM Modeling",
+    acDescription:
+      "Master Archicad for architectural modeling and documentation. Learn to create complete 2D and 3D projects, manage BIM structures, generate documentation, and produce professional layouts.", // Synthesized description
+
+    // Sidebar
+    level: "Beginner to Intermediate", // Synthesized
+    lectures: "6 Sessions",
+    accDuration: "20 hours", // Placeholder
+    accPriceOld: "12000 DZD", // Placeholder
+    accPriceNew: "7990 DZD", // Placeholder
+
+    // Collapsible Objectives (Synthesized from content)
+    acObjTitle: "Course Objectives",
+    acObj1: "Master the Archicad environment and basic modeling tools.",
+    acObj2: "Understand BIM structuring and precision tools.",
+    acObj3: "Learn to use objects, libraries, and annotations efficiently.",
+    acObj4: "Generate complete documentation and professional layouts.",
+    acObj5: "Explore advanced 3D modeling and visualization techniques.",
+    acObj6: "Finalize a complete project from modeling to publication.",
+
+    // Course Programme
+    acS1Title: "SESSION 1: Interface and Modeling Basics",
+    acS1_1:
+      "Discovery of the ARCHICAD environment: Toolbar, Navigator, Workspace.",
+    acS1_2: "Project configuration: Units, levels, layers, templates.",
+    acS1_3: "Basic tools: Wall, Slab, Roof, Window, Door.",
+    acS1_4: "2D/3D Navigation: Plan view, section, elevation, perspective.",
+    acS1_5: "Element management: Selection, move, copy, rotate, mirror.",
+    acS1Ex:
+      "Exercise: Creation of a simple plan with walls, openings, slab, and roof.",
+
+    acS2Title: "SESSION 2: Structuring and Precision",
+    acS2_1: "Management of layers and layer combinations.",
+    acS2_2: "Use of guide lines, snaps, and tracking.",
+    acS2_3: "Modification tools: Stretch, split, adjust, align.",
+    acS2_4: "Creation of complex profiles for walls and beams.",
+    acS2_5: "Management of building materials and surfaces.",
+    acS2Ex:
+      "Exercise: Structuring an architectural plan according to a BIM standard.",
+
+    acS3Title: "SESSION 3: Objects, Libraries, and Annotation",
+    acS3_1: "Use of the ARCHICAD object library.",
+    acS3_2: "Insertion of furniture, equipment, and parametric elements.",
+    acS3_3: "Automatic and manual dimensioning.",
+    acS3_4: "Annotation: Text, labels, symbols.",
+    acS3_5: "Management of graphic styles and pens.",
+    acS3Ex: "Exercise: Insertion of furniture + complete plan dimensioning.",
+
+    acS4Title: "SESSION 4: Documentation and Layout",
+    acS4_1: "Creation of views: Plans, sections, elevations, details.",
+    acS4_2: "Organization of the layout book.",
+    acS4_3: "Insertion of title blocks and information blocks.",
+    acS4_4: "Publication: Export PDF, DWG, IFC.",
+    acS4_5: "Setting scales and printing styles.",
+    acS4Ex: "Exercise: Complete layout of a project on A3/A4 format.",
+
+    acS5Title: "SESSION 5: Advanced 3D Modeling and Visualization",
+    acS5_1: "Advanced modeling: Stairs, railings, complex roofs.",
+    acS5_2: "Use of Morphs and custom objects.",
+    acS5_3: "3D view management: Visual styles, shadows, textures.",
+    acS5_4: "Introduction to CineRender for realistic renderings.",
+    acS5_5: "Export to Twinmotion or other rendering engines.",
+    acS5Ex:
+      "Exercise: Modeling a complete interior space with furniture and textures.",
+
+    acS6Title: "SESSION 6: Synthesis and Final Project",
+    acS6_1: "Review of techniques seen: Modeling, annotation, layout.",
+    acS6_2: "File optimization: Cleaning, organization, performance.",
+    acS6_3: "Collaboration: IFC export, teamwork (Teamwork).",
+    acS6_4: "Q&A session + practical exercises.",
+
+    acFinalProjTitle: "Final Project",
+    acFinalProjDesc:
+      "Realization of a complete project integrating 3D modeling, annotation, layout, and publication.",
+
+    acBonusTitle: "Bonus Content",
+    acBonus1: "Exercise files.",
+    acBonus2: "ARCHICAD object library (furniture, textures, etc.).",
+    acBonus3: "Title block templates and project templates.",
+    acBonus4: "Reference files (PLN, PDF, IFC).",
   },
 
   fr: {
@@ -1695,7 +1780,8 @@ const translations = {
     // SKETCHUP + LUMION
     // ===============================
     skCourseTitle: "Formation Sketchup + Lumion",
-    skCourseShortDesc: "De la Modélisation au Rendu Réaliste avec Sketchup & Lumion",
+    skCourseShortDesc:
+      "De la Modélisation au Rendu Réaliste avec Sketchup & Lumion",
     skCourseLongDesc:
       "Maîtrisez SketchUp de base à avancé et réalisez des rendus professionnels avec Lumion. De la modélisation 3D complète à l'utilisation de plugins avancés, apprenez à concevoir, optimiser et présenter vos projets architecturaux avec des images et animations réalistes. Une formation pratique et professionnelle pour devenir opérationnel rapidement.",
     skPublicCible: "Débutante ou avec des bases en architecture",
@@ -1968,6 +2054,94 @@ const translations = {
     rvbBonus1: "PACK HDRI ET MATERIAUX",
     rvbBonus2: "SCÈNE CUISINE RHINO",
     rvbBonus3: "FICHIER D'EXERCICE FINAL",
+
+    // ===============================
+    // ARCHICAD
+    // ===============================
+    acTitle: "Archicad - Modélisation & Documentation Architecturale",
+    acSubtitle: "Plans Techniques 2D et Modélisation BIM 3D Complète",
+    acDescription:
+      "Maîtrisez Archicad pour la modélisation et la documentation architecturale. Apprenez à créer des projets complets en 2D et 3D, gérer la structure BIM, générer la documentation et produire des mises en page professionnelles.", // Synthesized description
+
+    // Sidebar
+    level: "Débutant à Intermédiaire", // Synthesized
+    lectures: "6 Séances",
+    accDuration: "20 heures", // Placeholder
+    accPriceOld: "11000 DZD", // Placeholder
+    accPriceNew: "7990 DZD", // Placeholder
+
+    // Collapsible Objectives
+    acObjTitle: "Objectifs de la formation",
+    acObj1: "Maîtriser l'environnement Archicad et les outils de base.",
+    acObj2: "Comprendre la structuration BIM et les outils de précision.",
+    acObj3: "Savoir utiliser les objets, bibliothèques et annotations.",
+    acObj4: "Générer une documentation complète et des mises en page.",
+    acObj5: "Explorer la modélisation 3D avancée et la visualisation.",
+    acObj6: "Finaliser un projet complet de la modélisation à la publication.",
+
+    // Course Programme
+    acS1Title: "SÉANCE 1 : Interface et Bases de la Modélisation",
+    acS1_1:
+      "Découverte de l'environnement ARCHICAD : Barre d'outils, Navigateur, Espace de travail.",
+    acS1_2: "Configuration du projet : Unités, niveaux, calques, gabarits.",
+    acS1_3: "Outils de base : Mur, Dalle, Toit, Fenêtre, Porte.",
+    acS1_4: "Navigation 2D/3D : Vue en plan, coupe, élévation, perspective.",
+    acS1_5:
+      "Gestion des éléments : Sélection, déplacement, copie, rotation, miroir.",
+    acS1Ex:
+      "Exercice : Création d'un plan simple avec murs, ouvertures, dalle et toiture.",
+
+    acS2Title: "SÉANCE 2 : Structuration et Précision",
+    acS2_1: "Gestion des calques et des combinaisons de calques.",
+    acS2_2: "Utilisation des lignes guides, accrochages et repérages.",
+    acS2_3: "Outils de modification : Étirer, diviser, ajuster, aligner.",
+    acS2_4: "Création de profils complexes pour murs et poutres.",
+    acS2_5: "Gestion des matériaux de construction et des surfaces.",
+    acS2Ex:
+      "Exercice : Structuration d'un plan architectural selon une norme BIM.",
+
+    acS3Title: "SÉANCE 3 : Objets, Bibliothèques et Annotation",
+    acS3_1: "Utilisation de la bibliothèque d'objets ARCHICAD.",
+    acS3_2: "Insertion de mobilier, équipements et éléments paramétriques.",
+    acS3_3: "Cotation automatique et manuelle.",
+    acS3_4: "Annotation : Texte, étiquettes, symboles.",
+    acS3_5: "Gestion des styles graphiques et des stylos.",
+    acS3Ex: "Exercice : Insertion de mobilier + cotation complète d'un plan.",
+
+    acS4Title: "SÉANCE 4 : Documentation et Mise en Page",
+    acS4_1: "Création de vues : Plans, coupes, élévations, détails.",
+    acS4_2: "Organisation du carnet de mise en page.",
+    acS4_3: "Insertion de cartouches et blocs d'informations.",
+    acS4_4: "Publication : Export PDF, DWG, IFC.",
+    acS4_5: "Paramétrage des échelles et des styles d'impression.",
+    acS4Ex: "Exercice : Mise en page complète d'un projet sur format A3/A4.",
+
+    acS5Title: "SÉANCE 5 : Modélisation 3D Avancée et Visualisation",
+    acS5_1:
+      "Modélisation avancée : Escaliers, garde-corps, toitures complexes.",
+    acS5_2: "Utilisation de Morphs et objets personnalisés.",
+    acS5_3: "Gestion des vues 3D : Styles visuels, ombres, textures.",
+    acS5_4: "Introduction à CineRender pour les rendus réalistes.",
+    acS5_5: "Exportation vers Twinmotion ou autres moteurs de rendu.",
+    acS5Ex:
+      "Exercice : Modélisation d'un espace intérieur complet avec mobilier et textures.",
+
+    acS6Title: "SÉANCE 6 : Synthèse et Projet Final",
+    acS6_1:
+      "Révision des techniques vues : Modélisation, annotation, mise en page.",
+    acS6_2: "Optimisation du fichier : Nettoyage, organisation, performance.",
+    acS6_3: "Collaboration : Export IFC, travail en équipe (Teamwork).",
+    acS6_4: "Séance de questions/réponses + exercices pratiques.",
+
+    acFinalProjTitle: "Projet Final",
+    acFinalProjDesc:
+      "Réalisation d'un projet complet intégrant modélisation 3D, annotation, mise en page et publication.",
+
+    acBonusTitle: "Contenu Complémentaire",
+    acBonus1: "Fichiers d'exercices.",
+    acBonus2: "Bibliothèque d'objets ARCHICAD (mobilier, textures, etc.).",
+    acBonus3: "Modèles de cartouches et gabarits de projet.",
+    acBonus4: "Fichiers de référence (PLN, PDF, IFC).",
   },
 
   ar: {
@@ -2627,7 +2801,6 @@ const translations = {
     ac5_3: "العرض الرسومي: التهشير، الأسلوب، والظلال.",
     ac5_4: "تصدير النموذج إلى Lumion للإخراج النهائي.",
     ac5Ex: "تمرين عملي: إنجاز ملف عرض تقديمي كامل.",
-
     ac6Title: "الحصة 6: Archicad متقدم وإدارة BIM",
     ac6Obj: "تعميق الأدوات المتقدمة وإدارة المشروع.",
     ac6_1: "استخدام التشكيلات المعقدة والواجهات الزجاجية (Façades Rideaux).",
@@ -2643,14 +2816,12 @@ const translations = {
     acBonus3: "إضافة النباتات، الكائنات، الماء، السماء، والجو.",
     acBonus4: "إنشاء صور ثابتة ورسوم متحركة للعرض.",
     acBonusEx: "تمرين عملي: إخراج واقعي وفيديو عرض تقديمي للمشروع.",
-
     acResultsTitle: "النتائج المتوقعة:",
     acResultsIntro: "في نهاية التدريب، سيكون المشاركون قادرين على:",
     acResult1: "تصميم ونمذجة وتوثيق مشروع معماري كامل.",
     acResult2: "إدارة مشروع BIM بكفاءة على Archicad.",
     acResult3: "إنتاج إخراجات ورسوم متحركة واقعية باستخدام Lumion.",
     aclectures: "35 درس",
-
     acDuration: "28 ساعة",
     acPriceOld: "22000 دج",
     acPriceNew: "17990 دج",
@@ -2658,7 +2829,8 @@ const translations = {
     // SKETCHUP + LUMION
     // ===============================
     skCourseTitle: "دورة سكتش أب + لوميون",
-    skCourseShortDesc: "من النمذجة إلى الإخراج الواقعي باستخدام سكتش أب و لوميون.",
+    skCourseShortDesc:
+      "من النمذجة إلى الإخراج الواقعي باستخدام سكتش أب و لوميون.",
     skCourseLongDesc:
       "أتقن سكتش أب من الأساسي إلى المتقدم وأنشئ عروضًا احترافية باستخدام لوميون. من النمذجة ثلاثية الأبعاد الكاملة إلى استخدام الإضافات المتقدمة، تعلم تصميم وتحسين وتقديم مشاريعك المعمارية بصور ورسوم متحركة واقعية. تدريب عملي واحترافي لتصبح جاهزًا للعمل بسرعة.",
     skPublicCible: "مبتدئ أو لديه أسس في الهندسة المعمارية",
@@ -2903,6 +3075,86 @@ const translations = {
     rvbBonus1: "حزمة HDRI ومواد",
     rvbBonus2: "مشهد مطبخ راينو",
     rvbBonus3: "ملف التمرين النهائي",
+    // ===============================
+    // ARCHICAD
+    // ===============================
+    acTitle: "أرشيكاد - النمذجة والتوثيق المعماري",
+    acSubtitle: "الرسومات التقنية الثنائية والنمذجة المتكاملة ثلاثية الأبعاد BIM",
+    acDescription:
+      "أتقن أركيكاد للنمذجة والتوثيق المعماري. تعلم كيفية إنشاء مشاريع كاملة ثنائية وثلاثية الأبعاد، وإدارة هيكل BIM، وإنشاء الوثائق، وإنتاج تخطيطات احترافية.", // Synthesized description
+
+    // Sidebar
+    level: "مبتدئ إلى متوسط", // Synthesized
+    lectures: "6 حصص",
+    accDuration: "20 ساعة", // Placeholder
+    accPriceOld: "11000 دج", // Placeholder
+    accPriceNew: "7990 دج", // Placeholder
+
+    // Collapsible Objectives
+    acObjTitle: "أهداف الدورة",
+    acObj1: "إتقان بيئة أركيكاد وأدوات النمذجة الأساسية.",
+    acObj2: "فهم هيكلة BIM وأدوات الدقة.",
+    acObj3: "تعلم استخدام الكائنات والمكتبات والتعليقات التوضيحية بكفاءة.",
+    acObj4: "إنشاء وثائق كاملة وتخطيطات احترافية.",
+    acObj5: "استكشاف تقنيات النمذجة ثلاثية الأبعاد المتقدمة والتصور.",
+    acObj6: "إنجاز مشروع كامل من النمذجة إلى النشر.",
+
+    // Course Programme
+    acS1Title: "الحصة 1: الواجهة وأساسيات النمذجة",
+    acS1_1: "اكتشاف بيئة أركيكاد: شريط الأدوات، المستعرض، مساحة العمل.",
+    acS1_2: "إعداد المشروع: الوحدات، المستويات، الطبقات، القوالب.",
+    acS1_3: "الأدوات الأساسية: جدار، بلاطة، سقف، نافذة، باب.",
+    acS1_4: "التنقل ثنائي/ثلاثي الأبعاد: مسقط أفقي، مقطع، واجهة، منظور.",
+    acS1_5: "إدارة العناصر: تحديد، نقل، نسخ، تدوير، مرآة.",
+    acS1Ex: "تمرين: إنشاء مسقط بسيط بجدران وفتحات وبلاطة وسقف.",
+
+    acS2Title: "الحصة 2: الهيكلة والدقة",
+    acS2_1: "إدارة الطبقات ومجموعات الطبقات.",
+    acS2_2: "استخدام خطوط الإرشاد، الالتقاط، والتتبع.",
+    acS2_3: "أدوات التعديل: تمديد، تقسيم، ضبط، محاذاة.",
+    acS2_4: "إنشاء مقاطع معقدة للجدران والجسور.",
+    acS2_5: "إدارة مواد البناء والأسطح.",
+    acS2Ex: "تمرين: هيكلة مسقط معماري وفقًا لمعيار BIM.",
+
+    acS3Title: "الحصة 3: الكائنات، المكتبات والتعليقات التوضيحية",
+    acS3_1: "استخدام مكتبة كائنات أركيكاد.",
+    acS3_2: "إدراج الأثاث، المعدات، والعناصر البارامترية.",
+    acS3_3: "الأبعاد التلقائية واليدوية.",
+    acS3_4: "التعليقات التوضيحية: نصوص، تسميات، رموز.",
+    acS3_5: "إدارة الأنماط الرسومية والأقلام.",
+    acS3Ex: "تمرين: إدراج الأثاث + وضع أبعاد كاملة للمسقط.",
+
+    acS4Title: "الحصة 4: التوثيق وتخطيط الصفحة",
+    acS4_1: "إنشاء المشاهد: مساقط، مقاطع، واجهات، تفاصيل.",
+    acS4_2: "تنظيم كتاب التخطيط.",
+    acS4_3: "إدراج جداول العناوين (Cartouches) وكتل المعلومات.",
+    acS4_4: "النشر: تصدير PDF, DWG, IFC.",
+    acS4_5: "إعداد المقاييس وأنماط الطباعة.",
+    acS4Ex: "تمرين: تخطيط كامل لمشروع على ورق A3/A4.",
+
+    acS5Title: "الحصة 5: النمذجة ثلاثية الأبعاد المتقدمة والتصور",
+    acS5_1: "النمذجة المتقدمة: سلالم، درابزين، أسقف معقدة.",
+    acS5_2: "استخدام Morphs والكائنات المخصصة.",
+    acS5_3: "إدارة المشاهد ثلاثية الأبعاد: الأنماط البصرية، الظلال، الخامات.",
+    acS5_4: "مقدمة إلى CineRender للرندرة الواقعية.",
+    acS5_5: "التصدير إلى Twinmotion أو محركات رندر أخرى.",
+    acS5Ex: "تمرين: نمذجة مساحة داخلية كاملة مع أثاث وخامات.",
+
+    acS6Title: "الحصة 6: التلخيص والمشروع النهائي",
+    acS6_1: "مراجعة التقنيات التي تمت دراستها: النمذجة، التعليقات، التخطيط.",
+    acS6_2: "تحسين الملف: تنظيف، تنظيم، أداء.",
+    acS6_3: "التعاون: تصدير IFC، العمل الجماعي (Teamwork).",
+    acS6_4: "جلسة أسئلة وأجوبة + تمارين تطبيقية.",
+
+    acFinalProjTitle: "المشروع النهائي",
+    acFinalProjDesc:
+      "إنجاز مشروع كامل يدمج النمذجة ثلاثية الأبعاد، التعليقات التوضيحية، التخطيط، والنشر.",
+
+    acBonusTitle: "محتوى إضافي",
+    acBonus1: "ملفات التمارين.",
+    acBonus2: "مكتبة كائنات أركيكاد (أثاث، خامات، إلخ).",
+    acBonus3: "نماذج جداول العناوين وقوالب المشاريع.",
+    acBonus4: "ملفات مرجعية (PLN, PDF, IFC).",
   },
 };
 
