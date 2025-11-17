@@ -1792,21 +1792,21 @@ const translations = {
     skPriceOld: "18000 DZD",
     skPriceNew: "14990 DZD",
 
-    sk1Title: "SÉANCE 1 : Introduction & Objectifs de la Formation",
+    sk1Title: "Séance 1 : Introduction & Objectifs de la Formation",
     sk1_1: "Présentation du workflow SketchUp <-> Lumion",
     sk1_2: "Les rôles de chaque logiciel dans le processus architectural",
     sk1_3:
       "Préparation du matériel : installation, configuration, raccourcis utiles",
     sk1_4: "Organisation du projet dès le départ (dossiers, textures, formats)",
 
-    sk2Title: "SÉANCE 2 : Fondamentaux de SketchUp",
+    sk2Title: "Séance 2 : Fondamentaux de SketchUp",
     sk2_1: "Interface et navigation dans l'espace 3D",
     sk2_2: "Outils de dessin : ligne, rectangle, cercle, arc, push/pull",
     sk2_3: "Outils d'édition : déplacer, copier, échelle, rotation, offset",
     sk2_4: "Groupes, composants et balises (organisation du modèle)",
     sk2Ex: "Exercices : Modélisation d'un petit volume architectural",
 
-    sk3Title: "SÉANCE 3 : Modélisation Architecturale Complète",
+    sk3Title: "Séance 3 : Modélisation Architecturale Complète",
     sk3_1: "Création d'un plan 2D à partir d'un croquis ou d'une image",
     sk3_2: "Modélisation d'un bâtiment complet : murs, planchers, toitures",
     sk3_3: "Ajout d'ouvertures : portes, fenêtres, escaliers",
@@ -1814,7 +1814,7 @@ const translations = {
       "Importation de plans DWG et utilisation de plugins d'architecture (Dibac, 1001bit, etc.)",
     sk3_5: "Organisation du modèle par étages et scènes",
 
-    sk4Title: "SÉANCE 4 : SketchUp Avancé",
+    sk4Title: "Séance 4 : SketchUp Avancé",
     sk4_1:
       "Plugins indispensables pour l'architecture et le design (1001bit, Dibac, JHS Power bar, etc.)",
     sk4_2:
@@ -1823,7 +1823,7 @@ const translations = {
     sk4Ex:
       "Exercices : Réaliser un modèle 3D complet et propre, prêt à être rendu dans Lumion.",
 
-    sk5Title: "SÉANCE 5 : Matériaux & Styles dans SketchUp",
+    sk5Title: "Séance 5 : Matériaux & Styles dans SketchUp",
     sk5_1: "Application et création de matériaux personnalisés",
     sk5_2: "Importation de textures haute résolution",
     sk5_3: "Gestion des textures",
@@ -1831,7 +1831,7 @@ const translations = {
       "Utilisation des styles visuels SketchUp (ligne, ombres, croquis, etc.)",
     sk5_5: "Préparation du modèle pour export vers Lumion",
 
-    sk6Title: "SÉANCE 6 : Exportation SketchUp --> Lumion",
+    sk6Title: "Séance 6 : Exportation SketchUp --> Lumion",
     sk6_1: "Formats compatibles et bonnes pratiques d'export",
     sk6_2: "Nettoyage du modèle avant export",
     sk6_3:
@@ -1839,7 +1839,7 @@ const translations = {
     sk6_4: "Lien en direct avec LiveSync (SketchUp <-> Lumion)",
     sk6_5: "Vérification du modèle dans Lumion",
 
-    sk7Title: "SÉANCE 7 : Découverte de Lumion",
+    sk7Title: "Séance 7 : Découverte de Lumion",
     sk7_1: "Interface et navigation dans la scène",
     sk7_2: "Importation du modèle SketchUp",
     sk7_3: "Gestion de la bibliothèque d'objets Lumion",
@@ -1847,7 +1847,7 @@ const translations = {
       "Compréhension de l'environnement : ciel, lumière, terrain, eau, végétation",
     sk7_5: "Réglages de base : position du soleil, ombres, climat, heure",
 
-    sk8Title: "SÉANCE 8 : Scène & Aménagement dans Lumion",
+    sk8Title: "Séance 8 : Scène & Aménagement dans Lumion",
     sk8_1:
       "Ajout et placement de végétation, personnages, véhicules, mobilier, etc.",
     sk8_2: "Utilisation des calques pour organiser la scène",
@@ -1856,7 +1856,7 @@ const translations = {
       "Réglages des matériaux Lumion : verre, métal, pierre, bois, eau, etc.",
     sk8_5: "Application des textures PBR et personnalisation des surfaces",
 
-    sk9Title: "SÉANCE 9 : Lumières et Rendu Réaliste",
+    sk9Title: "Séance 9 : Lumières et Rendu Réaliste",
     sk9_1: "Types d'éclairage : Spot, Omni, Area Light, Sunlight",
     sk9_2: "Réglage de la température de couleur et de l'intensité",
     sk9_3: "Gestion des reflets, ombres et transparences",
@@ -1864,7 +1864,7 @@ const translations = {
     sk9_5:
       "Réglage de la caméra, profondeur de champ, exposition et balance des blancs",
 
-    sk10Title: "SÉANCE 10 : Animation & Présentation",
+    sk10Title: "Séance 10 : Animation & Présentation",
     sk10_1: "Création d'un parcours caméra (walkthrough ou flythrough)",
     sk10_2:
       "Animation du soleil, des objets, des personnages et de la végétation",
@@ -1872,7 +1872,7 @@ const translations = {
     sk10_4: "Ajout de texte, logos et bande sonore",
     sk10_5: "Export vidéo",
 
-    sk11Title: "SÉANCE 11 : Effets Visuels Avancés",
+    sk11Title: "Séance 11 : Effets Visuels Avancés",
     sk11_1: "Utilisation des effets Lumion :",
     sk11_2: "Reflets, Volumetric Light, Bloom, Lens Flare",
     sk11_3: "Real Skies, Rain, Snow, Fog, Global Illumination",
@@ -1880,7 +1880,7 @@ const translations = {
     sk11_5:
       "Création d'ambiances architecturales uniques (rendu diurne, nocturne, pluie, etc.)",
 
-    sk12Title: "SÉANCE 12 : Optimisation & Astuces Pro",
+    sk12Title: "Séance 12 : Optimisation & Astuces Pro",
     sk12_1: "Réduction du poids du modèle SketchUp avant import",
     sk12_2: "Optimisation des performances Lumion (FPS, LOD, végétation)",
     sk12_3:
@@ -1888,7 +1888,7 @@ const translations = {
     sk12_4: "Export d'images et vidéos avec les bons réglages",
     sk12_5: "Gestion du rendu final pour présentation client",
 
-    sk13Title: "SÉANCE 13 : Projet Final",
+    sk13Title: "Séance 13 : Projet Final",
     sk13_1: 'Étude de cas complète : "De la conception au rendu"',
     sk13_2:
       "Modélisation d'un projet (maison, appartement, local commercial) dans SketchUp",
@@ -1997,7 +1997,7 @@ const translations = {
     rvb6Obj: "OBJECTIF : RENDRE 2 IMAGES FINALES + RETOUCHE SIMPLE.",
 
     // Course Programme
-    rvb1se: "SÉANCE 1 : INTRODUCTION & FONDAMENTAUX RHINO",
+    rvb1se: "Séance 1 : INTRODUCTION & FONDAMENTAUX RHINO",
     rvb1_1: "1. Interface de Rhino: vues, panneaux, barres d'outils.",
     rvb1_2: "2. Navigation 3D: zoom, pan, rotation.",
     rvb1_3: "3. Courbes de base: Une, Polyligne, Rectangle.",
@@ -2005,7 +2005,7 @@ const translations = {
     rvb1_5: "5. Organisation: Layers, sélectionner, cacher, verrouiller.",
     rvb1Ex: "EXERCICE : MODÉLISER UNE PETITE PIÈCE (SOL + 4 MURS + OUVERTURE).",
 
-    rvb2se: "SÉANCE 2 : MODÉLISATION SIMPLE (INTÉRIEUR OU PETIT OBJET)",
+    rvb2se: "Séance 2 : MODÉLISATION SIMPLE (INTÉRIEUR OU PETIT OBJET)",
     rvb2_1: "1. Importer un plan DWG/PDF et le mettre à l'échelle.",
     rvb2_2: "2. Extrusion, Décaler.",
     rvb2_3: "3. Création d'un sol, plafond, plinthes.",
@@ -2013,7 +2013,7 @@ const translations = {
     rvb2Ex:
       "EXERCICE : MODÉLISER UNE PIÈCE MEUBLÉE SIMPLE (TABLE, CADRE, CAISSE SIMPLE).",
 
-    rvb3se: "SÉANCE 3 : INTRODUCTION À V-RAY (BASES INDISPENSABLES)",
+    rvb3se: "Séance 3 : INTRODUCTION À V-RAY (BASES INDISPENSABLES)",
     rvb3_1: "1. Interface V-Ray : Asset Editor, Frame Buffer, LightMix.",
     rvb3_2: "2. Lumière principale : Dome Light (HDRI).",
     rvb3_3:
@@ -2022,14 +2022,14 @@ const translations = {
     rvb3Ex:
       "EXERCICE : MODÉLISER UNE PIÈCE MEUBLÉE SIMPLE (TABLE, CADRE, CAISSE SIMPLE).",
 
-    rvb4se: "SÉANCE 4 : MATÉRIAUX + LUMIÈRE DE BASE",
+    rvb4se: "Séance 4 : MATÉRIAUX + LUMIÈRE DE BASE",
     rvb4_1: "1. Utilisation exclusive de la bibliothèque V-Ray officielle.",
     rvb4_2: "2. Comment appliquer un matériau proprement.",
     rvb4_3: "3. Réglages de base : roughness, reflection.",
     rvb4_4: "4. Éclairage intérieur simple : Rect Light, Sphere Light.",
     rvb4Ex: "EXERCICE : CRÉER UNE IMAGE SIMPLE MAIS PROPRE.",
 
-    rvb5se: "SÉANCE 5 : IMPORTATION D'OBJETS & WORKFLOW V-RAY",
+    rvb5se: "Séance 5 : IMPORTATION D'OBJETS & WORKFLOW V-RAY",
     rvb5_1: "1. Importance d'objets .vrmat, .obj, .3dm.",
     rvb5_2: "2. Quand utiliser V-Ray Proxy.",
     rvb5_3: "3. Nettoyage d'un modèle importé : Orientation, Normals, Scale.",
@@ -2037,7 +2037,7 @@ const translations = {
     rvb5Ex:
       "EXERCICE : AJOUTER 5 OBJETS IMPORTÉS À LA SCÈNE + REFAIRE UN RENDU.",
 
-    rvb6se: "SÉANCE 6 : FINALISATION ET POST-PRODUCTION SIMPLE",
+    rvb6se: "Séance 6 : FINALISATION ET POST-PRODUCTION SIMPLE",
     rvb6_1: "1. Caméra : placement correct.",
     rvb6_2: "2. Lightmix pour ajuster l'éclairage.",
     rvb6_3: "3. Export haute résolution.",
@@ -2080,7 +2080,7 @@ const translations = {
     acObj6: "Finaliser un projet complet de la modélisation à la publication.",
 
     // Course Programme
-    acS1Title: "SÉANCE 1 : Interface et Bases de la Modélisation",
+    acS1Title: "Séance 1 : Interface et Bases de la Modélisation",
     acS1_1:
       "Découverte de l'environnement ARCHICAD : Barre d'outils, Navigateur, Espace de travail.",
     acS1_2: "Configuration du projet : Unités, niveaux, calques, gabarits.",
@@ -2091,7 +2091,7 @@ const translations = {
     acS1Ex:
       "Exercice : Création d'un plan simple avec murs, ouvertures, dalle et toiture.",
 
-    acS2Title: "SÉANCE 2 : Structuration et Précision",
+    acS2Title: "Séance 2 : Structuration et Précision",
     acS2_1: "Gestion des calques et des combinaisons de calques.",
     acS2_2: "Utilisation des lignes guides, accrochages et repérages.",
     acS2_3: "Outils de modification : Étirer, diviser, ajuster, aligner.",
@@ -2100,7 +2100,7 @@ const translations = {
     acS2Ex:
       "Exercice : Structuration d'un plan architectural selon une norme BIM.",
 
-    acS3Title: "SÉANCE 3 : Objets, Bibliothèques et Annotation",
+    acS3Title: "Séance 3 : Objets, Bibliothèques et Annotation",
     acS3_1: "Utilisation de la bibliothèque d'objets ARCHICAD.",
     acS3_2: "Insertion de mobilier, équipements et éléments paramétriques.",
     acS3_3: "Cotation automatique et manuelle.",
@@ -2108,7 +2108,7 @@ const translations = {
     acS3_5: "Gestion des styles graphiques et des stylos.",
     acS3Ex: "Exercice : Insertion de mobilier + cotation complète d'un plan.",
 
-    acS4Title: "SÉANCE 4 : Documentation et Mise en Page",
+    acS4Title: "Séance 4 : Documentation et Mise en Page",
     acS4_1: "Création de vues : Plans, coupes, élévations, détails.",
     acS4_2: "Organisation du carnet de mise en page.",
     acS4_3: "Insertion de cartouches et blocs d'informations.",
@@ -2116,7 +2116,7 @@ const translations = {
     acS4_5: "Paramétrage des échelles et des styles d'impression.",
     acS4Ex: "Exercice : Mise en page complète d'un projet sur format A3/A4.",
 
-    acS5Title: "SÉANCE 5 : Modélisation 3D Avancée et Visualisation",
+    acS5Title: "Séance 5 : Modélisation 3D Avancée et Visualisation",
     acS5_1:
       "Modélisation avancée : Escaliers, garde-corps, toitures complexes.",
     acS5_2: "Utilisation de Morphs et objets personnalisés.",
@@ -2126,7 +2126,7 @@ const translations = {
     acS5Ex:
       "Exercice : Modélisation d'un espace intérieur complet avec mobilier et textures.",
 
-    acS6Title: "SÉANCE 6 : Synthèse et Projet Final",
+    acS6Title: "Séance 6 : Synthèse et Projet Final",
     acS6_1:
       "Révision des techniques vues : Modélisation, annotation, mise en page.",
     acS6_2: "Optimisation du fichier : Nettoyage, organisation, performance.",
