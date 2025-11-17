@@ -2845,8 +2845,9 @@ body {
 .search-wrap {
   flex: 1;
   max-width: 520px;
+
   /* width: 520px; */
-  min-width: 150px;
+  min-width: 300px;
 }
 
 .search-wrap input {
@@ -2931,6 +2932,9 @@ body {
   .chip {
     font-size: 13px;
   }
+  .search-wrap {
+  min-width: 150px;
+}
 }
 
 @media (max-width: 640px) {
@@ -4494,4 +4498,11 @@ body {
 }
 #academyBody .scroll-to-top svg path {
   fill: #ffb96b !important;
+}
+
+.buy-dynamic-price {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: var(--accent-2);
 }

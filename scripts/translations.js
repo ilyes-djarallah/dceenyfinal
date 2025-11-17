@@ -696,8 +696,8 @@ const translations = {
     aclectures: "35 Lectures",
 
     acDuration: "28 h",
-    acPriceOld: "22000 DZD",
-    acPriceNew: "17990 DZD",
+    acPriceOld: "15000 DZD",
+    acPriceNew: "11990 DZD",
     // ===============================
     // SKETCHUP + LUMION
     // ===============================
@@ -889,7 +889,7 @@ const translations = {
     rvbLectures: "6 Sessions + Project",
     rvbDuration: "20h", // Placeholder duration
     rvbPriceOld: "15000 DZD", // Placeholder old price
-    rvbPriceNew: "12000 DZD",
+    rvbPriceNew: "11990 DZD",
 
     // Collapsible Objectives Section
     rvbSkillsTitle: "Course Objectives",
@@ -962,8 +962,8 @@ const translations = {
     // ===============================
     // ARCHICAD
     // ===============================
-    acTitle: "Archicad - Architectural Aodeling & Documentation",
-    acSubtitle: "Complete 2D Technical Drawings and Integrated 3D BIM Modeling",
+    accTitle: "Archicad - Architectural Modeling & Documentation",
+    accSubtitle: "Complete 2D Technical Drawings and Integrated 3D BIM Modeling",
     acDescription:
       "Master Archicad for architectural modeling and documentation. Learn to create complete 2D and 3D projects, manage BIM structures, generate documentation, and produce professional layouts.", // Synthesized description
 
@@ -1773,8 +1773,8 @@ const translations = {
     acResult3: "Réaliser des rendus et animations réalistes sous Lumion.",
     aclectures: "35 leçons",
     acDuration: "28 h",
-    acPriceOld: "22000 DZD",
-    acPriceNew: "17990 DZD",
+    acPriceOld: "15000 DZD",
+    acPriceNew: "11990 DZD",
 
     // ===============================
     // SKETCHUP + LUMION
@@ -1981,7 +1981,7 @@ const translations = {
     rvbLectures: "6 Séances + Projet",
     rvbDuration: "20h", // Placeholder
     rvbPriceOld: "15000 DZD", // Placeholder
-    rvbPriceNew: "12000 DZD",
+    rvbPriceNew: "11990 DZD",
 
     // Collapsible Objectives Section
     rvbSkillsTitle: "Objectifs de la formation",
@@ -2823,8 +2823,8 @@ const translations = {
     acResult3: "إنتاج إخراجات ورسوم متحركة واقعية باستخدام Lumion.",
     aclectures: "35 درس",
     acDuration: "28 ساعة",
-    acPriceOld: "22000 دج",
-    acPriceNew: "17990 دج",
+    acPriceOld: "15000 دج",
+    acPriceNew: "11990 دج",
     // ===============================
     // SKETCHUP + LUMION
     // ===============================
@@ -3009,7 +3009,7 @@ const translations = {
     rvbLectures: "6 جلسات + مشروع",
     rvbDuration: "20 ساعة", // Placeholder
     rvbPriceOld: "15000 دج", // Placeholder
-    rvbPriceNew: "12000 دج",
+    rvbPriceNew: "11990 دج",
 
     // Collapsible Objectives Section
     rvbSkillsTitle: "أهداف الدورة",
