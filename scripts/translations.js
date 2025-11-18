@@ -1281,9 +1281,8 @@ const translations = {
     ac2dS4_4: "Creation of a custom title block.",
     ac2dS4_5: "Configuration of a PDF print.",
 
-    ac2dFinalProjTitle: "Final Project",
-    ac2dFinalProjDesc:
-      "Complete plan with title block, dimensions, and hatches.",
+    ac2dFinalProjTitle: "Final Project: Complete plan with title block, dimensions, and hatches.",
+ 
 
     ac2dBonusTitle: "Bonus Content",
     ac2dBonus1: "AutoCAD library (doors, windows, furniture, symbols).",
@@ -1294,7 +1293,7 @@ const translations = {
     // ===============================
     // RHINO 7 + D5 RENDER
     // ===============================
-    rhd5Title: "Workflow Training Program: Rhino 7 and D5 Render",
+    rhd5Title: "Workflow Training: Rhino 7 and D5 Render",
     rhd5Subtitle: "From 3D Design to Realistic Visualization",
     rhd5Description:
       "12+ hours of learning aimed at mastering the complete architectural modeling and rendering process through the Rhino -> D5 Render workflow. The objective is to acquire a fluid and professional work methodology, from 3D design to realistic project visualization.",
@@ -1314,47 +1313,45 @@ const translations = {
 
     // Program
     rhd5S1Title:
-      "Session 1: Introduction to Rhinoceros & Project Organization (2H)",
+      "Session 1: Introduction to Rhinoceros & Project Organization",
     rhd5S1_1: "Presentation of the interface, navigation, and essential tools.",
     rhd5S1_2: "Architectural project setup (units, layers, templates).",
     rhd5S1_3: "Importing AutoCAD plans and preparing the 3D model.",
     rhd5S1_4: "Managing precision, curves, and references.",
 
-    rhd5S2Title: "Session 2: Architectural 3D Modeling (2H)",
+    rhd5S2Title: "Session 2: Architectural 3D Modeling",
     rhd5S2_1: "Creation of basic volumes and complex forms.",
     rhd5S2_2: "Modeling tools: surfaces, polysurfaces, extrusion, booleans.",
     rhd5S2_3:
       "Organization of the model (groups, sub-objects, basic materials).",
     rhd5S2_4: "Export and cleaning of the model for rendering.",
 
-    rhd5S3Title: "Session 3: Details and Model Optimization (2H)",
+    rhd5S3Title: "Session 3: Details and Model Optimization",
     rhd5S3_1:
       "Creation of architectural details (openings, railings, ramps...).",
     rhd5S3_2: "Use of layers and object names for a clear workflow.",
     rhd5S3_3: "Management of materials and textures in Rhino.",
     rhd5S3_4: "Preparation of the model for fluid integration in D5 Render.",
 
-    rhd5S4Title: "Session 4: Introduction to D5 Render (2H)",
+    rhd5S4Title: "Session 4: Introduction to D5 Render",
     rhd5S4_1: "Discovery of the interface and basic settings.",
     rhd5S4_2: "Importing the model from Rhino (plugin or direct export).",
     rhd5S4_3: "Placement of lights, vegetation, materials, and surroundings.",
     rhd5S4_4: "Camera settings and scene compositions.",
 
-    rhd5S5Title: "Session 5: Photorealistic Rendering & Post-Production (2H)",
+    rhd5S5Title: "Session 5: Photorealistic Rendering & Post-Production",
     rhd5S5_1: "Setting natural and artificial light.",
     rhd5S5_2:
       "Rendering optimization (reflections, depth of field, atmosphere).",
     rhd5S5_3: "Exporting images and animations from D5 Render.",
     rhd5S5_4: "Final adjustments: colors, contrast, and project presentation.",
 
-    rhd5S6Title: "Session 6: Complete Rhino -> D5 Render Workflow (2H)",
+    rhd5S6Title: "Session 6: Complete Rhino -> D5 Render Workflow",
     rhd5S6_1: "Practical case: creation of a complete architectural project.",
     rhd5S6_2: "Fluid passage between Rhino and D5.",
     rhd5S6_3: "Professional tips for rapid and aesthetic production.",
 
-    rhd5FinalProjTitle: "Final Output",
-    rhd5FinalProjDesc:
-      "Final export in high quality (images, video, presentation).",
+    rhd5FinalProjTitle: "Final Render: Final export in high quality (images, video, presentation).",
 
     rhd5BonusTitle: "Bonus Content",
     rhd5Bonus1: "3D Object Library and Plugins.", // Synthesized as standard bonus based on context
@@ -2722,8 +2719,8 @@ const translations = {
     ac2dS4_4: "Création d'un cartouche personnalisé.",
     ac2dS4_5: "Configuration d'une impression PDF.",
 
-    ac2dFinalProjTitle: "Projet final",
-    ac2dFinalProjDesc: "Plan complet avec cartouche, cotations et hachures.",
+    ac2dFinalProjTitle: "Projet final: Plan complet avec cartouche, cotations et hachures.",
+    // ac2dFinalProjDesc: "",
 
     ac2dBonusTitle: "Contenu complémentaire", // Standard key used
     ac2dBonus1: "Bibliothèque AutoCAD (portes, fenêtres, mobilier, symboles).",
@@ -2735,7 +2732,7 @@ const translations = {
     // ===============================
     // RHINO 7 + D5 RENDER
     // ===============================
-    rhd5Title: "PROGRAMME DE LA FORMATION : WORKFLOW RHINO 7 ET D5 RENDER",
+    rhd5Title: "WORKFLOW RHINO 7 ET D5 RENDER",
     rhd5Subtitle: "DE LA CONCEPTION 3D À LA VISUALISATION RÉALISTE",
     rhd5Description:
       "Formation de +12 heures d'apprentissage visant à maîtriser le processus complet de modélisation et de rendu architectural à travers le workflow Rhino -> D5 Render. L'objectif est d'acquérir une méthodologie de travail fluide et professionnelle, depuis la conception 3D jusqu'à la visualisation réaliste du projet.",
@@ -2756,13 +2753,13 @@ const translations = {
 
     // Program
     rhd5S1Title:
-      "SÉANCE 1 – INTRODUCTION À RHINOCEROS & ORGANISATION DU PROJET (2H)",
+      "Séance 1 : INTRODUCTION À RHINOCEROS & ORGANISATION DU PROJET",
     rhd5S1_1: "Présentation de l'interface, navigation et outils essentiels",
     rhd5S1_2: "Paramétrage du projet architectural (unités, calques, gabarits)",
     rhd5S1_3: "Importation de plans AutoCAD et préparation du modèle 3D",
     rhd5S1_4: "Gestion de la précision, des courbes et des références",
 
-    rhd5S2Title: "SÉANCE 2 – MODÉLISATION 3D ARCHITECTURALE (2H)",
+    rhd5S2Title: "Séance 2 : MODÉLISATION 3D ARCHITECTURALE",
     rhd5S2_1: "Création des volumes de base et des formes complexes",
     rhd5S2_2:
       "Outils de modélisation : surfaces, polysurfaces, extrusion, booléens",
@@ -2770,7 +2767,7 @@ const translations = {
       "Organisation de la maquette (groupes, sous-objets, matériaux basiques)",
     rhd5S2_4: "Export et nettoyage du modèle pour le rendu",
 
-    rhd5S3Title: "SÉANCE 3 – DÉTAILS ET OPTIMISATION DU MODÈLE (2H)",
+    rhd5S3Title: "Séance 3 : DÉTAILS ET OPTIMISATION DU MODÈLE",
     rhd5S3_1:
       "Création de détails architecturaux (ouvertures, garde-corps, rampes...)",
     rhd5S3_2: "Utilisation des calques et noms d'objets pour un workflow clair",
@@ -2778,13 +2775,13 @@ const translations = {
     rhd5S3_4:
       "Préparation du modèle pour une intégration fluide dans D5 Render",
 
-    rhd5S4Title: "SÉANCE 4 – INTRODUCTION À D5 RENDER (2H)",
+    rhd5S4Title: "Séance 4 : INTRODUCTION À D5 RENDER",
     rhd5S4_1: "Découverte de l'interface et des réglages de base",
     rhd5S4_2: "Importation du modèle depuis Rhino (plugin ou export direct)",
     rhd5S4_3: "Placement des lumières, végétation, matériaux et entourage",
     rhd5S4_4: "Réglages de caméra et compositions de scènes",
 
-    rhd5S5Title: "SÉANCE 5 – RENDU PHOTORÉALISTE & POST-PRODUCTION (2H)",
+    rhd5S5Title: "Séance 5 : RENDU PHOTORÉALISTE & POST-PRODUCTION",
     rhd5S5_1: "Réglage de la lumière naturelle et artificielle",
     rhd5S5_2:
       "Optimisation du rendu (réflexions, profondeur de champ, atmosphère)",
@@ -2792,15 +2789,14 @@ const translations = {
     rhd5S5_4:
       "Ajustements finaux : couleurs, contraste et présentation du projet",
 
-    rhd5S6Title: "SÉANCE 6 – WORKFLOW COMPLET RHINO → D5 RENDER (2H)",
+    rhd5S6Title: "Séance 6 : WORKFLOW COMPLET RHINO → D5 RENDER",
     rhd5S6_1: "Cas pratique : création d'un projet architectural complet",
     rhd5S6_2: "Passage fluide entre Rhino, et D5",
     rhd5S6_3:
       "Astuces professionnelles pour une production rapide et esthétique",
 
-    rhd5FinalProjTitle: "Rendu Final",
-    rhd5FinalProjDesc:
-      "Export final en haute qualité (images, vidéo, présentation)",
+    rhd5FinalProjTitle: "Rendu Final: Export final en haute qualité (images, vidéo, présentation)",
+ 
 
     rhd5BonusTitle: "Contenu complémentaire", // Standard key
     rhd5Bonus1: "Bibliothèque d'objets 3D et Plugins.",
@@ -4038,8 +4034,7 @@ const translations = {
     ac2dS4_4: "إنشاء جدول عنوان مخصص.",
     ac2dS4_5: "إعداد طباعة PDF.",
 
-    ac2dFinalProjTitle: "المشروع النهائي",
-    ac2dFinalProjDesc: "مخطط كامل مع جدول العنوان، الأبعاد والتهشير.",
+    ac2dFinalProjTitle: "المشروع النهائي: مخطط كامل مع جدول العنوان، الأبعاد والتهشير.",
 
     ac2dBonusTitle: "محتوى إضافي", // Standard key
     ac2dBonus1: "مكتبة أوتوكاد (أبواب، نوافذ، أثاث، رموز).",
@@ -4050,7 +4045,7 @@ const translations = {
     // ===============================
     // RHINO 7 + D5 RENDER
     // ===============================
-    rhd5Title: "برنامج التدريب: سير العمل راينو 7 ودي 5 رندر",
+    rhd5Title: "التدريب: سير العمل راينو 7 ودي 5 رندر",
     rhd5Subtitle: "من التصميم ثلاثي الأبعاد إلى التصور الواقعي",
     rhd5Description:
       "تدريب لأكثر من 12 ساعة يهدف إلى إتقان عملية النمذجة والعرض المعماري الكاملة من خلال سير عمل راينو -> دي 5 رندر. الهدف هو اكتساب منهجية عمل سلسة واحترافية، من التصميم ثلاثي الأبعاد إلى التصور الواقعي للمشروع.",
@@ -4068,44 +4063,43 @@ const translations = {
     rhd5Obj3: "الانتقال من التصميم ثلاثي الأبعاد إلى التصور الواقعي للمشروع.",
 
     // Program
-    rhd5S1Title: "الحصة 1 – مقدمة في راينوسيروس وتنظيم المشروع (2 سا)",
+    rhd5S1Title: "الحصة 1: مقدمة في راينوسيروس وتنظيم المشروع ",
     rhd5S1_1: "عرض الواجهة، التنقل والأدوات الأساسية",
     rhd5S1_2: "إعداد المشروع المعماري (الوحدات، الطبقات، القوالب)",
     rhd5S1_3: "استيراد مخططات أوتوكاد وتحضير النموذج ثلاثي الأبعاد",
     rhd5S1_4: "إدارة الدقة، المنحنيات والمراجع",
 
-    rhd5S2Title: "الحصة 2 – النمذجة المعمارية ثلاثية الأبعاد (2 سا)",
+    rhd5S2Title: "الحصة 2: النمذجة المعمارية ثلاثية الأبعاد ",
     rhd5S2_1: "إنشاء الأحجام الأساسية والأشكال المعقدة",
     rhd5S2_2:
       "أدوات النمذجة: الأسطح، الأسطح المتعددة، البثق، العمليات البوليانية",
     rhd5S2_3: "تنظيم المجسم (مجموعات، كائنات فرعية، مواد أساسية)",
     rhd5S2_4: "تصدير وتنظيف النموذج للعرض",
 
-    rhd5S3Title: "الحصة 3 – التفاصيل وتحسين النموذج (2 سا)",
+    rhd5S3Title: "الحصة 3: التفاصيل وتحسين النموذج ",
     rhd5S3_1: "إنشاء التفاصيل المعمارية (فتحات، درابزين، منحدرات...)",
     rhd5S3_2: "استخدام الطبقات وأسماء الكائنات لسير عمل واضح",
     rhd5S3_3: "إدارة المواد والخامات في راينو",
     rhd5S3_4: "تحضير النموذج لدمج سلس في دي 5 رندر",
 
-    rhd5S4Title: "الحصة 4 – مقدمة في دي 5 رندر (2 سا)",
+    rhd5S4Title: "الحصة 4: مقدمة في دي 5 رندر ",
     rhd5S4_1: "اكتشاف الواجهة والإعدادات الأساسية",
     rhd5S4_2: "استيراد النموذج من راينو (إضافة أو تصدير مباشر)",
     rhd5S4_3: "وضع الأضواء، النباتات، المواد والمحيط",
     rhd5S4_4: "إعدادات الكاميرا وتركيبات المشهد",
 
-    rhd5S5Title: "الحصة 5 – العرض الواقعي وما بعد الإنتاج (2 سا)",
+    rhd5S5Title: "الحصة 5: العرض الواقعي وما بعد الإنتاج ",
     rhd5S5_1: "ضبط الإضاءة الطبيعية والاصطناعية",
     rhd5S5_2: "تحسين العرض (الانعكاسات، عمق المجال، الغلاف الجوي)",
     rhd5S5_3: "تصدير الصور والرسوم المتحركة من دي 5 رندر",
     rhd5S5_4: "تعديلات نهائية: الألوان، التباين وعرض المشروع",
 
-    rhd5S6Title: "الحصة 6 – سير عمل كامل راينو ← دي 5 رندر (2 سا)",
+    rhd5S6Title: "الحصة 6: سير عمل كامل راينو ← دي 5 رندر ",
     rhd5S6_1: "حالة عملية: إنشاء مشروع معماري كامل",
     rhd5S6_2: "انتقال سلس بين راينو ودي 5",
     rhd5S6_3: "نصائح احترافية لإنتاج سريع وجمالي",
 
-    rhd5FinalProjTitle: "الإخراج النهائي",
-    rhd5FinalProjDesc: "تصدير نهائي بجودة عالية (صور، فيديو، عرض)",
+    rhd5FinalProjTitle: "الإخراج النهائي: تصدير نهائي بجودة عالية (صور، فيديو، عرض)",
 
     rhd5BonusTitle: "محتوى إضافي", // Standard key
     rhd5Bonus1: "مكتبة كائنات ثلاثية الأبعاد وإضافات.", // Synthesized
