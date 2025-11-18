@@ -904,7 +904,7 @@ const translations = {
     rvb6Obj: "OBJECTIVE: RENDER 2 FINAL IMAGES + SIMPLE RETOUCHING.",
 
     // Course Programme
-    rvb1se: "SESSION 1: INTRODUCTION & RHINO FUNDAMENTALS",
+    rvb1se: "Session 1: INTRODUCTION & RHINO FUNDAMENTALS",
     rvb1_1: "1. Rhino interface: views, panels, toolbars.",
     rvb1_2: "2. 3D navigation: zoom, pan, rotation.",
     rvb1_3: "3. Basic curves: Line, Polyline, Rectangle.",
@@ -912,7 +912,7 @@ const translations = {
     rvb1_5: "5. Organization: Layers, select, hide, lock.",
     rvb1Ex: "EXERCISE: MODEL A SMALL ROOM (FLOOR + 4 WALLS + OPENING).",
 
-    rvb2se: "SESSION 2: SIMPLE MODELING (INTERIOR OR SMALL OBJECT)",
+    rvb2se: "Session 2: SIMPLE MODELING (INTERIOR OR SMALL OBJECT)",
     rvb2_1: "1. Import a DWG/PDF plan and scale it.",
     rvb2_2: "2. Extrusion, Offset.",
     rvb2_3: "3. Creation of a floor, ceiling, baseboards.",
@@ -920,7 +920,7 @@ const translations = {
     rvb2Ex:
       "EXERCISE: MODEL A SIMPLE FURNISHED ROOM (TABLE, FRAME, SIMPLE BOX).",
 
-    rvb3se: "SESSION 3: INTRODUCTION TO V-RAY (ESSENTIAL BASICS)",
+    rvb3se: "Session 3: INTRODUCTION TO V-RAY (ESSENTIAL BASICS)",
     rvb3_1: "1. V-Ray Interface: Asset Editor, Frame Buffer, LightMix.",
     rvb3_2: "2. Main light: Dome Light (HDRI).",
     rvb3_3:
@@ -929,21 +929,21 @@ const translations = {
     rvb3Ex:
       "EXERCISE: MODEL A SIMPLE FURNISHED ROOM (TABLE, FRAME, SIMPLE BOX).",
 
-    rvb4se: "SESSION 4: MATERIALS + BASIC LIGHT",
+    rvb4se: "Session 4: MATERIALS + BASIC LIGHT",
     rvb4_1: "1. Exclusive use of the official V-Ray library.",
     rvb4_2: "2. How to apply a material properly.",
     rvb4_3: "3. Basic settings: roughness, reflection.",
     rvb4_4: "4. Simple interior lighting: Rect Light, Sphere Light.",
     rvb4Ex: "EXERCISE: CREATE A SIMPLE BUT CLEAN IMAGE.",
 
-    rvb5se: "SESSION 5: IMPORTING OBJECTS & V-RAY WORKFLOW",
+    rvb5se: "Session 5: IMPORTING OBJECTS & V-RAY WORKFLOW",
     rvb5_1: "1. Importance of .vrmat, .obj, .3dm objects.",
     rvb5_2: "2. When to use V-Ray Proxy.",
     rvb5_3: "3. Cleaning an imported model: Orientation, Normals, Scale.",
     rvb5_4: "4. Adding realistic decor: plants, chairs, small objects.",
     rvb5Ex: "EXERCISE: ADD 5 IMPORTED OBJECTS TO THE SCENE + RENDER AGAIN.",
 
-    rvb6se: "SESSION 6: FINALIZATION AND SIMPLE POST-PRODUCTION",
+    rvb6se: "Session 6: FINALIZATION AND SIMPLE POST-PRODUCTION",
     rvb6_1: "1. Camera: correct placement.",
     rvb6_2: "2. Lightmix to adjust lighting.",
     rvb6_3: "3. High-resolution export.",
@@ -963,7 +963,8 @@ const translations = {
     // ARCHICAD
     // ===============================
     accTitle: "Archicad - Architectural Modeling & Documentation",
-    accSubtitle: "Complete 2D Technical Drawings and Integrated 3D BIM Modeling",
+    accSubtitle:
+      "Complete 2D Technical Drawings and Integrated 3D BIM Modeling",
     acDescription:
       "Master Archicad for architectural modeling and documentation. Learn to create complete 2D and 3D projects, manage BIM structures, generate documentation, and produce professional layouts.", // Synthesized description
 
@@ -984,7 +985,7 @@ const translations = {
     acObj6: "Finalize a complete project from modeling to publication.",
 
     // Course Programme
-    acS1Title: "SESSION 1: Interface and Modeling Basics",
+    acS1Title: "Session 1: Interface and Modeling Basics",
     acS1_1:
       "Discovery of the ARCHICAD environment: Toolbar, Navigator, Workspace.",
     acS1_2: "Project configuration: Units, levels, layers, templates.",
@@ -994,7 +995,7 @@ const translations = {
     acS1Ex:
       "Exercise: Creation of a simple plan with walls, openings, slab, and roof.",
 
-    acS2Title: "SESSION 2: Structuring and Precision",
+    acS2Title: "Session 2: Structuring and Precision",
     acS2_1: "Management of layers and layer combinations.",
     acS2_2: "Use of guide lines, snaps, and tracking.",
     acS2_3: "Modification tools: Stretch, split, adjust, align.",
@@ -1003,7 +1004,7 @@ const translations = {
     acS2Ex:
       "Exercise: Structuring an architectural plan according to a BIM standard.",
 
-    acS3Title: "SESSION 3: Objects, Libraries, and Annotation",
+    acS3Title: "Session 3: Objects, Libraries, and Annotation",
     acS3_1: "Use of the ARCHICAD object library.",
     acS3_2: "Insertion of furniture, equipment, and parametric elements.",
     acS3_3: "Automatic and manual dimensioning.",
@@ -1011,7 +1012,7 @@ const translations = {
     acS3_5: "Management of graphic styles and pens.",
     acS3Ex: "Exercise: Insertion of furniture + complete plan dimensioning.",
 
-    acS4Title: "SESSION 4: Documentation and Layout",
+    acS4Title: "Session 4: Documentation and Layout",
     acS4_1: "Creation of views: Plans, sections, elevations, details.",
     acS4_2: "Organization of the layout book.",
     acS4_3: "Insertion of title blocks and information blocks.",
@@ -1019,7 +1020,7 @@ const translations = {
     acS4_5: "Setting scales and printing styles.",
     acS4Ex: "Exercise: Complete layout of a project on A3/A4 format.",
 
-    acS5Title: "SESSION 5: Advanced 3D Modeling and Visualization",
+    acS5Title: "Session 5: Advanced 3D Modeling and Visualization",
     acS5_1: "Advanced modeling: Stairs, railings, complex roofs.",
     acS5_2: "Use of Morphs and custom objects.",
     acS5_3: "3D view management: Visual styles, shadows, textures.",
@@ -1028,21 +1029,200 @@ const translations = {
     acS5Ex:
       "Exercise: Modeling a complete interior space with furniture and textures.",
 
-    acS6Title: "SESSION 6: Synthesis and Final Project",
+    acS6Title: "Session 6: Synthesis and Final Project",
     acS6_1: "Review of techniques seen: Modeling, annotation, layout.",
     acS6_2: "File optimization: Cleaning, organization, performance.",
     acS6_3: "Collaboration: IFC export, teamwork (Teamwork).",
     acS6_4: "Q&A session + practical exercises.",
 
-    acFinalProjTitle: "Final Project",
-    acFinalProjDesc:
-      "Realization of a complete project integrating 3D modeling, annotation, layout, and publication.",
+    acFinalProjTitle: "Final Project: Realization of a complete project integrating 3D modeling, annotation, layout, and publication.",
+
 
     acBonusTitle: "Bonus Content",
     acBonus1: "Exercise files.",
     acBonus2: "ARCHICAD object library (furniture, textures, etc.).",
     acBonus3: "Title block templates and project templates.",
     acBonus4: "Reference files (PLN, PDF, IFC).",
+    // ===============================
+    // REVIT + D5 RENDER (ENGLISH)
+    // ===============================
+    revitTitle: "Revit Architecture + D5 Render",
+    revitSubtitle:
+      "3D BIM Modeling, 2D Technical Views, and Photorealistic Rendering",
+    revitDescription:
+      "Master the complete BIM workflow, from 3D architectural modeling in Revit to producing 2D technical drawings and, finally, creating high-quality photorealistic renderings and animations with D5 Render.",
+
+    revitLevel: "Beginner",
+    revitLectures: "6 Sessions",
+    revitDuration: "25 hours",
+    revitPriceOld: "25000 DZD",
+    revitPriceNew: "20000 DZD",
+
+    revitObjTitle: "Course Objectives",
+    revitObj1: "Understand the BIM concept and master the Revit interface.",
+    revitObj2:
+      "Master architectural modeling of a complete building (walls, roofs, elements).",
+    revitObj3:
+      "Generate all 2D and 3D technical documentation (plans, sections, layouts).",
+    revitObj4:
+      "Learn the D5 Render workflow for model import and material/lighting setup.",
+    revitObj5: "Apply advanced rendering techniques for photorealistic images.",
+    revitObj6:
+      "Create professional animations and perform quick post-production.",
+
+    revitS1Title: "Session 1: Introduction to Revit and BIM basics",
+    revitS1_1:
+      "Presentation of the Revit interface: ribbons, tools, views, and essential shortcuts.",
+    revitS1_2:
+      "Understand the BIM (Building Information Modeling) concept and its role in architectural design.",
+    revitS1_3:
+      "Creation of a new project: units, levels, grids, and templates.",
+    revitS1_4:
+      "Introduction to 2D/3D navigation: orbit, perspective view, quick sections.",
+    revitS1Ex:
+      "Practical Exercise: modeling of a simple room with walls, doors, windows, and a basic roof.",
+
+    revitS2Title: "Session 2: Complete Architectural Modeling",
+    revitS2_1:
+      "Creation and editing of elements: walls, floors, roofs, ceilings.",
+    revitS2_2: "Management of levels and vertical structure of a building.",
+    revitS2_3: "Use of Revit families: furniture, equipment, custom windows.",
+    revitS2_4: "Application of basic materials and parameter adjustment.",
+    revitS2Ex:
+      "Practical Exercise: modeling of a complete small dwelling (Ground Floor + roof).",
+
+    revitS3Title: "Session 3: Views, Documentation, and Render Prep",
+    revitS3_1: "Creation of plans, sections, elevations, and 3D views.",
+    revitS3_2: "Visual style settings: realistic, shadows, textures.",
+    revitS3_3: "Adding annotations: dimensions, texts, labels, legends.",
+    revitS3_4: "Layout on sheets with custom title blocks.",
+    revitS3Ex:
+      "Practical Exercise: producing an architectural presentation board.",
+
+    revitS4Title: "Session 4: Introduction to D5 Render - Interface & Workflow",
+    revitS4_1:
+      "Presentation of the D5 Render interface: navigation, libraries, and shortcuts.",
+    revitS4_2: "Importing the Revit model into D5 (optimized formats).",
+    revitS4_3:
+      "Management of D5 materials: application, adjustment, transformation, and PBR.",
+    revitS4_4: "Lighting basics: HDRI, sun, intensity, color temperature.",
+    revitS4Ex:
+      "Practical Exercise: simple exterior scene setup with natural lighting.",
+
+    revitS5Title: "Session 5: Professional Rendering Techniques in D5",
+    revitS5_1:
+      "Advanced lighting: artificial light, spotlights, neon, ambient lights.",
+    revitS5_2: "Camera settings: focal length, exposure, depth of field.",
+    revitS5_3:
+      "Material optimization: glass, metal, fabrics, wood, PBR surfaces.",
+    revitS5_4: "Resource management: vegetation, characters, decor objects.",
+    revitS5Ex:
+      "Practical Exercise: produce 2 final renderings (interior + exterior).",
+
+    revitS6Title: "Session 6: Animation, Post-production, and Final Project",
+    revitS6_1: "Creation of animation paths and camera movements in D5.",
+    revitS6_2: "Adding effects: rain, wind, fog, dynamic particles.",
+    revitS6_3:
+      "Quick post-production: light correction, contrast, ambiance (Photoshop/Canva).",
+    revitS6_4: "Exportation: high-resolution images, video, and boards.",
+
+    revitFinalProjTitle:
+      "Final Project: An animation of 30 to 60 seconds + 3 professional final images of a complete project.",
+
+    revitBonusTitle: "Bonus Content",
+    revitBonus1: "Exercise files.",
+    revitBonus2: "D5 Render asset library (vegetation, furniture, etc.).",
+    revitBonus3: "Revit project templates and title blocks.",
+    revitBonus4: "Reference files (RVT, D5A, PDF).",
+
+    // ===============================
+    // AUTOCAD (ENGLISH)
+    // ===============================
+    acadsTitle: "AutoCAD - Technical Drawing and 3D Modeling",
+    acadsSubtitle:
+      "Complete Mastery of 2D Drafting, Structuring, and 3D Introduction",
+    acadsDescription:
+      "Learn to create precise 2D plans, use layers and blocks to structure your projects, dimension them professionally, and explore the basics of 3D modeling.",
+
+    acadsLevel: "Beginner to Intermediate",
+    acadsLectures: "6 Sessions",
+    acadsDuration: "20 hours",
+    acadsPriceOld: "12000 DZD",
+    acadsPriceNew: "7990 DZD",
+
+    acadsObjTitle: "Course Objectives",
+    acadsObj1:
+      "Master the AutoCAD interface and fundamental 2D drafting tools.",
+    acadsObj2: "Learn advanced modification, precision, and drawing aids.",
+    acadsObj3:
+      "Structure projects professionally using layers, blocks, and external references.",
+    acadsObj4:
+      "Generate complete technical documentation including dimensioning and annotation.",
+    acadsObj5: "Master the layout and printing process on different formats.",
+    acadsObj6: "Understand the 3D environment and basic solid modeling tools.",
+
+    acadsS1Title: "Session 1: Interface and 2D Drawing Basics",
+    acadsS1_1:
+      "Discovery of the AutoCAD environment: Ribbon, Command Line, Model Space and Layout.",
+    acadsS1_2:
+      "Drawing configuration: Units (metric/imperial), line styles, layers, and templates (DWT).",
+    acadsS1_3:
+      "Essential drawing tools: Line, Circle, Arc, Rectangle, Polyline.",
+    acadsS1_4: "Drawing aids: Ortho, Polar Tracking, Object Snaps, Tracking.",
+    acadsS1_5: "Object management: Selection, move, copy, rotate, mirror.",
+    acadsS1Ex:
+      "Exercise: Drawing of simple geometric figures + 2D plan of a room with walls and openings.",
+
+    acadsS2Title: "Session 2: Modification, Precision, and Structuring",
+    acadsS2_1:
+      "Modification tools: Move, Copy, Rotate, Scale, Mirror, Trim, Extend, Offset.",
+    acadsS2_2: "Chamfer and Fillet: precise filleting and junctions.",
+    acadsS2_3: "Polylines and Splines: advanced creation, thickness, joining.",
+    acadsS2_4: "Layer management: creation, properties, filters, locking.",
+    acadsS2_5:
+      "Hatches and gradients: application, scale, association with boundaries.",
+    acadsS2Ex:
+      "Exercise: Modification of an existing plan + complete structuring according to a layer standard.",
+
+    acadsS3Title: "Session 3: Blocks, Annotation, and References",
+    acadsS3_1: "Static Blocks: creation, insertion, library management.",
+    acadsS3_2: "External References (XREF): attachment of DWG/PDF files.",
+    acadsS3_3: "Dimensioning: Linear, Aligned, Radius, Diameter.",
+    acadsS3_4: "Text: Simple text, multiline text, text styles.",
+    acadsS3_5: "Query tools: Measure, List object properties.",
+    acadsS3Ex: "Exercise: Insertion of furniture + complete plan dimensioning.",
+
+    acadsS4Title: "Session 4: Layout and Printing",
+    acadsS4_1: "Layout Space vs Model Space: organizing views.",
+    acadsS4_2: "Viewports: creation, scale setting.",
+    acadsS4_3: "Title Block: insertion, customization, information block.",
+    acadsS4_4: "Printing/Plotting: plot styles, line weights, PDF/DWG export.",
+    acadsS4Ex:
+      "Exercise: Complete layout of a plan at different scales on A3/A4.",
+
+    acadsS5Title: "Session 5: Introduction to 3D and Modeling",
+    acadsS5_1: "Switching to the 3D environment: navigation, visual styles.",
+    acadsS5_2: "UCS (User Coordinate System): drawing in different planes.",
+    acadsS5_3: "Modeling tools: Extrusion, Revolve, Sweep, Loft.",
+    acadsS5_4: "Boolean tools: Union, Subtract, Intersect.",
+    acadsS5_5: "Management of basic materials and lights.",
+    acadsS5Ex: "Exercise: 3D modeling of a room with furniture.",
+
+    acadsS6Title: "Session 6: Synthesis and Final Project",
+    acadsS6_1: "Review of techniques covered: 2D, 3D, layout.",
+    acadsS6_2: "File optimization: performance tips and organization.",
+    acadsS6_3: "Export to other software (SketchUp, Revit, etc.).",
+    acadsS6_4: "Q&A session + practical exercises.",
+
+    acadsFinalProjTitle: "Final Project",
+    acadsFinalProjDesc:
+      "Realization of a complete project integrating layers, blocks, dimensioning, 3D modeling, and professional printing.",
+
+    acadsBonusTitle: "Bonus Content",
+    acadsBonus1: "Exercise files.",
+    acadsBonus2: "AutoCAD block library (furniture, symbols, etc.).",
+    acadsBonus3: "Layout and title block templates.",
+    acadsBonus4: "Reference DWG files.",
   },
 
   fr: {
@@ -2058,8 +2238,8 @@ const translations = {
     // ===============================
     // ARCHICAD
     // ===============================
-    acTitle: "Archicad - Modélisation & Documentation Architecturale",
-    acSubtitle: "Plans Techniques 2D et Modélisation BIM 3D Complète",
+    accTitle: "Archicad - Modélisation & Documentation Architecturale",
+    accSubtitle: "Plans Techniques 2D et Modélisation BIM 3D Complète",
     acDescription:
       "Maîtrisez Archicad pour la modélisation et la documentation architecturale. Apprenez à créer des projets complets en 2D et 3D, gérer la structure BIM, générer la documentation et produire des mises en page professionnelles.", // Synthesized description
 
@@ -2133,15 +2313,217 @@ const translations = {
     acS6_3: "Collaboration : Export IFC, travail en équipe (Teamwork).",
     acS6_4: "Séance de questions/réponses + exercices pratiques.",
 
-    acFinalProjTitle: "Projet Final",
-    acFinalProjDesc:
-      "Réalisation d'un projet complet intégrant modélisation 3D, annotation, mise en page et publication.",
+    acFinalProjTitle:
+      "Projet Final: Réalisation d'un projet complet intégrant modélisation 3D, annotation, mise en page et publication.",
 
     acBonusTitle: "Contenu Complémentaire",
     acBonus1: "Fichiers d'exercices.",
     acBonus2: "Bibliothèque d'objets ARCHICAD (mobilier, textures, etc.).",
     acBonus3: "Modèles de cartouches et gabarits de projet.",
     acBonus4: "Fichiers de référence (PLN, PDF, IFC).",
+    // ===============================
+    // REVIT + D5 RENDER (FRENCH)
+    // ===============================
+    revitTitle: "Revit Architecture + D5 Render",
+    revitSubtitle:
+      "Modélisation BIM 3D, Vues Techniques 2D et Rendu Photorealiste",
+    revitDescription:
+      "Maîtrisez le flux de travail complet du BIM, de la modélisation architecturale 3D sous Revit à la production de plans techniques 2D et, enfin, à la création de rendus et d'animations photoréalistes de haute qualité avec D5 Render.",
+
+    revitLevel: "Débutant",
+    revitLectures: "6 Séances",
+    revitDuration: "25 heures",
+    revitPriceOld: "25000 DZD",
+    revitPriceNew: "20000 DZD",
+
+    revitObjTitle: "Objectifs de la formation",
+    revitObj1: "Comprendre le concept BIM et maîtriser l'interface Revit.",
+    revitObj2:
+      "Maîtriser la modélisation architecturale d'un bâtiment complet (murs, toitures, éléments).",
+    revitObj3:
+      "Générer toute la documentation technique 2D et 3D (plans, coupes, mises en page).",
+    revitObj4:
+      "Apprendre le flux de travail D5 Render pour l'importation de modèles et la configuration des matériaux/lumières.",
+    revitObj5:
+      "Appliquer des techniques de rendu avancées pour des images photoréalistes.",
+    revitObj6:
+      "Créer des animations professionnelles et effectuer une post-production rapide.",
+
+    revitS1Title: "Séance 1 : Introduction à Revit et bases du BIM",
+    revitS1_1:
+      "Présentation de l'interface Revit : rubans, outils, vues et raccourcis essentiels.",
+    revitS1_2:
+      "Comprendre le concept BIM (Building Information Modeling) et son rôle dans la conception architecturale.",
+    revitS1_3:
+      "Création d'un nouveau projet : unités, niveaux, quadrillages et gabarits.",
+    revitS1_4:
+      "Introduction à la navigation 2D/3D : orbite, vue en perspective, coupes rapides.",
+    revitS1Ex:
+      "Exercice pratique : modélisation d'une pièce simple avec murs, portes, fenêtres et toiture de base.",
+
+    revitS2Title: "Séance 2 : Modélisation architecturale complète",
+    revitS2_1:
+      "Création et édition des éléments : murs, sols, toits, plafonds.",
+    revitS2_2: "Gestion des niveaux et structure verticale d'un bâtiment.",
+    revitS2_3:
+      "Utilisation des familles Revit : mobilier, équipements, fenêtres personnalisées.",
+    revitS2_4:
+      "Application des matériaux de base et ajustement des paramètres.",
+    revitS2Ex:
+      "Exercice pratique : modélisation d'un petit habitat complet (RDC + toiture).",
+
+    revitS3Title: "Séance 3 : Vues, documentation et préparation au rendu",
+    revitS3_1: "Création des plans, coupes, élévations et vues 3D.",
+    revitS3_2: "Réglage des styles visuels : réaliste, ombres, textures.",
+    revitS3_3: "Ajout des annotations : cotes, textes, étiquettes, légendes.",
+    revitS3_4: "Mise en page sur feuilles avec cartouches personnalisés.",
+    revitS3Ex:
+      "Exercice pratique : produire une planche de présentation d'architecture.",
+
+    revitS4Title: "Séance 4 : Introduction à D5 Render - Interface et workflow",
+    revitS4_1:
+      "Présentation de l'interface D5 Render : navigation, librairies et raccourcis.",
+    revitS4_2: "Importation du modèle Revit dans D5 (formats optimisés).",
+    revitS4_3:
+      "Gestion des matériaux D5 : application, ajustement, transformation et PBR.",
+    revitS4_4:
+      "Bases de l'éclairage : HDRI, soleil, intensité, température de couleur.",
+    revitS4Ex:
+      "Exercice pratique : mise en scène extérieure simple avec éclairage naturel.",
+
+    revitS5Title: "Séance 5 : Techniques de rendu professionnelle dans D5",
+    revitS5_1:
+      "Éclairage avancé : lumière artificielle, spots, néons, lumières d'ambiance.",
+    revitS5_2:
+      "Réglages de la caméra : focale, exposition, profondeur de champ.",
+    revitS5_3:
+      "Optimisation des matériaux : verre, métal, tissus, bois, surfaces PBR.",
+    revitS5_4:
+      "Gestion des ressources : végétation, personnages, objets de décor.",
+    revitS5Ex:
+      "Exercice pratique : produire 2 rendus finals (intérieur + extérieur).",
+
+    revitS6Title: "Séance 6 : Animation, post-production et projet final",
+    revitS6_1:
+      "Création de trajectoires d'animation et mouvements de caméra dans D5.",
+    revitS6_2:
+      "Ajout d'effets : pluie, vent, brouillard, particules dynamiques.",
+    revitS6_3:
+      "Post-production rapide : correction lumière, contraste, ambiance (Photoshop/Canva).",
+    revitS6_4: "Exportation : images haute résolution, vidéo, et planches.",
+
+    revitFinalProjTitle: "Projet Final",
+    revitFinalProjDesc:
+      "Une animation de 30 à 60 secondes + 3 images finales professionnelles d'un projet complet.",
+
+    revitBonusTitle: "Contenu Complémentaire",
+    revitBonus1: "Fichiers d'exercices.",
+    revitBonus2:
+      "Bibliothèque d'éléments D5 Render (végétation, mobilier, etc.).",
+    revitBonus3: "Gabarits de projet et cartouches Revit.",
+    revitBonus4: "Fichiers de référence (RVT, D5A, PDF).",
+
+    // ===============================
+    // AUTOCAD (FRENCH)
+    // ===============================
+    acadsTitle: "Autocad - Dessin Technique et Modélisation 3D",
+    acadsSubtitle:
+      "Maîtrise Complète du Dessin 2D, Structuration et Initiation à la 3D",
+    acadsDescription:
+      "Apprenez à créer des plans 2D précis, à utiliser des calques et des blocs pour structurer vos projets, à les coter professionnellement et à découvrir les bases de la modélisation 3D.",
+
+    acadsLevel: "Débutant à Intermédiaire",
+    acadsLectures: "6 Séances",
+    acadsDuration: "20 heures",
+    acadsPriceOld: "12000 DZD",
+    acadsPriceNew: "7990 DZD",
+
+    acadsObjTitle: "Objectifs de la formation",
+    acadsObj1:
+      "Maîtriser l'interface AutoCAD et les outils fondamentaux de dessin 2D.",
+    acadsObj2:
+      "Apprendre les modifications avancées, la précision et les aides au dessin.",
+    acadsObj3:
+      "Structurer les projets de manière professionnelle avec calques, blocs et références externes.",
+    acadsObj4:
+      "Générer une documentation technique complète incluant la cotation et l'annotation.",
+    acadsObj5:
+      "Maîtriser le processus de mise en page et d'impression sur différents formats.",
+    acadsObj6:
+      "Comprendre l'environnement 3D et les outils de base de modélisation solide.",
+
+    acadsS1Title: "Séance 1 : Interface et Bases du Dessin 2D",
+    acadsS1_1:
+      "Découverte de l'environnement AutoCAD : Ruban, Ligne de commande, Espace Objet et Présentation.",
+    acadsS1_2:
+      "Configuration du dessin : Unités (métriques/impériales), styles de lignes, calques et gabarits (DWT).",
+    acadsS1_3:
+      "Outils de dessin essentiels : Ligne, Cercle, Arc, Rectangle, Polyligne.",
+    acadsS1_4:
+      "Aides au dessin : Ortho, Polaire, Accrochages aux objets, Repérage.",
+    acadsS1_5:
+      "Gestion des objets : Sélection, déplacement, copie, rotation, miroir.",
+    acadsS1Ex:
+      "Exercice : Dessin de figures géométriques simples + plan 2D d'une pièce avec murs et ouvertures.",
+
+    acadsS2Title: "Séance 2 : Modification, Précision et Structuration",
+    acadsS2_1:
+      "Outils de modification : Déplacer, Copier, Rotation, Échelle, Miroir, Ajuster, Prolonger, Décaler.",
+    acadsS2_2: "Chanfrein et Raccord : Filage et jonctions précises.",
+    acadsS2_3: "Polylignes et Splines : Création avancée, épaisseur, jointure.",
+    acadsS2_4:
+      "Gestion des calques : Création, propriétés, filtres, verrouillage.",
+    acadsS2_5:
+      "Hachures et dégradés : Application, échelle, association aux contours.",
+    acadsS2Ex:
+      "Exercice : Modification d'un plan existant + structuration complète selon une norme de calques.",
+
+    acadsS3Title: "Séance 3 : Blocs, Annotation et Références",
+    acadsS3_1:
+      "Blocs statiques : Création, insertion, gestion de bibliothèque.",
+    acadsS3_2: "Références externes (XREF) : Attachement de fichiers DWG/PDF.",
+    acadsS3_3: "Cotation : Linéaire, Alignée, Rayon, Diamètre.",
+    acadsS3_4: "Texte : Texte simple, multilignes, styles de texte.",
+    acadsS3_5:
+      "Outils d'interrogation : Mesurer, Lister les propriétés d'objets.",
+    acadsS3Ex:
+      "Exercice : Insertion de mobilier + cotation complète d'un plan.",
+
+    acadsS4Title: "Séance 4 : Mise en Page et Impression",
+    acadsS4_1: "Espace Présentation vs Espace Objet : Organisation des vues.",
+    acadsS4_2: "Fenêtres (Viewports) : Création, réglage d'échelle.",
+    acadsS4_3: "Cartouche : Insertion, personnalisation, bloc d'informations.",
+    acadsS4_4:
+      "Impression/Tracé : Styles de tracé, épaisseurs de ligne, export PDF/DWG.",
+    acadsS4Ex:
+      "Exercice : Mise en page complète d'un plan à différentes échelles sur A3/A4.",
+
+    acadsS5Title: "Séance 5 : Introduction à la 3D et Modélisation",
+    acadsS5_1: "Passage à l'environnement 3D : Navigation, styles visuels.",
+    acadsS5_2:
+      "SCU (Système de Coordonnées Utilisateur) : Dessin dans différents plans.",
+    acadsS5_3:
+      "Outils de modélisation : Extrusion, Révolution, Balayage, Loft.",
+    acadsS5_4: "Outils booléens : Union, Soustraction, Intersections.",
+    acadsS5_5: "Gestion des matériaux et lumières de base.",
+    acadsS5Ex: "Exercice : Modélisation d'une pièce en 3D avec mobilier.",
+
+    acadsS6Title: "Séance 6 : Synthèse et Projet Final",
+    acadsS6_1: "Révision des techniques vues : 2D, 3D, mise en page.",
+    acadsS6_2:
+      "Optimisation des fichiers : Astuces de performance et organisation.",
+    acadsS6_3: "Exportation vers d'autres logiciels (SketchUp, Revit, etc.).",
+    acadsS6_4: "Séance de questions/réponses + exercices pratiques.",
+
+    acadsFinalProjTitle: "Projet Final",
+    acadsFinalProjDesc:
+      "Réalisation d'un projet complet intégrant calques, blocs, cotation, modélisation 3D et impression professionnelle.",
+
+    acadsBonusTitle: "Contenu Complémentaire",
+    acadsBonus1: "Fichiers d'exercices.",
+    acadsBonus2: "Bibliothèque de blocs AutoCAD (mobilier, symboles, etc.).",
+    acadsBonus3: "Modèles de mise en page et cartouches.",
+    acadsBonus4: "Fichiers DWG de référence.",
   },
 
   ar: {
@@ -3078,8 +3460,9 @@ const translations = {
     // ===============================
     // ARCHICAD
     // ===============================
-    acTitle: "أرشيكاد - النمذجة والتوثيق المعماري",
-    acSubtitle: "الرسومات التقنية الثنائية والنمذجة المتكاملة ثلاثية الأبعاد BIM",
+    accTitle: "أرشيكاد - النمذجة والتوثيق المعماري",
+    accSubtitle:
+      "الرسومات التقنية الثنائية والنمذجة المتكاملة ثلاثية الأبعاد BIM",
     acDescription:
       "أتقن أركيكاد للنمذجة والتوثيق المعماري. تعلم كيفية إنشاء مشاريع كاملة ثنائية وثلاثية الأبعاد، وإدارة هيكل BIM، وإنشاء الوثائق، وإنتاج تخطيطات احترافية.", // Synthesized description
 
@@ -3146,15 +3529,183 @@ const translations = {
     acS6_3: "التعاون: تصدير IFC، العمل الجماعي (Teamwork).",
     acS6_4: "جلسة أسئلة وأجوبة + تمارين تطبيقية.",
 
-    acFinalProjTitle: "المشروع النهائي",
-    acFinalProjDesc:
-      "إنجاز مشروع كامل يدمج النمذجة ثلاثية الأبعاد، التعليقات التوضيحية، التخطيط، والنشر.",
+acFinalProjTitle: "المشروع النهائي: إنجاز مشروع كامل يدمج النمذجة ثلاثية الأبعاد، التعليقات التوضيحية، التخطيط، والنشر. ", 
 
     acBonusTitle: "محتوى إضافي",
     acBonus1: "ملفات التمارين.",
     acBonus2: "مكتبة كائنات أركيكاد (أثاث، خامات، إلخ).",
     acBonus3: "نماذج جداول العناوين وقوالب المشاريع.",
     acBonus4: "ملفات مرجعية (PLN, PDF, IFC).",
+    // ===============================
+    // REVIT + D5 RENDER (ARABIC)
+    // ===============================
+    revitTitle: "ريفيت أركيتكتشر + دي 5 رندر",
+    revitSubtitle:
+      "النمذجة ثلاثية الأبعاد BIM، العروض الفنية الثنائية، والرندرة الواقعية",
+    revitDescription:
+      "أتقن سير عمل BIM المتكامل، من النمذجة المعمارية ثلاثية الأبعاد في ريفيت إلى إنتاج الرسومات الفنية ثنائية الأبعاد، وصولاً إلى إنشاء رندرات ورسوم متحركة واقعية عالية الجودة باستخدام دي 5 رندر.",
+
+    revitLevel: "مبتدئ",
+    revitLectures: "6 حصص",
+    revitDuration: "25 ساعة",
+    revitPriceOld: "25000 دج",
+    revitPriceNew: "20000 دج",
+
+    revitObjTitle: "أهداف الدورة",
+    revitObj1: "فهم مفهوم BIM وإتقان واجهة ريفيت.",
+    revitObj2: "إتقان النمذجة المعمارية لمبنى كامل (جدران، أسقف، عناصر).",
+    revitObj3:
+      "إنشاء جميع الوثائق الفنية ثنائية وثلاثية الأبعاد (مخططات، مقاطع، تخطيطات).",
+    revitObj4:
+      "تعلم سير عمل دي 5 رندر لاستيراد النماذج وإعداد المواد والإضاءة.",
+    revitObj5: "تطبيق تقنيات الرندرة المتقدمة لصور واقعية.",
+    revitObj6: "إنشاء رسوم متحركة احترافية وإجراء معالجة سريعة بعد الإنتاج.",
+
+    revitS1Title: "الحصة 1: مقدمة إلى ريفيت وأساسيات BIM",
+    revitS1_1:
+      "عرض واجهة ريفيت: الأشرطة، الأدوات، المشاهد، والاختصارات الأساسية.",
+    revitS1_2:
+      "فهم مفهوم نمذجة معلومات البناء (BIM) ودورها في التصميم المعماري.",
+    revitS1_3: "إنشاء مشروع جديد: الوحدات، المستويات، الشبكات، والقوالب.",
+    revitS1_4:
+      "مقدمة في التنقل ثنائي/ثلاثي الأبعاد: المدار، عرض المنظور، المقاطع السريعة.",
+    revitS1Ex:
+      "تمرين تطبيقي: نمذجة غرفة بسيطة بجدران وأبواب ونوافذ وسقف أساسي.",
+
+    revitS2Title: "الحصة 2: النمذجة المعمارية الكاملة",
+    revitS2_1:
+      "إنشاء وتحرير العناصر: الجدران، الأرضيات، الأسقف، الأسقف المعلقة.",
+    revitS2_2: "إدارة المستويات والهيكل الرأسي للمبنى.",
+    revitS2_3: "استخدام عائلات ريفيت: الأثاث، المعدات، النوافذ المخصصة.",
+    revitS2_4: "تطبيق المواد الأساسية وتعديل المعايير.",
+    revitS2Ex: "تمرين تطبيقي: نمذجة سكن صغير كامل (طابق أرضي + سقف).",
+
+    revitS3Title: "الحصة 3: المشاهد، التوثيق، والإعداد للرندرة",
+    revitS3_1: "إنشاء المساقط، المقاطع، الواجهات، والمشاهد ثلاثية الأبعاد.",
+    revitS3_2: "إعداد الأنماط المرئية: الواقعية، الظلال، الخامات.",
+    revitS3_3: "إضافة التعليقات: الأبعاد، النصوص، التسميات، المفاتيح.",
+    revitS3_4: "تخطيط الصفحة على أوراق مع جداول عناوين مخصصة.",
+    revitS3Ex: "تمرين تطبيقي: إنتاج لوحة عرض معمارية.",
+
+    revitS4Title: "الحصة 4: مقدمة إلى دي 5 رندر - الواجهة وسير العمل",
+    revitS4_1: "عرض واجهة دي 5 رندر: التنقل، المكتبات، والاختصارات.",
+    revitS4_2: "استيراد نموذج ريفيت إلى دي 5 (تنسيقات مُحسّنة).",
+    revitS4_3: "إدارة مواد دي 5: التطبيق، التعديل، التحويل، و PBR.",
+    revitS4_4: "أساسيات الإضاءة: HDRI، الشمس، الكثافة، درجة حرارة اللون.",
+    revitS4Ex: "تمرين تطبيقي: إعداد مشهد خارجي بسيط بإضاءة طبيعية.",
+
+    revitS5Title: "الحصة 5: تقنيات الرندرة الاحترافية في دي 5",
+    revitS5_1:
+      "الإضاءة المتقدمة: الإضاءة الاصطناعية، الأضواء الموجهة، النيون، أضواء الغلاف الجوي.",
+    revitS5_2: "إعدادات الكاميرا: البؤرة، التعرض، عمق المجال.",
+    revitS5_3: "تحسين المواد: الزجاج، المعدن، الأقمشة، الخشب، أسطح PBR.",
+    revitS5_4: "إدارة الموارد: النباتات، الشخصيات، عناصر الديكور.",
+    revitS5Ex: "تمرين تطبيقي: إنتاج رندرين نهائيين (داخلي + خارجي).",
+
+    revitS6Title: "الحصة 6: الحركة، معالجة ما بعد الإنتاج، والمشروع النهائي",
+    revitS6_1: "إنشاء مسارات الحركة وحركات الكاميرا في دي 5.",
+    revitS6_2: "إضافة المؤثرات: المطر، الرياح، الضباب، الجزيئات الديناميكية.",
+    revitS6_3:
+      "معالجة سريعة بعد الإنتاج: تصحيح الإضاءة، التباين، الأجواء (فوتوشوب/كانفا).",
+    revitS6_4: "التصدير: صور عالية الدقة، فيديو، ولوحات.",
+
+    revitFinalProjTitle: "المشروع النهائي",
+    revitFinalProjDesc:
+      "حركة (أنيميشن) من 30 إلى 60 ثانية + 3 صور نهائية احترافية لمشروع كامل.",
+
+    revitBonusTitle: "محتوى إضافي",
+    revitBonus1: "ملفات التمارين.",
+    revitBonus2: "مكتبة أصول دي 5 رندر (نباتات، أثاث، إلخ).",
+    revitBonus3: "قوالب مشروع وجداول عناوين ريفيت.",
+    revitBonus4: "ملفات مرجعية (RVT, D5A, PDF).",
+
+    // ===============================
+    // AUTOCAD (ARABIC)
+    // ===============================
+    acadsTitle: "أوتوكاد - الرسم التقني والنمذجة ثلاثية الأبعاد",
+    acadsSubtitle:
+      "الإتقان الكامل للرسم الثنائي الأبعاد، الهيكلة، ومقدمة في الثلاثي الأبعاد",
+    acadsDescription:
+      "تعلم إنشاء مخططات ثنائية الأبعاد دقيقة، واستخدام الطبقات والكتل لهيكلة مشاريعك، وتحديد الأبعاد باحترافية، واكتشاف أساسيات النمذجة ثلاثية الأبعاد.",
+
+    acadsLevel: "مبتدئ إلى متوسط",
+    acadsLectures: "6 حصص",
+    acadsDuration: "20 ساعة",
+    acadsPriceOld: "12000 دج",
+    acadsPriceNew: "7990 دج",
+
+    acadsObjTitle: "أهداف الدورة",
+    acadsObj1: "إتقان واجهة أوتوكاد وأدوات الرسم الثنائي الأبعاد الأساسية.",
+    acadsObj2: "تعلم التعديلات المتقدمة، الدقة، ومساعدات الرسم.",
+    acadsObj3:
+      "هيكلة المشاريع باحترافية باستخدام الطبقات، الكتل، والمراجع الخارجية.",
+    acadsObj4:
+      "إنشاء وثائق فنية كاملة بما في ذلك تحديد الأبعاد والتعليقات التوضيحية.",
+    acadsObj5: "إتقان عملية تخطيط الصفحة والطباعة على تنسيقات مختلفة.",
+    acadsObj6: "فهم البيئة ثلاثية الأبعاد وأدوات نمذجة المواد الصلبة الأساسية.",
+
+    acadsS1Title: "الحصة 1: الواجهة وأساسيات الرسم الثنائي الأبعاد",
+    acadsS1_1:
+      "اكتشاف بيئة أوتوكاد: الشريط، سطر الأوامر، مساحة النموذج والتخطيط.",
+    acadsS1_2:
+      "إعداد الرسم: الوحدات (مترية/إمبراطورية)، أنماط الخطوط، الطبقات، والقوالب (DWT).",
+    acadsS1_3:
+      "أدوات الرسم الأساسية: الخط، الدائرة، القوس، المستطيل، الخط المتعدد.",
+    acadsS1_4:
+      "مساعدات الرسم: التعامد، التعقب القطبي، الالتقاط إلى الكائنات، التتبع.",
+    acadsS1_5: "إدارة الكائنات: التحديد، النقل، النسخ، التدوير، المرآة.",
+    acadsS1Ex:
+      "تمرين: رسم أشكال هندسية بسيطة + مخطط ثنائي الأبعاد لغرفة بجدران وفتحات.",
+
+    acadsS2Title: "الحصة 2: التعديل، الدقة، والهيكلة",
+    acadsS2_1:
+      "أدوات التعديل: النقل، النسخ، التدوير، المقياس، المرآة، القص، التمديد، الإزاحة.",
+    acadsS2_2: "الشطف والتوصيل: التوصيل والتقاطعات الدقيقة.",
+    acadsS2_3:
+      "الخطوط المتعددة والمنحنيات الملساء (Splines): إنشاء متقدم، سُمك، وصل.",
+    acadsS2_4: "إدارة الطبقات: الإنشاء، الخصائص، المرشحات، القفل.",
+    acadsS2_5: "التهشير والتدرجات: التطبيق، المقياس، الربط بالحدود.",
+    acadsS2Ex: "تمرين: تعديل مخطط موجود + هيكلة كاملة وفقًا لمعيار الطبقات.",
+
+    acadsS3Title: "الحصة 3: الكتل، التعليقات، والمراجع",
+    acadsS3_1: "الكتل الثابتة: الإنشاء، الإدراج، إدارة المكتبة.",
+    acadsS3_2: "المراجع الخارجية (XREF): إرفاق ملفات DWG/PDF.",
+    acadsS3_3: "تحديد الأبعاد: الخطي، المحاذي، نصف القطر، القطر.",
+    acadsS3_4: "النص: نص بسيط، نص متعدد الأسطر، أنماط النص.",
+    acadsS3_5: "أدوات الاستعلام: القياس، سرد خصائص الكائنات.",
+    acadsS3Ex: "تمرين: إدراج الأثاث + تحديد أبعاد كاملة للمخطط.",
+
+    acadsS4Title: "الحصة 4: تخطيط الصفحة والطباعة",
+    acadsS4_1: "مساحة التخطيط مقابل مساحة النموذج: تنظيم المشاهد.",
+    acadsS4_2: "إطارات العرض (Viewports): الإنشاء، إعداد المقياس.",
+    acadsS4_3: "جدول العنوان (Cartouche): الإدراج، التخصيص، كتلة المعلومات.",
+    acadsS4_4: "الطباعة/الرسم: أنماط الرسم، سُمك الخطوط، تصدير PDF/DWG.",
+    acadsS4Ex: "تمرين: تخطيط كامل للمخطط بمقاييس مختلفة على A3/A4.",
+
+    acadsS5Title: "الحصة 5: مقدمة في الثلاثي الأبعاد والنمذجة",
+    acadsS5_1: "الانتقال إلى بيئة 3D: التنقل، الأنماط المرئية.",
+    acadsS5_2: "نظام إحداثيات المستخدم (UCS): الرسم في مستويات مختلفة.",
+    acadsS5_3:
+      "أدوات النمذجة: البثق (Extrusion)، الدوران، المسح (Sweep)، الرفع (Loft).",
+    acadsS5_4: "الأدوات البوليانية: الاتحاد، الطرح، التقاطع.",
+    acadsS5_5: "إدارة المواد والأضواء الأساسية.",
+    acadsS5Ex: "تمرين: نمذجة غرفة ثلاثية الأبعاد بالأثاث.",
+
+    acadsS6Title: "الحصة 6: التلخيص والمشروع النهائي",
+    acadsS6_1: "مراجعة التقنيات التي تمت دراستها: 2D، 3D، تخطيط الصفحة.",
+    acadsS6_2: "تحسين الملفات: نصائح الأداء والتنظيم.",
+    acadsS6_3: "التصدير إلى برامج أخرى (SketchUp، Revit، إلخ).",
+    acadsS6_4: "جلسة أسئلة وأجوبة + تمارين تطبيقية.",
+
+    acadsFinalProjTitle: "المشروع النهائي",
+    acadsFinalProjDesc:
+      "إنجاز مشروع كامل يدمج الطبقات، الكتل، تحديد الأبعاد، النمذجة ثلاثية الأبعاد، والطباعة الاحترافية.",
+
+    acadsBonusTitle: "محتوى إضافي",
+    acadsBonus1: "ملفات التمارين.",
+    acadsBonus2: "مكتبة كتل أوتوكاد (أثاث، رموز، إلخ).",
+    acadsBonus3: "نماذج تخطيط الصفحة وجداول العناوين.",
+    acadsBonus4: "ملفات DWG مرجعية.",
   },
 };
 
