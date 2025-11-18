@@ -1035,8 +1035,8 @@ const translations = {
     acS6_3: "Collaboration: IFC export, teamwork (Teamwork).",
     acS6_4: "Q&A session + practical exercises.",
 
-    acFinalProjTitle: "Final Project: Realization of a complete project integrating 3D modeling, annotation, layout, and publication.",
-
+    acFinalProjTitle:
+      "Final Project: Realization of a complete project integrating 3D modeling, annotation, layout, and publication.",
 
     acBonusTitle: "Bonus Content",
     acBonus1: "Exercise files.",
@@ -1223,6 +1223,141 @@ const translations = {
     acadsBonus2: "AutoCAD block library (furniture, symbols, etc.).",
     acadsBonus3: "Layout and title block templates.",
     acadsBonus4: "Reference DWG files.",
+    // ===============================
+    // AUTOCAD 2D
+    // ===============================
+    ac2dTitle: "AutoCAD 2D Training Program",
+    ac2dSubtitle:
+      "Master Fundamental Tools, Organization, and Professional Layout",
+    ac2dDescription:
+      "Discover the AutoCAD environment and master fundamental tools. Structure and refine drawings using management and precision tools. Add technical information and prepare the drawing for presentation. Produce a professional document ready to be printed.",
+
+    ac2dLevel: "Architecture Students - Architects",
+    ac2dLectures: "4 Sessions",
+    ac2dDuration: "Online Training",
+    ac2dPriceOld: "12000 DZD", // Placeholder
+    ac2dPriceNew: "10000 DZD",
+
+    // Objectives (Grouped)
+    ac2dObjTitle: "Course Objectives",
+    ac2dObj1: "Discover the AutoCAD environment and master fundamental tools.",
+    ac2dObj2:
+      "Structure and refine the drawing using management and precision tools.",
+    ac2dObj3:
+      "Add technical information and prepare the drawing for presentation.",
+    ac2dObj4: "Produce a professional document ready to be printed.",
+
+    // Program
+    ac2dS1Title: "Session 1: Introduction & 2D Drawing Basics",
+    ac2dS1_1:
+      "Presentation of the software: interface, toolbars, command zones.",
+    ac2dS1_2: "Drawing setup: units, limits, layers, colors, line types.",
+    ac2dS1_3: "Drawing tools: line, polyline, circle, arc, rectangle, ellipse.",
+    ac2dS1_4:
+      "Modification tools: move, copy, mirror, rotate, scale, trim, extend.",
+    ac2dS1Ex:
+      "Practical exercises: drawing a simple plan (geometric piece or base plan).",
+
+    ac2dS2Title: "Session 2: Organization & Drawing Precision",
+    ac2dS2_1: "Layer management: creation, modification, locking.",
+    ac2dS2_2: "Snap tools (OSNAP), Ortho and Polar tracking.",
+    ac2dS2_3: "Advanced tools: offset, fillet, chamfer, stretch.",
+    ac2dS2_4: "Creation and use of blocks.",
+    ac2dS2_5: "Introduction to hatches and fills.",
+    ac2dS2Ex:
+      "Exercises: realization of an architectural plan with walls, doors, and windows.",
+
+    ac2dS3Title: "Session 3: Dimensioning, Annotation, and Presentation",
+    ac2dS3_1: "Text styles and annotation management.",
+    ac2dS3_2: "Dimension styles: linear, aligned, radial, angular.",
+    ac2dS3_3: "Advanced hatches (materials, patterns).",
+    ac2dS3_4: "Graphic symbols and labels.",
+    ac2dS3Ex: "Exercises: cleaning up a plan with dimensions and legends.",
+
+    ac2dS4Title: "Session 4: Layout & Printing",
+    ac2dS4_1: "Difference between model space and paper space.",
+    ac2dS4_2: "Creation and setup of layouts (presentations).",
+    ac2dS4_3: "Print scales and viewport management.",
+    ac2dS4_4: "Creation of a custom title block.",
+    ac2dS4_5: "Configuration of a PDF print.",
+
+    ac2dFinalProjTitle: "Final Project",
+    ac2dFinalProjDesc:
+      "Complete plan with title block, dimensions, and hatches.",
+
+    ac2dBonusTitle: "Bonus Content",
+    ac2dBonus1: "AutoCAD library (doors, windows, furniture, symbols).",
+    ac2dBonus2: "Plan templates and standard layer files.",
+    ac2dBonus3: "File for text, dimension, and hatch styles.",
+    ac2dBonus4: "Additional resources for layout and printing.",
+
+    // ===============================
+    // RHINO 7 + D5 RENDER
+    // ===============================
+    rhd5Title: "Workflow Training Program: Rhino 7 and D5 Render",
+    rhd5Subtitle: "From 3D Design to Realistic Visualization",
+    rhd5Description:
+      "12+ hours of learning aimed at mastering the complete architectural modeling and rendering process through the Rhino -> D5 Render workflow. The objective is to acquire a fluid and professional work methodology, from 3D design to realistic project visualization.",
+
+    rhd5Level: "Beginner to Intermediate",
+    rhd5Lectures: "6 Sessions",
+    rhd5Duration: "12+ hours",
+    rhd5PriceOld: "15000 DZD", // Placeholder
+    rhd5PriceNew: "12000 DZD", // Placeholder
+
+    // Objectives (Grouped)
+    rhd5ObjTitle: "Course Objectives",
+    rhd5Obj1:
+      "Master the complete architectural modeling and rendering process.",
+    rhd5Obj2: "Acquire a fluid and professional work methodology.",
+    rhd5Obj3: "Go from 3D design to realistic project visualization.",
+
+    // Program
+    rhd5S1Title:
+      "Session 1: Introduction to Rhinoceros & Project Organization (2H)",
+    rhd5S1_1: "Presentation of the interface, navigation, and essential tools.",
+    rhd5S1_2: "Architectural project setup (units, layers, templates).",
+    rhd5S1_3: "Importing AutoCAD plans and preparing the 3D model.",
+    rhd5S1_4: "Managing precision, curves, and references.",
+
+    rhd5S2Title: "Session 2: Architectural 3D Modeling (2H)",
+    rhd5S2_1: "Creation of basic volumes and complex forms.",
+    rhd5S2_2: "Modeling tools: surfaces, polysurfaces, extrusion, booleans.",
+    rhd5S2_3:
+      "Organization of the model (groups, sub-objects, basic materials).",
+    rhd5S2_4: "Export and cleaning of the model for rendering.",
+
+    rhd5S3Title: "Session 3: Details and Model Optimization (2H)",
+    rhd5S3_1:
+      "Creation of architectural details (openings, railings, ramps...).",
+    rhd5S3_2: "Use of layers and object names for a clear workflow.",
+    rhd5S3_3: "Management of materials and textures in Rhino.",
+    rhd5S3_4: "Preparation of the model for fluid integration in D5 Render.",
+
+    rhd5S4Title: "Session 4: Introduction to D5 Render (2H)",
+    rhd5S4_1: "Discovery of the interface and basic settings.",
+    rhd5S4_2: "Importing the model from Rhino (plugin or direct export).",
+    rhd5S4_3: "Placement of lights, vegetation, materials, and surroundings.",
+    rhd5S4_4: "Camera settings and scene compositions.",
+
+    rhd5S5Title: "Session 5: Photorealistic Rendering & Post-Production (2H)",
+    rhd5S5_1: "Setting natural and artificial light.",
+    rhd5S5_2:
+      "Rendering optimization (reflections, depth of field, atmosphere).",
+    rhd5S5_3: "Exporting images and animations from D5 Render.",
+    rhd5S5_4: "Final adjustments: colors, contrast, and project presentation.",
+
+    rhd5S6Title: "Session 6: Complete Rhino -> D5 Render Workflow (2H)",
+    rhd5S6_1: "Practical case: creation of a complete architectural project.",
+    rhd5S6_2: "Fluid passage between Rhino and D5.",
+    rhd5S6_3: "Professional tips for rapid and aesthetic production.",
+
+    rhd5FinalProjTitle: "Final Output",
+    rhd5FinalProjDesc:
+      "Final export in high quality (images, video, presentation).",
+
+    rhd5BonusTitle: "Bonus Content",
+    rhd5Bonus1: "3D Object Library and Plugins.", // Synthesized as standard bonus based on context
   },
 
   fr: {
@@ -2524,6 +2659,151 @@ const translations = {
     acadsBonus2: "Bibliothèque de blocs AutoCAD (mobilier, symboles, etc.).",
     acadsBonus3: "Modèles de mise en page et cartouches.",
     acadsBonus4: "Fichiers DWG de référence.",
+    // ===============================
+    // AUTOCAD 2D
+    // ===============================
+    ac2dTitle: "Programme de formation : AUTOCAD 2D",
+    ac2dSubtitle:
+      "Maîtriser les Outils Fondamentaux, l'Organisation et la Mise en Page Professionnelle",
+    ac2dDescription:
+      "Découvrir l'environnement AutoCAD et maîtriser les outils fondamentaux. Structurer et affiner le dessin à l'aide d'outils de gestion et de précision. Ajouter des informations techniques et préparer le dessin pour présentation. Produire un document professionnel prêt à être imprimé.",
+
+    ac2dLevel: "Étudiants en architecture - Architecte",
+    ac2dLectures: "4 Séances",
+    ac2dDuration: "Formation en ligne",
+    ac2dPriceOld: "12000 DZD", // Placeholder
+    ac2dPriceNew: "10000 DZD",
+
+    // Objectives (Grouped)
+    ac2dObjTitle: "Objectifs de la formation",
+    ac2dObj1:
+      "Découvrir l'environnement AutoCAD et maîtriser les outils fondamentaux.",
+    ac2dObj2:
+      "Structurer et affiner le dessin à l'aide d'outils de gestion et de précision.",
+    ac2dObj3:
+      "Ajouter des informations techniques et préparer le dessin pour présentation.",
+    ac2dObj4: "Produire un document professionnel prêt à être imprimé.",
+
+    // Program
+    ac2dS1Title: "Séance 1 : Introduction & bases du dessin 2D",
+    ac2dS1_1:
+      "Présentation du logiciel : interface, barres d'outils, zones de commande.",
+    ac2dS1_2:
+      "Paramétrage du dessin : unités, limites, calques, couleurs, types de lignes.",
+    ac2dS1_3:
+      "Outils de dessin : ligne, polyligne, cercle, arc, rectangle, ellipse.",
+    ac2dS1_4:
+      "Outils de modification : déplacer, copier, miroir, rotation, échelle, trim, extend.",
+    ac2dS1Ex:
+      "Exercices pratiques : tracer un plan simple (pièce géométrique ou plan de base).",
+
+    ac2dS2Title: "Séance 2 : Organisation & précision du dessin",
+    ac2dS2_1:
+      "Gestion des couches (layers) : création, modification, verrouillage.",
+    ac2dS2_2: "Outils d'accrochage (OSNAP), Ortho et Polar tracking.",
+    ac2dS2_3: "Outils avancés : offset, fillet, chamfer, stretch.",
+    ac2dS2_4: "Création et utilisation des blocs.",
+    ac2dS2_5: "Introduction aux hachures et remplissages.",
+    ac2dS2Ex:
+      "Exercices : réalisation d'un plan architectural avec murs, portes et fenêtres.",
+
+    ac2dS3Title: "Séance 3 : Cotation, annotation et présentation",
+    ac2dS3_1: "Styles de texte et gestion des annotations.",
+    ac2dS3_2: "Styles de cotation : linéaire, alignée, radiale, angulaire.",
+    ac2dS3_3: "Hachures avancées (matériaux, motifs).",
+    ac2dS3_4: "Symboles graphiques et étiquettes.",
+    ac2dS3Ex:
+      "Exercices : mise au propre d'un plan avec cotations et légendes.",
+
+    ac2dS4Title: "Séance 4 : Mise en page & impression",
+    ac2dS4_1: "Différence entre espace modèle et espace papier.",
+    ac2dS4_2: "Création et paramétrage des layouts (présentations).",
+    ac2dS4_3: "Échelles d'impression et gestion des fenêtres de vue.",
+    ac2dS4_4: "Création d'un cartouche personnalisé.",
+    ac2dS4_5: "Configuration d'une impression PDF.",
+
+    ac2dFinalProjTitle: "Projet final",
+    ac2dFinalProjDesc: "Plan complet avec cartouche, cotations et hachures.",
+
+    ac2dBonusTitle: "Contenu complémentaire", // Standard key used
+    ac2dBonus1: "Bibliothèque AutoCAD (portes, fenêtres, mobilier, symboles).",
+    ac2dBonus2: "Gabarits de plans et fichiers de calques types.",
+    ac2dBonus3: "Fichier pour les styles de texte, de cotation et de hachures.",
+    ac2dBonus4:
+      "Ressources additionnelles pour la mise en page et l'impression.",
+
+    // ===============================
+    // RHINO 7 + D5 RENDER
+    // ===============================
+    rhd5Title: "PROGRAMME DE LA FORMATION : WORKFLOW RHINO 7 ET D5 RENDER",
+    rhd5Subtitle: "DE LA CONCEPTION 3D À LA VISUALISATION RÉALISTE",
+    rhd5Description:
+      "Formation de +12 heures d'apprentissage visant à maîtriser le processus complet de modélisation et de rendu architectural à travers le workflow Rhino -> D5 Render. L'objectif est d'acquérir une méthodologie de travail fluide et professionnelle, depuis la conception 3D jusqu'à la visualisation réaliste du projet.",
+
+    rhd5Level: "Débutant à Intermédiaire",
+    rhd5Lectures: "6 Séances",
+    rhd5Duration: "+12 heures",
+    rhd5PriceOld: "15000 DZD", // Placeholder
+    rhd5PriceNew: "12000 DZD", // Placeholder
+
+    // Objectives (Grouped)
+    rhd5ObjTitle: "Objectifs de la formation",
+    rhd5Obj1:
+      "Maîtriser le processus complet de modélisation et de rendu architectural.",
+    rhd5Obj2: "Acquérir une méthodologie de travail fluide et professionnelle.",
+    rhd5Obj3:
+      "Aller de la conception 3D jusqu'à la visualisation réaliste du projet.",
+
+    // Program
+    rhd5S1Title:
+      "SÉANCE 1 – INTRODUCTION À RHINOCEROS & ORGANISATION DU PROJET (2H)",
+    rhd5S1_1: "Présentation de l'interface, navigation et outils essentiels",
+    rhd5S1_2: "Paramétrage du projet architectural (unités, calques, gabarits)",
+    rhd5S1_3: "Importation de plans AutoCAD et préparation du modèle 3D",
+    rhd5S1_4: "Gestion de la précision, des courbes et des références",
+
+    rhd5S2Title: "SÉANCE 2 – MODÉLISATION 3D ARCHITECTURALE (2H)",
+    rhd5S2_1: "Création des volumes de base et des formes complexes",
+    rhd5S2_2:
+      "Outils de modélisation : surfaces, polysurfaces, extrusion, booléens",
+    rhd5S2_3:
+      "Organisation de la maquette (groupes, sous-objets, matériaux basiques)",
+    rhd5S2_4: "Export et nettoyage du modèle pour le rendu",
+
+    rhd5S3Title: "SÉANCE 3 – DÉTAILS ET OPTIMISATION DU MODÈLE (2H)",
+    rhd5S3_1:
+      "Création de détails architecturaux (ouvertures, garde-corps, rampes...)",
+    rhd5S3_2: "Utilisation des calques et noms d'objets pour un workflow clair",
+    rhd5S3_3: "Gestion des matériaux et textures dans Rhino",
+    rhd5S3_4:
+      "Préparation du modèle pour une intégration fluide dans D5 Render",
+
+    rhd5S4Title: "SÉANCE 4 – INTRODUCTION À D5 RENDER (2H)",
+    rhd5S4_1: "Découverte de l'interface et des réglages de base",
+    rhd5S4_2: "Importation du modèle depuis Rhino (plugin ou export direct)",
+    rhd5S4_3: "Placement des lumières, végétation, matériaux et entourage",
+    rhd5S4_4: "Réglages de caméra et compositions de scènes",
+
+    rhd5S5Title: "SÉANCE 5 – RENDU PHOTORÉALISTE & POST-PRODUCTION (2H)",
+    rhd5S5_1: "Réglage de la lumière naturelle et artificielle",
+    rhd5S5_2:
+      "Optimisation du rendu (réflexions, profondeur de champ, atmosphère)",
+    rhd5S5_3: "Export d'images et d'animations depuis D5 Render",
+    rhd5S5_4:
+      "Ajustements finaux : couleurs, contraste et présentation du projet",
+
+    rhd5S6Title: "SÉANCE 6 – WORKFLOW COMPLET RHINO → D5 RENDER (2H)",
+    rhd5S6_1: "Cas pratique : création d'un projet architectural complet",
+    rhd5S6_2: "Passage fluide entre Rhino, et D5",
+    rhd5S6_3:
+      "Astuces professionnelles pour une production rapide et esthétique",
+
+    rhd5FinalProjTitle: "Rendu Final",
+    rhd5FinalProjDesc:
+      "Export final en haute qualité (images, vidéo, présentation)",
+
+    rhd5BonusTitle: "Contenu complémentaire", // Standard key
+    rhd5Bonus1: "Bibliothèque d'objets 3D et Plugins.",
   },
 
   ar: {
@@ -3529,7 +3809,8 @@ const translations = {
     acS6_3: "التعاون: تصدير IFC، العمل الجماعي (Teamwork).",
     acS6_4: "جلسة أسئلة وأجوبة + تمارين تطبيقية.",
 
-acFinalProjTitle: "المشروع النهائي: إنجاز مشروع كامل يدمج النمذجة ثلاثية الأبعاد، التعليقات التوضيحية، التخطيط، والنشر. ", 
+    acFinalProjTitle:
+      "المشروع النهائي: إنجاز مشروع كامل يدمج النمذجة ثلاثية الأبعاد، التعليقات التوضيحية، التخطيط، والنشر. ",
 
     acBonusTitle: "محتوى إضافي",
     acBonus1: "ملفات التمارين.",
@@ -3706,6 +3987,128 @@ acFinalProjTitle: "المشروع النهائي: إنجاز مشروع كامل
     acadsBonus2: "مكتبة كتل أوتوكاد (أثاث، رموز، إلخ).",
     acadsBonus3: "نماذج تخطيط الصفحة وجداول العناوين.",
     acadsBonus4: "ملفات DWG مرجعية.",
+    // ===============================
+    // AUTOCAD 2D
+    // ===============================
+    ac2dTitle: "برنامج تدريب أوتوكاد 2D",
+    ac2dSubtitle: "إتقان الأدوات الأساسية، التنظيم، وتنسيق الصفحات الاحترافي",
+    ac2dDescription:
+      "اكتشاف بيئة أوتوكاد وإتقان الأدوات الأساسية. هيكلة وتحسين الرسم باستخدام أدوات الإدارة والدقة. إضافة المعلومات الفنية وإعداد الرسم للعرض. إنتاج وثيقة احترافية جاهزة للطباعة.",
+
+    ac2dLevel: "طلاب الهندسة المعمارية - مهندس معماري",
+    ac2dLectures: "4 حصص",
+    ac2dDuration: "تدريب عبر الإنترنت",
+    ac2dPriceOld: "12000 دج", // Placeholder
+    ac2dPriceNew: "10000 دج",
+
+    // Objectives (Grouped)
+    ac2dObjTitle: "أهداف الدورة",
+    ac2dObj1: "اكتشاف بيئة أوتوكاد وإتقان الأدوات الأساسية.",
+    ac2dObj2: "هيكلة وتحسين الرسم باستخدام أدوات الإدارة والدقة.",
+    ac2dObj3: "إضافة المعلومات الفنية وإعداد الرسم للعرض.",
+    ac2dObj4: "إنتاج وثيقة احترافية جاهزة للطباعة.",
+
+    // Program
+    ac2dS1Title: "الحصة 1: مقدمة وأساسيات الرسم ثنائي الأبعاد",
+    ac2dS1_1: "عرض البرنامج: الواجهة، أشرطة الأدوات، مناطق الأوامر.",
+    ac2dS1_2: "إعداد الرسم: الوحدات، الحدود، الطبقات، الألوان، أنواع الخطوط.",
+    ac2dS1_3: "أدوات الرسم: خط، خط متعدد، دائرة، قوس، مستطيل، قطع ناقص.",
+    ac2dS1_4: "أدوات التعديل: نقل، نسخ، مرآة، تدوير، مقياس، قص، تمديد.",
+    ac2dS1Ex: "تمارين عملية: رسم مخطط بسيط (قطعة هندسية أو مخطط أساسي).",
+
+    ac2dS2Title: "الحصة 2: التنظيم ودقة الرسم",
+    ac2dS2_1: "إدارة الطبقات (Layers): إنشاء، تعديل، قفل.",
+    ac2dS2_2: "أدوات الالتقاط (OSNAP)، التعامد والتتبع القطبي.",
+    ac2dS2_3: "أدوات متقدمة: إزاحة، شطف، تدوير الزوايا، تمديد.",
+    ac2dS2_4: "إنشاء واستخدام الكتل (Blocks).",
+    ac2dS2_5: "مقدمة إلى التهشير والتعبئة.",
+    ac2dS2Ex: "تمارين: إنجاز مخطط معماري بجدران وأبواب ونوافذ.",
+
+    ac2dS3Title: "الحصة 3: تحديد الأبعاد، التعليقات التوضيحية والعرض",
+    ac2dS3_1: "أنماط النص وإدارة التعليقات التوضيحية.",
+    ac2dS3_2: "أنماط الأبعاد: خطي، محاذاة، نصف قطري، زاوي.",
+    ac2dS3_3: "تهشير متقدم (مواد، أنماط).",
+    ac2dS3_4: "الرموز الرسومية والتسميات.",
+    ac2dS3Ex: "تمارين: تنظيف مخطط مع الأبعاد والمفتاح.",
+
+    ac2dS4Title: "الحصة 4: تخطيط الصفحة والطباعة",
+    ac2dS4_1: "الفرق بين مساحة النموذج ومساحة الورقة.",
+    ac2dS4_2: "إنشاء وإعداد التخطيطات (Presentations).",
+    ac2dS4_3: "مقاييس الطباعة وإدارة نوافذ العرض.",
+    ac2dS4_4: "إنشاء جدول عنوان مخصص.",
+    ac2dS4_5: "إعداد طباعة PDF.",
+
+    ac2dFinalProjTitle: "المشروع النهائي",
+    ac2dFinalProjDesc: "مخطط كامل مع جدول العنوان، الأبعاد والتهشير.",
+
+    ac2dBonusTitle: "محتوى إضافي", // Standard key
+    ac2dBonus1: "مكتبة أوتوكاد (أبواب، نوافذ، أثاث، رموز).",
+    ac2dBonus2: "قوالب مخططات وملفات طبقات نموذجية.",
+    ac2dBonus3: "ملف لأنماط النص والأبعاد والتهشير.",
+    ac2dBonus4: "موارد إضافية لتخطيط الصفحة والطباعة.",
+
+    // ===============================
+    // RHINO 7 + D5 RENDER
+    // ===============================
+    rhd5Title: "برنامج التدريب: سير العمل راينو 7 ودي 5 رندر",
+    rhd5Subtitle: "من التصميم ثلاثي الأبعاد إلى التصور الواقعي",
+    rhd5Description:
+      "تدريب لأكثر من 12 ساعة يهدف إلى إتقان عملية النمذجة والعرض المعماري الكاملة من خلال سير عمل راينو -> دي 5 رندر. الهدف هو اكتساب منهجية عمل سلسة واحترافية، من التصميم ثلاثي الأبعاد إلى التصور الواقعي للمشروع.",
+
+    rhd5Level: "مبتدئ إلى متوسط",
+    rhd5Lectures: "6 حصص",
+    rhd5Duration: "+12 ساعة",
+    rhd5PriceOld: "15000 دج", // Placeholder
+    rhd5PriceNew: "12000 دج", // Placeholder
+
+    // Objectives (Grouped)
+    rhd5ObjTitle: "أهداف الدورة",
+    rhd5Obj1: "إتقان عملية النمذجة والعرض المعماري الكاملة.",
+    rhd5Obj2: "اكتساب منهجية عمل سلسة واحترافية.",
+    rhd5Obj3: "الانتقال من التصميم ثلاثي الأبعاد إلى التصور الواقعي للمشروع.",
+
+    // Program
+    rhd5S1Title: "الحصة 1 – مقدمة في راينوسيروس وتنظيم المشروع (2 سا)",
+    rhd5S1_1: "عرض الواجهة، التنقل والأدوات الأساسية",
+    rhd5S1_2: "إعداد المشروع المعماري (الوحدات، الطبقات، القوالب)",
+    rhd5S1_3: "استيراد مخططات أوتوكاد وتحضير النموذج ثلاثي الأبعاد",
+    rhd5S1_4: "إدارة الدقة، المنحنيات والمراجع",
+
+    rhd5S2Title: "الحصة 2 – النمذجة المعمارية ثلاثية الأبعاد (2 سا)",
+    rhd5S2_1: "إنشاء الأحجام الأساسية والأشكال المعقدة",
+    rhd5S2_2:
+      "أدوات النمذجة: الأسطح، الأسطح المتعددة، البثق، العمليات البوليانية",
+    rhd5S2_3: "تنظيم المجسم (مجموعات، كائنات فرعية، مواد أساسية)",
+    rhd5S2_4: "تصدير وتنظيف النموذج للعرض",
+
+    rhd5S3Title: "الحصة 3 – التفاصيل وتحسين النموذج (2 سا)",
+    rhd5S3_1: "إنشاء التفاصيل المعمارية (فتحات، درابزين، منحدرات...)",
+    rhd5S3_2: "استخدام الطبقات وأسماء الكائنات لسير عمل واضح",
+    rhd5S3_3: "إدارة المواد والخامات في راينو",
+    rhd5S3_4: "تحضير النموذج لدمج سلس في دي 5 رندر",
+
+    rhd5S4Title: "الحصة 4 – مقدمة في دي 5 رندر (2 سا)",
+    rhd5S4_1: "اكتشاف الواجهة والإعدادات الأساسية",
+    rhd5S4_2: "استيراد النموذج من راينو (إضافة أو تصدير مباشر)",
+    rhd5S4_3: "وضع الأضواء، النباتات، المواد والمحيط",
+    rhd5S4_4: "إعدادات الكاميرا وتركيبات المشهد",
+
+    rhd5S5Title: "الحصة 5 – العرض الواقعي وما بعد الإنتاج (2 سا)",
+    rhd5S5_1: "ضبط الإضاءة الطبيعية والاصطناعية",
+    rhd5S5_2: "تحسين العرض (الانعكاسات، عمق المجال، الغلاف الجوي)",
+    rhd5S5_3: "تصدير الصور والرسوم المتحركة من دي 5 رندر",
+    rhd5S5_4: "تعديلات نهائية: الألوان، التباين وعرض المشروع",
+
+    rhd5S6Title: "الحصة 6 – سير عمل كامل راينو ← دي 5 رندر (2 سا)",
+    rhd5S6_1: "حالة عملية: إنشاء مشروع معماري كامل",
+    rhd5S6_2: "انتقال سلس بين راينو ودي 5",
+    rhd5S6_3: "نصائح احترافية لإنتاج سريع وجمالي",
+
+    rhd5FinalProjTitle: "الإخراج النهائي",
+    rhd5FinalProjDesc: "تصدير نهائي بجودة عالية (صور، فيديو، عرض)",
+
+    rhd5BonusTitle: "محتوى إضافي", // Standard key
+    rhd5Bonus1: "مكتبة كائنات ثلاثية الأبعاد وإضافات.", // Synthesized
   },
 };
 
