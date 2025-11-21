@@ -332,7 +332,7 @@ const translations = {
     skill_graphics: "Architectural Graphics",
     skill_layout: "Layout Design",
     skill_presentation: "Presentation Boards",
-    psPrice_old: "10000 DZD",
+    psPrice_old: "20000 DZD",
     psPrice_new: "7990 DZD",
     price_note: "Lifetime access - one-time payment",
     buy_now: "Buy Now",
@@ -510,7 +510,7 @@ const translations = {
 
     blFinalProj:
       "Final Project: Students prepare a 30–60 second animation and 3 still images of their project.",
-    blPriceOld: "15000 DZD",
+    blPriceOld: "25000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Lifetime access — one-time payment",
     blDuration: "15 Hours",
@@ -614,10 +614,10 @@ const translations = {
     rvEnTitle4: "4- Rendering and Exporting",
     rvEnTitle5: "5- Presentation and Immersive Rendering",
     rvEnPriceNew: "14990 DZD",
-    rvEnPriceOld: "20000 DZD",
+    rvEnPriceOld: "30000 DZD",
     rvEnDuration: "17 Hours",
     rvPriceNew: "11990 DZD",
-    rvPriceOld: "15000 DZD",
+    rvPriceOld: "25000 DZD",
     rvDuration: "15 Hours",
     // rvEnPriceNote: "Lifetime access — one-time payment",
     // ===============================
@@ -704,7 +704,7 @@ const translations = {
     aclectures: "35 Lectures",
 
     acDuration: "28 Hours",
-    acPriceOld: "15000 DZD",
+    acPriceOld: "25000 DZD",
     acPriceNew: "11990 DZD",
     // ===============================
     // SKETCHUP + LUMION
@@ -719,8 +719,8 @@ const translations = {
     skDuration: "25 Hours",
     skFormat:
       "Videoconference (Google Meet) + Practical exercises + Final project + 3D object library",
-    skPriceOld: "18000 DZD",
-    skPriceNew: "14990 DZD",
+    skPriceOld: "28000 DZD",
+    skPriceNew: "11990 DZD",
 
     sk1Title: "SESSION 1: Introduction & Training Objectives",
     sk1_1: "Presentation of the SketchUp <-> Lumion workflow",
@@ -897,7 +897,7 @@ const translations = {
       "A complete beginner-friendly course covering Rhino modeling fundamentals and the essential V-Ray tools needed to produce clean, realistic images.",
     rvbLectures: "26 lectures",
     rvbDuration: "20 hours",
-    rvbPriceOld: "15000 DZD",
+    rvbPriceOld: "25000 DZD",
     rvbPriceNew: "11990 DZD",
 
     // Collapsible Objectives Section
@@ -979,7 +979,7 @@ const translations = {
     level: "Beginner to Intermediate", // Synthesized
     lectures: "6 Sessions",
     accDuration: "20 Hours", // Placeholder
-    accPriceOld: "12000 DZD", // Placeholder
+    accPriceOld: "22000 DZD", // Placeholder
     accPriceNew: "7990 DZD", // Placeholder
 
     // Collapsible Objectives (Synthesized from content)
@@ -1154,7 +1154,7 @@ const translations = {
     acadsLevel: "Beginner to Intermediate",
     acadsLectures: "35 Lectures",
     acadsDuration: "20 Hours",
-    acadsPriceOld: "12000 DZD",
+    acadsPriceOld: "22000 DZD",
     acadsPriceNew: "7990 DZD",
 
     acadsObjTitle: "Course Objectives",
@@ -1308,8 +1308,8 @@ const translations = {
     rhd5Level: "Beginner to Intermediate",
     rhd5Lectures: "24 Lectures",
     rhd5Duration: "12+ Hours",
-    rhd5PriceOld: "15000 DZD", // Placeholder
-    rhd5PriceNew: "12000 DZD", // Placeholder
+    rhd5PriceOld: "25000 DZD", // Placeholder
+    rhd5PriceNew: "11990 DZD", // Placeholder
 
     // Objectives (Grouped)
     rhd5ObjTitle: "Course Objectives",
@@ -1701,7 +1701,7 @@ const translations = {
     skill_graphics: "Graphisme architectural",
     skill_layout: "Mise en page",
     skill_presentation: "Panneaux de présentation",
-    psPrice_old: "10000 DZD",
+    psPrice_old: "20000 DZD",
     psPrice_new: "7990 DZD",
     price_note: "Accès à vie - paiement unique",
     buy_now: "Acheter maintenant",
@@ -1900,7 +1900,7 @@ const translations = {
 
     blFinalProj:
       "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
-    blPriceOld: "15000 DZD",
+    blPriceOld: "25000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Accès à vie — paiement unique",
     blDuration: "15 Heures",
@@ -2009,10 +2009,10 @@ const translations = {
     rvEnTitle3: "3- Gestion des caméras et perspectives",
     rvEnTitle4: "4- Rendu et exportation",
     rvEnTitle5: "5- Présentation et rendu immersif",
-    rvEnPriceOld: "20000 DZD",
+    rvEnPriceOld: "30000 DZD",
     rvEnPriceNew: "14990 DZD",
     rvEnDuration: "17 Heures",
-    rvPriceOld: "15000 DZD",
+    rvPriceOld: "25000 DZD",
     rvPriceNew: "11990 DZD",
     rvDuration: "15 Heures",
     acCourseTitle: "Archicad 2D/3D + Lumion",
@@ -2099,7 +2099,7 @@ const translations = {
     acResult3: "Réaliser des rendus et animations réalistes sous Lumion.",
     aclectures: "35 Leçons",
     acDuration: "28 Heures",
-    acPriceOld: "15000 DZD",
+    acPriceOld: "25000 DZD",
     acPriceNew: "11990 DZD",
 
     // ===============================
@@ -2115,8 +2115,8 @@ const translations = {
     skDuration: "25 Heures",
     skFormat:
       "Visioconférence (Google meet) + Exercices pratiques + Projet final + Bibliothèque 3D",
-    skPriceOld: "18000 DZD",
-    skPriceNew: "14990 DZD",
+    skPriceOld: "28000 DZD",
+    skPriceNew: "11990 DZD",
 
     sk1Title: "Séance 1 : Introduction & Objectifs de la Formation",
     sk1_1: "Présentation du workflow SketchUp <-> Lumion",
@@ -2307,7 +2307,7 @@ const translations = {
       "Un cours pour débutants pour ceux qui ne connaissent ni Rhino ni V-Ray. Cette formation couvre les fondamentaux de la modélisation Rhino et l'essentiel de V-Ray pour produire des images propres et réalistes.",
     rvbLectures: "26 leçons",
     rvbDuration: "20 Heures", // Placeholder
-    rvbPriceOld: "15000 DZD", // Placeholder
+    rvbPriceOld: "25000 DZD", // Placeholder
     rvbPriceNew: "11990 DZD",
 
     // Collapsible Objectives Section
@@ -2394,7 +2394,7 @@ const translations = {
     level: "Débutant à Intermédiaire", // Synthesized
     lectures: "6 Séances",
     accDuration: "20 Heures", // Placeholder
-    accPriceOld: "12000 DZD", // Placeholder
+    accPriceOld: "22000 DZD", // Placeholder
     accPriceNew: "7990 DZD", // Placeholder
 
     // Collapsible Objectives
@@ -2582,7 +2582,7 @@ const translations = {
     acadsLevel: "Débutant à Intermédiaire",
     acadsLectures: "35 Leçons",
     acadsDuration: "20 Heures",
-    acadsPriceOld: "12000 DZD",
+    acadsPriceOld: "22000 DZD",
     acadsPriceNew: "7990 DZD",
 
     acadsObjTitle: "Objectifs de la formation",
@@ -2756,8 +2756,8 @@ const translations = {
     rhd5Level: "Débutant à Intermédiaire",
     rhd5Lectures: "24 Leçons",
     rhd5Duration: "+12 Heures",
-    rhd5PriceOld: "15000 DZD", // Placeholder
-    rhd5PriceNew: "12000 DZD", // Placeholder
+    rhd5PriceOld: "25000 DZD", // Placeholder
+    rhd5PriceNew: "11990 DZD", // Placeholder
 
     // Objectives (Grouped)
     rhd5ObjTitle: "Objectifs de la formation",
@@ -3130,7 +3130,7 @@ const translations = {
     skill_graphics: "الرسم المعماري",
     skill_layout: "تصميم التخطيطات",
     skill_presentation: "ألواح العرض",
-    psPrice_old: "10000 دج",
+    psPrice_old: "20000 دج",
     psPrice_new: "7990 دج",
     price_note: "وصول مدى الحياة - دفعة واحدة فقط",
     buy_now: "اشترِ الآن",
@@ -3320,7 +3320,7 @@ const translations = {
 
     blFinalProj:
       "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
-    blPriceOld: "15000 دج",
+    blPriceOld: "25000 دج",
     blPriceNew: "11990 دج",
     blPriceNote: "وصول مدى الحياة — دفعة واحدة",
     blDuration: "15 ساعة",
@@ -3417,10 +3417,10 @@ const translations = {
     rvEnTitle4: "4- الرندر والتصدير",
     rvEnTitle5: "5- العرض والرندر الغامرة",
     rvEnPriceNew: "14990 دج",
-    rvEnPriceOld: "20000 دج",
+    rvEnPriceOld: "30000 دج",
     rvEnDuration: "17 ساعة",
     rvPriceNew: "11990 دج",
-    rvPriceOld: "15000 دج",
+    rvPriceOld: "25000 دج",
     rvDuration: "17 ساعة",
     // rvEnFinalProject:
     //   "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
@@ -3505,7 +3505,7 @@ const translations = {
     acResult3: "إنتاج إخراجات ورسوم متحركة واقعية باستخدام Lumion.",
     aclectures: "35 درس",
     acDuration: "28 ساعة",
-    acPriceOld: "15000 دج",
+    acPriceOld: "25000 دج",
     acPriceNew: "11990 دج",
     // ===============================
     // SKETCHUP + LUMION
@@ -3520,8 +3520,8 @@ const translations = {
     skDuration: "25 إلى 30 ساعة",
     skFormat:
       "عبر الفيديو (Google Meet) + تمارين تطبيقية + مشروع نهائي + مكتبة كائنات 3D",
-    skPriceOld: "18000 دج",
-    skPriceNew: "14990 دج",
+    skPriceOld: "28000 دج",
+    skPriceNew: "11990 دج",
 
     sk1Title: "الحصة 1: مقدمة وأهداف الدورة",
     sk1_1: "عرض لسير العمل بين سكتش أب ولوميون",
@@ -3691,7 +3691,7 @@ const translations = {
       "دورة للمبتدئين مصممة خصيصًا لمن ليس لديهم معرفة سابقة ببرنامجي راينو أو فيراي. يغطي هذا التدريب أساسيات النمذجة في راينو وأساسيات فيراي لإنتاج صور نظيفة وواقعية.",
     rvbLectures: "26 حصة",
     rvbDuration: "20 ساعة", // Placeholder
-    rvbPriceOld: "15000 دج", // Placeholder
+    rvbPriceOld: "25000 دج", // Placeholder
     rvbPriceNew: "11990 دج",
 
     // Collapsible Objectives Section
@@ -3771,7 +3771,7 @@ const translations = {
     level: "مبتدئ إلى متوسط", // Synthesized
     lectures: "6 حصص",
     accDuration: "20 ساعة", // Placeholder
-    accPriceOld: "12000 دج", // Placeholder
+    accPriceOld: "22000 دج", // Placeholder
     accPriceNew: "7990 دج", // Placeholder
 
     // Collapsible Objectives
@@ -3933,7 +3933,7 @@ const translations = {
     acadsLevel: "مبتدئ إلى متوسط",
     acadsLectures: "35 درس",
     acadsDuration: "20 ساعة",
-    acadsPriceOld: "12000 دج",
+    acadsPriceOld: "22000 دج",
     acadsPriceNew: "7990 دج",
 
     acadsObjTitle: "أهداف الدورة",
@@ -4078,8 +4078,8 @@ const translations = {
     rhd5Level: "مبتدئ إلى متوسط",
     rhd5Lectures: "24 درس",
     rhd5Duration: "+12 ساعة",
-    rhd5PriceOld: "15000 دج", // Placeholder
-    rhd5PriceNew: "12000 دج", // Placeholder
+    rhd5PriceOld: "25000 دج", // Placeholder
+    rhd5PriceNew: "11990 دج", // Placeholder
 
     // Objectives (Grouped)
     rhd5ObjTitle: "أهداف الدورة",
