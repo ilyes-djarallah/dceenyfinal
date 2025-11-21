@@ -324,7 +324,7 @@ const translations = {
     instructor_role: "Architectural Visualization Specialist",
     level: "From Beginner to Intermediate",
     rvEnlectures: "40 Lectures",
-    psDuration: "20 h",
+    psDuration: "20 Hours",
     skills_title: "Skills Covered",
     skill_photoshop: "Photoshop",
     skill_illustrator: "Illustrator",
@@ -513,7 +513,7 @@ const translations = {
     blPriceOld: "15000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Lifetime access — one-time payment",
-    blDuration: "15 hours",
+    blDuration: "15 Hours",
     blFinalProject:
       "Final Project: Students prepare a 30–60 second animation and 3 still images of their project.",
     blAdditionalContentTitle: "BONUS Content",
@@ -610,7 +610,7 @@ const translations = {
     rvEnTitle5: "5- Presentation and Immersive Rendering",
     rvEnPriceNew: "11990 DZD",
     rvEnPriceOld: "15000 DZD",
-    rvEnDuration: "17 h",
+    rvEnDuration: "17 Hours",
     // rvEnPriceNote: "Lifetime access — one-time payment",
     // ===============================
     // ARCHICAD + LUMION
@@ -695,7 +695,7 @@ const translations = {
     acResult3: "Produce realistic renderings and animations using Lumion.",
     aclectures: "35 Lectures",
 
-    acDuration: "28 h",
+    acDuration: "28 Hours",
     acPriceOld: "15000 DZD",
     acPriceNew: "11990 DZD",
     // ===============================
@@ -707,8 +707,8 @@ const translations = {
     skCourseLongDesc:
       "Master SketchUp from basic to advanced and create professional renderings with Lumion. From complete 3D modeling to using advanced plugins, learn to design, optimize, and present your architectural projects with realistic images and animations. Practical and professional training to become operational quickly.",
     skPublicCible: "Beginners or those with a basis in architecture",
-    skLectures: "13 Sessions",
-    skDuration: "25 - 30 hours",
+    skLectures: "65 Lectures",
+    skDuration: "25 Hours",
     skFormat:
       "Videoconference (Google Meet) + Practical exercises + Final project + 3D object library",
     skPriceOld: "18000 DZD",
@@ -888,7 +888,7 @@ const translations = {
     rvbDescription:
       "A complete beginner-friendly course covering Rhino modeling fundamentals and the essential V-Ray tools needed to produce clean, realistic images.",
     rvbLectures: "26 lectures",
-    rvbDuration: "20h",
+    rvbDuration: "20 hours",
     rvbPriceOld: "15000 DZD",
     rvbPriceNew: "11990 DZD",
 
@@ -970,7 +970,7 @@ const translations = {
     // Sidebar
     level: "Beginner to Intermediate", // Synthesized
     lectures: "6 Sessions",
-    accDuration: "20 hours", // Placeholder
+    accDuration: "20 Hours", // Placeholder
     accPriceOld: "12000 DZD", // Placeholder
     accPriceNew: "7990 DZD", // Placeholder
 
@@ -1052,8 +1052,8 @@ const translations = {
       "Master the complete BIM workflow, from 3D architectural modeling in Revit to producing 2D technical drawings and, finally, creating high-quality photorealistic renderings and animations with D5 Render.",
 
     revitLevel: "Beginner",
-    revitLectures: "6 Sessions",
-    revitDuration: "25 hours",
+    revitLectures: "30 Lectures",
+    revitDuration: "25 Hours",
     revitPriceOld: "25000 DZD",
     revitPriceNew: "20000 DZD",
 
@@ -1144,8 +1144,8 @@ const translations = {
       "Learn to create precise 2D plans, use layers and blocks to structure your projects, dimension them professionally, and explore the basics of 3D modeling.",
 
     acadsLevel: "Beginner to Intermediate",
-    acadsLectures: "6 Sessions",
-    acadsDuration: "20 hours",
+    acadsLectures: "35 Lectures",
+    acadsDuration: "20 Hours",
     acadsPriceOld: "12000 DZD",
     acadsPriceNew: "7990 DZD",
 
@@ -1213,9 +1213,9 @@ const translations = {
     acadsS6_3: "Export to other software (SketchUp, Revit, etc.).",
     acadsS6_4: "Q&A session + practical exercises.",
 
-    acadsFinalProjTitle: "Final Project",
+    acadsFinalProjTitle: "Final Project : Realization of a complete project integrating layers, blocks, dimensioning, 3D modeling, and professional printing.",
     acadsFinalProjDesc:
-      "Realization of a complete project integrating layers, blocks, dimensioning, 3D modeling, and professional printing.",
+      "",
 
     acadsBonusTitle: "Bonus Content",
     acadsBonus1: "Exercise files.",
@@ -1225,15 +1225,15 @@ const translations = {
     // ===============================
     // AUTOCAD 2D
     // ===============================
-    ac2dTitle: "AutoCAD 2D Training Program",
+    ac2dTitle: "Autodesk AutoCAD 2D - Professional Technical Drawing",
     ac2dSubtitle:
       "Master Fundamental Tools, Organization, and Professional Layout",
     ac2dDescription:
       "Discover the AutoCAD environment and master fundamental tools. Structure and refine drawings using management and precision tools. Add technical information and prepare the drawing for presentation. Produce a professional document ready to be printed.",
 
     ac2dLevel: "Architecture Students - Architects",
-    ac2dLectures: "4 Sessions",
-    ac2dDuration: "Online Training",
+    ac2dLectures: "22 Lectures",
+    ac2dDuration: "15 Hours",
     ac2dPriceOld: "12000 DZD", // Placeholder
     ac2dPriceNew: "10000 DZD",
 
@@ -1298,8 +1298,8 @@ const translations = {
       "12+ hours of learning aimed at mastering the complete architectural modeling and rendering process through the Rhino -> D5 Render workflow. The objective is to acquire a fluid and professional work methodology, from 3D design to realistic project visualization.",
 
     rhd5Level: "Beginner to Intermediate",
-    rhd5Lectures: "6 Sessions",
-    rhd5Duration: "12+ hours",
+    rhd5Lectures: "24 Lectures",
+    rhd5Duration: "12+ Hours",
     rhd5PriceOld: "15000 DZD", // Placeholder
     rhd5PriceNew: "12000 DZD", // Placeholder
 
@@ -1685,7 +1685,7 @@ const translations = {
     instructor_role: "Spécialiste en visualisation architecturale",
     level: "De débutant à intermédiaire",
     rvEnlectures: "40 leçons",
-    psDuration: "20 h",
+    psDuration: "20 Heures",
     skills_title: "Compétences couvertes",
     skill_photoshop: "Photoshop",
     skill_illustrator: "Illustrator",
@@ -1895,7 +1895,7 @@ const translations = {
     blPriceOld: "15000 DZD",
     blPriceNew: "11990 DZD",
     blPriceNote: "Accès à vie — paiement unique",
-    blDuration: "15 heurs",
+    blDuration: "15 Heures",
     blFinalProject:
       "Projet Final : Les étudiants préparent une animation de 30 à 60 secondes et 3 images fixes de leur projet.",
     blAdditionalContentTitle: "Contenu BONUS",
@@ -1999,7 +1999,7 @@ const translations = {
     rvEnPriceOld: "15000 DZD",
     rvEnPriceNew: "11990 DZD",
     // rvEnPriceNote: "Accès à vie — paiement unique",
-    rvEnDuration: "17 h",
+    rvEnDuration: "17 Heures",
     acCourseTitle: "Archicad 2D/3D + Lumion",
     acCourseShortDesc:
       "Maîtrisez la modélisation 2D/3D et le rendu réaliste avec Archicad & Lumion.",
@@ -2082,8 +2082,8 @@ const translations = {
       "Concevoir, modéliser et documenter un projet architectural complet.",
     acResult2: "Gérer efficacement un projet BIM sur Archicad.",
     acResult3: "Réaliser des rendus et animations réalistes sous Lumion.",
-    aclectures: "35 leçons",
-    acDuration: "28 h",
+    aclectures: "35 Leçons",
+    acDuration: "28 Heures",
     acPriceOld: "15000 DZD",
     acPriceNew: "11990 DZD",
 
@@ -2096,8 +2096,8 @@ const translations = {
     skCourseLongDesc:
       "Maîtrisez SketchUp de base à avancé et réalisez des rendus professionnels avec Lumion. De la modélisation 3D complète à l'utilisation de plugins avancés, apprenez à concevoir, optimiser et présenter vos projets architecturaux avec des images et animations réalistes. Une formation pratique et professionnelle pour devenir opérationnel rapidement.",
     skPublicCible: "Débutante ou avec des bases en architecture",
-    skLectures: "13 Séances",
-    skDuration: "25 à 30 heures",
+    skLectures: "65 Leçons",
+    skDuration: "25 Heures",
     skFormat:
       "Visioconférence (Google meet) + Exercices pratiques + Projet final + Bibliothèque 3D",
     skPriceOld: "18000 DZD",
@@ -2291,7 +2291,7 @@ const translations = {
     rvbDescription:
       "Un cours pour débutants pour ceux qui ne connaissent ni Rhino ni V-Ray. Cette formation couvre les fondamentaux de la modélisation Rhino et l'essentiel de V-Ray pour produire des images propres et réalistes.",
     rvbLectures: "26 leçons",
-    rvbDuration: "20h", // Placeholder
+    rvbDuration: "20 Heures", // Placeholder
     rvbPriceOld: "15000 DZD", // Placeholder
     rvbPriceNew: "11990 DZD",
 
@@ -2378,7 +2378,7 @@ const translations = {
     // Sidebar
     level: "Débutant à Intermédiaire", // Synthesized
     lectures: "6 Séances",
-    accDuration: "20 heures", // Placeholder
+    accDuration: "20 Heures", // Placeholder
     accPriceOld: "11000 DZD", // Placeholder
     accPriceNew: "7990 DZD", // Placeholder
 
@@ -2463,8 +2463,8 @@ const translations = {
       "Maîtrisez le flux de travail complet du BIM, de la modélisation architecturale 3D sous Revit à la production de plans techniques 2D et, enfin, à la création de rendus et d'animations photoréalistes de haute qualité avec D5 Render.",
 
     revitLevel: "Débutant",
-    revitLectures: "6 Séances",
-    revitDuration: "25 heures",
+    revitLectures: "30 Leçons",
+    revitDuration: "25 Heures",
     revitPriceOld: "25000 DZD",
     revitPriceNew: "20000 DZD",
 
@@ -2565,8 +2565,8 @@ const translations = {
       "Apprenez à créer des plans 2D précis, à utiliser des calques et des blocs pour structurer vos projets, à les coter professionnellement et à découvrir les bases de la modélisation 3D.",
 
     acadsLevel: "Débutant à Intermédiaire",
-    acadsLectures: "6 Séances",
-    acadsDuration: "20 heures",
+    acadsLectures: "35 Leçons",
+    acadsDuration: "20 Heures",
     acadsPriceOld: "12000 DZD",
     acadsPriceNew: "7990 DZD",
 
@@ -2647,9 +2647,9 @@ const translations = {
     acadsS6_3: "Exportation vers d'autres logiciels (SketchUp, Revit, etc.).",
     acadsS6_4: "Séance de questions/réponses + exercices pratiques.",
 
-    acadsFinalProjTitle: "Projet Final",
+    acadsFinalProjTitle: "Projet Final : Réalisation d'un projet complet intégrant calques, blocs, cotation, modélisation 3D et impression professionnelle.",
     acadsFinalProjDesc:
-      "Réalisation d'un projet complet intégrant calques, blocs, cotation, modélisation 3D et impression professionnelle.",
+      "",
 
     acadsBonusTitle: "Contenu Complémentaire",
     acadsBonus1: "Fichiers d'exercices.",
@@ -2659,15 +2659,15 @@ const translations = {
     // ===============================
     // AUTOCAD 2D
     // ===============================
-    ac2dTitle: "Programme de formation : AUTOCAD 2D",
+    ac2dTitle: "Autodesk Autocad 2D - Dessin Technique Professionnel",
     ac2dSubtitle:
       "Maîtriser les Outils Fondamentaux, l'Organisation et la Mise en Page Professionnelle",
     ac2dDescription:
       "Découvrir l'environnement AutoCAD et maîtriser les outils fondamentaux. Structurer et affiner le dessin à l'aide d'outils de gestion et de précision. Ajouter des informations techniques et préparer le dessin pour présentation. Produire un document professionnel prêt à être imprimé.",
 
     ac2dLevel: "Étudiants en architecture - Architecte",
-    ac2dLectures: "4 Séances",
-    ac2dDuration: "Formation en ligne",
+    ac2dLectures: "22 Leçons",
+    ac2dDuration: "15 Heures",
     ac2dPriceOld: "12000 DZD", // Placeholder
     ac2dPriceNew: "10000 DZD",
 
@@ -2739,8 +2739,8 @@ const translations = {
       "Formation de +12 heures d'apprentissage visant à maîtriser le processus complet de modélisation et de rendu architectural à travers le workflow Rhino -> D5 Render. L'objectif est d'acquérir une méthodologie de travail fluide et professionnelle, depuis la conception 3D jusqu'à la visualisation réaliste du projet.",
 
     rhd5Level: "Débutant à Intermédiaire",
-    rhd5Lectures: "6 Séances",
-    rhd5Duration: "+12 heures",
+    rhd5Lectures: "24 Leçons",
+    rhd5Duration: "+12 Heures",
     rhd5PriceOld: "15000 DZD", // Placeholder
     rhd5PriceNew: "12000 DZD", // Placeholder
 
@@ -3493,7 +3493,7 @@ const translations = {
     skCourseLongDesc:
       "أتقن سكتش أب من الأساسي إلى المتقدم وأنشئ عروضًا احترافية باستخدام لوميون. من النمذجة ثلاثية الأبعاد الكاملة إلى استخدام الإضافات المتقدمة، تعلم تصميم وتحسين وتقديم مشاريعك المعمارية بصور ورسوم متحركة واقعية. تدريب عملي واحترافي لتصبح جاهزًا للعمل بسرعة.",
     skPublicCible: "مبتدئ أو لديه أسس في الهندسة المعمارية",
-    skLectures: "13 جلسة",
+    skLectures: "65 درس",
     skDuration: "25 إلى 30 ساعة",
     skFormat:
       "عبر الفيديو (Google Meet) + تمارين تطبيقية + مشروع نهائي + مكتبة كائنات 3D",
@@ -3825,7 +3825,7 @@ const translations = {
       "أتقن سير عمل BIM المتكامل، من النمذجة المعمارية ثلاثية الأبعاد في ريفيت إلى إنتاج الرسومات الفنية ثنائية الأبعاد، وصولاً إلى إنشاء رندرات ورسوم متحركة واقعية عالية الجودة باستخدام دي 5 رندر.",
 
     revitLevel: "مبتدئ",
-    revitLectures: "6 حصص",
+    revitLectures: "30 درس",
     revitDuration: "25 ساعة",
     revitPriceOld: "25000 دج",
     revitPriceNew: "20000 دج",
@@ -3908,7 +3908,7 @@ const translations = {
       "تعلم إنشاء مخططات ثنائية الأبعاد دقيقة، واستخدام الطبقات والكتل لهيكلة مشاريعك، وتحديد الأبعاد باحترافية، واكتشاف أساسيات النمذجة ثلاثية الأبعاد.",
 
     acadsLevel: "مبتدئ إلى متوسط",
-    acadsLectures: "6 حصص",
+    acadsLectures: "35 درس",
     acadsDuration: "20 ساعة",
     acadsPriceOld: "12000 دج",
     acadsPriceNew: "7990 دج",
@@ -3976,9 +3976,7 @@ const translations = {
     acadsS6_3: "التصدير إلى برامج أخرى (SketchUp، Revit، إلخ).",
     acadsS6_4: "جلسة أسئلة وأجوبة + تمارين تطبيقية.",
 
-    acadsFinalProjTitle: "المشروع النهائي",
-    acadsFinalProjDesc:
-      "إنجاز مشروع كامل يدمج الطبقات، الكتل، تحديد الأبعاد، النمذجة ثلاثية الأبعاد، والطباعة الاحترافية.",
+    acadsFinalProjTitle: "المشروع النهائي : إنجاز مشروع كامل يدمج الطبقات، الكتل، تحديد الأبعاد، النمذجة ثلاثية الأبعاد، والطباعة الاحترافية.",
 
     acadsBonusTitle: "محتوى إضافي",
     acadsBonus1: "ملفات التمارين.",
@@ -3988,14 +3986,14 @@ const translations = {
     // ===============================
     // AUTOCAD 2D
     // ===============================
-    ac2dTitle: "برنامج تدريب أوتوكاد 2D",
+    ac2dTitle: "تدريب أوتوكاد 2D",
     ac2dSubtitle: "إتقان الأدوات الأساسية، التنظيم، وتنسيق الصفحات الاحترافي",
     ac2dDescription:
       "اكتشاف بيئة أوتوكاد وإتقان الأدوات الأساسية. هيكلة وتحسين الرسم باستخدام أدوات الإدارة والدقة. إضافة المعلومات الفنية وإعداد الرسم للعرض. إنتاج وثيقة احترافية جاهزة للطباعة.",
 
     ac2dLevel: "طلاب الهندسة المعمارية - مهندس معماري",
-    ac2dLectures: "4 حصص",
-    ac2dDuration: "تدريب عبر الإنترنت",
+    ac2dLectures: "22 درس",
+    ac2dDuration: "15 ساعة", // Placeholder
     ac2dPriceOld: "12000 دج", // Placeholder
     ac2dPriceNew: "10000 دج",
 
@@ -4054,7 +4052,7 @@ const translations = {
       "تدريب لأكثر من 12 ساعة يهدف إلى إتقان عملية النمذجة والعرض المعماري الكاملة من خلال سير عمل راينو -> دي 5 رندر. الهدف هو اكتساب منهجية عمل سلسة واحترافية، من التصميم ثلاثي الأبعاد إلى التصور الواقعي للمشروع.",
 
     rhd5Level: "مبتدئ إلى متوسط",
-    rhd5Lectures: "6 حصص",
+    rhd5Lectures: "24 درس",
     rhd5Duration: "+12 ساعة",
     rhd5PriceOld: "15000 دج", // Placeholder
     rhd5PriceNew: "12000 دج", // Placeholder
