@@ -596,7 +596,12 @@ const translations = {
     rvSkill3: "Creation of plans, sections, elevations, and 3D renders",
     rvSkill4: "Mastery of the Revit ↔ Enscape workflow",
     rvSkill5: "Professional graphic presentation and printing",
-
+    revitonlyCourseTitle:
+      "Revit Architecture - From Basics to Professional Modeling",
+    revitonlyCourseShortDesc:
+      "Learn architectural modeling and project documentation using Revit from scratch.",
+    revitonlyCourseLongDesc:
+      "A hands-on course guiding you to build complete architecture projects with Revit. Master modeling, materials, sheets, and documentation workflows for high-quality BIM results.",
     rvencourseTitle:
       "Revit Architecture & Enscape - From Scratch to VR Realtime Rendering",
     rvencourseShortDesc:
@@ -608,9 +613,12 @@ const translations = {
     rvEnTitle3: "3- Camera and Perspective Management",
     rvEnTitle4: "4- Rendering and Exporting",
     rvEnTitle5: "5- Presentation and Immersive Rendering",
-    rvEnPriceNew: "11990 DZD",
-    rvEnPriceOld: "15000 DZD",
+    rvEnPriceNew: "14990 DZD",
+    rvEnPriceOld: "20000 DZD",
     rvEnDuration: "17 Hours",
+    rvPriceNew: "11990 DZD",
+    rvPriceOld: "15000 DZD",
+    rvDuration: "15 Hours",
     // rvEnPriceNote: "Lifetime access — one-time payment",
     // ===============================
     // ARCHICAD + LUMION
@@ -1213,9 +1221,9 @@ const translations = {
     acadsS6_3: "Export to other software (SketchUp, Revit, etc.).",
     acadsS6_4: "Q&A session + practical exercises.",
 
-    acadsFinalProjTitle: "Final Project : Realization of a complete project integrating layers, blocks, dimensioning, 3D modeling, and professional printing.",
-    acadsFinalProjDesc:
-      "",
+    acadsFinalProjTitle:
+      "Final Project : Realization of a complete project integrating layers, blocks, dimensioning, 3D modeling, and professional printing.",
+    acadsFinalProjDesc: "",
 
     acadsBonusTitle: "Bonus Content",
     acadsBonus1: "Exercise files.",
@@ -1953,7 +1961,7 @@ const translations = {
     rv5_4: "Exportation 3D et plans (DWG/DXF)",
     rv5_5: "Caméra et rendu Revit / Enscape",
 
-    rv6Title: "6ème Séance : Documentation, présentation et impression",
+    rv6Title: "Séance 6 : Documentation, présentation et impression",
     rv6_1: "Nomenclatures et devis avec paramètres complets",
     rv6_2: "Insertion et modification des feuilles et cartouches",
     rv6_3: "Ajout des plans sur les feuilles avec cadres, titres et échelles",
@@ -1977,7 +1985,12 @@ const translations = {
     rv7_13: "Création d’animations vidéo et de panoramas 360°",
     rv7_14: "Utilisation de la réalité virtuelle (VR)",
     rv7_15: "Création de présentations clients interactives",
-
+    revitonlyCourseTitle:
+      "Revit Architecture - De l'initiation à la modélisation professionnelle",
+    revitonlyCourseShortDesc:
+      "Apprenez la modélisation architecturale et la documentation de projet avec Revit, depuis le début.",
+    revitonlyCourseLongDesc:
+      "Un cours pratique pour réaliser des projets d’architecture complets sous Revit. Maîtrisez la modélisation, les matériaux, les plans et les workflows de documentation pour des résultats BIM de qualité.",
     rvSkillsTitle: "Objectifs de Formation",
     rvSkill1: "Modélisation architecturale complète sur Revit",
     rvSkill2: "Organisation et gestion des familles, matériaux et niveaux",
@@ -1996,10 +2009,12 @@ const translations = {
     rvEnTitle3: "3- Gestion des caméras et perspectives",
     rvEnTitle4: "4- Rendu et exportation",
     rvEnTitle5: "5- Présentation et rendu immersif",
-    rvEnPriceOld: "15000 DZD",
-    rvEnPriceNew: "11990 DZD",
-    // rvEnPriceNote: "Accès à vie — paiement unique",
+    rvEnPriceOld: "20000 DZD",
+    rvEnPriceNew: "14990 DZD",
     rvEnDuration: "17 Heures",
+    rvPriceOld: "15000 DZD",
+    rvPriceNew: "11990 DZD",
+    rvDuration: "15 Heures",
     acCourseTitle: "Archicad 2D/3D + Lumion",
     acCourseShortDesc:
       "Maîtrisez la modélisation 2D/3D et le rendu réaliste avec Archicad & Lumion.",
@@ -2379,7 +2394,7 @@ const translations = {
     level: "Débutant à Intermédiaire", // Synthesized
     lectures: "6 Séances",
     accDuration: "20 Heures", // Placeholder
-    accPriceOld: "11000 DZD", // Placeholder
+    accPriceOld: "12000 DZD", // Placeholder
     accPriceNew: "7990 DZD", // Placeholder
 
     // Collapsible Objectives
@@ -2647,9 +2662,9 @@ const translations = {
     acadsS6_3: "Exportation vers d'autres logiciels (SketchUp, Revit, etc.).",
     acadsS6_4: "Séance de questions/réponses + exercices pratiques.",
 
-    acadsFinalProjTitle: "Projet Final : Réalisation d'un projet complet intégrant calques, blocs, cotation, modélisation 3D et impression professionnelle.",
-    acadsFinalProjDesc:
-      "",
+    acadsFinalProjTitle:
+      "Projet Final : Réalisation d'un projet complet intégrant calques, blocs, cotation, modélisation 3D et impression professionnelle.",
+    acadsFinalProjDesc: "",
 
     acadsBonusTitle: "Contenu Complémentaire",
     acadsBonus1: "Fichiers d'exercices.",
@@ -3401,9 +3416,12 @@ const translations = {
     rvEnTitle3: "3- إدارة الكاميرات والزوايا",
     rvEnTitle4: "4- الرندر والتصدير",
     rvEnTitle5: "5- العرض والرندر الغامرة",
-    rvEnPriceNew: "11990 دج",
-    rvEnPriceOld: "15000 دج",
+    rvEnPriceNew: "14990 دج",
+    rvEnPriceOld: "20000 دج",
     rvEnDuration: "17 ساعة",
+    rvPriceNew: "11990 دج",
+    rvPriceOld: "15000 دج",
+    rvDuration: "17 ساعة",
     // rvEnFinalProject:
     //   "المشروع النهائي: يقوم الطلاب بإعداد عرض متحرك من 30 إلى 60 ثانية وثلاث صور ثابتة للمشروع.",
 
@@ -3452,7 +3470,12 @@ const translations = {
     ac4_3: "التفاصيل الإنشائية ومقياس التمثيل.",
     ac4_4: "إدارة المناظير والطبقات الفنية.",
     ac4Ex: "تمرين عملi: إنتاج مخططات، مقاطع، وواجهات كاملة.",
-
+    revitonlyCourseTitle:
+      "ريفيت للمعماريين - من الأساسيات إلى النمذجة الاحترافية",
+    revitonlyCourseShortDesc:
+      "تعلم نمذجة المشاريع المعمارية وتوثيقها في ريفيت من البداية.",
+    revitonlyCourseLongDesc:
+      "دورة تطبيقية تأخذك لبناء مشاريع معمارية كاملة باستخدام ريفيت. أتقن النمذجة، وإدارة المواد، وإعداد المخططات، والتوثيق من أجل نتائج BIM احترافية.",
     ac5Title: "الحصة 5: الإخراج، الرندر ثنائي الأبعاد، والتوثيق",
     ac5Obj: "إعداد ملف عرض تقديمي احترافي.",
     ac5_1: "استخدام متصفح الإخراج وإنشاء جداول العناوين (Cartouches).",
@@ -3748,7 +3771,7 @@ const translations = {
     level: "مبتدئ إلى متوسط", // Synthesized
     lectures: "6 حصص",
     accDuration: "20 ساعة", // Placeholder
-    accPriceOld: "11000 دج", // Placeholder
+    accPriceOld: "12000 دج", // Placeholder
     accPriceNew: "7990 دج", // Placeholder
 
     // Collapsible Objectives
@@ -3976,7 +3999,8 @@ const translations = {
     acadsS6_3: "التصدير إلى برامج أخرى (SketchUp، Revit، إلخ).",
     acadsS6_4: "جلسة أسئلة وأجوبة + تمارين تطبيقية.",
 
-    acadsFinalProjTitle: "المشروع النهائي : إنجاز مشروع كامل يدمج الطبقات، الكتل، تحديد الأبعاد، النمذجة ثلاثية الأبعاد، والطباعة الاحترافية.",
+    acadsFinalProjTitle:
+      "المشروع النهائي : إنجاز مشروع كامل يدمج الطبقات، الكتل، تحديد الأبعاد، النمذجة ثلاثية الأبعاد، والطباعة الاحترافية.",
 
     acadsBonusTitle: "محتوى إضافي",
     acadsBonus1: "ملفات التمارين.",
