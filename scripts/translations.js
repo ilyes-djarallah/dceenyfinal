@@ -701,7 +701,7 @@ const translations = {
     // ===============================
     // SKETCHUP + LUMION
     // ===============================
-    skCourseTitle: "Sketchup + Lumion Training",
+    skCourseTitle: "SketchUp + Lumion: From Modeling to Realistic Rendering",
     skCourseShortDesc:
       "From Modeling to Realistic Rendering using SketchUp & Lumion",
     skCourseLongDesc:
@@ -814,7 +814,8 @@ const translations = {
     // ===============================
     // SKETCHUP + D5 RENDER
     // ===============================
-    d5CourseTitle: "SketchUp + D5 Render Training",
+    d5CourseTitle:
+      "SketchUp & D5 Render Architecture: 3D Modeling to Photorealistic Rendering",
     d5CourseShortDesc: "Master real-time rendering with SketchUp and D5.",
     d5CourseLongDesc:
       "This course guides you from the fundamentals of SketchUp modeling to advanced real-time rendering and animation in D5 Render. Learn to prepare your models, apply PBR materials, set up professional lighting, and create final images and animations.",
@@ -881,84 +882,82 @@ const translations = {
     // ===============================
     // RHINO + V-RAY (BEGINNERS)
     // ===============================
-    rvbTitle: "Rhino + V-Ray Training (Beginners)",
+    rvbTitle: "Rhino & V-Ray Essentials: From Zero to First Render",
     rvbSubtitle:
-      "Realistic version, designed for someone who knows neither Rhino nor V-Ray",
+      "Realistic workflow designed for beginners with no experience in Rhino or V-Ray.",
     rvbDescription:
-      "A beginner's course for those who don't know Rhino or V-Ray. This training covers the fundamentals of Rhino modeling and the essentials of V-Ray to produce clean, realistic images.",
-    rvbLectures: "6 Sessions + Project",
-    rvbDuration: "20h", // Placeholder duration
-    rvbPriceOld: "15000 DZD", // Placeholder old price
+      "A complete beginner-friendly course covering Rhino modeling fundamentals and the essential V-Ray tools needed to produce clean, realistic images.",
+    rvbLectures: "26 lectures",
+    rvbDuration: "20h",
+    rvbPriceOld: "15000 DZD",
     rvbPriceNew: "11990 DZD",
 
     // Collapsible Objectives Section
-    rvbSkillsTitle: "Course Objectives",
+    rvbSkillsTitle: "Course objectives",
     rvb1Obj:
-      "OBJECTIVE: STUDENTS UNDERSTAND HOW RHINO WORKS AND MODEL A SIMPLE VOLUME.",
-    rvb2Obj: "OBJECTIVE: CREATE A CLEAN MODEL, READY TO RECEIVE MATERIALS.",
+      "Objective: Help students understand how Rhino works and model a simple volume.",
+    rvb2Obj: "Objective: Create a clean model ready to receive materials.",
     rvb3Obj:
-      "OBJECTIVE: UNDERSTAND THE ESSENTIAL TOOLS OF V-RAY AND MAKE A FIRST RENDER",
-    rvb4Obj: "OBJECTIVE: APPLY COHERENT MATERIALS TO THE ENTIRE SCENE",
+      "Objective: Learn the essential tools of V-Ray and produce a first render.",
+    rvb4Obj: "Objective: Apply coherent materials across the entire scene.",
     rvb5Obj:
-      "OBJECTIVE: IMPORT OBJECTS WITHOUT BREAKING THE SCENE AND IMPROVE THE RENDER.",
-    rvb6Obj: "OBJECTIVE: RENDER 2 FINAL IMAGES + SIMPLE RETOUCHING.",
+      "Objective: Import objects correctly without breaking the scene and enhance the render.",
+    rvb6Obj: "Objective: Produce two final images with simple retouching.",
 
     // Course Programme
-    rvb1se: "Session 1: INTRODUCTION & RHINO FUNDAMENTALS",
+    rvb1se: "Session 1: Introduction & Rhino fundamentals",
     rvb1_1: "1. Rhino interface: views, panels, toolbars.",
     rvb1_2: "2. 3D navigation: zoom, pan, rotation.",
-    rvb1_3: "3. Basic curves: Line, Polyline, Rectangle.",
-    rvb1_4: "4. Simple surface: Extrude, PlanarSrf.",
-    rvb1_5: "5. Organization: Layers, select, hide, lock.",
-    rvb1Ex: "EXERCISE: MODEL A SMALL ROOM (FLOOR + 4 WALLS + OPENING).",
+    rvb1_3: "3. Basic curves: line, polyline, rectangle.",
+    rvb1_4: "4. Simple surfaces: extrude, planar surface.",
+    rvb1_5: "5. Organization: layers, selection, hide, lock.",
+    rvb1Ex: "Exercise: model a small room (floor + 4 walls + opening).",
 
-    rvb2se: "Session 2: SIMPLE MODELING (INTERIOR OR SMALL OBJECT)",
+    rvb2se: "Session 2: Simple modeling (interior or small object)",
     rvb2_1: "1. Import a DWG/PDF plan and scale it.",
-    rvb2_2: "2. Extrusion, Offset.",
-    rvb2_3: "3. Creation of a floor, ceiling, baseboards.",
-    rvb2_4: "4. Introduction to Blocks to repeat simple elements.",
-    rvb2Ex:
-      "EXERCISE: MODEL A SIMPLE FURNISHED ROOM (TABLE, FRAME, SIMPLE BOX).",
+    rvb2_2: "2. Extrusion, offset tools.",
+    rvb2_3: "3. Creation of a floor, ceiling, and baseboards.",
+    rvb2_4: "4. Introduction to blocks for repeating elements.",
+    rvb2Ex: "Exercise: model a furnished room (table, frame, simple boxes).",
 
-    rvb3se: "Session 3: INTRODUCTION TO V-RAY (ESSENTIAL BASICS)",
-    rvb3_1: "1. V-Ray Interface: Asset Editor, Frame Buffer, LightMix.",
-    rvb3_2: "2. Main light: Dome Light (HDRI).",
-    rvb3_3:
-      "3. Basic V-Ray materials: Standard, Simple Metal, Basic Wood, Simple Glass.",
-    rvb3_4: "4. Render settings: Low, Medium, High.",
-    rvb3Ex:
-      "EXERCISE: MODEL A SIMPLE FURNISHED ROOM (TABLE, FRAME, SIMPLE BOX).",
+    rvb3se: "Session 3: Introduction to V-Ray (essential basics)",
+    rvb3_1: "1. V-Ray interface: asset editor, frame buffer, lightmix.",
+    rvb3_2: "2. Main lighting: dome light (HDRI).",
+    rvb3_3: "3. Basic V-Ray materials: standard, metal, wood, simple glass.",
+    rvb3_4: "4. Render settings: low, medium, high.",
+    rvb3Ex: "Exercise: produce a clean basic render.",
 
-    rvb4se: "Session 4: MATERIALS + BASIC LIGHT",
-    rvb4_1: "1. Exclusive use of the official V-Ray library.",
-    rvb4_2: "2. How to apply a material properly.",
-    rvb4_3: "3. Basic settings: roughness, reflection.",
-    rvb4_4: "4. Simple interior lighting: Rect Light, Sphere Light.",
-    rvb4Ex: "EXERCISE: CREATE A SIMPLE BUT CLEAN IMAGE.",
+    rvb4se: "Session 4: Materials & basic lighting",
+    rvb4_1: "1. Using the official V-Ray material library.",
+    rvb4_2: "2. How to apply materials correctly.",
+    rvb4_3: "3. Basic controls: roughness, reflection.",
+    rvb4_4: "4. Simple interior lighting: rectangle light, sphere light.",
+    rvb4Ex: "Exercise: create a simple but clean image.",
 
-    rvb5se: "Session 5: IMPORTING OBJECTS & V-RAY WORKFLOW",
-    rvb5_1: "1. Importance of .vrmat, .obj, .3dm objects.",
-    rvb5_2: "2. When to use V-Ray Proxy.",
-    rvb5_3: "3. Cleaning an imported model: Orientation, Normals, Scale.",
-    rvb5_4: "4. Adding realistic decor: plants, chairs, small objects.",
-    rvb5Ex: "EXERCISE: ADD 5 IMPORTED OBJECTS TO THE SCENE + RENDER AGAIN.",
+    rvb5se: "Session 5: Importing objects & V-Ray workflow",
+    rvb5_1: "1. Using .vrmat, .obj, and .3dm files.",
+    rvb5_2: "2. When to use V-Ray proxies.",
+    rvb5_3: "3. Cleaning imported models: orientation, normals, scale.",
+    rvb5_4: "4. Adding realistic decor: plants, chairs, small props.",
+    rvb5Ex: "Exercise: add 5 imported objects and render again.",
 
-    rvb6se: "Session 6: FINALIZATION AND SIMPLE POST-PRODUCTION",
-    rvb6_1: "1. Camera: correct placement.",
-    rvb6_2: "2. Lightmix to adjust lighting.",
+    rvb6se: "Session 6: Finalization & simple post-production",
+    rvb6_1: "1. Correct camera placement.",
+    rvb6_2: "2. Adjusting lighting with Lightmix.",
     rvb6_3: "3. High-resolution export.",
     rvb6_4:
-      "4. Simple retouching via Photoshop/Canva: contrast, saturation, vignette.",
+      "4. Simple retouching in Photoshop/Canva: contrast, saturation, vignette.",
 
     // Final Project
-    rvbFinalProjTitle: "FINAL PROJECT",
-    rvbFinalProjDesc: "2 FINAL CLEAN IMAGES (INTERIOR OR SIMPLE EXTERIOR).",
+    rvbFinalProjTitle: "Final project",
+    rvbFinalProjDesc: "Two final clean images (interior or simple exterior).",
 
     // Bonus Content
-    rvbBonusContentTitle: "BONUS CONTENT",
-    rvbBonus1: "HDRI AND MATERIALS PACK",
-    rvbBonus2: "RHINO KITCHEN SCENE",
-    rvbBonus3: "FINAL EXERCISE FILE",
+    rvbBonusContentTitle: "Bonus content",
+    rvbBonus1: "HDRI and materials pack",
+    rvbBonus2: "Rhino kitchen scene",
+    rvbBonus3: "Final exercise file",
+
     // ===============================
     // ARCHICAD
     // ===============================
@@ -1281,8 +1280,8 @@ const translations = {
     ac2dS4_4: "Creation of a custom title block.",
     ac2dS4_5: "Configuration of a PDF print.",
 
-    ac2dFinalProjTitle: "Final Project: Complete plan with title block, dimensions, and hatches.",
- 
+    ac2dFinalProjTitle:
+      "Final Project: Complete plan with title block, dimensions, and hatches.",
 
     ac2dBonusTitle: "Bonus Content",
     ac2dBonus1: "AutoCAD library (doors, windows, furniture, symbols).",
@@ -1312,8 +1311,7 @@ const translations = {
     rhd5Obj3: "Go from 3D design to realistic project visualization.",
 
     // Program
-    rhd5S1Title:
-      "Session 1: Introduction to Rhinoceros & Project Organization",
+    rhd5S1Title: "Session 1: Introduction to Rhinoceros & Project Organization",
     rhd5S1_1: "Presentation of the interface, navigation, and essential tools.",
     rhd5S1_2: "Architectural project setup (units, layers, templates).",
     rhd5S1_3: "Importing AutoCAD plans and preparing the 3D model.",
@@ -1351,7 +1349,8 @@ const translations = {
     rhd5S6_2: "Fluid passage between Rhino and D5.",
     rhd5S6_3: "Professional tips for rapid and aesthetic production.",
 
-    rhd5FinalProjTitle: "Final Render: Final export in high quality (images, video, presentation).",
+    rhd5FinalProjTitle:
+      "Final Render: Final export in high quality (images, video, presentation).",
 
     rhd5BonusTitle: "Bonus Content",
     rhd5Bonus1: "3D Object Library and Plugins.", // Synthesized as standard bonus based on context
@@ -2091,7 +2090,7 @@ const translations = {
     // ===============================
     // SKETCHUP + LUMION
     // ===============================
-    skCourseTitle: "Formation Sketchup + Lumion",
+    skCourseTitle: "SketchUp + Lumion : De la modélisation au rendu réaliste",
     skCourseShortDesc:
       "De la Modélisation au Rendu Réaliste avec Sketchup & Lumion",
     skCourseLongDesc:
@@ -2212,7 +2211,8 @@ const translations = {
     // ===============================
     // SKETCHUP + D5 RENDER
     // ===============================
-    d5CourseTitle: "Formation SketchUp et D5 Render",
+    d5CourseTitle:
+      "SketchUp & D5 Render Architecture : Modélisation 3D au rendu photoréaliste",
     d5CourseShortDesc: "Maîtrisez le rendu temps réel avec SketchUp et D5.",
     d5CourseLongDesc:
       "Ce cours vous guide des fondamentaux de la modélisation SketchUp au rendu temps réel et à l'animation dans D5 Render. Apprenez à préparer vos modèles, à appliquer des matériaux PBR, à configurer un éclairage professionnel et à créer des images finales et des animations.",
@@ -2285,12 +2285,12 @@ const translations = {
     // ===============================
     // RHINO + V-RAY (DEBUTANTS)
     // ===============================
-    rvbTitle: "Programme de formation - Rhino + V-Ray (Debutants)",
+    rvbTitle: "Rhino & V-Ray Essentiels : De Zéro à Votre Premier Rendu",
     rvbSubtitle:
       "Version réaliste, pensée pour quelqu'un qui ne connaît ni Rhino ni V-Ray",
     rvbDescription:
       "Un cours pour débutants pour ceux qui ne connaissent ni Rhino ni V-Ray. Cette formation couvre les fondamentaux de la modélisation Rhino et l'essentiel de V-Ray pour produire des images propres et réalistes.",
-    rvbLectures: "6 Séances + Projet",
+    rvbLectures: "26 leçons",
     rvbDuration: "20h", // Placeholder
     rvbPriceOld: "15000 DZD", // Placeholder
     rvbPriceNew: "11990 DZD",
@@ -2719,7 +2719,8 @@ const translations = {
     ac2dS4_4: "Création d'un cartouche personnalisé.",
     ac2dS4_5: "Configuration d'une impression PDF.",
 
-    ac2dFinalProjTitle: "Projet final: Plan complet avec cartouche, cotations et hachures.",
+    ac2dFinalProjTitle:
+      "Projet final: Plan complet avec cartouche, cotations et hachures.",
     // ac2dFinalProjDesc: "",
 
     ac2dBonusTitle: "Contenu complémentaire", // Standard key used
@@ -2795,8 +2796,8 @@ const translations = {
     rhd5S6_3:
       "Astuces professionnelles pour une production rapide et esthétique",
 
-    rhd5FinalProjTitle: "Rendu Final: Export final en haute qualité (images, vidéo, présentation)",
- 
+    rhd5FinalProjTitle:
+      "Rendu Final: Export final en haute qualité (images, vidéo, présentation)",
 
     rhd5BonusTitle: "Contenu complémentaire", // Standard key
     rhd5Bonus1: "Bibliothèque d'objets 3D et Plugins.",
@@ -3486,7 +3487,7 @@ const translations = {
     // ===============================
     // SKETCHUP + LUMION
     // ===============================
-    skCourseTitle: "دورة سكتش أب + لوميون",
+    skCourseTitle: "سكيتش آب + لومييون: من النمذجة إلى الإخراج الواقعي",
     skCourseShortDesc:
       "من النمذجة إلى الإخراج الواقعي باستخدام سكتش أب و لوميون.",
     skCourseLongDesc:
@@ -3596,7 +3597,8 @@ const translations = {
     // ===============================
     // SKETCHUP + D5 RENDER
     // ===============================
-    d5CourseTitle: "دورة SketchUp + D5 Render",
+    d5CourseTitle:
+      "سكيتش أب و D5 رندر للهندسة المعمارية: من النمذجة ثلاثية الأبعاد إلى الإخراج الواقعي",
     d5CourseShortDesc:
       "إتقان الإخراج الفوري (real-time) باستخدام سكتش أب و D5.",
     d5CourseLongDesc:
@@ -3660,11 +3662,11 @@ const translations = {
     // ===============================
     // RHINO + V-RAY (DEBUTANTS)
     // ===============================
-    rvbTitle: "دورة تكوينية - راينو + فيراي (للمبتدئين)",
+    rvbTitle: "أساسيات Rhino وV-Ray: من الصفر إلى أول رندر لك",
     rvbSubtitle: "نسخة واقعية، مصممة لمن لا يعرف لا راينو ولا فيراي",
     rvbDescription:
       "دورة للمبتدئين مصممة خصيصًا لمن ليس لديهم معرفة سابقة ببرنامجي راينو أو فيراي. يغطي هذا التدريب أساسيات النمذجة في راينو وأساسيات فيراي لإنتاج صور نظيفة وواقعية.",
-    rvbLectures: "6 جلسات + مشروع",
+    rvbLectures: "26 حصة",
     rvbDuration: "20 ساعة", // Placeholder
     rvbPriceOld: "15000 دج", // Placeholder
     rvbPriceNew: "11990 دج",
@@ -4034,7 +4036,8 @@ const translations = {
     ac2dS4_4: "إنشاء جدول عنوان مخصص.",
     ac2dS4_5: "إعداد طباعة PDF.",
 
-    ac2dFinalProjTitle: "المشروع النهائي: مخطط كامل مع جدول العنوان، الأبعاد والتهشير.",
+    ac2dFinalProjTitle:
+      "المشروع النهائي: مخطط كامل مع جدول العنوان، الأبعاد والتهشير.",
 
     ac2dBonusTitle: "محتوى إضافي", // Standard key
     ac2dBonus1: "مكتبة أوتوكاد (أبواب، نوافذ، أثاث، رموز).",
@@ -4099,7 +4102,8 @@ const translations = {
     rhd5S6_2: "انتقال سلس بين راينو ودي 5",
     rhd5S6_3: "نصائح احترافية لإنتاج سريع وجمالي",
 
-    rhd5FinalProjTitle: "الإخراج النهائي: تصدير نهائي بجودة عالية (صور، فيديو، عرض)",
+    rhd5FinalProjTitle:
+      "الإخراج النهائي: تصدير نهائي بجودة عالية (صور، فيديو، عرض)",
 
     rhd5BonusTitle: "محتوى إضافي", // Standard key
     rhd5Bonus1: "مكتبة كائنات ثلاثية الأبعاد وإضافات.", // Synthesized
