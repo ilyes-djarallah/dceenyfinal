@@ -2957,15 +2957,15 @@ body {
    COURSE CARD
    ========================== */
 .course-card {
-  background: linear-gradient(180deg, #111, #000);
-  border: 6px solid rgba(255, 255, 255, 0.1);
+  /* background: linear-gradient(180deg, #111, #000); */
+  border: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   min-height: 260px;
   position: relative;
-  box-shadow: -6px 8px 16px rgba(255, 255, 255, 0.08); /* light gray shadow */
+  box-shadow:rgba(255, 255, 255, 0.08); /* light gray shadow */
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
