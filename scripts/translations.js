@@ -1367,6 +1367,8 @@ const translations = {
       "Complete Workflow for Architectural Visualization",
     dsCoronaCourseDescription:
       "Master the complete workflow of architectural visualization using 3ds Max and Corona Renderer. From 3D modeling to photorealistic rendering, learn to create stunning images and animations that bring your architectural projects to life.",
+    dsOldPrice: "30000 DZD",
+    dsNewPrice: "14990 DZD",
   },
 
   fr: {
@@ -2826,6 +2828,8 @@ const translations = {
       "Visualisation Architecturale Complète",
     dsCoronaCourseDescription:
       "Master the complete workflow of architectural visualization using 3ds Max and Corona Renderer. From 3D modeling to photorealistic rendering, learn to create stunning images and animations that bring your architectural projects to life.",
+          dsOldPrice: "30000 DZD",
+    dsNewPrice: "14990 DZD",
  
   },
 
@@ -4145,6 +4149,8 @@ const translations = {
       "من النمذجة ثلاثية الأبعاد إلى الرندرة الواقعية",
     dsCoronaCourseDescription:
       "Master the complete workflow of architectural visualization using 3ds Max and Corona Renderer. From 3D modeling to photorealistic rendering, learn to create stunning images and animations that bring your architectural projects to life.",
+          dsOldPrice: "30000 دج",
+    dsNewPrice: "14990 دج",
  
   },
 };
