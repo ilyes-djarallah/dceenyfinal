@@ -1362,7 +1362,7 @@ const translations = {
 
     rhd5BonusTitle: "Bonus Content",
     rhd5Bonus1: "3D Object Library and Plugins.",
-    dsCoronaCourseTitle: "3ds Max & Corona Renderer - From Modeling to Realistic Rendering",
+    dsCoronaCourseTitle: "3ds Max & Corona Renderer - From Basics to Realistic Rendering",
     dsCoronaCourseSubtitle:
       "Complete Workflow for Architectural Visualization",
     dsCoronaCourseDescription:
