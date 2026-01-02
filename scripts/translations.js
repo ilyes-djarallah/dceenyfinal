@@ -2821,6 +2821,12 @@ const translations = {
 
     rhd5BonusTitle: "Contenu complémentaire", // Standard key
     rhd5Bonus1: "Bibliothèque d'objets 3D et Plugins.",
+    dsCoronaCourseTitle: "3ds Max & Corona Renderer - De la Modélisation 3D au Rendu Photorealiste",
+    dsCoronaCourseSubtitle:
+      "Visualisation Architecturale Complète",
+    dsCoronaCourseDescription:
+      "Master the complete workflow of architectural visualization using 3ds Max and Corona Renderer. From 3D modeling to photorealistic rendering, learn to create stunning images and animations that bring your architectural projects to life.",
+ 
   },
 
   ar: {
@@ -4134,6 +4140,12 @@ const translations = {
 
     rhd5BonusTitle: "محتوى إضافي", // Standard key
     rhd5Bonus1: "مكتبة كائنات ثلاثية الأبعاد وإضافات.", // Synthesized
+    dsCoronaCourseTitle: "دورة كاملة: سير عمل 3ds ماكس و Corona Renderer",
+    dsCoronaCourseSubtitle:
+      "من النمذجة ثلاثية الأبعاد إلى الرندرة الواقعية",
+    dsCoronaCourseDescription:
+      "Master the complete workflow of architectural visualization using 3ds Max and Corona Renderer. From 3D modeling to photorealistic rendering, learn to create stunning images and animations that bring your architectural projects to life.",
+ 
   },
 };
 
