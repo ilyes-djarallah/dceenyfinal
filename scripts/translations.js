@@ -1361,7 +1361,12 @@ const translations = {
       "Final Render: Final export in high quality (images, video, presentation).",
 
     rhd5BonusTitle: "Bonus Content",
-    rhd5Bonus1: "3D Object Library and Plugins.", // Synthesized as standard bonus based on context
+    rhd5Bonus1: "3D Object Library and Plugins.",
+    3dsCoronaCourseTitle: "3ds Max & Corona Renderer - From Modeling to Realistic Rendering",
+    3dsCoronaCourseSubtitle:
+      "Complete Workflow for Architectural Visualization",
+    3dsCoronaCourseDescription:
+      "Master the complete workflow of architectural visualization using 3ds Max and Corona Renderer. From 3D modeling to photorealistic rendering, learn to create stunning images and animations that bring your architectural projects to life.",
   },
 
   fr: {
