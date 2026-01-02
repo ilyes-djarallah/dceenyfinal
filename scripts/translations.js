@@ -1300,7 +1300,7 @@ const translations = {
     // ===============================
     // RHINO 7 + D5 RENDER
     // ===============================
-    rhd5Title: "Workflow Training: Rhino 7 and D5 Render",
+    rhd5Title: "Workflow Training: Rhino and D5 Render",
     rhd5Subtitle: "From 3D Design to Realistic Visualization",
     rhd5Description:
       "12+ hours of learning aimed at mastering the complete architectural modeling and rendering process through the Rhino -> D5 Render workflow. The objective is to acquire a fluid and professional work methodology, from 3D design to realistic project visualization.",
@@ -2748,7 +2748,7 @@ const translations = {
     // ===============================
     // RHINO 7 + D5 RENDER
     // ===============================
-    rhd5Title: "WORKFLOW RHINO 7 ET D5 RENDER",
+    rhd5Title: "WORKFLOW RHINO ET D5 RENDER",
     rhd5Subtitle: "DE LA CONCEPTION 3D À LA VISUALISATION RÉALISTE",
     rhd5Description:
       "Formation de +12 heures d'apprentissage visant à maîtriser le processus complet de modélisation et de rendu architectural à travers le workflow Rhino -> D5 Render. L'objectif est d'acquérir une méthodologie de travail fluide et professionnelle, depuis la conception 3D jusqu'à la visualisation réaliste du projet.",
@@ -3406,7 +3406,7 @@ const translations = {
     rvSkill5: "عرض جرافيكي وطباعة احترافية",
 
     rvencourseTitle:
-      "Revit Architecture و Enscape - البدء من الصفر إلى الإخراج بتقنية VR",
+      "ريفيت للعمارة و إنسكايب - البدء من الصفر إلى الإخراج بتقنية VR",
     rvencourseShortDesc:
       "تعلّم نمذجة المباني وإنتاج رندرات واقعية باستخدام Revit وEnscape.",
     rvencourseLongDesc:
@@ -3434,7 +3434,7 @@ const translations = {
     acCourseLongDesc:
       "تدريب تدريجي كامل لمدة 28 ساعة، من المستوى المبتدئ إلى المتقدم، لإتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
 
-    acTitle: "دورة ARCHICAD 2D & 3D + LUMION",
+    acTitle: "دورة أرشيكاد 2D & 3D + لوميون",
     acSubtitle: "تدريب تدريجي من المستوى المبتدئ إلى المستوى المتقدم",
     acMainObjective:
       "إتقان التصميم والنمذجة والعرض الواقعي لمشروع معماري كامل.",
@@ -3685,7 +3685,7 @@ const translations = {
     // ===============================
     // RHINO + V-RAY (DEBUTANTS)
     // ===============================
-    rvbTitle: "أساسيات Rhino وV-Ray: من الصفر إلى أول رندر لك",
+    rvbTitle: "أساسيات راينو فيراي: من الصفر إلى أول رندر لك",
     rvbSubtitle: "نسخة واقعية، مصممة لمن لا يعرف لا راينو ولا فيراي",
     rvbDescription:
       "دورة للمبتدئين مصممة خصيصًا لمن ليس لديهم معرفة سابقة ببرنامجي راينو أو فيراي. يغطي هذا التدريب أساسيات النمذجة في راينو وأساسيات فيراي لإنتاج صور نظيفة وواقعية.",
@@ -4070,7 +4070,7 @@ const translations = {
     // ===============================
     // RHINO 7 + D5 RENDER
     // ===============================
-    rhd5Title: "التدريب: سير العمل راينو 7 ودي 5 رندر",
+    rhd5Title: "دورة كاملة: سير العمل راينو و D5 رندر",
     rhd5Subtitle: "من التصميم ثلاثي الأبعاد إلى التصور الواقعي",
     rhd5Description:
       "تدريب لأكثر من 12 ساعة يهدف إلى إتقان عملية النمذجة والعرض المعماري الكاملة من خلال سير عمل راينو -> دي 5 رندر. الهدف هو اكتساب منهجية عمل سلسة واحترافية، من التصميم ثلاثي الأبعاد إلى التصور الواقعي للمشروع.",
